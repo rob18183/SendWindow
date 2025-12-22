@@ -355,6 +355,24 @@ export default function Home() {
                     </div>
                 )}
             </div>
+            {/* Map FAB */}
+            <Link to="/map" className="btn-primary" style={{
+                position: "fixed",
+                bottom: 24,
+                right: 24,
+                width: 56,
+                height: 56,
+                borderRadius: "50%",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                boxShadow: "var(--shadow-lg)",
+                fontSize: 24,
+                textDecoration: "none",
+                zIndex: 100
+            }}>
+                🗺️
+            </Link>
         </div>
     );
 }
