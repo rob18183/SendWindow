@@ -96,6 +96,21 @@ export default function Home() {
     const [filterShallow, setFilterShallow] = useState(false);
 
     useEffect(() => {
+        // Check local storage first
+        const saved = localStorage.getItem("user_location");
+        if (saved) {
+            try {
+                const parsed = JSON.parse(saved);
+                if (parsed.lat && parsed.lon) {
+                    setLoc({ lat: parsed.lat, lon: parsed.lon });
+                    setLocName(parsed.name || "Saved Location");
+                    return;
+                }
+            } catch (e) {
+                console.error("Failed to parse saved location", e);
+            }
+        }
+
         // Only auto-locate if we haven't manually set a location
         if (!loc) {
             getUserLocation().then(async (pos) => {
@@ -108,7 +123,7 @@ export default function Home() {
                 setLocName("Unknown");
             });
         }
-    }, [loc]);
+    }, []); // Only run once on mount (or if we intentionally want to re-trigger)
 
     const handleManualLocSubmit = async (e: React.FormEvent) => {
         e.preventDefault();
@@ -117,14 +132,33 @@ export default function Home() {
         setLocName("Searching...");
         const res = await geocodeAddress(manualAddress);
         if (res) {
-            setLoc({ lat: res.lat, lon: res.lon });
+            const newLoc = { lat: res.lat, lon: res.lon };
+            setLoc(newLoc);
             setLocName(res.name);
+            localStorage.setItem("user_location", JSON.stringify({ ...newLoc, name: res.name }));
             setIsManualLoc(false);
             setInitLocError(null);
         } else {
             setLocName("Not found");
             // Keep input open
         }
+    };
+
+    const handleUseGPS = () => {
+        localStorage.removeItem("user_location");
+        setLoc(null);
+        setLocName("Locating...");
+        setIsManualLoc(false);
+        setManualAddress("");
+
+        getUserLocation().then(async (pos) => {
+            setLoc(pos);
+            const name = await reverseGeocode(pos.lat, pos.lon);
+            setLocName(name);
+        }).catch((e) => {
+            setInitLocError(String(e?.message ?? e));
+            setLocName("Unknown");
+        });
     };
 
 
@@ -220,6 +254,7 @@ export default function Home() {
                                 autoFocus
                             />
                             <button type="submit" style={{ fontSize: 12, cursor: "pointer" }}>Set</button>
+                            <button type="button" onClick={handleUseGPS} style={{ fontSize: 12, cursor: "pointer", background: "#eee", border: "1px solid #ccc", padding: "0 6px" }}>Use GPS</button>
                             <button type="button" onClick={() => setIsManualLoc(false)} style={{ fontSize: 12, cursor: "pointer", background: "none", border: "none" }}>✕</button>
                         </form>
                     )}
