@@ -48,41 +48,45 @@ async function scrapeSpot(url) {
 
         // Let's use simple block extraction defined by headers.
 
-        const extractSection = (html, headerText) => {
-            const regex = new RegExp(`<h[1-6][^>]*>\\s*${headerText}\\s*<\\/h[1-6]>([\\s\\S]*?)<(h[1-6]|div class="footer"|section)`, 'i');
-            const match = html.match(regex);
-            return match ? cleanText(match[1]) : null;
-        };
+        // Updated extraction logic based on Fusion Builder inspection
 
-        const descriptionMatch = html.match(/<div class="entry-content"[^>]*>([\s\S]*?)<h/i);
-        // Fallback for description: often it's just the first bit of entry-content
+        // 1. Facilities (Locatie & Faciliteiten)
+        // Usually follows id="locatie" anchor. Look for fusion-checklist
+        // Regex: id="locatie".*?fusion-checklist.*?>(.*?)<\/ul> 
+        // Note: JS dot doesn't match newline, use [\s\S]
+        const facilitiesMatch = html.match(/id="locatie"[\s\S]*?class="[^"]*fusion-checklist[^"]*"[^>]*>([\s\S]*?)<\/ul>/i);
+        let facilities = facilitiesMatch ? cleanText(facilitiesMatch[1]) : undefined;
+
+        // 2. Main Content (Spot info + Hazards)
+        // Usually in a fusion-text block. "Wees alert op:" is a strong signal.
+        // We look for the "Wees alert op:" string and extract the UL following it.
+        const hazardsMatch = html.match(/Wees alert op:[\s\S]*?<ul[^>]*>([\s\S]*?)<\/ul>/i);
+        let hazards = hazardsMatch ? cleanText(hazardsMatch[1]) : undefined;
+
+        // 3. Description
+        // It's the text before "Wees alert op:" in the same block, OR if "Wees alert op" is missing, it's the text after "Spot info"
+        // Let's try to capture the text between "Spot info" header and "Wees alert op"
+        // "Spot info" might be in an h3.
+        const descMatch = html.match(/>\s*Spot info\s*<[\s\S]*?<\/h[1-6]>([\s\S]*?)Wees alert op:/i);
         let description = "";
-        if (descriptionMatch) {
-            // Remove any embedded images or divs first
-            const content = descriptionMatch[1];
-            description = cleanText(content.split(/<h/)[0]); // Take until next header
+
+        if (descMatch) {
+            description = cleanText(descMatch[1]);
+        } else {
+            // Fallback: If no "Wees alert op", just take text after Spot Info until next section or reasonable length?
+            // Or maybe just the first fusion-text block?
+            const backupMatch = html.match(/>\s*Spot info\s*<[\s\S]*?<\/h[1-6]>([\s\S]*?)<div/i);
+            if (backupMatch) description = cleanText(backupMatch[1]);
         }
 
-        /* 
-           Specific Headers found in manual inspection:
-           - "Wees alert op" (Hazards)
-           - "Locatie & faciliteiten" (Facilities/Parking)
-           - "Spotbeheerder" (Contact)
-           - "Regels" (Rules - sometimes present)
-        */
-
-        const hazards = extractSection(html, "Wees alert op");
-        const facilities = extractSection(html, "Locatie &amp; faciliteiten"); // HTML encoded &
-
-        // Sometimes it is "Locatie & faciliteiten" literal
-        const facilities2 = extractSection(html, "Locatie & faciliteiten");
-
-        const rules = extractSection(html, "Regels");
+        // Rules? "Regels" header
+        const rulesMatch = html.match(/>\s*Regels\s*<[\s\S]*?<\/h[1-6]>([\s\S]*?)<(h[1-6]|div|section)/i);
+        let rules = rulesMatch ? cleanText(rulesMatch[1]) : undefined;
 
         return {
             description: description || undefined,
             hazards: hazards || undefined,
-            facilities: facilities || facilities2 || undefined,
+            facilities: facilities || undefined,
             rules: rules || undefined,
             last_scraped: new Date().toISOString()
         };
