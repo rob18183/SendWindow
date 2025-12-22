@@ -1,27 +1,65 @@
-# SendFinder
-Mobile-first kitesurf forecast for the Netherlands: nearby wind, alerts, and a go/no-go ‘send’ score.
+# SendWindow 🪁
 
-# SendWindow docs
+A smart, modern kitesurf forecast application for the Netherlands. SendWindow calculates the best "window" to send it, based on real-time wind data and spot specificities.
 
-These docs describe the MVP plan for **SendWindow**:
-A mobile-first kitesurf forecast app for the Netherlands that shows **nearby “send windows”** with a **0–100 SendScore**, and supports **alerts**.
+## Features
 
-## Docs index
-- `01-vision-and-mvp.md` — product vision + MVP scope
-- `02-data-model.md` — spot + forecast + score structures
-- `03-scoring-model.md` — SendScore (0–100) and color mapping
-- `04-ux-and-screens.md` — Home / Spot / Alerts UX
-- `05-roadmap.md` — milestones and future features
+-   **Smart Scoring**: Automatically rates spots (Green/Yellow/Red) based on wind speed, gusts, and direction relative to the spot's safe wind angles.
+-   **Real-time Forecasts**: Powered by [Open-Meteo](https://open-meteo.com/) for accurate, hyper-local wind data.
+-   **Spot Filtering**: Filter by radius, seasonality (Open Now), level (Beginner Friendly), and water type (Shallow).
+-   **Visual Themes**: Beautiful, AI-generated themes for North Sea, Inland, and Action spots.
+-   **Locally Persisted**: Remembers your location and filter preferences.
+-   **Privacy Focused**: No tracking, all logic runs client-side.
 
-## Development
+## Tech Stack
+
+-   **Frontend**: React (v18), TypeScript, Vite
+-   **State/Data**: TansStack Query (React Query) for caching and state management.
+-   **Maps**: Leaflet & React-Leaflet.
+-   **Styling**: Custom CSS variables, responsive implementation.
+-   **Data Source**: NKV (Nederlandse Kitesurf Vereniging) public spot data.
+
+## Getting Started
+
+### Prerequisites
+-   Node.js (v18+)
+-   npm
+
+### Installation
 
 ```bash
-# Install dependencies
+git clone https://github.com/your-username/sendwindow.git
+cd sendwindow
 npm install
+```
 
-# Run dev server
+### Development
+
+Start the local development server:
+
+```bash
 npm run dev
+```
+Visit `http://localhost:5173`.
 
-# Build for production
+### Production Build
+
+Create a production-ready build:
+
+```bash
 npm run build
 ```
+The output will be in the `dist/` directory.
+
+## Deployment
+
+This is a Single Page Application (SPA). For deployment:
+1.  Build the app (`npm run build`).
+2.  Serve the `dist` folder using any static file server (NGINX, Apache, Vercel, Netlify).
+3.  **Important**: Configure your server to redirect 404s to `index.html` to support client-side routing.
+
+See [instructions_for_deployment.md](./instructions_for_deployment.md) for a detailed NGINX configuration guide.
+
+## License
+
+MIT
