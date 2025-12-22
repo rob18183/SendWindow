@@ -275,6 +275,7 @@ export default function Home() {
                         >
                             🔄
                         </button>
+                        <Link to="/map" className="btn-ghost" style={{ textDecoration: "none", fontWeight: 600 }}>🗺️ Map</Link>
                         <Link to="/alerts" className="btn-ghost" style={{ textDecoration: "none", fontWeight: 600 }}>🔔 Alerts</Link>
                     </div>
                 </div>

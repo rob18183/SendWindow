@@ -17,7 +17,6 @@ export async function fetchOpenMeteoForecast(lat: number, lon: number): Promise<
         hourly: "wind_speed_10m,wind_direction_10m,wind_gusts_10m,is_day",
         wind_speed_unit: "kn",
         timezone: "auto",
-        timezone: "auto",
         forecast_days: "5" // Get 5 days to ensure ample "window"
     });
 

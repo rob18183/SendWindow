@@ -1,29 +1,14 @@
 import { useQueries } from "@tanstack/react-query";
-import { MapContainer, TileLayer, Marker, Popup, useMap } from "react-leaflet";
+import { MapContainer, TileLayer, Marker, Popup, Tooltip } from "react-leaflet";
 import L from "leaflet";
 import { Link } from "react-router-dom";
 import spots from "../../data/spots.nl.json";
 import { getHourlyForecast } from "../lib/forecast";
-import { sendScore, ScoreResult } from "../lib/scoring";
+import { sendScore } from "../lib/scoring";
 import "leaflet/dist/leaflet.css";
 
 // Fix Leaflet generic icon if needed (should be handled globally but safe to ensure)
 // We will use DivIcons anyway.
-
-type ComputedSpot = {
-    id: string;
-    name: string;
-    lat: number;
-    lon: number;
-    score?: ScoreResult, // Current score (next hour or best window?)
-    fullForecast?: ScoreResult[], // For barcode
-};
-
-function MapInternal() {
-    const map = useMap();
-    // Locate user if possible? Or just default view.
-    return null;
-}
 
 export default function MapPage() {
     // 1. Fetch ALL forecasts parallely
@@ -87,53 +72,32 @@ export default function MapPage() {
                     // And current hour for dot color
                     const scores = q.data;
 
-                    // Current Score
-                    const current = scores.find(s => new Date(s.timeISO) >= new Date()); // First future slot
-                    const currentScore = current?.scoreRes.score ?? 0;
-                    const currentColor = current?.scoreRes.color ?? 'red';
-
                     // Barcode: Take next 12h, filter isDay?
                     // User asked for "daytime score colors".
                     // Let's grab next 8-10 items that are Day.
                     const barcodeItems = scores.filter(s => new Date(s.timeISO) >= new Date() && s.isDay !== false).slice(0, 10);
 
                     const iconHtml = `
-                        <div style="display: flex; flex-direction: column; alignItems: center; transform: translate(-50%, -50%);">
-                            <!-- Dot -->
-                            <div style="
-                                width: 24px; 
-                                height: 24px; 
-                                background-color: var(--color-${currentColor === 'green' ? 'success' : currentColor === 'yellow' ? 'warning' : 'danger'}); 
-                                border: 2px solid white; 
-                                border-radius: 50%;
-                                box-shadow: 0 2px 4px rgba(0,0,0,0.2);
-                                display: flex;
-                                justify-content: center;
-                                align-items: center;
-                                font-size: 10px;
-                                font-weight: bold;
-                                color: white;
-                                margin-bottom: 4px;
-                            ">
-                                ${currentScore}
-                            </div>
-                            <!-- Barcode -->
-                            <div style="
-                                display: flex; 
-                                border-radius: 4px; 
-                                overflow: hidden; 
-                                border: 1px solid rgba(0,0,0,0.1);
-                                background: white;
-                            ">
-                                ${barcodeItems.map(item => `
-                                    <div style="
-                                        width: 6px; 
-                                        height: 12px; 
-                                        background-color: var(--color-${item.scoreRes.color === 'green' ? 'success' : item.scoreRes.color === 'yellow' ? 'warning' : 'danger'});
-                                        opacity: ${item.scoreRes.score === 0 ? 0.3 : 1};
-                                    " title="${new Date(item.timeISO).getHours()}:00 - ${item.scoreRes.score}"></div>
-                                `).join('')}
-                            </div>
+                        <div class="barcode-inner" style="
+                            display: flex; 
+                            flex-direction: row;
+                            border-radius: 4px; 
+                            overflow: hidden; 
+                            border: 1px solid rgba(0,0,0,0.15);
+                            background: white;
+                            width: max-content;
+                            padding: 2px;
+                            gap: 1px;
+                        ">
+                            ${barcodeItems.map(item => `
+                                <div style="
+                                    width: 6px; 
+                                    height: 16px; 
+                                    background-color: var(--color-${item.scoreRes.color === 'green' ? 'success' : item.scoreRes.color === 'yellow' ? 'warning' : 'danger'});
+                                    opacity: ${item.scoreRes.score === 0 ? 0.3 : 1};
+                                    border-radius: 1px;
+                                " title="${new Date(item.timeISO).getHours()}:00"></div>
+                            `).join('')}
                         </div>
                     `;
 
@@ -143,20 +107,22 @@ export default function MapPage() {
                             position={[spot.lat, spot.lon]}
                             icon={L.divIcon({
                                 html: iconHtml,
-                                className: '', // Remove default
-                                iconSize: [40, 40],
-                                iconAnchor: [20, 20]
+                                className: 'barcode-marker',
+                                iconSize: [60, 20],
+                                iconAnchor: [30, 10]
                             })}
-                            eventHandlers={{
-                                click: () => {
-                                    // Navigate or Popup?
-                                    // Popup for now
-                                }
-                            }}
                         >
+                            <Tooltip direction="top" offset={[0, -10]} opacity={1}>
+                                <div style={{ fontWeight: "bold", fontSize: 13 }}>{spot.name}</div>
+                                <div style={{ fontSize: 11, color: "#666" }}>Click to view details</div>
+                            </Tooltip>
                             <Popup>
-                                <strong>{spot.name}</strong><br />
-                                <Link to={`/spot/${spot.id}`}>View Details &rarr;</Link>
+                                <div style={{ textAlign: "center" }}>
+                                    <div style={{ fontWeight: "bold", marginBottom: 4 }}>{spot.name}</div>
+                                    <Link to={`/spot/${spot.id}`} className="btn-primary" style={{ fontSize: 12, padding: "4px 12px" }}>
+                                        View Forecast
+                                    </Link>
+                                </div>
                             </Popup>
                         </Marker>
                     );
