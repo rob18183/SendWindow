@@ -117,6 +117,7 @@ const transformed = rawData.map(spot => {
         lon: spot.lat_lng[1],
         permalink: spot.permalink,
         image: spot.afbeelding,
+        season: spot.openstelling,
         level: spot.niveau,
         depth: spot.waterdiepte,
         good_dirs: getRanges(spot.windrichting || []),
