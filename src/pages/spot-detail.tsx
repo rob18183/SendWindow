@@ -1,8 +1,10 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { useParams, Link } from "react-router-dom";
+import { useQuery } from "@tanstack/react-query";
 import spots from "../../data/spots.nl.json";
-import { getHourlyForecastMock, ForecastHour } from "../lib/forecast/mock";
+import { getHourlyForecast, ForecastHour } from "../lib/forecast";
 import { sendScore, ScoreResult } from "../lib/scoring";
+import { SpotMap } from "../components/SpotMap";
 
 type Spot = {
     id: string; name: string; lat: number; lon: number;
@@ -10,33 +12,36 @@ type Spot = {
     unsafe_dirs?: { start: number; end: number }[];
 };
 
-type ComputedHour = ForecastHour & {
+export type ComputedHour = ForecastHour & {
     scoreRes: ScoreResult;
 };
 
 export default function SpotDetail() {
     const { id } = useParams<{ id: string }>();
-    const [hours, setHours] = useState<ComputedHour[]>([]);
     const [selectedIdx, setSelectedIdx] = useState<number>(0);
-    const [loading, setLoading] = useState(true);
 
     const spot = (spots as Spot[]).find((s) => s.id === id);
 
-    useEffect(() => {
-        if (!spot) return;
-        getHourlyForecastMock(spot.lat, spot.lon).then((hrs) => {
-            const computed = hrs.map((h) => ({
-                ...h,
-                scoreRes: sendScore(spot, h)
-            }));
-            setHours(computed);
-            // Default select first meaningful hour? or just now (0)
-            setLoading(false);
-        });
-    }, [spot]);
+    // Use Query to get RAW forecast (matches key from Home)
+    const { data: forecast, isLoading, isError } = useQuery({
+        queryKey: ['forecast', spot?.id],
+        queryFn: async () => {
+            if (!spot) return null;
+            return await getHourlyForecast(spot.lat, spot.lon);
+        },
+        enabled: !!spot,
+        staleTime: 1000 * 60 * 15
+    });
 
     if (!spot) return <div style={{ padding: 20 }}>Spot not found</div>;
-    if (loading) return <div style={{ padding: 20 }}>Loading forecast...</div>;
+    if (isLoading) return <div style={{ padding: 20 }}>Loading forecast...</div>;
+    if (isError || !forecast) return <div style={{ padding: 20 }}>Failed to load forecast</div>;
+
+    // Compute scores on the fly (derived state)
+    const hours: ComputedHour[] = forecast.map((h) => ({
+        ...h,
+        scoreRes: sendScore(spot, h)
+    }));
 
     const current = hours[selectedIdx];
     if (!current) return null;
@@ -114,6 +119,32 @@ export default function SpotDetail() {
                         </div>
                     )}
                 </div>
+            </div>
+            {/* Map & Navigate */}
+            <div style={{ marginBottom: 20 }}>
+                {/* Navigation Button */}
+                <a
+                    href={`https://www.google.com/maps/dir/?api=1&destination=${spot.lat},${spot.lon}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={{
+                        display: "block",
+                        width: "100%",
+                        padding: "12px",
+                        backgroundColor: "#007bff",
+                        color: "white",
+                        textAlign: "center",
+                        textDecoration: "none",
+                        borderRadius: 8,
+                        fontWeight: "bold",
+                        marginBottom: 12
+                    }}
+                >
+                    📍 Navigate to Spot
+                </a>
+
+                {/* Map */}
+                <SpotMap lat={spot.lat} lon={spot.lon} name={spot.name} />
             </div>
         </div>
     );

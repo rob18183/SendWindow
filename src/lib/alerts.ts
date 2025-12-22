@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { getHourlyForecastMock } from "./forecast/mock";
+import { getHourlyForecast } from "./forecast";
 import { sendScore } from "./scoring";
 import { bestWindow } from "./windows";
 import spots from "../../data/spots.nl.json";
@@ -48,7 +48,7 @@ export async function checkAlertStatus(rule: AlertRule): Promise<boolean> {
     if (!spot) return false;
 
     // TODO: In a real app we would cache this or batch requests
-    const forecast = await getHourlyForecastMock(spot.lat, spot.lon);
+    const forecast = await getHourlyForecast(spot.lat, spot.lon);
 
     const hours = forecast.map(h => ({
         timeISO: h.timeISO,
