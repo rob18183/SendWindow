@@ -50,7 +50,12 @@ export function sendScore(spot: Spot, fh: ForecastHour): ScoreResult {
     return { score: 0, color: "red", breakdown: { wind: 0, pDir: 0, pGust: 0, safetyRed: true } };
   }
 
-  // 2. Wind Score (0-60)
+  // 2. Night Override
+  if (fh.isDay === false) {
+    return { score: 0, color: "red", breakdown: { wind: 0, pDir: 0, pGust: 0, safetyRed: false } };
+  }
+
+  // 3. Wind Score (0-60)
   let windScore = 0;
   const w = fh.wind_avg_kt;
   if (w < 10) windScore = 0;

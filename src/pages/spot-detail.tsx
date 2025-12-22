@@ -50,6 +50,60 @@ export default function SpotDetail() {
     const current = hours[selectedIdx];
     if (!current) return null;
 
+    // Prepare visible items (collapse night hours, add day headers)
+    type VisibleItem =
+        | { type: 'slot', hour: ComputedHour, index: number }
+        | { type: 'night' }
+        | { type: 'day-header', text: string };
+
+    const visibleItems: VisibleItem[] = [];
+
+    // Helper to format day
+    const getDayStr = (iso: string) => new Date(iso).toLocaleDateString([], { weekday: 'short' });
+
+    let lastDayStr = "";
+
+    hours.forEach((h, i) => {
+        const dayStr = getDayStr(h.timeISO);
+
+        if (h.isDay !== false) {
+            // New day check
+            if (dayStr !== lastDayStr) {
+                // Only add header if it's NOT the very first item (avoid header at start of list unless desired)
+                // Or add it if we want users to know "Today is Mon"
+                // Let's add it if i > 0 to start. Or if it follows a night gap.
+                if (visibleItems.length > 0) {
+                    visibleItems.push({ type: 'day-header', text: dayStr });
+                }
+                lastDayStr = dayStr;
+            }
+            visibleItems.push({ type: 'slot', hour: h, index: i });
+        } else {
+            // Night
+            const last = visibleItems[visibleItems.length - 1];
+            if (!last || last.type !== 'night') {
+                visibleItems.push({ type: 'night' });
+            }
+            // Reset lastDayStr on night? No.
+        }
+    });
+
+    // Ensure initial selection is valid (first day slot)
+    // We only do this once on mount ideally, but here we just check if current is night
+    if (hours[selectedIdx]?.isDay === false) {
+        const firstDayIdx = visibleItems.find(v => v.type === 'slot')?.index ?? 0;
+        if (firstDayIdx !== selectedIdx) {
+            // Defer state update to avoid render loop if possible, or just accept re-render
+            // Better: derived state used for "current", but here we use selectedIdx
+            // We can just trust the user to click, or force it.
+            // Let's force it if it's 0 (init)
+            if (selectedIdx === 0 && firstDayIdx !== 0) {
+                setTimeout(() => setSelectedIdx(firstDayIdx), 0);
+            }
+        }
+    }
+
+
     return (
         <div className="container" style={{ padding: 16 }}>
             <div style={{ marginBottom: 16 }}>
@@ -65,15 +119,57 @@ export default function SpotDetail() {
                 overflowX: "auto",
                 gap: 8,
                 paddingBottom: 12,
-                marginBottom: 20
+                marginBottom: 20,
+                alignItems: "center" // Center the night divider
             }}>
-                {hours.map((h, i) => {
+                {visibleItems.map((item, i) => {
+                    if (item.type === 'night') {
+                        return (
+                            <div key={`night-${i}`} style={{
+                                width: 4,
+                                height: 60,
+                                backgroundColor: '#e2e8f0',
+                                borderRadius: 4,
+                                flexShrink: 0,
+                                margin: '0 4px',
+                            }} title="Night" />
+                        );
+                    }
+
+                    if (item.type === 'day-header') {
+                        return (
+                            <div key={`day-${i}`} style={{
+                                display: "flex",
+                                alignItems: "center",
+                                justifyContent: "center",
+                                height: 60,
+                                padding: "0 8px",
+                                fontWeight: "bold",
+                                textTransform: "uppercase",
+                                fontSize: 12,
+                                color: "var(--color-dim)",
+                                writingMode: "vertical-rl",
+                                transform: "rotate(180deg)",
+                                flexShrink: 0,
+                                opacity: 0.6
+                            }}>
+                                {item.text}
+                            </div>
+                        );
+                    }
+
+                    // Must be slot
+                    if (item.type !== 'slot') return null;
+
+                    const h = item.hour;
+                    const idx = item.index;
                     const time = new Date(h.timeISO).getHours();
-                    const isSelected = i === selectedIdx;
+                    const isSelected = idx === selectedIdx;
+
                     return (
                         <div
-                            key={i}
-                            onClick={() => setSelectedIdx(i)}
+                            key={idx}
+                            onClick={() => setSelectedIdx(idx)}
                             style={{
                                 flex: "0 0 48px",
                                 height: 84,
