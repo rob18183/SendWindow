@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useParams, Link } from "react-router-dom";
 import { useQuery } from "@tanstack/react-query";
 import spots from "../../data/spots.nl.json";
@@ -90,18 +90,19 @@ export default function SpotDetail() {
 
     // Ensure initial selection is valid (first day slot)
     // We only do this once on mount ideally, but here we just check if current is night
-    if (hours[selectedIdx]?.isDay === false) {
-        const firstDayIdx = visibleItems.find(v => v.type === 'slot')?.index ?? 0;
-        if (firstDayIdx !== selectedIdx) {
-            // Defer state update to avoid render loop if possible, or just accept re-render
-            // Better: derived state used for "current", but here we use selectedIdx
-            // We can just trust the user to click, or force it.
-            // Let's force it if it's 0 (init)
-            if (selectedIdx === 0 && firstDayIdx !== 0) {
-                setTimeout(() => setSelectedIdx(firstDayIdx), 0);
+    // Ensure initial selection is valid (first day slot)
+    // We only do this once on mount ideally, but here we just check if current is night
+    useEffect(() => {
+        if (hours[selectedIdx]?.isDay === false) {
+            const firstDayIdx = visibleItems.find(v => v.type === 'slot')?.index ?? 0;
+            if (firstDayIdx !== selectedIdx) {
+                // Determine if we should really switch. 
+                // Using replace to avoid history stack issues if we were using router for state, but here it's local.
+                setSelectedIdx(firstDayIdx);
             }
         }
-    }
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [id, forecast]);
 
 
     return (

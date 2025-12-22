@@ -93,8 +93,8 @@ export default function MapPage() {
                                 <div style="
                                     width: 6px; 
                                     height: 16px; 
-                                    background-color: var(--color-${item.scoreRes.color === 'green' ? 'success' : item.scoreRes.color === 'yellow' ? 'warning' : 'danger'});
-                                    opacity: ${item.scoreRes.score === 0 ? 0.3 : 1};
+                                    background-color: var(--color-${item.scoreRes?.color === 'green' ? 'success' : item.scoreRes?.color === 'yellow' ? 'warning' : 'danger'});
+                                    opacity: ${item.scoreRes?.score === 0 ? 0.3 : 1};
                                     border-radius: 1px;
                                 " title="${new Date(item.timeISO).getHours()}:00"></div>
                             `).join('')}
