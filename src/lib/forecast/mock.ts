@@ -27,7 +27,8 @@ export async function getHourlyForecastMock(lat: number, lon: number): Promise<F
     let avg = 15 + random() * 15; // 15-30 knots base
     let dir = 200 + random() * 40; // SW-ish
 
-    for (let i = 0; i < 48; i++) {
+    // Generate 5 days (120h)
+    for (let i = 0; i < 120; i++) {
         const t = new Date(start.getTime() + i * 3600 * 1000);
 
         // Evolve weather slowly
