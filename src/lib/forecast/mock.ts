@@ -3,6 +3,7 @@ export type ForecastHour = {
     wind_avg_kt: number;
     wind_gust_kt: number;
     wind_dir_deg: number;
+    isDay?: boolean; // Optional for backward compat, but we will populate it
 };
 
 export async function getHourlyForecastMock(lat: number, lon: number): Promise<ForecastHour[]> {
@@ -38,12 +39,15 @@ export async function getHourlyForecastMock(lat: number, lon: number): Promise<F
         dir = (dir + 360) % 360;
 
         const gust = avg + 5 + random() * 10;
+        const hoursOfDay = t.getHours();
+        const isDay = hoursOfDay >= 6 && hoursOfDay < 21; // Simple mock day logic
 
         hours.push({
             timeISO: t.toISOString(),
             wind_avg_kt: Math.round(avg),
             wind_gust_kt: Math.round(gust),
             wind_dir_deg: Math.round(dir),
+            isDay // Add property
         });
     }
 

@@ -6,6 +6,7 @@ type OpenMeteoResponse = {
         wind_speed_10m: number[];
         wind_direction_10m: number[];
         wind_gusts_10m: number[];
+        is_day: number[];
     };
 };
 
@@ -13,7 +14,7 @@ export async function fetchOpenMeteoForecast(lat: number, lon: number): Promise<
     const params = new URLSearchParams({
         latitude: lat.toString(),
         longitude: lon.toString(),
-        hourly: "wind_speed_10m,wind_direction_10m,wind_gusts_10m",
+        hourly: "wind_speed_10m,wind_direction_10m,wind_gusts_10m,is_day",
         wind_speed_unit: "kn",
         timezone: "auto",
         forecast_days: "2" // Get 48h
@@ -42,7 +43,8 @@ export async function fetchOpenMeteoForecast(lat: number, lon: number): Promise<
                 timeISO: data.hourly.time[i],
                 wind_avg_kt: Math.round(data.hourly.wind_speed_10m[i]),
                 wind_gust_kt: Math.round(data.hourly.wind_gusts_10m[i]),
-                wind_dir_deg: Math.round(data.hourly.wind_direction_10m[i])
+                wind_dir_deg: Math.round(data.hourly.wind_direction_10m[i]),
+                isDay: data.hourly.is_day[i] === 1
             });
         }
 
