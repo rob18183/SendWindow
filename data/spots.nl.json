@@ -1,98 +1,1407 @@
 [
   {
-    "id": "zandvoort",
-    "name": "Zandvoort",
-    "lat": 52.373,
-    "lon": 4.533,
+    "id": "edam-zuid",
+    "name": "Edam-Zuid",
+    "lat": 52.515039462387506,
+    "lon": 5.075016937231451,
     "good_dirs": [
       {
-        "start": 210,
-        "end": 10
+        "start": 338,
+        "end": 113
       }
     ],
-    "unsafe_dirs": [
+    "unsafe_dirs": []
+  },
+  {
+    "id": "rockanje-sportstrand",
+    "name": "Rockanje Sportstrand",
+    "lat": 51.8722925148425,
+    "lon": 4.044898266162127,
+    "good_dirs": [
       {
-        "start": 80,
-        "end": 130
+        "start": 158,
+        "end": 248
+      },
+      {
+        "start": 293,
+        "end": 338
       }
-    ]
+    ],
+    "unsafe_dirs": []
+  },
+  {
+    "id": "oudega-smallingerland",
+    "name": "Oudega (Smallingerland)",
+    "lat": 53.110239353451966,
+    "lon": 5.98939415390626,
+    "good_dirs": [
+      {
+        "start": 203,
+        "end": 338
+      }
+    ],
+    "unsafe_dirs": []
+  },
+  {
+    "id": "krabbendijke-roelshoek",
+    "name": "Krabbendijke (Roelshoek)",
+    "lat": 51.43539785126424,
+    "lon": 4.125820029089797,
+    "good_dirs": [
+      {
+        "start": 293,
+        "end": 68
+      }
+    ],
+    "unsafe_dirs": []
+  },
+  {
+    "id": "zeewolde",
+    "name": "Zeewolde",
+    "lat": 52.32339737555348,
+    "lon": 5.550357063452593,
+    "good_dirs": [
+      {
+        "start": 338,
+        "end": 203
+      }
+    ],
+    "unsafe_dirs": []
+  },
+  {
+    "id": "blaricum-gooimeer",
+    "name": "Blaricum (Gooimeer)",
+    "lat": 52.30012021577305,
+    "lon": 5.3011256575805765,
+    "good_dirs": [
+      {
+        "start": 248,
+        "end": 68
+      }
+    ],
+    "unsafe_dirs": []
+  },
+  {
+    "id": "ijburg",
+    "name": "IJburg",
+    "lat": 52.355366956484595,
+    "lon": 5.022668899658189,
+    "good_dirs": [
+      {
+        "start": 293,
+        "end": 113
+      }
+    ],
+    "unsafe_dirs": []
+  },
+  {
+    "id": "ijmuiden-zone-2-gem-velsen",
+    "name": "IJmuiden Zone 2 (gem. Velsen)",
+    "lat": 52.45534760270165,
+    "lon": 4.556021537228991,
+    "good_dirs": [
+      {
+        "start": 158,
+        "end": 338
+      }
+    ],
+    "unsafe_dirs": []
+  },
+  {
+    "id": "lauwersmeer",
+    "name": "Lauwersmeer",
+    "lat": 53.40750542014478,
+    "lon": 6.161479462763526,
+    "good_dirs": [
+      {
+        "start": 113,
+        "end": 248
+      }
+    ],
+    "unsafe_dirs": []
+  },
+  {
+    "id": "medemblik",
+    "name": "Medemblik",
+    "lat": 52.755039,
+    "lon": 5.125001,
+    "good_dirs": [
+      {
+        "start": 338,
+        "end": 113
+      }
+    ],
+    "unsafe_dirs": []
+  },
+  {
+    "id": "makkum",
+    "name": "Makkum",
+    "lat": 53.05312,
+    "lon": 5.376227,
+    "good_dirs": [
+      {
+        "start": 158,
+        "end": 23
+      }
+    ],
+    "unsafe_dirs": []
+  },
+  {
+    "id": "midwolda-oldambtmeer",
+    "name": "Midwolda Oldambtmeer",
+    "lat": 53.193245,
+    "lon": 7.027293,
+    "good_dirs": [
+      {
+        "start": 68,
+        "end": 158
+      }
+    ],
+    "unsafe_dirs": []
+  },
+  {
+    "id": "maasvlakte-2-slufter",
+    "name": "Maasvlakte 2 - Slufter",
+    "lat": 51.919079,
+    "lon": 3.988189,
+    "good_dirs": [
+      {
+        "start": 158,
+        "end": 293
+      }
+    ],
+    "unsafe_dirs": []
+  },
+  {
+    "id": "maasvlakte-2-p5-en-p6",
+    "name": "Maasvlakte 2 - P5 en P6",
+    "lat": 51.951382,
+    "lon": 3.966729,
+    "good_dirs": [
+      {
+        "start": 203,
+        "end": 23
+      }
+    ],
+    "unsafe_dirs": []
+  },
+  {
+    "id": "mirns-t-mirnser-klif",
+    "name": "Mirns ('t Mirnser Klif)",
+    "lat": 52.850101,
+    "lon": 5.481972,
+    "good_dirs": [
+      {
+        "start": 68,
+        "end": 293
+      }
+    ],
+    "unsafe_dirs": []
+  },
+  {
+    "id": "maasvlakte-2-spot-p1-tm-p3",
+    "name": "Maasvlakte 2 - Spot P1 t/m P3",
+    "lat": 51.923229,
+    "lon": 3.980946,
+    "good_dirs": [
+      {
+        "start": 158,
+        "end": 338
+      }
+    ],
+    "unsafe_dirs": []
+  },
+  {
+    "id": "monnickendam",
+    "name": "Monnickendam",
+    "lat": 52.459114,
+    "lon": 5.053314,
+    "good_dirs": [
+      {
+        "start": 338,
+        "end": 23
+      }
+    ],
+    "unsafe_dirs": []
+  },
+  {
+    "id": "lemmer",
+    "name": "Lemmer",
+    "lat": 52.843899,
+    "lon": 5.692941,
+    "good_dirs": [
+      {
+        "start": 158,
+        "end": 293
+      }
+    ],
+    "unsafe_dirs": []
+  },
+  {
+    "id": "muiderberg",
+    "name": "Muiderberg",
+    "lat": 52.329876,
+    "lon": 5.113459,
+    "good_dirs": [
+      {
+        "start": 293,
+        "end": 113
+      }
+    ],
+    "unsafe_dirs": []
+  },
+  {
+    "id": "lelystad-trintelhaven",
+    "name": "Lelystad - Trintelhaven",
+    "lat": 52.636238,
+    "lon": 5.413053,
+    "good_dirs": [
+      {
+        "start": 338,
+        "end": 158
+      }
+    ],
+    "unsafe_dirs": []
+  },
+  {
+    "id": "neeltje-jans",
+    "name": "Neeltje Jans",
+    "lat": 51.62424172138486,
+    "lon": 3.680559354492172,
+    "good_dirs": [
+      {
+        "start": 203,
+        "end": 23
+      }
+    ],
+    "unsafe_dirs": []
+  },
+  {
+    "id": "lelystad-bataviastrand",
+    "name": "Lelystad - Bataviastrand",
+    "lat": 52.524357,
+    "lon": 5.424342,
+    "good_dirs": [
+      {
+        "start": 158,
+        "end": 23
+      }
+    ],
+    "unsafe_dirs": []
+  },
+  {
+    "id": "noordwijk-aan-zee",
+    "name": "Noordwijk aan Zee",
+    "lat": 52.235806,
+    "lon": 4.418844,
+    "good_dirs": [
+      {
+        "start": 203,
+        "end": 23
+      }
+    ],
+    "unsafe_dirs": []
+  },
+  {
+    "id": "lauwersoog-waddenzee",
+    "name": "Lauwersoog Waddenzee",
+    "lat": 53.408802,
+    "lon": 6.157198,
+    "good_dirs": [
+      {
+        "start": 248,
+        "end": 68
+      }
+    ],
+    "unsafe_dirs": []
+  },
+  {
+    "id": "tholen-oesterdam",
+    "name": "Tholen Oesterdam",
+    "lat": 51.460934,
+    "lon": 4.221407,
+    "good_dirs": [
+      {
+        "start": 158,
+        "end": 23
+      }
+    ],
+    "unsafe_dirs": []
+  },
+  {
+    "id": "noordwijk-langevelderslag",
+    "name": "Noordwijk Langevelderslag",
+    "lat": 52.301853,
+    "lon": 4.473199,
+    "good_dirs": [
+      {
+        "start": 203,
+        "end": 23
+      }
+    ],
+    "unsafe_dirs": []
+  },
+  {
+    "id": "oostvoorne-noordzee",
+    "name": "Oostvoorne Noordzee",
+    "lat": 51.9151368,
+    "lon": 4.0605978,
+    "good_dirs": [
+      {
+        "start": 203,
+        "end": 23
+      }
+    ],
+    "unsafe_dirs": []
+  },
+  {
+    "id": "kornwerderzand",
+    "name": "Kornwerderzand",
+    "lat": 53.074985705594734,
+    "lon": 5.34412192065429,
+    "good_dirs": [
+      {
+        "start": 0,
+        "end": 360
+      }
+    ],
+    "unsafe_dirs": []
+  },
+  {
+    "id": "oostvoornse-meer",
+    "name": "Oostvoornse meer",
+    "lat": 51.92918,
+    "lon": 4.066458,
+    "good_dirs": [
+      {
+        "start": 68,
+        "end": 293
+      }
+    ],
+    "unsafe_dirs": []
+  },
+  {
+    "id": "ouddorp",
+    "name": "Ouddorp",
+    "lat": 51.82172,
+    "lon": 3.878164,
+    "good_dirs": [
+      {
+        "start": 248,
+        "end": 68
+      }
+    ],
+    "unsafe_dirs": []
+  },
+  {
+    "id": "ouwerkerk",
+    "name": "Ouwerkerk",
+    "lat": 51.616791,
+    "lon": 3.961531,
+    "good_dirs": [
+      {
+        "start": 113,
+        "end": 338
+      }
+    ],
+    "unsafe_dirs": []
+  },
+  {
+    "id": "kijkduin",
+    "name": "Kijkduin",
+    "lat": 52.066525,
+    "lon": 4.21192,
+    "good_dirs": [
+      {
+        "start": 203,
+        "end": 338
+      }
+    ],
+    "unsafe_dirs": []
+  },
+  {
+    "id": "paulinapolder",
+    "name": "Paulinapolder",
+    "lat": 51.350422,
+    "lon": 3.731831,
+    "good_dirs": [
+      {
+        "start": 293,
+        "end": 68
+      }
+    ],
+    "unsafe_dirs": []
+  },
+  {
+    "id": "katwijk",
+    "name": "Katwijk",
+    "lat": 52.201435,
+    "lon": 4.386593,
+    "good_dirs": [
+      {
+        "start": 203,
+        "end": 23
+      }
+    ],
+    "unsafe_dirs": []
+  },
+  {
+    "id": "petten-pettemer-zeewering",
+    "name": "Petten (Pettemer Zeewering)",
+    "lat": 52.763783,
+    "lon": 4.649366,
+    "good_dirs": [
+      {
+        "start": 203,
+        "end": 338
+      }
+    ],
+    "unsafe_dirs": []
+  },
+  {
+    "id": "julianadorp",
+    "name": "Julianadorp",
+    "lat": 52.895462,
+    "lon": 4.711245,
+    "good_dirs": [
+      {
+        "start": 203,
+        "end": 23
+      }
+    ],
+    "unsafe_dirs": []
+  },
+  {
+    "id": "reeuwijkse-plassen",
+    "name": "Reeuwijkse plassen",
+    "lat": 52.058559,
+    "lon": 4.741474,
+    "good_dirs": [
+      {
+        "start": 23,
+        "end": 158
+      }
+    ],
+    "unsafe_dirs": []
+  },
+  {
+    "id": "ijmuiderslag-gem-velsen",
+    "name": "IJmuiderslag (gem. Velsen)",
+    "lat": 52.446941,
+    "lon": 4.555163,
+    "good_dirs": [
+      {
+        "start": 158,
+        "end": 23
+      }
+    ],
+    "unsafe_dirs": []
+  },
+  {
+    "id": "rilland-bath-zimmermangeul",
+    "name": "Rilland-Bath (Zimmermangeul)",
+    "lat": 51.394615,
+    "lon": 4.1494,
+    "good_dirs": [
+      {
+        "start": 338,
+        "end": 23
+      }
+    ],
+    "unsafe_dirs": []
+  },
+  {
+    "id": "ijmuiden-zone-1-gem-velsen",
+    "name": "IJmuiden Zone 1 (gem. Velsen)",
+    "lat": 52.456356,
+    "lon": 4.551214,
+    "good_dirs": [
+      {
+        "start": 158,
+        "end": 203
+      },
+      {
+        "start": 248,
+        "end": 338
+      }
+    ],
+    "unsafe_dirs": []
+  },
+  {
+    "id": "rockanje-badstrand",
+    "name": "Rockanje Badstrand",
+    "lat": 51.865685260091375,
+    "lon": 4.0513472685071905,
+    "good_dirs": [
+      {
+        "start": 158,
+        "end": 338
+      }
+    ],
+    "unsafe_dirs": []
+  },
+  {
+    "id": "huizen",
+    "name": "Huizen",
+    "lat": 52.306889528808476,
+    "lon": 5.256627349121112,
+    "good_dirs": [
+      {
+        "start": 338,
+        "end": 23
+      }
+    ],
+    "unsafe_dirs": []
+  },
+  {
+    "id": "hoorn-stadstrand",
+    "name": "Hoorn Stadstrand",
+    "lat": 52.636536,
+    "lon": 5.038187,
+    "good_dirs": [
+      {
+        "start": 23,
+        "end": 203
+      }
+    ],
+    "unsafe_dirs": []
+  },
+  {
+    "id": "kamperland-roompot-xbeach",
+    "name": "Kamperland - Roompot XBeach",
+    "lat": 51.592909111403124,
+    "lon": 3.7313782540283214,
+    "good_dirs": [
+      {
+        "start": 68,
+        "end": 113
+      },
+      {
+        "start": 338,
+        "end": 23
+      }
+    ],
+    "unsafe_dirs": []
+  },
+  {
+    "id": "schellinkhout",
+    "name": "Schellinkhout",
+    "lat": 52.632278,
+    "lon": 5.120788,
+    "good_dirs": [
+      {
+        "start": 113,
+        "end": 293
+      }
+    ],
+    "unsafe_dirs": []
+  },
+  {
+    "id": "hindeloopen",
+    "name": "Hindeloopen",
+    "lat": 52.93354,
+    "lon": 5.403361,
+    "good_dirs": [
+      {
+        "start": 158,
+        "end": 338
+      }
+    ],
+    "unsafe_dirs": []
+  },
+  {
+    "id": "scheveningen-zwarte-pad",
+    "name": "Scheveningen - Zwarte Pad",
+    "lat": 52.1173477,
+    "lon": 4.2894255,
+    "good_dirs": [
+      {
+        "start": 203,
+        "end": 68
+      }
+    ],
+    "unsafe_dirs": []
+  },
+  {
+    "id": "harlingen-waddenzee",
+    "name": "Harlingen - Waddenzee",
+    "lat": 53.166355,
+    "lon": 5.415011,
+    "good_dirs": [
+      {
+        "start": 203,
+        "end": 338
+      }
+    ],
+    "unsafe_dirs": []
+  },
+  {
+    "id": "hellevoetsluis-haringvliet",
+    "name": "Hellevoetsluis - Haringvliet",
+    "lat": 51.82063570886251,
+    "lon": 4.159093814880372,
+    "good_dirs": [
+      {
+        "start": 158,
+        "end": 293
+      }
+    ],
+    "unsafe_dirs": []
+  },
+  {
+    "id": "groot-valkenisse",
+    "name": "Groot Valkenisse",
+    "lat": 51.491982,
+    "lon": 3.495714,
+    "good_dirs": [
+      {
+        "start": 158,
+        "end": 293
+      }
+    ],
+    "unsafe_dirs": []
+  },
+  {
+    "id": "schiermonnikoog-noordzee-paal-3-5",
+    "name": "Schiermonnikoog (Noordzee: Paal 3-5)",
+    "lat": 53.504333,
+    "lon": 6.180988,
+    "good_dirs": [
+      {
+        "start": 203,
+        "end": 113
+      }
+    ],
+    "unsafe_dirs": []
+  },
+  {
+    "id": "grevelingendam-zuid",
+    "name": "Grevelingendam - Zuid",
+    "lat": 51.674713,
+    "lon": 4.13996,
+    "good_dirs": [
+      {
+        "start": 158,
+        "end": 293
+      }
+    ],
+    "unsafe_dirs": []
+  },
+  {
+    "id": "grevelingendam-noord",
+    "name": "Grevelingendam - Noord",
+    "lat": 51.679256,
+    "lon": 4.137328,
+    "good_dirs": [
+      {
+        "start": 68,
+        "end": 113
+      },
+      {
+        "start": 293,
+        "end": 23
+      }
+    ],
+    "unsafe_dirs": []
+  },
+  {
+    "id": "stavoren-it-suderstrand",
+    "name": "Stavoren - it Suderstrand",
+    "lat": 52.87193795015575,
+    "lon": 5.369856820778169,
+    "good_dirs": [
+      {
+        "start": 158,
+        "end": 293
+      }
+    ],
+    "unsafe_dirs": []
+  },
+  {
+    "id": "enkhuizen",
+    "name": "Enkhuizen",
+    "lat": 52.714832,
+    "lon": 5.288304,
+    "good_dirs": [
+      {
+        "start": 23,
+        "end": 158
+      }
+    ],
+    "unsafe_dirs": []
+  },
+  {
+    "id": "strand-horst",
+    "name": "Strand Horst",
+    "lat": 52.32291,
+    "lon": 5.570562,
+    "good_dirs": [
+      {
+        "start": 203,
+        "end": 23
+      }
+    ],
+    "unsafe_dirs": []
+  },
+  {
+    "id": "elburg",
+    "name": "Elburg",
+    "lat": 52.455063,
+    "lon": 5.817958,
+    "good_dirs": [
+      {
+        "start": 158,
+        "end": 293
+      }
+    ],
+    "unsafe_dirs": []
+  },
+  {
+    "id": "egmond-binnenaan-zee",
+    "name": "Egmond Binnen/aan Zee",
+    "lat": 52.613762,
+    "lon": 4.616011,
+    "good_dirs": [
+      {
+        "start": 203,
+        "end": 338
+      }
+    ],
+    "unsafe_dirs": []
+  },
+  {
+    "id": "eemshaven",
+    "name": "Eemshaven",
+    "lat": 53.454723,
+    "lon": 6.796758,
+    "good_dirs": [
+      {
+        "start": 293,
+        "end": 68
+      }
+    ],
+    "unsafe_dirs": []
+  },
+  {
+    "id": "terneuzen-put-van",
+    "name": "Terneuzen (put van)",
+    "lat": 51.337162,
+    "lon": 3.839594,
+    "good_dirs": [
+      {
+        "start": 293,
+        "end": 113
+      }
+    ],
+    "unsafe_dirs": []
+  },
+  {
+    "id": "edam-noord-galgenveld",
+    "name": "Edam Noord - Galgenveld",
+    "lat": 52.52256,
+    "lon": 5.067095,
+    "good_dirs": [
+      {
+        "start": 23,
+        "end": 158
+      }
+    ],
+    "unsafe_dirs": []
+  },
+  {
+    "id": "domburg",
+    "name": "Domburg",
+    "lat": 51.552254,
+    "lon": 3.461647,
+    "good_dirs": [
+      {
+        "start": 248,
+        "end": 23
+      }
+    ],
+    "unsafe_dirs": []
+  },
+  {
+    "id": "terschelling-noordzee",
+    "name": "Terschelling - Noordzee",
+    "lat": 53.409386,
+    "lon": 5.280458,
+    "good_dirs": [
+      {
+        "start": 293,
+        "end": 68
+      }
+    ],
+    "unsafe_dirs": []
+  },
+  {
+    "id": "den-helder-huisduinen",
+    "name": "Den Helder - Huisduinen",
+    "lat": 52.953239,
+    "lon": 4.720852,
+    "good_dirs": [
+      {
+        "start": 203,
+        "end": 23
+      }
+    ],
+    "unsafe_dirs": []
+  },
+  {
+    "id": "terschelling-groene-strand",
+    "name": "Terschelling - Groene Strand",
+    "lat": 53.355141,
+    "lon": 5.21029,
+    "good_dirs": [
+      {
+        "start": 113,
+        "end": 248
+      }
+    ],
+    "unsafe_dirs": []
+  },
+  {
+    "id": "texel-paal-176-1899-en-282-32",
+    "name": "Texel Paal 17.6 - 18.99 en 28.2 - 32",
+    "lat": 53.078442,
+    "lon": 4.731828,
+    "good_dirs": [
+      {
+        "start": 203,
+        "end": 248
+      },
+      {
+        "start": 293,
+        "end": 23
+      }
+    ],
+    "unsafe_dirs": []
+  },
+  {
+    "id": "texel-noord-oost",
+    "name": "Texel Noord-oost",
+    "lat": 53.178222562677476,
+    "lon": 4.864385107210651,
+    "good_dirs": [
+      {
+        "start": 338,
+        "end": 23
+      }
+    ],
+    "unsafe_dirs": []
+  },
+  {
+    "id": "delfzijl",
+    "name": "Delfzijl",
+    "lat": 53.33453,
+    "lon": 6.931337,
+    "good_dirs": [
+      {
+        "start": 23,
+        "end": 158
+      },
+      {
+        "start": 293,
+        "end": 338
+      }
+    ],
+    "unsafe_dirs": []
+  },
+  {
+    "id": "texel-dijkmanshuizen-wadzijde",
+    "name": "Texel - Dijkmanshuizen (Wadzijde)",
+    "lat": 53.064888,
+    "lon": 4.873644,
+    "good_dirs": [
+      {
+        "start": 68,
+        "end": 203
+      }
+    ],
+    "unsafe_dirs": []
+  },
+  {
+    "id": "castricum-aan-zee",
+    "name": "Castricum aan Zee",
+    "lat": 52.556786,
+    "lon": 4.605667,
+    "good_dirs": [
+      {
+        "start": 158,
+        "end": 23
+      }
+    ],
+    "unsafe_dirs": []
+  },
+  {
+    "id": "tjeukemeer",
+    "name": "Tjeukemeer",
+    "lat": 52.874748856751886,
+    "lon": 5.817690721565243,
+    "good_dirs": [
+      {
+        "start": 248,
+        "end": 293
+      },
+      {
+        "start": 338,
+        "end": 113
+      }
+    ],
+    "unsafe_dirs": []
+  },
+  {
+    "id": "camperduin",
+    "name": "Camperduin",
+    "lat": 52.7283090428019,
+    "lon": 4.639765275146468,
+    "good_dirs": [
+      {
+        "start": 158,
+        "end": 23
+      }
+    ],
+    "unsafe_dirs": []
+  },
+  {
+    "id": "vlieland-wadkant",
+    "name": "Vlieland Wadkant",
+    "lat": 53.237576,
+    "lon": 4.964422,
+    "good_dirs": [
+      {
+        "start": 113,
+        "end": 248
+      }
+    ],
+    "unsafe_dirs": []
+  },
+  {
+    "id": "callantsoog",
+    "name": "Callantsoog",
+    "lat": 52.840599,
+    "lon": 4.691325,
+    "good_dirs": [
+      {
+        "start": 203,
+        "end": 23
+      }
+    ],
+    "unsafe_dirs": []
+  },
+  {
+    "id": "vlieland-noordzee",
+    "name": "Vlieland Noordzee",
+    "lat": 53.304478,
+    "lon": 5.048718,
+    "good_dirs": [
+      {
+        "start": 248,
+        "end": 68
+      }
+    ],
+    "unsafe_dirs": []
+  },
+  {
+    "id": "cadzand-bad-west",
+    "name": "Cadzand-bad - West",
+    "lat": 51.373165,
+    "lon": 3.368118,
+    "good_dirs": [
+      {
+        "start": 203,
+        "end": 23
+      }
+    ],
+    "unsafe_dirs": []
+  },
+  {
+    "id": "vlissingen",
+    "name": "Vlissingen",
+    "lat": 51.445332,
+    "lon": 3.561992,
+    "good_dirs": [
+      {
+        "start": 338,
+        "end": 23
+      }
+    ],
+    "unsafe_dirs": []
+  },
+  {
+    "id": "cadzand-bad-vlamingpolder",
+    "name": "Cadzand-bad - Vlamingpolder",
+    "lat": 51.385365,
+    "lon": 3.404863,
+    "good_dirs": [
+      {
+        "start": 248,
+        "end": 23
+      }
+    ],
+    "unsafe_dirs": []
+  },
+  {
+    "id": "vrouwenpolder",
+    "name": "Vrouwenpolder",
+    "lat": 51.591873,
+    "lon": 3.632949,
+    "good_dirs": [
+      {
+        "start": 248,
+        "end": 293
+      },
+      {
+        "start": 338,
+        "end": 113
+      }
+    ],
+    "unsafe_dirs": []
   },
   {
     "id": "brouwersdam",
-    "name": "Brouwersdam (Zee)",
-    "lat": 51.758,
-    "lon": 3.829,
+    "name": "Brouwersdam",
+    "lat": 51.760532,
+    "lon": 3.842414,
     "good_dirs": [
       {
-        "start": 200,
-        "end": 20
+        "start": 203,
+        "end": 23
       }
     ],
-    "unsafe_dirs": [
-      {
-        "start": 90,
-        "end": 120
-      }
-    ]
+    "unsafe_dirs": []
   },
   {
-    "id": "ijmuiden",
-    "name": "IJmuiden",
-    "lat": 52.457,
-    "lon": 4.566,
+    "id": "breskens-oost",
+    "name": "Breskens Oost",
+    "lat": 51.40062194272245,
+    "lon": 3.559299638623048,
     "good_dirs": [
       {
-        "start": 210,
-        "end": 0
+        "start": 293,
+        "end": 68
       }
     ],
-    "unsafe_dirs": [
-      {
-        "start": 90,
-        "end": 140
-      }
-    ]
+    "unsafe_dirs": []
   },
   {
-    "id": "scheveningen",
-    "name": "Scheveningen",
-    "lat": 52.115,
-    "lon": 4.269,
+    "id": "warder",
+    "name": "Warder",
+    "lat": 52.565662,
+    "lon": 5.033157,
     "good_dirs": [
       {
-        "start": 200,
-        "end": 20
+        "start": 338,
+        "end": 158
       }
     ],
-    "unsafe_dirs": [
+    "unsafe_dirs": []
+  },
+  {
+    "id": "braassemermeer",
+    "name": "Braassemermeer",
+    "lat": 52.197262,
+    "lon": 4.668126,
+    "good_dirs": [
       {
-        "start": 80,
-        "end": 120
+        "start": 158,
+        "end": 338
       }
-    ]
+    ],
+    "unsafe_dirs": []
+  },
+  {
+    "id": "wassenaarse-slag",
+    "name": "Wassenaarse slag",
+    "lat": 52.163361,
+    "lon": 4.34611,
+    "good_dirs": [
+      {
+        "start": 203,
+        "end": 248
+      },
+      {
+        "start": 293,
+        "end": 23
+      }
+    ],
+    "unsafe_dirs": []
+  },
+  {
+    "id": "borssele-de-kaloot",
+    "name": "Borssele (de Kaloot)",
+    "lat": 51.433178,
+    "lon": 3.709353,
+    "good_dirs": [
+      {
+        "start": 203,
+        "end": 293
+      }
+    ],
+    "unsafe_dirs": []
+  },
+  {
+    "id": "westeinderplassen",
+    "name": "Westeinderplassen",
+    "lat": 52.2405285,
+    "lon": 4.7204159,
+    "good_dirs": [
+      {
+        "start": 203,
+        "end": 338
+      }
+    ],
+    "unsafe_dirs": []
+  },
+  {
+    "id": "bloemendaal-aan-zee",
+    "name": "Bloemendaal aan Zee",
+    "lat": 52.416317,
+    "lon": 4.549245,
+    "good_dirs": [
+      {
+        "start": 203,
+        "end": 23
+      }
+    ],
+    "unsafe_dirs": []
+  },
+  {
+    "id": "wijk-aan-zee-de-hangout-strand-noordpier-velsen-noord",
+    "name": "Wijk aan Zee - de HangOut (Strand Noordpier Velsen-Noord)",
+    "lat": 52.48253093941438,
+    "lon": 4.577510158752451,
+    "good_dirs": [
+      {
+        "start": 203,
+        "end": 23
+      }
+    ],
+    "unsafe_dirs": []
+  },
+  {
+    "id": "bergen-aan-zee",
+    "name": "Bergen aan Zee",
+    "lat": 52.658703,
+    "lon": 4.626903,
+    "good_dirs": [
+      {
+        "start": 203,
+        "end": 23
+      }
+    ],
+    "unsafe_dirs": []
+  },
+  {
+    "id": "baarland",
+    "name": "Baarland",
+    "lat": 51.394135,
+    "lon": 3.896531,
+    "good_dirs": [
+      {
+        "start": 68,
+        "end": 248
+      }
+    ],
+    "unsafe_dirs": []
+  },
+  {
+    "id": "wijk-aan-zee-pier-strand-noordpier-velsen-noord",
+    "name": "Wijk aan Zee - Pier (Strand Noordpier Velsen-Noord)",
+    "lat": 52.471031,
+    "lon": 4.565752,
+    "good_dirs": [
+      {
+        "start": 203,
+        "end": 338
+      }
+    ],
+    "unsafe_dirs": []
+  },
+  {
+    "id": "andijk",
+    "name": "Andijk",
+    "lat": 52.739857,
+    "lon": 5.175726,
+    "good_dirs": [
+      {
+        "start": 293,
+        "end": 68
+      }
+    ],
+    "unsafe_dirs": []
+  },
+  {
+    "id": "windsurfing-hoek-van-holland",
+    "name": "Windsurfing Hoek van Holland",
+    "lat": 51.992015738236034,
+    "lon": 4.114798307418823,
+    "good_dirs": [
+      {
+        "start": 203,
+        "end": 23
+      }
+    ],
+    "unsafe_dirs": []
+  },
+  {
+    "id": "amstelmeer-lutjestrand-zuid",
+    "name": "Amstelmeer Lutjestrand zuid",
+    "lat": 52.885124923080426,
+    "lon": 4.9165667510045985,
+    "good_dirs": [
+      {
+        "start": 158,
+        "end": 338
+      }
+    ],
+    "unsafe_dirs": []
   },
   {
     "id": "workum",
     "name": "Workum",
-    "lat": 52.964,
-    "lon": 5.421,
+    "lat": 52.965973,
+    "lon": 5.410585,
     "good_dirs": [
       {
-        "start": 180,
-        "end": 290
+        "start": 203,
+        "end": 338
       }
-    ]
+    ],
+    "unsafe_dirs": []
   },
   {
-    "id": "mirns",
-    "name": "Mirns",
-    "lat": 52.853,
-    "lon": 5.467,
+    "id": "ameland-waddenzee",
+    "name": "Ameland - Waddenzee",
+    "lat": 53.439205,
+    "lon": 5.77345,
     "good_dirs": [
       {
-        "start": 180,
-        "end": 320
+        "start": 113,
+        "end": 293
       }
-    ]
+    ],
+    "unsafe_dirs": []
+  },
+  {
+    "id": "ameland-noordzee",
+    "name": "Ameland - Noordzee",
+    "lat": 53.459965,
+    "lon": 5.741499,
+    "good_dirs": [
+      {
+        "start": 293,
+        "end": 68
+      }
+    ],
+    "unsafe_dirs": []
+  },
+  {
+    "id": "zandvoort",
+    "name": "Zandvoort",
+    "lat": 52.365335113481585,
+    "lon": 4.519105687744145,
+    "good_dirs": [
+      {
+        "start": 203,
+        "end": 23
+      }
+    ],
+    "unsafe_dirs": []
+  },
+  {
+    "id": "almere",
+    "name": "Almere",
+    "lat": 52.34747029479037,
+    "lon": 5.1335594920654115,
+    "good_dirs": [
+      {
+        "start": 203,
+        "end": 23
+      }
+    ],
+    "unsafe_dirs": []
+  },
+  {
+    "id": "zuidlaardermeer",
+    "name": "Zuidlaardermeer",
+    "lat": 53.145409,
+    "lon": 6.693851,
+    "good_dirs": [
+      {
+        "start": 113,
+        "end": 248
+      }
+    ],
+    "unsafe_dirs": []
+  },
+  {
+    "id": "scheveningen-noorderstrand",
+    "name": "Scheveningen - Noorderstrand",
+    "lat": 52.105083,
+    "lon": 4.26353,
+    "good_dirs": [
+      {
+        "start": 203,
+        "end": 68
+      }
+    ],
+    "unsafe_dirs": []
+  },
+  {
+    "id": "den-haag-zuiderstrand",
+    "name": "Den Haag - Zuiderstrand",
+    "lat": 52.09388607350487,
+    "lon": 4.249607984130859,
+    "good_dirs": [
+      {
+        "start": 203,
+        "end": 23
+      }
+    ],
+    "unsafe_dirs": []
+  },
+  {
+    "id": "kijkduin-zandmotor",
+    "name": "Kijkduin - Zandmotor",
+    "lat": 52.05520313862568,
+    "lon": 4.186521291015639,
+    "good_dirs": [
+      {
+        "start": 23,
+        "end": 68
+      },
+      {
+        "start": 203,
+        "end": 338
+      }
+    ],
+    "unsafe_dirs": []
+  },
+  {
+    "id": "s-gravenzande-slag-beukel",
+    "name": "s-Gravenzande (slag Beukel)",
+    "lat": 52.01080376683954,
+    "lon": 4.138953867736808,
+    "good_dirs": [
+      {
+        "start": 203,
+        "end": 23
+      }
+    ],
+    "unsafe_dirs": []
+  },
+  {
+    "id": "hoek-van-holland-hoekse-watersport-vereniging",
+    "name": "Hoek van Holland, Hoekse Watersport Vereniging",
+    "lat": 51.99180432944537,
+    "lon": 4.114208221435547,
+    "good_dirs": [
+      {
+        "start": 203,
+        "end": 68
+      }
+    ],
+    "unsafe_dirs": []
   }
 ]

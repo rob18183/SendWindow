@@ -1,0 +1,3700 @@
+[
+  {
+    "titel": "Edam-Zuid",
+    "lat_lng": [
+      52.515039462387506,
+      5.075016937231451
+    ],
+    "afbeelding": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2024/12/Edam-Zuid.webp",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/edam-zuid/",
+    "cpt": "kitespot",
+    "icon": "verboden.png",
+    "beleid": [
+      "verboden"
+    ],
+    "windrichting": [
+      "Noord",
+      "Oost",
+      "Noordoost"
+    ],
+    "discipline": [
+      "Foilen",
+      "Freeride",
+      "Freestyle"
+    ],
+    "niveau": [
+      "Beginner"
+    ],
+    "waterdiepte": [
+      "Diep"
+    ],
+    "startzone": [
+      "Zand",
+      "Weinig ruimte"
+    ],
+    "openstelling": "Het hele jaar"
+  },
+  {
+    "titel": "Rockanje Sportstrand",
+    "lat_lng": [
+      51.8722925148425,
+      4.044898266162127
+    ],
+    "afbeelding": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Hoofdafbeelding-Rockanje-1.webp",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/rockanje-sportstrand/",
+    "cpt": "kitespot",
+    "icon": "toegestaan.png",
+    "beleid": [
+      "toegestaan"
+    ],
+    "windrichting": [
+      "Noordwest",
+      "Zuidwest",
+      "Zuid"
+    ],
+    "discipline": [
+      "Freeride",
+      "Freestyle"
+    ],
+    "niveau": [
+      "Beginner"
+    ],
+    "waterdiepte": [
+      "Ondiep"
+    ],
+    "startzone": [
+      "Zand",
+      "Veel ruimte"
+    ],
+    "openstelling": "het hele jaar"
+  },
+  {
+    "titel": "Oudega (Smallingerland)",
+    "lat_lng": [
+      53.110239353451966,
+      5.98939415390626
+    ],
+    "afbeelding": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2024/02/Scherm­afbeelding-2024-02-26-om-17.38.49.webp",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/oudega-smallingerland/",
+    "cpt": "kitespot",
+    "icon": "verboden.png",
+    "beleid": [
+      "verboden"
+    ],
+    "windrichting": [
+      "Noordwest",
+      "West",
+      "Zuidwest"
+    ],
+    "discipline": [
+      "Foilen",
+      "Freeride"
+    ],
+    "niveau": [
+      "Gevorderd"
+    ],
+    "waterdiepte": [
+      "Diep"
+    ],
+    "startzone": [
+      "Gras",
+      "Weinig ruimte"
+    ],
+    "openstelling": "het hele jaar"
+  },
+  {
+    "titel": "Krabbendijke (Roelshoek)",
+    "lat_lng": [
+      51.43539785126424,
+      4.125820029089797
+    ],
+    "afbeelding": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/12/Krabbendijke-hoofdafbeelding.webp",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/krabbendijke-roelshoek/",
+    "cpt": "kitespot",
+    "icon": "verboden.png",
+    "beleid": [
+      "verboden"
+    ],
+    "windrichting": [
+      "Noord",
+      "Noordwest",
+      "Noordoost"
+    ],
+    "discipline": [
+      "Freestyle"
+    ],
+    "niveau": [
+      "Beginner"
+    ],
+    "waterdiepte": [
+      "Ondiep"
+    ],
+    "startzone": [
+      "Zand"
+    ],
+    "openstelling": "het hele jaar"
+  },
+  {
+    "titel": "Zeewolde",
+    "lat_lng": [
+      52.32339737555348,
+      5.550357063452593
+    ],
+    "afbeelding": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/09/Zeewolde-hoofdafbeelding.webp",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/zeewolde/",
+    "cpt": "kitespot",
+    "icon": "verboden.png",
+    "beleid": [
+      "verboden"
+    ],
+    "windrichting": [
+      "Noord",
+      "Zuid",
+      "Zuidoost",
+      "Oost",
+      "Noordoost"
+    ],
+    "discipline": [
+      "Freeride",
+      "Freestyle"
+    ],
+    "niveau": [
+      "Beginner"
+    ],
+    "waterdiepte": [
+      "Ondiep"
+    ],
+    "startzone": [
+      "Zand",
+      "Veel ruimte"
+    ],
+    "openstelling": "het hele jaar"
+  },
+  {
+    "titel": "Blaricum (Gooimeer)",
+    "lat_lng": [
+      52.30012021577305,
+      5.3011256575805765
+    ],
+    "afbeelding": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/05/Blaricum-droneshot-strand.webp",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/blaricum-gooimeer/",
+    "cpt": "kitespot",
+    "icon": "verboden.png",
+    "beleid": [
+      "verboden"
+    ],
+    "windrichting": [
+      "Noord",
+      "Noordwest",
+      "West",
+      "Noordoost"
+    ],
+    "discipline": [
+      "Freeride"
+    ],
+    "niveau": [
+      "Beginner"
+    ],
+    "waterdiepte": [
+      "Diep"
+    ],
+    "startzone": [
+      "Gras",
+      "Weinig ruimte"
+    ],
+    "openstelling": "het hele jaar"
+  },
+  {
+    "titel": "IJburg",
+    "lat_lng": [
+      52.355366956484595,
+      5.022668899658189
+    ],
+    "afbeelding": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/03/IJburg-hoofd­afbeelding.webp",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/ijburg/",
+    "cpt": "kitespot",
+    "icon": "verboden.png",
+    "beleid": [
+      "verboden"
+    ],
+    "windrichting": [
+      "Noord",
+      "Noordwest",
+      "Oost",
+      "Noordoost"
+    ],
+    "discipline": [
+      "Freeride",
+      "Freestyle"
+    ],
+    "niveau": [
+      "Beginner"
+    ],
+    "waterdiepte": [
+      "Ondiep"
+    ],
+    "startzone": [
+      "Zand",
+      "Veel ruimte"
+    ],
+    "openstelling": "het hele jaar"
+  },
+  {
+    "titel": "IJmuiden Zone 2 (gem. Velsen)",
+    "lat_lng": [
+      52.45534760270165,
+      4.556021537228991
+    ],
+    "afbeelding": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/02/Scherm­afbeelding-2023-02-13-om-18.20.44.webp",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/ijmuiden-zone-2/",
+    "cpt": "kitespot",
+    "icon": "beperkt.png",
+    "beleid": [
+      "beperkt"
+    ],
+    "windrichting": [
+      "Noordwest",
+      "West",
+      "Zuidwest",
+      "Zuid"
+    ],
+    "discipline": [
+      "Foilen",
+      "Golfrijden",
+      "Freeride",
+      "Freestyle"
+    ],
+    "niveau": [
+      "Gevorderd"
+    ],
+    "waterdiepte": [
+      "Diep"
+    ],
+    "startzone": [
+      "Zand",
+      "Veel ruimte"
+    ],
+    "openstelling": "oktober t/m maart"
+  },
+  {
+    "titel": "Lauwersmeer",
+    "lat_lng": [
+      53.40750542014478,
+      6.161479462763526
+    ],
+    "afbeelding": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/02/Lauwersmeer-hoofdafbeelding.webp",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/lauwersmeer/",
+    "cpt": "kitespot",
+    "icon": "beperkt.png",
+    "beleid": [
+      "beperkt"
+    ],
+    "windrichting": [
+      "Zuidwest",
+      "Zuid",
+      "Zuidoost"
+    ],
+    "discipline": [
+      "Foilen",
+      "Freeride",
+      "Freestyle"
+    ],
+    "niveau": [
+      "Beginner"
+    ],
+    "waterdiepte": [
+      "Diep"
+    ],
+    "startzone": [
+      "Gras",
+      "Weinig ruimte"
+    ],
+    "openstelling": "juni t/m september"
+  },
+  {
+    "titel": "Medemblik",
+    "lat_lng": [
+      52.755039,
+      5.125001
+    ],
+    "afbeelding": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Medemblik-overzicht.webp",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/medemblik/",
+    "cpt": "kitespot",
+    "icon": "beperkt.png",
+    "beleid": [
+      "beperkt"
+    ],
+    "windrichting": [
+      "Noord",
+      "Oost",
+      "Noordoost"
+    ],
+    "discipline": [
+      "Foilen",
+      "Freeride",
+      "Freestyle"
+    ],
+    "niveau": [
+      "Beginner",
+      "Gevorderd"
+    ],
+    "waterdiepte": [
+      "Ondiep"
+    ],
+    "startzone": [
+      "Zand",
+      "Weinig ruimte"
+    ],
+    "openstelling": "april t/m september"
+  },
+  {
+    "titel": "Makkum",
+    "lat_lng": [
+      53.05312,
+      5.376227
+    ],
+    "afbeelding": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Makkum-hoofdafbeelding.webp",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/makkum/",
+    "cpt": "kitespot",
+    "icon": "beperkt.png",
+    "beleid": [
+      "beperkt"
+    ],
+    "windrichting": [
+      "Noord",
+      "Noordwest",
+      "West",
+      "Zuidwest",
+      "Zuid"
+    ],
+    "discipline": [
+      "Foilen",
+      "Freeride",
+      "Freestyle"
+    ],
+    "niveau": [
+      "Beginner",
+      "Gevorderd",
+      "Expert"
+    ],
+    "waterdiepte": [
+      "Ondiep"
+    ],
+    "startzone": [
+      "Zand",
+      "Weinig ruimte"
+    ],
+    "openstelling": "oktober t/m april"
+  },
+  {
+    "titel": "Midwolda Oldambtmeer",
+    "lat_lng": [
+      53.193245,
+      7.027293
+    ],
+    "afbeelding": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Midwolda-Oldambtmeer-hoofdafbeelding.webp",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/midwolda-oldambtmeer/",
+    "cpt": "kitespot",
+    "icon": "beperkt.png",
+    "beleid": [
+      "beperkt"
+    ],
+    "windrichting": [
+      "Zuidoost",
+      "Oost"
+    ],
+    "discipline": [
+      "Foilen",
+      "Freeride",
+      "Freestyle"
+    ],
+    "niveau": [
+      "Gevorderd"
+    ],
+    "waterdiepte": [
+      "Diep"
+    ],
+    "startzone": [
+      "Gras",
+      "Weinig ruimte"
+    ],
+    "openstelling": "oktober t/m april"
+  },
+  {
+    "titel": "Maasvlakte 2 - Slufter",
+    "lat_lng": [
+      51.919079,
+      3.988189
+    ],
+    "afbeelding": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2021/07/De-slufter.webp",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/slufter/",
+    "cpt": "kitespot",
+    "icon": "toegestaan.png",
+    "beleid": [
+      "toegestaan"
+    ],
+    "windrichting": [
+      "West",
+      "Zuidwest",
+      "Zuid"
+    ],
+    "discipline": [
+      "Golfrijden",
+      "Freeride",
+      "Freestyle"
+    ],
+    "niveau": [
+      "Gevorderd"
+    ],
+    "waterdiepte": [
+      "Ondiep"
+    ],
+    "startzone": [
+      "Zand",
+      "Veel ruimte"
+    ],
+    "openstelling": "Het hele jaar"
+  },
+  {
+    "titel": "Maasvlakte 2 - P5 en P6",
+    "lat_lng": [
+      51.951382,
+      3.966729
+    ],
+    "afbeelding": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Maasvlakte-2-P5.webp",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/maasvlakte-p5p6/",
+    "cpt": "kitespot",
+    "icon": "verboden.png",
+    "beleid": [
+      "verboden"
+    ],
+    "windrichting": [
+      "Noord",
+      "Noordwest",
+      "West",
+      "Zuidwest"
+    ],
+    "discipline": [
+      "Golfrijden"
+    ],
+    "niveau": [
+      "Gevorderd"
+    ],
+    "waterdiepte": [
+      "Diep"
+    ],
+    "startzone": [
+      "Zand",
+      "Veel ruimte"
+    ],
+    "openstelling": "Het hele jaar"
+  },
+  {
+    "titel": "Mirns ('t Mirnser Klif)",
+    "lat_lng": [
+      52.850101,
+      5.481972
+    ],
+    "afbeelding": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/mirns_clif_DJI_0605.webp",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/mirns/",
+    "cpt": "kitespot",
+    "icon": "toegestaan.png",
+    "beleid": [
+      "toegestaan"
+    ],
+    "windrichting": [
+      "West",
+      "Zuidwest",
+      "Zuid",
+      "Zuidoost",
+      "Oost"
+    ],
+    "discipline": [
+      "Freeride",
+      "Freestyle"
+    ],
+    "niveau": [
+      "Beginner"
+    ],
+    "waterdiepte": [
+      "Ondiep"
+    ],
+    "startzone": [
+      "Gras",
+      "Weinig ruimte"
+    ],
+    "openstelling": "Het hele jaar"
+  },
+  {
+    "titel": "Maasvlakte 2 - Spot P1 t/m P3",
+    "lat_lng": [
+      51.923229,
+      3.980946
+    ],
+    "afbeelding": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Maasvlakte-2-P3.webp",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/maasvlakte-p1p3/",
+    "cpt": "kitespot",
+    "icon": "beperkt.png",
+    "beleid": [
+      "beperkt"
+    ],
+    "windrichting": [
+      "Noordwest",
+      "West",
+      "Zuidwest",
+      "Zuid"
+    ],
+    "discipline": [
+      "Foilen",
+      "Golfrijden",
+      "Freeride"
+    ],
+    "niveau": [
+      "Gevorderd"
+    ],
+    "waterdiepte": [
+      "Diep"
+    ],
+    "startzone": [
+      "Zand",
+      "Veel ruimte"
+    ],
+    "openstelling": "oktober t/m april"
+  },
+  {
+    "titel": "Monnickendam",
+    "lat_lng": [
+      52.459114,
+      5.053314
+    ],
+    "afbeelding": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Monnickendam-hoofd­afbeelding.webp",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/monnickendam/",
+    "cpt": "kitespot",
+    "icon": "verboden.png",
+    "beleid": [
+      "verboden"
+    ],
+    "windrichting": [
+      "Noord"
+    ],
+    "discipline": [
+      "Freeride",
+      "Freestyle"
+    ],
+    "niveau": [
+      "Gevorderd"
+    ],
+    "waterdiepte": [
+      "Ondiep"
+    ],
+    "startzone": [
+      "Gras"
+    ],
+    "openstelling": "Het hele jaar"
+  },
+  {
+    "titel": "Lemmer",
+    "lat_lng": [
+      52.843899,
+      5.692941
+    ],
+    "afbeelding": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Lemmer-hoofdafbeelding.webp",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/lemmer/",
+    "cpt": "kitespot",
+    "icon": "beperkt.png",
+    "beleid": [
+      "beperkt"
+    ],
+    "windrichting": [
+      "West",
+      "Zuidwest",
+      "Zuid"
+    ],
+    "discipline": [
+      "Freeride",
+      "Freestyle"
+    ],
+    "niveau": [
+      "Gevorderd"
+    ],
+    "waterdiepte": [
+      "Ondiep"
+    ],
+    "startzone": [
+      "Zand",
+      "Veel ruimte"
+    ],
+    "openstelling": "oktober t/m april"
+  },
+  {
+    "titel": "Muiderberg",
+    "lat_lng": [
+      52.329876,
+      5.113459
+    ],
+    "afbeelding": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Muiderberg-hoofd­afbeelding.webp",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/muiderberg/",
+    "cpt": "kitespot",
+    "icon": "toegestaan.png",
+    "beleid": [
+      "toegestaan"
+    ],
+    "windrichting": [
+      "Noord",
+      "Noordwest",
+      "Oost",
+      "Noordoost"
+    ],
+    "discipline": [
+      "Freeride",
+      "Freestyle"
+    ],
+    "niveau": [
+      "Beginner"
+    ],
+    "waterdiepte": [
+      "Ondiep"
+    ],
+    "startzone": [
+      "Gras",
+      "Weinig ruimte"
+    ],
+    "openstelling": "Het hele jaar"
+  },
+  {
+    "titel": "Lelystad - Trintelhaven",
+    "lat_lng": [
+      52.636238,
+      5.413053
+    ],
+    "afbeelding": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Trintelhaven-hoofdafbeelding.webp",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/lelystad-trintelhaven/",
+    "cpt": "kitespot",
+    "icon": "beperkt.png",
+    "beleid": [
+      "beperkt"
+    ],
+    "windrichting": [
+      "Noord",
+      "Zuidoost",
+      "Oost",
+      "Noordoost"
+    ],
+    "discipline": [
+      "Foilen",
+      "Freeride",
+      "Freestyle"
+    ],
+    "niveau": [
+      "Beginner"
+    ],
+    "waterdiepte": [
+      "Diep"
+    ],
+    "startzone": [
+      "Zand"
+    ],
+    "openstelling": "april t/m juli"
+  },
+  {
+    "titel": "Neeltje Jans",
+    "lat_lng": [
+      51.62424172138486,
+      3.680559354492172
+    ],
+    "afbeelding": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Neeltjejans-hoofdafbeelding.webp",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/neeltje-jans/",
+    "cpt": "kitespot",
+    "icon": "toegestaan.png",
+    "beleid": [
+      "toegestaan"
+    ],
+    "windrichting": [
+      "Noord",
+      "Noordwest",
+      "West",
+      "Zuidwest"
+    ],
+    "discipline": [
+      "Golfrijden",
+      "Freeride"
+    ],
+    "niveau": [
+      "Gevorderd"
+    ],
+    "waterdiepte": [
+      "Diep"
+    ],
+    "startzone": [
+      "Zand",
+      "Veel ruimte"
+    ],
+    "openstelling": "het hele jaar"
+  },
+  {
+    "titel": "Lelystad - Bataviastrand",
+    "lat_lng": [
+      52.524357,
+      5.424342
+    ],
+    "afbeelding": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Bataviastrand-kiten.webp",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/lelystad-bataviastrand/",
+    "cpt": "kitespot",
+    "icon": "toegestaan.png",
+    "beleid": [
+      "toegestaan"
+    ],
+    "windrichting": [
+      "Noord",
+      "Noordwest",
+      "West",
+      "Zuidwest",
+      "Zuid"
+    ],
+    "discipline": [
+      "Foilen",
+      "Golfrijden",
+      "Freeride",
+      "Freestyle"
+    ],
+    "niveau": [
+      "Gevorderd"
+    ],
+    "waterdiepte": [
+      "Diep"
+    ],
+    "startzone": [
+      "Zand",
+      "Veel ruimte"
+    ],
+    "openstelling": "het hele jaar"
+  },
+  {
+    "titel": "Noordwijk aan Zee",
+    "lat_lng": [
+      52.235806,
+      4.418844
+    ],
+    "afbeelding": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Noordwijk-hoofd­afbeelding.webp",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/noordwijk-aan-zee/",
+    "cpt": "kitespot",
+    "icon": "toegestaan.png",
+    "beleid": [
+      "toegestaan"
+    ],
+    "windrichting": [
+      "Noord",
+      "Noordwest",
+      "West",
+      "Zuidwest"
+    ],
+    "discipline": [
+      "Foilen",
+      "Golfrijden",
+      "Freeride"
+    ],
+    "niveau": [
+      "Gevorderd"
+    ],
+    "waterdiepte": [
+      "Diep"
+    ],
+    "startzone": [
+      "Zand",
+      "Veel ruimte"
+    ],
+    "openstelling": "het hele jaar"
+  },
+  {
+    "titel": "Lauwersoog Waddenzee",
+    "lat_lng": [
+      53.408802,
+      6.157198
+    ],
+    "afbeelding": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Lauweroog-hoofdafbeelding.webp",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/lauwersoog-waddenzee/",
+    "cpt": "kitespot",
+    "icon": "toegestaan.png",
+    "beleid": [
+      "toegestaan"
+    ],
+    "windrichting": [
+      "Noord",
+      "Noordwest",
+      "West",
+      "Noordoost"
+    ],
+    "discipline": [
+      "Freeride",
+      "Freestyle"
+    ],
+    "niveau": [
+      "Beginner"
+    ],
+    "waterdiepte": [
+      "Ondiep"
+    ],
+    "startzone": [
+      "Gras",
+      "Weinig ruimte"
+    ],
+    "openstelling": "het hele jaar"
+  },
+  {
+    "titel": "Tholen Oesterdam",
+    "lat_lng": [
+      51.460934,
+      4.221407
+    ],
+    "afbeelding": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Oesterdam-drone-01072021-049.webp",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/tholen-oesterdam/",
+    "cpt": "kitespot",
+    "icon": "toegestaan.png",
+    "beleid": [
+      "toegestaan"
+    ],
+    "windrichting": [
+      "Noord",
+      "Noordwest",
+      "West",
+      "Zuidwest",
+      "Zuid"
+    ],
+    "discipline": [
+      "Foilen",
+      "Freeride",
+      "Freestyle"
+    ],
+    "niveau": [
+      "Beginner"
+    ],
+    "waterdiepte": [
+      "Ondiep"
+    ],
+    "startzone": [
+      "Zand",
+      "Veel ruimte"
+    ],
+    "openstelling": "het hele jaar"
+  },
+  {
+    "titel": "Noordwijk Langevelderslag",
+    "lat_lng": [
+      52.301853,
+      4.473199
+    ],
+    "afbeelding": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Noordwijk-Langevelderslag-hoofdafbeelding.webp",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/noordwijk-langevelderslag/",
+    "cpt": "kitespot",
+    "icon": "toegestaan.png",
+    "beleid": [
+      "toegestaan"
+    ],
+    "windrichting": [
+      "Noord",
+      "Noordwest",
+      "West",
+      "Zuidwest"
+    ],
+    "discipline": [
+      "Golfrijden",
+      "Freeride"
+    ],
+    "niveau": [
+      "Gevorderd"
+    ],
+    "waterdiepte": [
+      "Diep"
+    ],
+    "startzone": [
+      "Zand",
+      "Veel ruimte"
+    ],
+    "openstelling": "het hele jaar"
+  },
+  {
+    "titel": "Oostvoorne Noordzee",
+    "lat_lng": [
+      51.9151368,
+      4.0605978
+    ],
+    "afbeelding": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Oostvoorne-hoofdafbeelding.webp",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/oostvoorne-noordzee/",
+    "cpt": "kitespot",
+    "icon": "toegestaan.png",
+    "beleid": [
+      "toegestaan"
+    ],
+    "windrichting": [
+      "Noord",
+      "Noordwest",
+      "West",
+      "Zuidwest"
+    ],
+    "discipline": [
+      "Freeride",
+      "Freestyle"
+    ],
+    "niveau": [
+      "Beginner",
+      "Gevorderd"
+    ],
+    "waterdiepte": [
+      "Ondiep"
+    ],
+    "startzone": [
+      "Zand",
+      "Veel ruimte"
+    ],
+    "openstelling": "het hele jaar"
+  },
+  {
+    "titel": "Kornwerderzand",
+    "lat_lng": [
+      53.074985705594734,
+      5.34412192065429
+    ],
+    "afbeelding": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Hoofdafbeelding-Kornwerder.webp",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/kornwerderzand/",
+    "cpt": "kitespot",
+    "icon": "beperkt.png",
+    "beleid": [
+      "beperkt"
+    ],
+    "windrichting": [
+      "Noord",
+      "Noordwest",
+      "West",
+      "Zuidwest",
+      "Zuid",
+      "Zuidoost",
+      "Oost",
+      "Noordoost"
+    ],
+    "discipline": [
+      "Foilen",
+      "Freeride",
+      "Freestyle"
+    ],
+    "niveau": [
+      "Gevorderd",
+      "Expert"
+    ],
+    "waterdiepte": [
+      "Diep"
+    ],
+    "startzone": [
+      "Zand",
+      "Weinig ruimte"
+    ],
+    "openstelling": "mei t/m september"
+  },
+  {
+    "titel": "Oostvoornse meer",
+    "lat_lng": [
+      51.92918,
+      4.066458
+    ],
+    "afbeelding": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Oostvoornsemeer-hoofd­afbeelding.webp",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/oostvoornse-meer/",
+    "cpt": "kitespot",
+    "icon": "toegestaan.png",
+    "beleid": [
+      "toegestaan"
+    ],
+    "windrichting": [
+      "West",
+      "Zuidwest",
+      "Zuid",
+      "Zuidoost",
+      "Oost"
+    ],
+    "discipline": [
+      "Foilen",
+      "Freeride",
+      "Freestyle"
+    ],
+    "niveau": [
+      "Gevorderd"
+    ],
+    "waterdiepte": [
+      "Ondiep"
+    ],
+    "startzone": [
+      "Zand",
+      "Weinig ruimte"
+    ],
+    "openstelling": "Het hele jaar"
+  },
+  {
+    "titel": "Ouddorp",
+    "lat_lng": [
+      51.82172,
+      3.878164
+    ],
+    "afbeelding": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Ouddorp-hoofd­afbeelding.webp",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/ouddorp/",
+    "cpt": "kitespot",
+    "icon": "toegestaan.png",
+    "beleid": [
+      "toegestaan"
+    ],
+    "windrichting": [
+      "Noord",
+      "Noordwest",
+      "West",
+      "Noordoost"
+    ],
+    "discipline": [
+      "Golfrijden",
+      "Freeride"
+    ],
+    "niveau": [
+      "Gevorderd"
+    ],
+    "waterdiepte": [
+      "Diep"
+    ],
+    "startzone": [
+      "Zand",
+      "Veel ruimte"
+    ],
+    "openstelling": "Het hele jaar"
+  },
+  {
+    "titel": "Ouwerkerk",
+    "lat_lng": [
+      51.616791,
+      3.961531
+    ],
+    "afbeelding": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Ouwerkerk-hoofdafbeelding.webp",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/ouwerkerk/",
+    "cpt": "kitespot",
+    "icon": "beperkt.png",
+    "beleid": [
+      "beperkt"
+    ],
+    "windrichting": [
+      "Noordwest",
+      "West",
+      "Zuidwest",
+      "Zuid",
+      "Zuidoost"
+    ],
+    "discipline": [
+      "Freeride"
+    ],
+    "niveau": [
+      "Beginner"
+    ],
+    "waterdiepte": [
+      "Ondiep"
+    ],
+    "startzone": [
+      "Zand",
+      "Weinig ruimte"
+    ],
+    "openstelling": "oktober t/m april"
+  },
+  {
+    "titel": "Kijkduin",
+    "lat_lng": [
+      52.066525,
+      4.21192
+    ],
+    "afbeelding": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Kijkduin-hoofd­afbeelding.webp",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/kijkduin/",
+    "cpt": "kitespot",
+    "icon": "toegestaan.png",
+    "beleid": [
+      "toegestaan"
+    ],
+    "windrichting": [
+      "Noordwest",
+      "West",
+      "Zuidwest"
+    ],
+    "discipline": [
+      "Foilen",
+      "Golfrijden",
+      "Freeride"
+    ],
+    "niveau": [
+      "Beginner",
+      "Gevorderd"
+    ],
+    "waterdiepte": [
+      "Diep"
+    ],
+    "startzone": [
+      "Zand",
+      "Veel ruimte"
+    ],
+    "openstelling": "het hele jaar"
+  },
+  {
+    "titel": "Paulinapolder",
+    "lat_lng": [
+      51.350422,
+      3.731831
+    ],
+    "afbeelding": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Paulinapolder-hoofdafbeelding.webp",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/paulinapolder/",
+    "cpt": "kitespot",
+    "icon": "toegestaan.png",
+    "beleid": [
+      "toegestaan"
+    ],
+    "windrichting": [
+      "Noord",
+      "Noordwest",
+      "Noordoost"
+    ],
+    "discipline": [
+      "Freeride",
+      "Freestyle"
+    ],
+    "niveau": [
+      "Gevorderd"
+    ],
+    "waterdiepte": [
+      "Ondiep"
+    ],
+    "startzone": [
+      "Gras",
+      "Weinig ruimte"
+    ],
+    "openstelling": "Het hele jaar"
+  },
+  {
+    "titel": "Katwijk",
+    "lat_lng": [
+      52.201435,
+      4.386593
+    ],
+    "afbeelding": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Katwijk-hoofdafbeelding.webp",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/katwijk/",
+    "cpt": "kitespot",
+    "icon": "toegestaan.png",
+    "beleid": [
+      "toegestaan"
+    ],
+    "windrichting": [
+      "Noord",
+      "Noordwest",
+      "West",
+      "Zuidwest"
+    ],
+    "discipline": [
+      "Foilen",
+      "Golfrijden",
+      "Freeride"
+    ],
+    "niveau": [
+      "Gevorderd"
+    ],
+    "waterdiepte": [
+      "Diep"
+    ],
+    "startzone": [
+      "Zand",
+      "Veel ruimte"
+    ],
+    "openstelling": "Het hele jaar"
+  },
+  {
+    "titel": "Petten (Pettemer Zeewering)",
+    "lat_lng": [
+      52.763783,
+      4.649366
+    ],
+    "afbeelding": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/IMG_7950.webp",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/petten/",
+    "cpt": "kitespot",
+    "icon": "toegestaan.png",
+    "beleid": [
+      "toegestaan"
+    ],
+    "windrichting": [
+      "Noordwest",
+      "West",
+      "Zuidwest"
+    ],
+    "discipline": [
+      "Foilen",
+      "Golfrijden",
+      "Freeride"
+    ],
+    "niveau": [
+      "Gevorderd"
+    ],
+    "waterdiepte": [
+      "Diep"
+    ],
+    "startzone": [
+      "Zand",
+      "Veel ruimte"
+    ],
+    "openstelling": "Het hele jaar"
+  },
+  {
+    "titel": "Julianadorp",
+    "lat_lng": [
+      52.895462,
+      4.711245
+    ],
+    "afbeelding": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Julianadorp-hoofdafbeelding.webp",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/julianadorp/",
+    "cpt": "kitespot",
+    "icon": "toegestaan.png",
+    "beleid": [
+      "toegestaan"
+    ],
+    "windrichting": [
+      "Noord",
+      "Noordwest",
+      "West",
+      "Zuidwest"
+    ],
+    "discipline": [
+      "Foilen",
+      "Golfrijden",
+      "Freeride"
+    ],
+    "niveau": [
+      "Gevorderd"
+    ],
+    "waterdiepte": [
+      "Diep"
+    ],
+    "startzone": [
+      "Zand",
+      "Veel ruimte"
+    ],
+    "openstelling": "Het hele jaar"
+  },
+  {
+    "titel": "Reeuwijkse plassen",
+    "lat_lng": [
+      52.058559,
+      4.741474
+    ],
+    "afbeelding": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Reeuwijkseplassen-hoofd­afbeelding.webp",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/reeuwijkse-plassen/",
+    "cpt": "kitespot",
+    "icon": "verboden.png",
+    "beleid": [
+      "verboden"
+    ],
+    "windrichting": [
+      "Zuidoost",
+      "Oost",
+      "Noordoost"
+    ],
+    "discipline": [
+      "Foilen",
+      "Freeride"
+    ],
+    "niveau": [
+      "Gevorderd"
+    ],
+    "waterdiepte": [
+      "Ondiep"
+    ],
+    "startzone": [
+      "Zand",
+      "Weinig ruimte"
+    ],
+    "openstelling": "Het hele jaar"
+  },
+  {
+    "titel": "IJmuiderslag (gem. Velsen)",
+    "lat_lng": [
+      52.446941,
+      4.555163
+    ],
+    "afbeelding": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/IJmuiderslag-hoofd­afbeelding.webp",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/ijmuiderslag/",
+    "cpt": "kitespot",
+    "icon": "toegestaan.png",
+    "beleid": [
+      "toegestaan"
+    ],
+    "windrichting": [
+      "Noord",
+      "Noordwest",
+      "West",
+      "Zuidwest",
+      "Zuid"
+    ],
+    "discipline": [
+      "Foilen",
+      "Golfrijden",
+      "Freeride",
+      "Freestyle"
+    ],
+    "niveau": [
+      "Beginner"
+    ],
+    "waterdiepte": [
+      "Diep"
+    ],
+    "startzone": [
+      "Zand",
+      "Veel ruimte"
+    ],
+    "openstelling": "Het hele jaar"
+  },
+  {
+    "titel": "Rilland-Bath (Zimmermangeul)",
+    "lat_lng": [
+      51.394615,
+      4.1494
+    ],
+    "afbeelding": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Rilland-hoofd­afbeelding.webp",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/rilland-bath-zimmermangeul/",
+    "cpt": "kitespot",
+    "icon": "verboden.png",
+    "beleid": [
+      "verboden"
+    ],
+    "windrichting": [
+      "Noord"
+    ],
+    "discipline": [
+      "Freeride",
+      "Freestyle"
+    ],
+    "niveau": [
+      "Expert"
+    ],
+    "waterdiepte": [
+      "Diep"
+    ],
+    "startzone": [
+      "Zand",
+      "Veel ruimte"
+    ],
+    "openstelling": "Het hele jaar"
+  },
+  {
+    "titel": "IJmuiden Zone 1 (gem. Velsen)",
+    "lat_lng": [
+      52.456356,
+      4.551214
+    ],
+    "afbeelding": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/IJmuiden-zone-1-hoofd­afbeelding.webp",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/ijmuiden/",
+    "cpt": "kitespot",
+    "icon": "toegestaan.png",
+    "beleid": [
+      "toegestaan"
+    ],
+    "windrichting": [
+      "Noordwest",
+      "West",
+      "Zuid"
+    ],
+    "discipline": [
+      "Foilen",
+      "Golfrijden",
+      "Freeride"
+    ],
+    "niveau": [
+      "Beginner"
+    ],
+    "waterdiepte": [
+      "Diep"
+    ],
+    "startzone": [
+      "Zand",
+      "Veel ruimte"
+    ],
+    "openstelling": "Het hele jaar"
+  },
+  {
+    "titel": "Rockanje Badstrand",
+    "lat_lng": [
+      51.865685260091375,
+      4.0513472685071905
+    ],
+    "afbeelding": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Hoofdafbeelding-Rockanje-1.webp",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/rockanje/",
+    "cpt": "kitespot",
+    "icon": "beperkt.png",
+    "beleid": [
+      "beperkt"
+    ],
+    "windrichting": [
+      "Noordwest",
+      "West",
+      "Zuidwest",
+      "Zuid"
+    ],
+    "discipline": [
+      "Freeride",
+      "Freestyle"
+    ],
+    "niveau": [
+      "Beginner",
+      "Gevorderd"
+    ],
+    "waterdiepte": [
+      "Ondiep"
+    ],
+    "startzone": [
+      "Zand"
+    ],
+    "openstelling": "oktober t/m april"
+  },
+  {
+    "titel": "Huizen",
+    "lat_lng": [
+      52.306889528808476,
+      5.256627349121112
+    ],
+    "afbeelding": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Huizen.webp",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/huizen/",
+    "cpt": "kitespot",
+    "icon": "verboden.png",
+    "beleid": [
+      "verboden"
+    ],
+    "windrichting": [
+      "Noord"
+    ],
+    "discipline": [
+      "Foilen"
+    ],
+    "niveau": [
+      "Beginner"
+    ],
+    "waterdiepte": [
+      "Diep"
+    ],
+    "startzone": [
+      "Zand"
+    ],
+    "openstelling": "Het hele jaar"
+  },
+  {
+    "titel": "Hoorn Stadstrand",
+    "lat_lng": [
+      52.636536,
+      5.038187
+    ],
+    "afbeelding": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Hoorn-hoofdafbeelding.webp",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/hoorn-stadstrand/",
+    "cpt": "kitespot",
+    "icon": "verboden.png",
+    "beleid": [
+      "verboden"
+    ],
+    "windrichting": [
+      "Zuid",
+      "Zuidoost",
+      "Oost",
+      "Noordoost"
+    ],
+    "discipline": [
+      "Foilen",
+      "Freeride"
+    ],
+    "niveau": [
+      "Gevorderd"
+    ],
+    "waterdiepte": [
+      "Ondiep"
+    ],
+    "startzone": [
+      "Zand",
+      "Veel ruimte"
+    ],
+    "openstelling": "Het hele jaar"
+  },
+  {
+    "titel": "Kamperland - Roompot XBeach",
+    "lat_lng": [
+      51.592909111403124,
+      3.7313782540283214
+    ],
+    "afbeelding": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Roompot-Kamperland-hoofd­afbeelding.webp",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/kamperland/",
+    "cpt": "kitespot",
+    "icon": "toegestaan.png",
+    "beleid": [
+      "toegestaan"
+    ],
+    "windrichting": [
+      "Noord",
+      "Oost"
+    ],
+    "discipline": [
+      "Freeride",
+      "Freestyle"
+    ],
+    "niveau": [
+      "Beginner"
+    ],
+    "waterdiepte": [
+      "Ondiep"
+    ],
+    "startzone": [
+      "Zand",
+      "Veel ruimte"
+    ],
+    "openstelling": "Het hele jaar"
+  },
+  {
+    "titel": "Schellinkhout",
+    "lat_lng": [
+      52.632278,
+      5.120788
+    ],
+    "afbeelding": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Schellinkhout-hoofdafbeelding.webp",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/schellinkhout/",
+    "cpt": "kitespot",
+    "icon": "toegestaan.png",
+    "beleid": [
+      "toegestaan"
+    ],
+    "windrichting": [
+      "West",
+      "Zuidwest",
+      "Zuid",
+      "Zuidoost"
+    ],
+    "discipline": [
+      "Freeride",
+      "Freestyle"
+    ],
+    "niveau": [
+      "Beginner"
+    ],
+    "waterdiepte": [
+      "Ondiep"
+    ],
+    "startzone": [
+      "Gras",
+      "Veel ruimte"
+    ],
+    "openstelling": "Het hele jaar"
+  },
+  {
+    "titel": "Hindeloopen",
+    "lat_lng": [
+      52.93354,
+      5.403361
+    ],
+    "afbeelding": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Hoofdafbeelding-Hindeloopen.webp",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/hindeloopen/",
+    "cpt": "kitespot",
+    "icon": "toegestaan.png",
+    "beleid": [
+      "toegestaan"
+    ],
+    "windrichting": [
+      "Noordwest",
+      "West",
+      "Zuidwest",
+      "Zuid"
+    ],
+    "discipline": [
+      "Foilen",
+      "Freeride",
+      "Freestyle"
+    ],
+    "niveau": [
+      "Beginner"
+    ],
+    "waterdiepte": [
+      "Diep"
+    ],
+    "startzone": [
+      "Gras",
+      "Weinig ruimte"
+    ],
+    "openstelling": "Het hele jaar"
+  },
+  {
+    "titel": "Scheveningen - Zwarte Pad",
+    "lat_lng": [
+      52.1173477,
+      4.2894255
+    ],
+    "afbeelding": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Scheveningen-zwarte-pad-hoofdafbeelding.webp",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/scheveningen-zwarte-pad/",
+    "cpt": "kitespot",
+    "icon": "toegestaan.png",
+    "beleid": [
+      "toegestaan"
+    ],
+    "windrichting": [
+      "Noord",
+      "Noordwest",
+      "West",
+      "Zuidwest",
+      "Noordoost"
+    ],
+    "discipline": [
+      "Foilen",
+      "Golfrijden",
+      "Freeride"
+    ],
+    "niveau": [
+      "Gevorderd"
+    ],
+    "waterdiepte": [
+      "Diep"
+    ],
+    "startzone": [
+      "Zand",
+      "Veel ruimte"
+    ],
+    "openstelling": "Het hele jaar"
+  },
+  {
+    "titel": "Harlingen - Waddenzee",
+    "lat_lng": [
+      53.166355,
+      5.415011
+    ],
+    "afbeelding": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Harlingen-hoofdafbeelding.webp",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/harlingen-waddenzee/",
+    "cpt": "kitespot",
+    "icon": "toegestaan.png",
+    "beleid": [
+      "toegestaan"
+    ],
+    "windrichting": [
+      "Noordwest",
+      "West",
+      "Zuidwest"
+    ],
+    "discipline": [
+      "Freeride",
+      "Freestyle"
+    ],
+    "niveau": [
+      "Gevorderd"
+    ],
+    "waterdiepte": [
+      "Ondiep"
+    ],
+    "startzone": [
+      "Zand",
+      "Veel ruimte"
+    ],
+    "openstelling": "Het hele jaar"
+  },
+  {
+    "titel": "Hellevoetsluis - Haringvliet",
+    "lat_lng": [
+      51.82063570886251,
+      4.159093814880372
+    ],
+    "afbeelding": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Hellevoetsluis-hoofd­afbeelding.webp",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/hellevoetsluis-haringvliet/",
+    "cpt": "kitespot",
+    "icon": "toegestaan.png",
+    "beleid": [
+      "toegestaan"
+    ],
+    "windrichting": [
+      "West",
+      "Zuidwest",
+      "Zuid"
+    ],
+    "discipline": [
+      "Foilen",
+      "Freeride",
+      "Freestyle"
+    ],
+    "niveau": [
+      "Beginner"
+    ],
+    "waterdiepte": [
+      "Diep"
+    ],
+    "startzone": [
+      "Gras",
+      "Zand",
+      "Veel ruimte"
+    ],
+    "openstelling": "Het hele jaar"
+  },
+  {
+    "titel": "Groot Valkenisse",
+    "lat_lng": [
+      51.491982,
+      3.495714
+    ],
+    "afbeelding": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Groot-Valkenisse-hoofdafbeelding.webp",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/groot-valkenisse/",
+    "cpt": "kitespot",
+    "icon": "verboden.png",
+    "beleid": [
+      "verboden"
+    ],
+    "windrichting": [
+      "West",
+      "Zuidwest",
+      "Zuid"
+    ],
+    "discipline": [
+      "Foilen",
+      "Golfrijden",
+      "Freeride",
+      "Freestyle"
+    ],
+    "niveau": [
+      "Gevorderd"
+    ],
+    "waterdiepte": [
+      "Diep"
+    ],
+    "startzone": [
+      "Zand",
+      "Veel ruimte"
+    ],
+    "openstelling": "Het hele jaar"
+  },
+  {
+    "titel": "Schiermonnikoog (Noordzee: Paal 3-5)",
+    "lat_lng": [
+      53.504333,
+      6.180988
+    ],
+    "afbeelding": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Schiermonnikoog-Noordzee-hoofd­afbeelding.webp",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/schiermonnikoog-noordzee/",
+    "cpt": "kitespot",
+    "icon": "toegestaan.png",
+    "beleid": [
+      "toegestaan"
+    ],
+    "windrichting": [
+      "Noord",
+      "Noordwest",
+      "West",
+      "Zuidwest",
+      "Oost",
+      "Noordoost"
+    ],
+    "discipline": [
+      "Foilen",
+      "Golfrijden",
+      "Freeride"
+    ],
+    "niveau": [
+      "Beginner"
+    ],
+    "waterdiepte": [
+      "Diep"
+    ],
+    "startzone": [
+      "Zand",
+      "Veel ruimte"
+    ],
+    "openstelling": "Het hele jaar"
+  },
+  {
+    "titel": "Grevelingendam - Zuid",
+    "lat_lng": [
+      51.674713,
+      4.13996
+    ],
+    "afbeelding": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Grevelingendam-hoofdafbeelding.webp",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/grevelingendam-zuid/",
+    "cpt": "kitespot",
+    "icon": "toegestaan.png",
+    "beleid": [
+      "toegestaan"
+    ],
+    "windrichting": [
+      "West",
+      "Zuidwest",
+      "Zuid"
+    ],
+    "discipline": [
+      "Foilen",
+      "Freeride",
+      "Freestyle"
+    ],
+    "niveau": [
+      "Beginner"
+    ],
+    "waterdiepte": [
+      "Ondiep"
+    ],
+    "startzone": [
+      "Zand",
+      "Weinig ruimte"
+    ],
+    "openstelling": "Het hele jaar"
+  },
+  {
+    "titel": "Grevelingendam - Noord",
+    "lat_lng": [
+      51.679256,
+      4.137328
+    ],
+    "afbeelding": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Grevelingen.webp",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/grevelingendam-noord/",
+    "cpt": "kitespot",
+    "icon": "beperkt.png",
+    "beleid": [
+      "beperkt"
+    ],
+    "windrichting": [
+      "Noord",
+      "Noordwest",
+      "Oost"
+    ],
+    "discipline": [
+      "Freeride",
+      "Freestyle"
+    ],
+    "niveau": [
+      "Gevorderd"
+    ],
+    "waterdiepte": [
+      "Ondiep"
+    ],
+    "startzone": [
+      "Gras",
+      "Weinig ruimte"
+    ],
+    "openstelling": "15 maart - 1 november"
+  },
+  {
+    "titel": "Stavoren - it Suderstrand",
+    "lat_lng": [
+      52.87193795015575,
+      5.369856820778169
+    ],
+    "afbeelding": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/stavoren_DJI_0566.webp",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/stavoren/",
+    "cpt": "kitespot",
+    "icon": "toegestaan.png",
+    "beleid": [
+      "toegestaan"
+    ],
+    "windrichting": [
+      "West",
+      "Zuidwest",
+      "Zuid"
+    ],
+    "discipline": [
+      "Foilen",
+      "Golfrijden",
+      "Freeride"
+    ],
+    "niveau": [
+      "Gevorderd",
+      "Expert"
+    ],
+    "waterdiepte": [
+      "Diep"
+    ],
+    "startzone": [
+      "Gras",
+      "Weinig ruimte"
+    ],
+    "openstelling": "Het hele jaar"
+  },
+  {
+    "titel": "Enkhuizen",
+    "lat_lng": [
+      52.714832,
+      5.288304
+    ],
+    "afbeelding": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Enkhuizen-hoofdafbeelding.webp",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/enkhuizen/",
+    "cpt": "kitespot",
+    "icon": "beperkt.png",
+    "beleid": [
+      "beperkt"
+    ],
+    "windrichting": [
+      "Zuidoost",
+      "Oost",
+      "Noordoost"
+    ],
+    "discipline": [
+      "Freeride",
+      "Freestyle"
+    ],
+    "niveau": [
+      "Gevorderd"
+    ],
+    "waterdiepte": [
+      "Ondiep"
+    ],
+    "startzone": [
+      "Gras",
+      "Weinig ruimte"
+    ],
+    "openstelling": "oktober t/m maart"
+  },
+  {
+    "titel": "Strand Horst",
+    "lat_lng": [
+      52.32291,
+      5.570562
+    ],
+    "afbeelding": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Strand-Horst-hoofdafbeelding.webp",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/strand-horst/",
+    "cpt": "kitespot",
+    "icon": "toegestaan.png",
+    "beleid": [
+      "toegestaan"
+    ],
+    "windrichting": [
+      "Noord",
+      "Noordwest",
+      "West",
+      "Zuidwest"
+    ],
+    "discipline": [
+      "Freeride",
+      "Freestyle"
+    ],
+    "niveau": [
+      "Beginner"
+    ],
+    "waterdiepte": [
+      "Ondiep"
+    ],
+    "startzone": [
+      "Gras",
+      "Weinig ruimte"
+    ],
+    "openstelling": "Het hele jaar"
+  },
+  {
+    "titel": "Elburg",
+    "lat_lng": [
+      52.455063,
+      5.817958
+    ],
+    "afbeelding": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Elburg.webp",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/elburg/",
+    "cpt": "kitespot",
+    "icon": "beperkt.png",
+    "beleid": [
+      "beperkt"
+    ],
+    "windrichting": [
+      "West",
+      "Zuidwest",
+      "Zuid"
+    ],
+    "discipline": [
+      "Freeride",
+      "Freestyle"
+    ],
+    "niveau": [
+      "Gevorderd"
+    ],
+    "waterdiepte": [
+      "Ondiep"
+    ],
+    "startzone": [
+      "Zand",
+      "Weinig ruimte"
+    ],
+    "openstelling": "april t/m september"
+  },
+  {
+    "titel": "Egmond Binnen/aan Zee",
+    "lat_lng": [
+      52.613762,
+      4.616011
+    ],
+    "afbeelding": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Egmond-hoof­afbeelding.webp",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/egmond-binnen-en-aan-zee/",
+    "cpt": "kitespot",
+    "icon": "toegestaan.png",
+    "beleid": [
+      "toegestaan"
+    ],
+    "windrichting": [
+      "Noordwest",
+      "West",
+      "Zuidwest"
+    ],
+    "discipline": [
+      "Golfrijden"
+    ],
+    "niveau": [
+      "Gevorderd"
+    ],
+    "waterdiepte": [
+      "Ondiep"
+    ],
+    "startzone": [
+      "Zand",
+      "Veel ruimte"
+    ],
+    "openstelling": "Het hele jaar"
+  },
+  {
+    "titel": "Eemshaven",
+    "lat_lng": [
+      53.454723,
+      6.796758
+    ],
+    "afbeelding": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Eemshaven-hoofd­afbeelding.webp",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/eemshaven/",
+    "cpt": "kitespot",
+    "icon": "verboden.png",
+    "beleid": [
+      "verboden"
+    ],
+    "windrichting": [
+      "Noord",
+      "Noordwest",
+      "Noordoost"
+    ],
+    "discipline": [
+      "Freeride",
+      "Freestyle"
+    ],
+    "niveau": [
+      "Beginner"
+    ],
+    "waterdiepte": [
+      "Ondiep"
+    ],
+    "startzone": [
+      "Gras",
+      "Weinig ruimte"
+    ],
+    "openstelling": "Het hele jaar"
+  },
+  {
+    "titel": "Terneuzen (put van)",
+    "lat_lng": [
+      51.337162,
+      3.839594
+    ],
+    "afbeelding": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Terneuzen-put-van-hoofdafbeelding.webp",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/terneuzen/",
+    "cpt": "kitespot",
+    "icon": "toegestaan.png",
+    "beleid": [
+      "toegestaan"
+    ],
+    "windrichting": [
+      "Noord",
+      "Noordwest",
+      "Oost",
+      "Noordoost"
+    ],
+    "discipline": [
+      "Freeride",
+      "Freestyle"
+    ],
+    "niveau": [
+      "Beginner"
+    ],
+    "waterdiepte": [
+      "Ondiep"
+    ],
+    "startzone": [
+      "Zand",
+      "Weinig ruimte"
+    ],
+    "openstelling": "Het hele jaar"
+  },
+  {
+    "titel": "Edam Noord - Galgenveld",
+    "lat_lng": [
+      52.52256,
+      5.067095
+    ],
+    "afbeelding": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Edam-Noord-hoofdafbeelding.webp",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/edam-noord-galgenveld/",
+    "cpt": "kitespot",
+    "icon": "toegestaan.png",
+    "beleid": [
+      "toegestaan"
+    ],
+    "windrichting": [
+      "Zuidoost",
+      "Oost",
+      "Noordoost"
+    ],
+    "discipline": [
+      "Freeride",
+      "Freestyle"
+    ],
+    "niveau": [
+      "Expert"
+    ],
+    "waterdiepte": [
+      "Ondiep"
+    ],
+    "startzone": [
+      "Gras",
+      "Weinig ruimte"
+    ],
+    "openstelling": "Het hele jaar"
+  },
+  {
+    "titel": "Domburg",
+    "lat_lng": [
+      51.552254,
+      3.461647
+    ],
+    "afbeelding": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Domburg-hoofdafbeelding.webp",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/domburg/",
+    "cpt": "kitespot",
+    "icon": "toegestaan.png",
+    "beleid": [
+      "toegestaan"
+    ],
+    "windrichting": [
+      "Noord",
+      "Noordwest",
+      "West"
+    ],
+    "discipline": [
+      "Golfrijden",
+      "Freeride"
+    ],
+    "niveau": [
+      "Expert"
+    ],
+    "waterdiepte": [
+      "Diep"
+    ],
+    "startzone": [
+      "Zand",
+      "Veel ruimte"
+    ],
+    "openstelling": "Het hele jaar"
+  },
+  {
+    "titel": "Terschelling - Noordzee",
+    "lat_lng": [
+      53.409386,
+      5.280458
+    ],
+    "afbeelding": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Terschelling-Noordzee-hoofdafbeelding.webp",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/terschelling-noordzee/",
+    "cpt": "kitespot",
+    "icon": "toegestaan.png",
+    "beleid": [
+      "toegestaan"
+    ],
+    "windrichting": [
+      "Noord",
+      "Noordwest",
+      "Noordoost"
+    ],
+    "discipline": [
+      "Foilen",
+      "Golfrijden",
+      "Freeride"
+    ],
+    "niveau": [
+      "Beginner"
+    ],
+    "waterdiepte": [
+      "Diep"
+    ],
+    "startzone": [
+      "Zand",
+      "Veel ruimte"
+    ],
+    "openstelling": "Het hele jaar"
+  },
+  {
+    "titel": "Den Helder - Huisduinen",
+    "lat_lng": [
+      52.953239,
+      4.720852
+    ],
+    "afbeelding": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/02/Huisduinen-hoofdafbeelding.webp",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/den-helder-huisduinen/",
+    "cpt": "kitespot",
+    "icon": "toegestaan.png",
+    "beleid": [
+      "toegestaan"
+    ],
+    "windrichting": [
+      "Noord",
+      "Noordwest",
+      "West",
+      "Zuidwest"
+    ],
+    "discipline": [
+      "Foilen",
+      "Golfrijden",
+      "Freeride"
+    ],
+    "niveau": [
+      "Gevorderd"
+    ],
+    "waterdiepte": [
+      "Diep"
+    ],
+    "startzone": [
+      "Zand",
+      "Veel ruimte"
+    ],
+    "openstelling": "Het hele jaar"
+  },
+  {
+    "titel": "Terschelling - Groene Strand",
+    "lat_lng": [
+      53.355141,
+      5.21029
+    ],
+    "afbeelding": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Terschelling-groenestrand-hoofd­afbeelding.webp",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/terschelling-groene-strand/",
+    "cpt": "kitespot",
+    "icon": "toegestaan.png",
+    "beleid": [
+      "toegestaan"
+    ],
+    "windrichting": [
+      "Zuidwest",
+      "Zuid",
+      "Zuidoost"
+    ],
+    "discipline": [
+      "Freeride",
+      "Freestyle"
+    ],
+    "niveau": [
+      "Beginner"
+    ],
+    "waterdiepte": [
+      "Ondiep"
+    ],
+    "startzone": [
+      "Zand",
+      "Veel ruimte"
+    ],
+    "openstelling": "Het hele jaar"
+  },
+  {
+    "titel": "Texel Paal 17.6 - 18.99 en 28.2 - 32",
+    "lat_lng": [
+      53.078442,
+      4.731828
+    ],
+    "afbeelding": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Texel-Paal-17-etc-hoofd­afbeelding.webp",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/texel/",
+    "cpt": "kitespot",
+    "icon": "toegestaan.png",
+    "beleid": [
+      "toegestaan"
+    ],
+    "windrichting": [
+      "Noord",
+      "Noordwest",
+      "Zuidwest"
+    ],
+    "discipline": [
+      "Freeride",
+      "Freestyle"
+    ],
+    "niveau": [
+      "Gevorderd"
+    ],
+    "waterdiepte": [
+      "Diep"
+    ],
+    "startzone": [
+      "Zand",
+      "Veel ruimte"
+    ],
+    "openstelling": "Het hele jaar"
+  },
+  {
+    "titel": "Texel Noord-oost",
+    "lat_lng": [
+      53.178222562677476,
+      4.864385107210651
+    ],
+    "afbeelding": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Texel-noord-oost-hoofd­afbeelding.webp",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/texel-noord-oost/",
+    "cpt": "kitespot",
+    "icon": "verboden.png",
+    "beleid": [
+      "verboden"
+    ],
+    "windrichting": [
+      "Noord"
+    ],
+    "discipline": [
+      "Freeride"
+    ],
+    "niveau": [
+      "Gevorderd"
+    ],
+    "waterdiepte": [
+      "Diep"
+    ],
+    "startzone": [
+      "Zand",
+      "Veel ruimte"
+    ],
+    "openstelling": "Het hele jaar"
+  },
+  {
+    "titel": "Delfzijl",
+    "lat_lng": [
+      53.33453,
+      6.931337
+    ],
+    "afbeelding": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Delfzijl-hoofd­afbeelding.webp",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/delfzijl/",
+    "cpt": "kitespot",
+    "icon": "toegestaan.png",
+    "beleid": [
+      "toegestaan"
+    ],
+    "windrichting": [
+      "Noordwest",
+      "Zuidoost",
+      "Oost",
+      "Noordoost"
+    ],
+    "discipline": [
+      "Freeride",
+      "Freestyle"
+    ],
+    "niveau": [
+      "Beginner",
+      "Gevorderd"
+    ],
+    "waterdiepte": [
+      "Ondiep"
+    ],
+    "startzone": [
+      "Zand",
+      "Weinig ruimte"
+    ],
+    "openstelling": "Het hele jaar"
+  },
+  {
+    "titel": "Texel - Dijkmanshuizen (Wadzijde)",
+    "lat_lng": [
+      53.064888,
+      4.873644
+    ],
+    "afbeelding": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Texel-Dijkmanshuizen-hoofdafbeelding.webp",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/texel-dijkmanshuizen/",
+    "cpt": "kitespot",
+    "icon": "beperkt.png",
+    "beleid": [
+      "beperkt"
+    ],
+    "windrichting": [
+      "Zuid",
+      "Zuidoost",
+      "Oost"
+    ],
+    "discipline": [
+      "Foilen",
+      "Freeride"
+    ],
+    "niveau": [
+      "Gevorderd"
+    ],
+    "waterdiepte": [
+      "Ondiep"
+    ],
+    "startzone": [
+      "Zand",
+      "Weinig ruimte"
+    ],
+    "openstelling": "april t/m september"
+  },
+  {
+    "titel": "Castricum aan Zee",
+    "lat_lng": [
+      52.556786,
+      4.605667
+    ],
+    "afbeelding": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/castricum.webp",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/castricum-aan-zee/",
+    "cpt": "kitespot",
+    "icon": "toegestaan.png",
+    "beleid": [
+      "toegestaan"
+    ],
+    "windrichting": [
+      "Noord",
+      "Noordwest",
+      "West",
+      "Zuidwest",
+      "Zuid"
+    ],
+    "discipline": [
+      "Foilen",
+      "Golfrijden",
+      "Freeride"
+    ],
+    "niveau": [
+      "Beginner",
+      "Gevorderd"
+    ],
+    "waterdiepte": [
+      "Diep"
+    ],
+    "startzone": [
+      "Zand",
+      "Veel ruimte"
+    ],
+    "openstelling": "Het hele jaar"
+  },
+  {
+    "titel": "Tjeukemeer",
+    "lat_lng": [
+      52.874748856751886,
+      5.817690721565243
+    ],
+    "afbeelding": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Tjeukemeer-spotkaart-2.0.webp",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/tjeukemeer/",
+    "cpt": "kitespot",
+    "icon": "verboden.png",
+    "beleid": [
+      "verboden"
+    ],
+    "windrichting": [
+      "Noord",
+      "West",
+      "Oost",
+      "Noordoost"
+    ],
+    "discipline": [
+      "Foilen",
+      "Freeride",
+      "Freestyle"
+    ],
+    "niveau": [
+      "Beginner",
+      "Gevorderd"
+    ],
+    "waterdiepte": [
+      "Ondiep"
+    ],
+    "startzone": [
+      "Zand"
+    ],
+    "openstelling": "Het hele jaar"
+  },
+  {
+    "titel": "Camperduin",
+    "lat_lng": [
+      52.7283090428019,
+      4.639765275146468
+    ],
+    "afbeelding": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Camperduin-hoofdafbeelding.webp",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/camperduin/",
+    "cpt": "kitespot",
+    "icon": "toegestaan.png",
+    "beleid": [
+      "toegestaan"
+    ],
+    "windrichting": [
+      "Noord",
+      "Noordwest",
+      "West",
+      "Zuidwest",
+      "Zuid"
+    ],
+    "discipline": [
+      "Foilen",
+      "Golfrijden",
+      "Freeride"
+    ],
+    "niveau": [
+      "Beginner",
+      "Gevorderd",
+      "Expert"
+    ],
+    "waterdiepte": [
+      "Diep"
+    ],
+    "startzone": [
+      "Zand",
+      "Veel ruimte"
+    ],
+    "openstelling": "Het hele jaar"
+  },
+  {
+    "titel": "Vlieland Wadkant",
+    "lat_lng": [
+      53.237576,
+      4.964422
+    ],
+    "afbeelding": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Vlieland-wadzijde-hoofd­afbeelding.webp",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/vlieland-wadkant/",
+    "cpt": "kitespot",
+    "icon": "verboden.png",
+    "beleid": [
+      "verboden"
+    ],
+    "windrichting": [
+      "Zuidwest",
+      "Zuid",
+      "Zuidoost"
+    ],
+    "discipline": [
+      "Freeride",
+      "Freestyle"
+    ],
+    "niveau": [
+      "Beginner"
+    ],
+    "waterdiepte": [
+      "Diep"
+    ],
+    "startzone": [
+      "Zand",
+      "Veel ruimte"
+    ],
+    "openstelling": "Het hele jaar"
+  },
+  {
+    "titel": "Callantsoog",
+    "lat_lng": [
+      52.840599,
+      4.691325
+    ],
+    "afbeelding": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Callantsoog-hoofd­afbeelding.webp",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/callantsoog/",
+    "cpt": "kitespot",
+    "icon": "toegestaan.png",
+    "beleid": [
+      "toegestaan"
+    ],
+    "windrichting": [
+      "Noord",
+      "Noordwest",
+      "West",
+      "Zuidwest"
+    ],
+    "discipline": [
+      "Foilen",
+      "Freeride"
+    ],
+    "niveau": [
+      "Gevorderd"
+    ],
+    "waterdiepte": [
+      "Diep"
+    ],
+    "startzone": [
+      "Zand",
+      "Veel ruimte"
+    ],
+    "openstelling": "Het hele jaar"
+  },
+  {
+    "titel": "Vlieland Noordzee",
+    "lat_lng": [
+      53.304478,
+      5.048718
+    ],
+    "afbeelding": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Vlieland-Noordzee-hoofdafbeelding.webp",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/vlieland-noordzee/",
+    "cpt": "kitespot",
+    "icon": "toegestaan.png",
+    "beleid": [
+      "toegestaan"
+    ],
+    "windrichting": [
+      "Noord",
+      "Noordwest",
+      "West",
+      "Noordoost"
+    ],
+    "discipline": [
+      "Foilen",
+      "Golfrijden",
+      "Freeride"
+    ],
+    "niveau": [
+      "Beginner"
+    ],
+    "waterdiepte": [
+      "Diep"
+    ],
+    "startzone": [
+      "Zand",
+      "Veel ruimte"
+    ],
+    "openstelling": "Het hele jaar"
+  },
+  {
+    "titel": "Cadzand-bad - West",
+    "lat_lng": [
+      51.373165,
+      3.368118
+    ],
+    "afbeelding": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/cadzand2.webp",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/cadzand-bad-west/",
+    "cpt": "kitespot",
+    "icon": "toegestaan.png",
+    "beleid": [
+      "toegestaan"
+    ],
+    "windrichting": [
+      "Noord",
+      "Noordwest",
+      "West",
+      "Zuidwest"
+    ],
+    "discipline": [
+      "Foilen",
+      "Golfrijden",
+      "Freeride",
+      "Freestyle"
+    ],
+    "niveau": [
+      "Beginner"
+    ],
+    "waterdiepte": [
+      "Diep"
+    ],
+    "startzone": [
+      "Zand",
+      "Veel ruimte"
+    ],
+    "openstelling": "Het hele jaar"
+  },
+  {
+    "titel": "Vlissingen",
+    "lat_lng": [
+      51.445332,
+      3.561992
+    ],
+    "afbeelding": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Vlissingen-hoofd­afbeelding.webp",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/vlissingen/",
+    "cpt": "kitespot",
+    "icon": "verboden.png",
+    "beleid": [
+      "verboden"
+    ],
+    "windrichting": [
+      "Noord"
+    ],
+    "discipline": [
+      "Foilen",
+      "Golfrijden",
+      "Freeride",
+      "Freestyle"
+    ],
+    "niveau": [
+      "Beginner"
+    ],
+    "waterdiepte": [
+      "Diep"
+    ],
+    "startzone": [
+      "Weinig ruimte"
+    ],
+    "openstelling": "Het hele jaar"
+  },
+  {
+    "titel": "Cadzand-bad - Vlamingpolder",
+    "lat_lng": [
+      51.385365,
+      3.404863
+    ],
+    "afbeelding": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/cadzand2.webp",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/cadzand-bad-vlamingpolder/",
+    "cpt": "kitespot",
+    "icon": "toegestaan.png",
+    "beleid": [
+      "toegestaan"
+    ],
+    "windrichting": [
+      "Noord",
+      "Noordwest",
+      "West"
+    ],
+    "discipline": [
+      "Foilen",
+      "Freeride",
+      "Freestyle"
+    ],
+    "niveau": [
+      "Gevorderd"
+    ],
+    "waterdiepte": [
+      "Diep"
+    ],
+    "startzone": [
+      "Zand",
+      "Veel ruimte"
+    ],
+    "openstelling": "Het hele jaar"
+  },
+  {
+    "titel": "Vrouwenpolder",
+    "lat_lng": [
+      51.591873,
+      3.632949
+    ],
+    "afbeelding": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Vrouwenpolder-hoofdafbeelding.webp",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/vrouwenpolder/",
+    "cpt": "kitespot",
+    "icon": "toegestaan.png",
+    "beleid": [
+      "toegestaan"
+    ],
+    "windrichting": [
+      "Noord",
+      "West",
+      "Oost",
+      "Noordoost"
+    ],
+    "discipline": [
+      "Freeride",
+      "Freestyle"
+    ],
+    "niveau": [
+      "Beginner"
+    ],
+    "waterdiepte": [
+      "Diep"
+    ],
+    "startzone": [
+      "Zand",
+      "Veel ruimte"
+    ],
+    "openstelling": "Het hele jaar"
+  },
+  {
+    "titel": "Brouwersdam",
+    "lat_lng": [
+      51.760532,
+      3.842414
+    ],
+    "afbeelding": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Brouwersdam-hoofd­afbeelding.webp",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/brouwersdam/",
+    "cpt": "kitespot",
+    "icon": "toegestaan.png",
+    "beleid": [
+      "toegestaan"
+    ],
+    "windrichting": [
+      "Noord",
+      "Noordwest",
+      "West",
+      "Zuidwest"
+    ],
+    "discipline": [
+      "Foilen",
+      "Freeride",
+      "Freestyle"
+    ],
+    "niveau": [
+      "Beginner"
+    ],
+    "waterdiepte": [
+      "Ondiep"
+    ],
+    "startzone": [
+      "Zand",
+      "Veel ruimte"
+    ],
+    "openstelling": "Het hele jaar"
+  },
+  {
+    "titel": "Breskens Oost",
+    "lat_lng": [
+      51.40062194272245,
+      3.559299638623048
+    ],
+    "afbeelding": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Breskens-hoofd­afbeelding.webp",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/breskens-oost/",
+    "cpt": "kitespot",
+    "icon": "toegestaan.png",
+    "beleid": [
+      "toegestaan"
+    ],
+    "windrichting": [
+      "Noord",
+      "Noordwest",
+      "Noordoost"
+    ],
+    "discipline": [
+      "Freeride",
+      "Freestyle"
+    ],
+    "niveau": [
+      "Beginner"
+    ],
+    "waterdiepte": [
+      "Ondiep"
+    ],
+    "startzone": [
+      "Zand",
+      "Veel ruimte"
+    ],
+    "openstelling": "Het hele jaar"
+  },
+  {
+    "titel": "Warder",
+    "lat_lng": [
+      52.565662,
+      5.033157
+    ],
+    "afbeelding": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Warder-hoofdscherm-afbeelding.webp",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/warder/",
+    "cpt": "kitespot",
+    "icon": "beperkt.png",
+    "beleid": [
+      "beperkt"
+    ],
+    "windrichting": [
+      "Noord",
+      "Zuidoost",
+      "Oost",
+      "Noordoost"
+    ],
+    "discipline": [
+      "Freeride",
+      "Freestyle"
+    ],
+    "niveau": [
+      "Beginner"
+    ],
+    "waterdiepte": [
+      "Ondiep"
+    ],
+    "startzone": [
+      "Gras",
+      "Weinig ruimte"
+    ],
+    "openstelling": "april t/m september"
+  },
+  {
+    "titel": "Braassemermeer",
+    "lat_lng": [
+      52.197262,
+      4.668126
+    ],
+    "afbeelding": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Braassemermeer-hoofdafbeelding.webp",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/braassemermeer/",
+    "cpt": "kitespot",
+    "icon": "verboden.png",
+    "beleid": [
+      "verboden"
+    ],
+    "windrichting": [
+      "Noordwest",
+      "West",
+      "Zuidwest",
+      "Zuid"
+    ],
+    "discipline": [
+      "Foilen",
+      "Freeride",
+      "Freestyle"
+    ],
+    "niveau": [
+      "Gevorderd"
+    ],
+    "waterdiepte": [
+      "Diep"
+    ],
+    "startzone": [
+      "Gras",
+      "Weinig ruimte"
+    ],
+    "openstelling": "Het hele jaar"
+  },
+  {
+    "titel": "Wassenaarse slag",
+    "lat_lng": [
+      52.163361,
+      4.34611
+    ],
+    "afbeelding": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Wassenaarseslag-hoofdafbeelding.webp",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/wassenaarse-slag/",
+    "cpt": "kitespot",
+    "icon": "toegestaan.png",
+    "beleid": [
+      "toegestaan"
+    ],
+    "windrichting": [
+      "Noord",
+      "Noordwest",
+      "Zuidwest"
+    ],
+    "discipline": [
+      "Foilen",
+      "Golfrijden",
+      "Freeride"
+    ],
+    "niveau": [
+      "Gevorderd"
+    ],
+    "waterdiepte": [
+      "Diep"
+    ],
+    "startzone": [
+      "Zand",
+      "Veel ruimte"
+    ],
+    "openstelling": "Het hele jaar"
+  },
+  {
+    "titel": "Borssele (de Kaloot)",
+    "lat_lng": [
+      51.433178,
+      3.709353
+    ],
+    "afbeelding": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Borssele-hoofdafbeelding.webp",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/borssele-de-kaloot/",
+    "cpt": "kitespot",
+    "icon": "toegestaan.png",
+    "beleid": [
+      "toegestaan"
+    ],
+    "windrichting": [
+      "West",
+      "Zuidwest"
+    ],
+    "discipline": [
+      "Freeride",
+      "Freestyle"
+    ],
+    "niveau": [
+      "Beginner"
+    ],
+    "waterdiepte": [
+      "Ondiep"
+    ],
+    "startzone": [
+      "Zand",
+      "Weinig ruimte"
+    ],
+    "openstelling": "Het hele jaar"
+  },
+  {
+    "titel": "Westeinderplassen",
+    "lat_lng": [
+      52.2405285,
+      4.7204159
+    ],
+    "afbeelding": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Westeinderplassen-hoofdafbeelding.webp",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/westeinderplassen/",
+    "cpt": "kitespot",
+    "icon": "verboden.png",
+    "beleid": [
+      "verboden"
+    ],
+    "windrichting": [
+      "Noordwest",
+      "West",
+      "Zuidwest"
+    ],
+    "discipline": [
+      "Foilen",
+      "Freeride",
+      "Freestyle"
+    ],
+    "niveau": [
+      "Gevorderd"
+    ],
+    "waterdiepte": [
+      "Diep"
+    ],
+    "startzone": [
+      "Gras",
+      "Weinig ruimte"
+    ],
+    "openstelling": "Het hele jaar"
+  },
+  {
+    "titel": "Bloemendaal aan Zee",
+    "lat_lng": [
+      52.416317,
+      4.549245
+    ],
+    "afbeelding": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/BaZ-KiteZone.webp",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/bloemendaal-aan-zee/",
+    "cpt": "kitespot",
+    "icon": "toegestaan.png",
+    "beleid": [
+      "toegestaan"
+    ],
+    "windrichting": [
+      "Noord",
+      "Noordwest",
+      "West",
+      "Zuidwest"
+    ],
+    "discipline": [
+      "Foilen",
+      "Golfrijden",
+      "Freeride"
+    ],
+    "niveau": [
+      "Gevorderd"
+    ],
+    "waterdiepte": [
+      "Diep"
+    ],
+    "startzone": [
+      "Zand",
+      "Veel ruimte"
+    ],
+    "openstelling": "Het hele jaar"
+  },
+  {
+    "titel": "Wijk aan Zee - de HangOut (Strand Noordpier Velsen-Noord)",
+    "lat_lng": [
+      52.48253093941438,
+      4.577510158752451
+    ],
+    "afbeelding": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Wijk-aan-zee-bunker-hoofd­afbeelding.webp",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/wijk-aan-zee-hangout/",
+    "cpt": "kitespot",
+    "icon": "toegestaan.png",
+    "beleid": [
+      "toegestaan"
+    ],
+    "windrichting": [
+      "Noord",
+      "Noordwest",
+      "West",
+      "Zuidwest"
+    ],
+    "discipline": [
+      "Foilen",
+      "Golfrijden",
+      "Freeride",
+      "Freestyle"
+    ],
+    "niveau": [
+      "Beginner"
+    ],
+    "waterdiepte": [
+      "Diep"
+    ],
+    "startzone": [
+      "Zand",
+      "Veel ruimte"
+    ],
+    "openstelling": "het hele jaar"
+  },
+  {
+    "titel": "Bergen aan Zee",
+    "lat_lng": [
+      52.658703,
+      4.626903
+    ],
+    "afbeelding": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Bergen-aan-Zee-hoofd­afbeelding.webp",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/bergen-aan-zee/",
+    "cpt": "kitespot",
+    "icon": "toegestaan.png",
+    "beleid": [
+      "toegestaan"
+    ],
+    "windrichting": [
+      "Noord",
+      "Noordwest",
+      "West",
+      "Zuidwest"
+    ],
+    "discipline": [
+      "Foilen",
+      "Golfrijden",
+      "Freeride"
+    ],
+    "niveau": [
+      "Gevorderd"
+    ],
+    "waterdiepte": [
+      "Diep"
+    ],
+    "startzone": [
+      "Zand",
+      "Veel ruimte"
+    ],
+    "openstelling": "Het hele jaar"
+  },
+  {
+    "titel": "Baarland",
+    "lat_lng": [
+      51.394135,
+      3.896531
+    ],
+    "afbeelding": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Baarland-hoofd­afbeelding.webp",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/baarland/",
+    "cpt": "kitespot",
+    "icon": "toegestaan.png",
+    "beleid": [
+      "toegestaan"
+    ],
+    "windrichting": [
+      "Zuidwest",
+      "Zuid",
+      "Zuidoost",
+      "Oost"
+    ],
+    "discipline": [
+      "Freeride",
+      "Freestyle"
+    ],
+    "niveau": [
+      "Gevorderd"
+    ],
+    "waterdiepte": [
+      "Ondiep"
+    ],
+    "startzone": [
+      "Zand",
+      "Weinig ruimte"
+    ],
+    "openstelling": "Het hele jaar"
+  },
+  {
+    "titel": "Wijk aan Zee - Pier (Strand Noordpier Velsen-Noord)",
+    "lat_lng": [
+      52.471031,
+      4.565752
+    ],
+    "afbeelding": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Wijk-aan-zee-noordpier-hoofdafbeelding.webp",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/wijk-aan-zee-pier/",
+    "cpt": "kitespot",
+    "icon": "toegestaan.png",
+    "beleid": [
+      "toegestaan"
+    ],
+    "windrichting": [
+      "Noordwest",
+      "West",
+      "Zuidwest"
+    ],
+    "discipline": [
+      "Foilen",
+      "Golfrijden",
+      "Freeride"
+    ],
+    "niveau": [
+      "Beginner",
+      "Gevorderd"
+    ],
+    "waterdiepte": [
+      "Diep"
+    ],
+    "startzone": [
+      "Zand",
+      "Veel ruimte"
+    ],
+    "openstelling": "Het hele jaar"
+  },
+  {
+    "titel": "Andijk",
+    "lat_lng": [
+      52.739857,
+      5.175726
+    ],
+    "afbeelding": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Andijk-hoofdafbeelding.webp",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/andijk/",
+    "cpt": "kitespot",
+    "icon": "verboden.png",
+    "beleid": [
+      "verboden"
+    ],
+    "windrichting": [
+      "Noord",
+      "Noordwest",
+      "Noordoost"
+    ],
+    "discipline": [
+      "Freeride",
+      "Freestyle"
+    ],
+    "niveau": [
+      "Gevorderd"
+    ],
+    "waterdiepte": [
+      "Diep"
+    ],
+    "startzone": [
+      "Gras",
+      "Weinig ruimte"
+    ],
+    "openstelling": "Het hele jaar"
+  },
+  {
+    "titel": "Windsurfing Hoek van Holland",
+    "lat_lng": [
+      51.992015738236034,
+      4.114798307418823
+    ],
+    "afbeelding": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2022/10/vlcsnap-2023-02-15-19h35m18s040.webp",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/hoek-van-holland-windsurfing/",
+    "cpt": "kitespot",
+    "icon": "toegestaan.png",
+    "beleid": [
+      "toegestaan"
+    ],
+    "windrichting": [
+      "Noord",
+      "Noordwest",
+      "West",
+      "Zuidwest"
+    ],
+    "discipline": [
+      "Foilen",
+      "Golfrijden",
+      "Freeride",
+      "Freestyle"
+    ],
+    "niveau": [
+      "Gevorderd"
+    ],
+    "waterdiepte": [
+      "Diep"
+    ],
+    "startzone": [
+      "Zand",
+      "Veel ruimte"
+    ],
+    "openstelling": "Het hele jaar"
+  },
+  {
+    "titel": "Amstelmeer Lutjestrand zuid",
+    "lat_lng": [
+      52.885124923080426,
+      4.9165667510045985
+    ],
+    "afbeelding": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/amstelmeer-foto-rob.webp",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/amstelmeer-lutje-strand-zuid/",
+    "cpt": "kitespot",
+    "icon": "toegestaan.png",
+    "beleid": [
+      "toegestaan"
+    ],
+    "windrichting": [
+      "Noordwest",
+      "West",
+      "Zuidwest",
+      "Zuid"
+    ],
+    "discipline": [
+      "Freeride",
+      "Freestyle"
+    ],
+    "niveau": [
+      "Gevorderd"
+    ],
+    "waterdiepte": [
+      "Diep"
+    ],
+    "startzone": [
+      "Gras",
+      "Zand",
+      "Veel ruimte"
+    ],
+    "openstelling": "Het hele jaar"
+  },
+  {
+    "titel": "Workum",
+    "lat_lng": [
+      52.965973,
+      5.410585
+    ],
+    "afbeelding": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/hoofdafbeelding-workum.webp",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/workum/",
+    "cpt": "kitespot",
+    "icon": "toegestaan.png",
+    "beleid": [
+      "toegestaan"
+    ],
+    "windrichting": [
+      "Noordwest",
+      "West",
+      "Zuidwest"
+    ],
+    "discipline": [
+      "Foilen",
+      "Freeride",
+      "Freestyle"
+    ],
+    "niveau": [
+      "Beginner"
+    ],
+    "waterdiepte": [
+      "Diep"
+    ],
+    "startzone": [
+      "Zand",
+      "Weinig ruimte"
+    ],
+    "openstelling": "Het hele jaar"
+  },
+  {
+    "titel": "Ameland - Waddenzee",
+    "lat_lng": [
+      53.439205,
+      5.77345
+    ],
+    "afbeelding": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Ameland-veerdam-hoofdafbeelding.webp",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/ameland-waddenzee/",
+    "cpt": "kitespot",
+    "icon": "toegestaan.png",
+    "beleid": [
+      "toegestaan"
+    ],
+    "windrichting": [
+      "West",
+      "Zuidwest",
+      "Zuid",
+      "Zuidoost"
+    ],
+    "discipline": [
+      "Freeride",
+      "Freestyle"
+    ],
+    "niveau": [
+      "Beginner"
+    ],
+    "waterdiepte": [
+      "Ondiep"
+    ],
+    "startzone": [
+      "Zand",
+      "Weinig ruimte"
+    ],
+    "openstelling": "Het hele jaar"
+  },
+  {
+    "titel": "Ameland - Noordzee",
+    "lat_lng": [
+      53.459965,
+      5.741499
+    ],
+    "afbeelding": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Ameland-NZ-hoofdbeeld.webp",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/ameland-noordzee/",
+    "cpt": "kitespot",
+    "icon": "toegestaan.png",
+    "beleid": [
+      "toegestaan"
+    ],
+    "windrichting": [
+      "Noord",
+      "Noordwest",
+      "Noordoost"
+    ],
+    "discipline": [
+      "Golfrijden",
+      "Freeride"
+    ],
+    "niveau": [
+      "Beginner"
+    ],
+    "waterdiepte": [
+      "Diep"
+    ],
+    "startzone": [
+      "Zand",
+      "Veel ruimte"
+    ],
+    "openstelling": "Het hele jaar"
+  },
+  {
+    "titel": "Zandvoort",
+    "lat_lng": [
+      52.365335113481585,
+      4.519105687744145
+    ],
+    "afbeelding": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Zandvoort-spotkaart-2.0.webp",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/zandvoort/",
+    "cpt": "kitespot",
+    "icon": "toegestaan.png",
+    "beleid": [
+      "toegestaan"
+    ],
+    "windrichting": [
+      "Noord",
+      "Noordwest",
+      "West",
+      "Zuidwest"
+    ],
+    "discipline": [
+      "Foilen",
+      "Golfrijden",
+      "Freeride"
+    ],
+    "niveau": [
+      "Gevorderd"
+    ],
+    "waterdiepte": [
+      "Diep"
+    ],
+    "startzone": [
+      "Zand",
+      "Veel ruimte"
+    ],
+    "openstelling": "Het hele jaar"
+  },
+  {
+    "titel": "Almere",
+    "lat_lng": [
+      52.34747029479037,
+      5.1335594920654115
+    ],
+    "afbeelding": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Scherm­afbeelding-2023-02-13-om-18.32.25.webp",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/almere/",
+    "cpt": "kitespot",
+    "icon": "toegestaan.png",
+    "beleid": [
+      "toegestaan"
+    ],
+    "windrichting": [
+      "Noord",
+      "Noordwest",
+      "West",
+      "Zuidwest"
+    ],
+    "discipline": [
+      "Foilen",
+      "Freeride"
+    ],
+    "niveau": [
+      "Gevorderd"
+    ],
+    "waterdiepte": [
+      "Diep"
+    ],
+    "startzone": [
+      "Zand",
+      "Veel ruimte"
+    ],
+    "openstelling": "Het hele jaar"
+  },
+  {
+    "titel": "Zuidlaardermeer",
+    "lat_lng": [
+      53.145409,
+      6.693851
+    ],
+    "afbeelding": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Zuidlaardermeer-hoofd­afbeelding.webp",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/zuidlaardermeer/",
+    "cpt": "kitespot",
+    "icon": "toegestaan.png",
+    "beleid": [
+      "toegestaan"
+    ],
+    "windrichting": [
+      "Zuidwest",
+      "Zuid",
+      "Zuidoost"
+    ],
+    "discipline": [
+      "Foilen",
+      "Freeride",
+      "Freestyle"
+    ],
+    "niveau": [
+      "Gevorderd"
+    ],
+    "waterdiepte": [
+      "Diep"
+    ],
+    "startzone": [
+      "Zand",
+      "Veel ruimte"
+    ],
+    "openstelling": "Het hele jaar"
+  },
+  {
+    "titel": "Scheveningen - Noorderstrand",
+    "lat_lng": [
+      52.105083,
+      4.26353
+    ],
+    "afbeelding": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2022/10/Scheveningen-noorderstrand-hoofdafbeelding.webp",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/scheveningen-noorderstrand/",
+    "cpt": "kitespot",
+    "icon": "toegestaan.png",
+    "beleid": [
+      "toegestaan"
+    ],
+    "windrichting": [
+      "Noord",
+      "Noordwest",
+      "West",
+      "Zuidwest",
+      "Noordoost"
+    ],
+    "discipline": [
+      "Foilen",
+      "Golfrijden",
+      "Freeride"
+    ],
+    "niveau": [
+      "Gevorderd"
+    ],
+    "waterdiepte": [
+      "Diep"
+    ],
+    "startzone": [
+      "Zand",
+      "Veel ruimte"
+    ],
+    "openstelling": "Het hele jaar"
+  },
+  {
+    "titel": "Den Haag - Zuiderstrand",
+    "lat_lng": [
+      52.09388607350487,
+      4.249607984130859
+    ],
+    "afbeelding": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2022/10/DH-zuiderstrand.webp",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/den-haag-zuiderstrand/",
+    "cpt": "kitespot",
+    "icon": "toegestaan.png",
+    "beleid": [
+      "toegestaan"
+    ],
+    "windrichting": [
+      "Noord",
+      "Noordwest",
+      "West",
+      "Zuidwest"
+    ],
+    "discipline": [
+      "Foilen",
+      "Golfrijden",
+      "Freeride"
+    ],
+    "niveau": [
+      "Gevorderd"
+    ],
+    "waterdiepte": [
+      "Diep"
+    ],
+    "startzone": [
+      "Zand",
+      "Veel ruimte"
+    ],
+    "openstelling": "Het hele jaar"
+  },
+  {
+    "titel": "Kijkduin - Zandmotor",
+    "lat_lng": [
+      52.05520313862568,
+      4.186521291015639
+    ],
+    "afbeelding": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2022/10/zandmotor.webp",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/zandmotor/",
+    "cpt": "kitespot",
+    "icon": "toegestaan.png",
+    "beleid": [
+      "toegestaan"
+    ],
+    "windrichting": [
+      "Noordwest",
+      "West",
+      "Zuidwest",
+      "Noordoost"
+    ],
+    "discipline": [
+      "Freeride",
+      "Freestyle"
+    ],
+    "niveau": [
+      "Beginner",
+      "Gevorderd"
+    ],
+    "waterdiepte": [
+      "Ondiep"
+    ],
+    "startzone": [
+      "Zand",
+      "Veel ruimte"
+    ],
+    "openstelling": "het hele jaar"
+  },
+  {
+    "titel": "s-Gravenzande (slag Beukel)",
+    "lat_lng": [
+      52.01080376683954,
+      4.138953867736808
+    ],
+    "afbeelding": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2022/10/My-project-1-2.webp",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/s-gravenzande-slag-beukel/",
+    "cpt": "kitespot",
+    "icon": "toegestaan.png",
+    "beleid": [
+      "toegestaan"
+    ],
+    "windrichting": [
+      "Noord",
+      "Noordwest",
+      "West",
+      "Zuidwest"
+    ],
+    "discipline": [
+      "Foilen",
+      "Golfrijden",
+      "Freeride",
+      "Freestyle"
+    ],
+    "niveau": [
+      "Gevorderd"
+    ],
+    "waterdiepte": [
+      "Diep"
+    ],
+    "startzone": [
+      "Zand",
+      "Veel ruimte"
+    ],
+    "openstelling": "Het hele jaar"
+  },
+  {
+    "titel": "Hoek van Holland, Hoekse Watersport Vereniging",
+    "lat_lng": [
+      51.99180432944537,
+      4.114208221435547
+    ],
+    "afbeelding": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2022/10/vlcsnap-2023-02-15-19h35m18s040.webp",
+    "permalink": "https://kitesurfvereniging.nl/kitespot/hoek-van-holland/",
+    "cpt": "kitespot",
+    "icon": "toegestaan.png",
+    "beleid": [
+      "toegestaan"
+    ],
+    "windrichting": [
+      "Noord",
+      "Noordwest",
+      "West",
+      "Zuidwest",
+      "Noordoost"
+    ],
+    "discipline": [
+      "Foilen",
+      "Golfrijden",
+      "Freeride"
+    ],
+    "niveau": [
+      "Gevorderd"
+    ],
+    "waterdiepte": [
+      "Diep"
+    ],
+    "startzone": [
+      "Zand",
+      "Veel ruimte"
+    ],
+    "openstelling": "Het hele jaar"
+  }
+]
