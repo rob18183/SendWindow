@@ -1,0 +1,98 @@
+[
+  {
+    "id": "zandvoort",
+    "name": "Zandvoort",
+    "lat": 52.373,
+    "lon": 4.533,
+    "good_dirs": [
+      {
+        "start": 210,
+        "end": 10
+      }
+    ],
+    "unsafe_dirs": [
+      {
+        "start": 80,
+        "end": 130
+      }
+    ]
+  },
+  {
+    "id": "brouwersdam",
+    "name": "Brouwersdam (Zee)",
+    "lat": 51.758,
+    "lon": 3.829,
+    "good_dirs": [
+      {
+        "start": 200,
+        "end": 20
+      }
+    ],
+    "unsafe_dirs": [
+      {
+        "start": 90,
+        "end": 120
+      }
+    ]
+  },
+  {
+    "id": "ijmuiden",
+    "name": "IJmuiden",
+    "lat": 52.457,
+    "lon": 4.566,
+    "good_dirs": [
+      {
+        "start": 210,
+        "end": 0
+      }
+    ],
+    "unsafe_dirs": [
+      {
+        "start": 90,
+        "end": 140
+      }
+    ]
+  },
+  {
+    "id": "scheveningen",
+    "name": "Scheveningen",
+    "lat": 52.115,
+    "lon": 4.269,
+    "good_dirs": [
+      {
+        "start": 200,
+        "end": 20
+      }
+    ],
+    "unsafe_dirs": [
+      {
+        "start": 80,
+        "end": 120
+      }
+    ]
+  },
+  {
+    "id": "workum",
+    "name": "Workum",
+    "lat": 52.964,
+    "lon": 5.421,
+    "good_dirs": [
+      {
+        "start": 180,
+        "end": 290
+      }
+    ]
+  },
+  {
+    "id": "mirns",
+    "name": "Mirns",
+    "lat": 52.853,
+    "lon": 5.467,
+    "good_dirs": [
+      {
+        "start": 180,
+        "end": 320
+      }
+    ]
+  }
+]
