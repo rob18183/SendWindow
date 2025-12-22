@@ -2,7 +2,7 @@ import { useEffect, useState, useMemo } from "react";
 import { Link } from "react-router-dom";
 import { useQueries, useQueryClient } from "@tanstack/react-query";
 import spots from "../../data/spots.nl.json";
-import { getUserLocation, haversineKm } from "../lib/geo";
+import { getUserLocation, haversineKm, reverseGeocode, geocodeAddress } from "../lib/geo";
 import { getHourlyForecast, ForecastHour } from "../lib/forecast";
 import { bestWindow } from "../lib/windows";
 import { compareSpots } from "../lib/comparator";
@@ -83,6 +83,10 @@ function fmtWindow(hours: { timeISO: string }[], start: number, end: number) {
 export default function Home() {
     const queryClient = useQueryClient();
     const [loc, setLoc] = useState<{ lat: number; lon: number } | null>(null);
+    const [locName, setLocName] = useState<string>("Locating...");
+    const [isManualLoc, setIsManualLoc] = useState(false);
+    const [manualAddress, setManualAddress] = useState("");
+
     const [radiusKm, setRadiusKm] = useState(50);
     const [initLocError, setInitLocError] = useState<string | null>(null);
 
@@ -92,8 +96,37 @@ export default function Home() {
     const [filterShallow, setFilterShallow] = useState(false);
 
     useEffect(() => {
-        getUserLocation().then(setLoc).catch((e) => setInitLocError(String(e?.message ?? e)));
-    }, []);
+        // Only auto-locate if we haven't manually set a location
+        if (!loc) {
+            getUserLocation().then(async (pos) => {
+                setLoc(pos);
+                setLocName("GPS Location"); // Temp
+                const name = await reverseGeocode(pos.lat, pos.lon);
+                setLocName(name);
+            }).catch((e) => {
+                setInitLocError(String(e?.message ?? e));
+                setLocName("Unknown");
+            });
+        }
+    }, [loc]);
+
+    const handleManualLocSubmit = async (e: React.FormEvent) => {
+        e.preventDefault();
+        if (!manualAddress) return;
+
+        setLocName("Searching...");
+        const res = await geocodeAddress(manualAddress);
+        if (res) {
+            setLoc({ lat: res.lat, lon: res.lon });
+            setLocName(res.name);
+            setIsManualLoc(false);
+            setInitLocError(null);
+        } else {
+            setLocName("Not found");
+            // Keep input open
+        }
+    };
+
 
     const inRange = useMemo(() => {
         if (!loc) return [];
@@ -165,7 +198,33 @@ export default function Home() {
     return (
         <div style={{ maxWidth: 560, margin: "0 auto", padding: 16 }}>
             <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 12 }}>
-                <h1 style={{ margin: 0 }}>SendWindow</h1>
+                <div>
+                    <h1 style={{ margin: 0 }}>SendWindow</h1>
+                    {/* Location Header */}
+                    {!isManualLoc ? (
+                        <div style={{ fontSize: 13, color: "#666", display: "flex", alignItems: "center", gap: 6 }}>
+                            📍 {locName}
+                            <button
+                                onClick={() => { setIsManualLoc(true); setManualAddress(""); }}
+                                style={{ background: "none", border: "1px solid #ddd", borderRadius: 4, cursor: "pointer", fontSize: 10, padding: "2px 6px" }}>
+                                Change
+                            </button>
+                        </div>
+                    ) : (
+                        <form onSubmit={handleManualLocSubmit} style={{ display: "flex", gap: 6, marginTop: 4 }}>
+                            <input
+                                value={manualAddress}
+                                onChange={e => setManualAddress(e.target.value)}
+                                placeholder="City or Town..."
+                                style={{ fontSize: 12, padding: 4, width: 120 }}
+                                autoFocus
+                            />
+                            <button type="submit" style={{ fontSize: 12, cursor: "pointer" }}>Set</button>
+                            <button type="button" onClick={() => setIsManualLoc(false)} style={{ fontSize: 12, cursor: "pointer", background: "none", border: "none" }}>✕</button>
+                        </form>
+                    )}
+                </div>
+
                 <div style={{ display: 'flex', gap: 12, alignItems: 'center' }}>
                     <button
                         onClick={handleRefresh}
