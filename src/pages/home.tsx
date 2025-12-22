@@ -13,6 +13,14 @@ type Spot = {
     id: string; name: string; lat: number; lon: number;
     good_dirs: { start: number; end: number }[];
     unsafe_dirs?: { start: number; end: number }[];
+    description?: string;
+    hazards?: string;
+    facilities?: string;
+    rules?: string;
+    level?: string[];
+    depth?: string[];
+    permalink?: string;
+    image?: string;
 };
 
 import { isToday, isTomorrow, format } from "date-fns";

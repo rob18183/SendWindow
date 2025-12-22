@@ -4,19 +4,36 @@
     "name": "Edam-Zuid",
     "lat": 52.515039462387506,
     "lon": 5.075016937231451,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/edam-zuid/",
+    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2024/12/Edam-Zuid.webp",
+    "level": [
+      "Beginner"
+    ],
+    "depth": [
+      "Diep"
+    ],
     "good_dirs": [
       {
         "start": 338,
         "end": 113
       }
     ],
-    "unsafe_dirs": []
+    "unsafe_dirs": [],
+    "last_scraped": "2025-12-22T14:59:25.403Z"
   },
   {
     "id": "rockanje-sportstrand",
     "name": "Rockanje Sportstrand",
     "lat": 51.8722925148425,
     "lon": 4.044898266162127,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/rockanje-sportstrand/",
+    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Hoofdafbeelding-Rockanje-1.webp",
+    "level": [
+      "Beginner"
+    ],
+    "depth": [
+      "Ondiep"
+    ],
     "good_dirs": [
       {
         "start": 158,
@@ -27,494 +44,871 @@
         "end": 338
       }
     ],
-    "unsafe_dirs": []
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet, Douche Openbaar vervoer Parkeergelegenheid Betaald Laadpalen aanwezig Ja 4",
+    "last_scraped": "2025-12-22T14:59:28.013Z"
   },
   {
     "id": "oudega-smallingerland",
     "name": "Oudega (Smallingerland)",
     "lat": 53.110239353451966,
     "lon": 5.98939415390626,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/oudega-smallingerland/",
+    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2024/02/Scherm­afbeelding-2024-02-26-om-17.38.49.webp",
+    "level": [
+      "Gevorderd"
+    ],
+    "depth": [
+      "Diep"
+    ],
     "good_dirs": [
       {
         "start": 203,
         "end": 338
       }
     ],
-    "unsafe_dirs": []
+    "unsafe_dirs": [],
+    "last_scraped": "2025-12-22T14:59:30.365Z"
   },
   {
     "id": "krabbendijke-roelshoek",
     "name": "Krabbendijke (Roelshoek)",
     "lat": 51.43539785126424,
     "lon": 4.125820029089797,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/krabbendijke-roelshoek/",
+    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/12/Krabbendijke-hoofdafbeelding.webp",
+    "level": [
+      "Beginner"
+    ],
+    "depth": [
+      "Ondiep"
+    ],
     "good_dirs": [
       {
         "start": 293,
         "end": 68
       }
     ],
-    "unsafe_dirs": []
+    "unsafe_dirs": [],
+    "last_scraped": "2025-12-22T14:59:32.632Z"
   },
   {
     "id": "zeewolde",
     "name": "Zeewolde",
     "lat": 52.32339737555348,
     "lon": 5.550357063452593,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/zeewolde/",
+    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/09/Zeewolde-hoofdafbeelding.webp",
+    "level": [
+      "Beginner"
+    ],
+    "depth": [
+      "Ondiep"
+    ],
     "good_dirs": [
       {
         "start": 338,
         "end": 203
       }
     ],
-    "unsafe_dirs": []
+    "unsafe_dirs": [],
+    "last_scraped": "2025-12-22T14:59:34.876Z"
   },
   {
     "id": "blaricum-gooimeer",
     "name": "Blaricum (Gooimeer)",
     "lat": 52.30012021577305,
     "lon": 5.3011256575805765,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/blaricum-gooimeer/",
+    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/05/Blaricum-droneshot-strand.webp",
+    "level": [
+      "Beginner"
+    ],
+    "depth": [
+      "Diep"
+    ],
     "good_dirs": [
       {
         "start": 248,
         "end": 68
       }
     ],
-    "unsafe_dirs": []
+    "unsafe_dirs": [],
+    "last_scraped": "2025-12-22T14:59:37.141Z"
   },
   {
     "id": "ijburg",
     "name": "IJburg",
     "lat": 52.355366956484595,
     "lon": 5.022668899658189,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/ijburg/",
+    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/03/IJburg-hoofd­afbeelding.webp",
+    "level": [
+      "Beginner"
+    ],
+    "depth": [
+      "Ondiep"
+    ],
     "good_dirs": [
       {
         "start": 293,
         "end": 113
       }
     ],
-    "unsafe_dirs": []
+    "unsafe_dirs": [],
+    "last_scraped": "2025-12-22T14:59:39.733Z"
   },
   {
     "id": "ijmuiden-zone-2-gem-velsen",
     "name": "IJmuiden Zone 2 (gem. Velsen)",
     "lat": 52.45534760270165,
     "lon": 4.556021537228991,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/ijmuiden-zone-2/",
+    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/02/Scherm­afbeelding-2023-02-13-om-18.20.44.webp",
+    "level": [
+      "Gevorderd"
+    ],
+    "depth": [
+      "Diep"
+    ],
     "good_dirs": [
       {
         "start": 158,
         "end": 338
       }
     ],
-    "unsafe_dirs": []
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet, Douche Openbaar vervoer Parkeergelegenheid Betaald Laadpalen aanwezig Onbekend",
+    "last_scraped": "2025-12-22T14:59:41.998Z"
   },
   {
     "id": "lauwersmeer",
     "name": "Lauwersmeer",
     "lat": 53.40750542014478,
     "lon": 6.161479462763526,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/lauwersmeer/",
+    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/02/Lauwersmeer-hoofdafbeelding.webp",
+    "level": [
+      "Beginner"
+    ],
+    "depth": [
+      "Diep"
+    ],
     "good_dirs": [
       {
         "start": 113,
         "end": 248
       }
     ],
-    "unsafe_dirs": []
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Openbaar vervoer Parkeergelegenheid Onbekend Laadpalen aanwezig Onbekend",
+    "last_scraped": "2025-12-22T14:59:44.505Z"
   },
   {
     "id": "medemblik",
     "name": "Medemblik",
     "lat": 52.755039,
     "lon": 5.125001,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/medemblik/",
+    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Medemblik-overzicht.webp",
+    "level": [
+      "Beginner",
+      "Gevorderd"
+    ],
+    "depth": [
+      "Ondiep"
+    ],
     "good_dirs": [
       {
         "start": 338,
         "end": 113
       }
     ],
-    "unsafe_dirs": []
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Openbaar vervoer Vanaf treinstation Hoorn gaan er bussen naar Medemblik, dan is het nog 15min lopen vanaf halte spooksingel. Parkeergelegenheid Gratis Laadpalen aanwezig Nee",
+    "last_scraped": "2025-12-22T14:59:47.081Z"
   },
   {
     "id": "makkum",
     "name": "Makkum",
     "lat": 53.05312,
     "lon": 5.376227,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/makkum/",
+    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Makkum-hoofdafbeelding.webp",
+    "level": [
+      "Beginner",
+      "Gevorderd",
+      "Expert"
+    ],
+    "depth": [
+      "Ondiep"
+    ],
     "good_dirs": [
       {
         "start": 158,
         "end": 23
       }
     ],
-    "unsafe_dirs": []
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer Parkeergelegenheid Gratis Laadpalen aanwezig Ja 2",
+    "last_scraped": "2025-12-22T14:59:49.532Z"
   },
   {
     "id": "midwolda-oldambtmeer",
     "name": "Midwolda Oldambtmeer",
     "lat": 53.193245,
     "lon": 7.027293,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/midwolda-oldambtmeer/",
+    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Midwolda-Oldambtmeer-hoofdafbeelding.webp",
+    "level": [
+      "Gevorderd"
+    ],
+    "depth": [
+      "Diep"
+    ],
     "good_dirs": [
       {
         "start": 68,
         "end": 158
       }
     ],
-    "unsafe_dirs": []
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Openbaar vervoer Parkeergelegenheid Onbekend Laadpalen aanwezig Onbekend",
+    "last_scraped": "2025-12-22T14:59:51.803Z"
   },
   {
     "id": "maasvlakte-2-slufter",
     "name": "Maasvlakte 2 - Slufter",
     "lat": 51.919079,
     "lon": 3.988189,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/slufter/",
+    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2021/07/De-slufter.webp",
+    "level": [
+      "Gevorderd"
+    ],
+    "depth": [
+      "Ondiep"
+    ],
     "good_dirs": [
       {
         "start": 158,
         "end": 293
       }
     ],
-    "unsafe_dirs": []
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Openbaar vervoer Parkeergelegenheid Gratis Laadpalen aanwezig Nee",
+    "last_scraped": "2025-12-22T14:59:54.300Z"
   },
   {
     "id": "maasvlakte-2-p5-en-p6",
     "name": "Maasvlakte 2 - P5 en P6",
     "lat": 51.951382,
     "lon": 3.966729,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/maasvlakte-p5p6/",
+    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Maasvlakte-2-P5.webp",
+    "level": [
+      "Gevorderd"
+    ],
+    "depth": [
+      "Diep"
+    ],
     "good_dirs": [
       {
         "start": 203,
         "end": 23
       }
     ],
-    "unsafe_dirs": []
+    "unsafe_dirs": [],
+    "last_scraped": "2025-12-22T14:59:56.573Z"
   },
   {
     "id": "mirns-t-mirnser-klif",
     "name": "Mirns ('t Mirnser Klif)",
     "lat": 52.850101,
     "lon": 5.481972,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/mirns/",
+    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/mirns_clif_DJI_0605.webp",
+    "level": [
+      "Beginner"
+    ],
+    "depth": [
+      "Ondiep"
+    ],
     "good_dirs": [
       {
         "start": 68,
         "end": 293
       }
     ],
-    "unsafe_dirs": []
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Openbaar vervoer Parkeergelegenheid Onbekend Laadpalen aanwezig Onbekend",
+    "last_scraped": "2025-12-22T14:59:59.052Z"
   },
   {
     "id": "maasvlakte-2-spot-p1-tm-p3",
     "name": "Maasvlakte 2 - Spot P1 t/m P3",
     "lat": 51.923229,
     "lon": 3.980946,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/maasvlakte-p1p3/",
+    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Maasvlakte-2-P3.webp",
+    "level": [
+      "Gevorderd"
+    ],
+    "depth": [
+      "Diep"
+    ],
     "good_dirs": [
       {
         "start": 158,
         "end": 338
       }
     ],
-    "unsafe_dirs": []
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Openbaar vervoer Parkeergelegenheid Gratis Laadpalen aanwezig Nee",
+    "last_scraped": "2025-12-22T15:00:01.742Z"
   },
   {
     "id": "monnickendam",
     "name": "Monnickendam",
     "lat": 52.459114,
     "lon": 5.053314,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/monnickendam/",
+    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Monnickendam-hoofd­afbeelding.webp",
+    "level": [
+      "Gevorderd"
+    ],
+    "depth": [
+      "Ondiep"
+    ],
     "good_dirs": [
       {
         "start": 338,
         "end": 23
       }
     ],
-    "unsafe_dirs": []
+    "unsafe_dirs": [],
+    "last_scraped": "2025-12-22T15:00:03.985Z"
   },
   {
     "id": "lemmer",
     "name": "Lemmer",
     "lat": 52.843899,
     "lon": 5.692941,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/lemmer/",
+    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Lemmer-hoofdafbeelding.webp",
+    "level": [
+      "Gevorderd"
+    ],
+    "depth": [
+      "Ondiep"
+    ],
     "good_dirs": [
       {
         "start": 158,
         "end": 293
       }
     ],
-    "unsafe_dirs": []
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer Parkeergelegenheid Onbekend Laadpalen aanwezig Onbekend",
+    "last_scraped": "2025-12-22T15:00:06.265Z"
   },
   {
     "id": "muiderberg",
     "name": "Muiderberg",
     "lat": 52.329876,
     "lon": 5.113459,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/muiderberg/",
+    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Muiderberg-hoofd­afbeelding.webp",
+    "level": [
+      "Beginner"
+    ],
+    "depth": [
+      "Ondiep"
+    ],
     "good_dirs": [
       {
         "start": 293,
         "end": 113
       }
     ],
-    "unsafe_dirs": []
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer Parkeergelegenheid Gratis Laadpalen aanwezig Onbekend",
+    "last_scraped": "2025-12-22T15:00:08.780Z"
   },
   {
     "id": "lelystad-trintelhaven",
     "name": "Lelystad - Trintelhaven",
     "lat": 52.636238,
     "lon": 5.413053,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/lelystad-trintelhaven/",
+    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Trintelhaven-hoofdafbeelding.webp",
+    "level": [
+      "Beginner"
+    ],
+    "depth": [
+      "Diep"
+    ],
     "good_dirs": [
       {
         "start": 338,
         "end": 158
       }
     ],
-    "unsafe_dirs": []
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer Parkeergelegenheid Gratis Laadpalen aanwezig Onbekend",
+    "last_scraped": "2025-12-22T15:00:11.095Z"
   },
   {
     "id": "neeltje-jans",
     "name": "Neeltje Jans",
     "lat": 51.62424172138486,
     "lon": 3.680559354492172,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/neeltje-jans/",
+    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Neeltjejans-hoofdafbeelding.webp",
+    "level": [
+      "Gevorderd"
+    ],
+    "depth": [
+      "Diep"
+    ],
     "good_dirs": [
       {
         "start": 203,
         "end": 23
       }
     ],
-    "unsafe_dirs": []
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Openbaar vervoer Parkeergelegenheid Onbekend Laadpalen aanwezig Onbekend",
+    "last_scraped": "2025-12-22T15:00:13.653Z"
   },
   {
     "id": "lelystad-bataviastrand",
     "name": "Lelystad - Bataviastrand",
     "lat": 52.524357,
     "lon": 5.424342,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/lelystad-bataviastrand/",
+    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Bataviastrand-kiten.webp",
+    "level": [
+      "Gevorderd"
+    ],
+    "depth": [
+      "Diep"
+    ],
     "good_dirs": [
       {
         "start": 158,
         "end": 23
       }
     ],
-    "unsafe_dirs": []
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Openbaar vervoer n.v.t. Parkeergelegenheid Gratis Laadpalen aanwezig Nee",
+    "last_scraped": "2025-12-22T15:00:16.200Z"
   },
   {
     "id": "noordwijk-aan-zee",
     "name": "Noordwijk aan Zee",
     "lat": 52.235806,
     "lon": 4.418844,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/noordwijk-aan-zee/",
+    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Noordwijk-hoofd­afbeelding.webp",
+    "level": [
+      "Gevorderd"
+    ],
+    "depth": [
+      "Diep"
+    ],
     "good_dirs": [
       {
         "start": 203,
         "end": 23
       }
     ],
-    "unsafe_dirs": []
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet, Douche, Materiaalopslag, Luchtpomp Openbaar vervoer Parkeergelegenheid Betaald Laadpalen aanwezig Onbekend",
+    "last_scraped": "2025-12-22T15:00:18.773Z"
   },
   {
     "id": "lauwersoog-waddenzee",
     "name": "Lauwersoog Waddenzee",
     "lat": 53.408802,
     "lon": 6.157198,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/lauwersoog-waddenzee/",
+    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Lauweroog-hoofdafbeelding.webp",
+    "level": [
+      "Beginner"
+    ],
+    "depth": [
+      "Ondiep"
+    ],
     "good_dirs": [
       {
         "start": 248,
         "end": 68
       }
     ],
-    "unsafe_dirs": []
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Eten, Drinken Openbaar vervoer Parkeergelegenheid Onbekend Laadpalen aanwezig Onbekend",
+    "last_scraped": "2025-12-22T15:00:21.090Z"
   },
   {
     "id": "tholen-oesterdam",
     "name": "Tholen Oesterdam",
     "lat": 51.460934,
     "lon": 4.221407,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/tholen-oesterdam/",
+    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Oesterdam-drone-01072021-049.webp",
+    "level": [
+      "Beginner"
+    ],
+    "depth": [
+      "Ondiep"
+    ],
     "good_dirs": [
       {
         "start": 158,
         "end": 23
       }
     ],
-    "unsafe_dirs": []
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Openbaar vervoer Geen openbaar vervoer beschikbaar Parkeergelegenheid Gratis Laadpalen aanwezig Nee",
+    "last_scraped": "2025-12-22T15:00:23.732Z"
   },
   {
     "id": "noordwijk-langevelderslag",
     "name": "Noordwijk Langevelderslag",
     "lat": 52.301853,
     "lon": 4.473199,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/noordwijk-langevelderslag/",
+    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Noordwijk-Langevelderslag-hoofdafbeelding.webp",
+    "level": [
+      "Gevorderd"
+    ],
+    "depth": [
+      "Diep"
+    ],
     "good_dirs": [
       {
         "start": 203,
         "end": 23
       }
     ],
-    "unsafe_dirs": []
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer Parkeergelegenheid Betaald Laadpalen aanwezig Onbekend",
+    "last_scraped": "2025-12-22T15:00:26.082Z"
   },
   {
     "id": "oostvoorne-noordzee",
     "name": "Oostvoorne Noordzee",
     "lat": 51.9151368,
     "lon": 4.0605978,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/oostvoorne-noordzee/",
+    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Oostvoorne-hoofdafbeelding.webp",
+    "level": [
+      "Beginner",
+      "Gevorderd"
+    ],
+    "depth": [
+      "Ondiep"
+    ],
     "good_dirs": [
       {
         "start": 203,
         "end": 23
       }
     ],
-    "unsafe_dirs": []
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer Parkeergelegenheid Betaald Laadpalen aanwezig Onbekend",
+    "last_scraped": "2025-12-22T15:00:28.844Z"
   },
   {
     "id": "kornwerderzand",
     "name": "Kornwerderzand",
     "lat": 53.074985705594734,
     "lon": 5.34412192065429,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/kornwerderzand/",
+    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Hoofdafbeelding-Kornwerder.webp",
+    "level": [
+      "Gevorderd",
+      "Expert"
+    ],
+    "depth": [
+      "Diep"
+    ],
     "good_dirs": [
       {
         "start": 0,
         "end": 360
       }
     ],
-    "unsafe_dirs": []
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer Parkeergelegenheid Gratis Laadpalen aanwezig Ja 2",
+    "last_scraped": "2025-12-22T15:00:31.648Z"
   },
   {
     "id": "oostvoornse-meer",
     "name": "Oostvoornse meer",
     "lat": 51.92918,
     "lon": 4.066458,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/oostvoornse-meer/",
+    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Oostvoornsemeer-hoofd­afbeelding.webp",
+    "level": [
+      "Gevorderd"
+    ],
+    "depth": [
+      "Ondiep"
+    ],
     "good_dirs": [
       {
         "start": 68,
         "end": 293
       }
     ],
-    "unsafe_dirs": []
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Eten, Toilet Openbaar vervoer Parkeergelegenheid Gratis Laadpalen aanwezig Onbekend",
+    "last_scraped": "2025-12-22T15:00:33.959Z"
   },
   {
     "id": "ouddorp",
     "name": "Ouddorp",
     "lat": 51.82172,
     "lon": 3.878164,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/ouddorp/",
+    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Ouddorp-hoofd­afbeelding.webp",
+    "level": [
+      "Gevorderd"
+    ],
+    "depth": [
+      "Diep"
+    ],
     "good_dirs": [
       {
         "start": 248,
         "end": 68
       }
     ],
-    "unsafe_dirs": []
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Openbaar vervoer Parkeergelegenheid Onbekend Laadpalen aanwezig Onbekend",
+    "last_scraped": "2025-12-22T15:00:36.245Z"
   },
   {
     "id": "ouwerkerk",
     "name": "Ouwerkerk",
     "lat": 51.616791,
     "lon": 3.961531,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/ouwerkerk/",
+    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Ouwerkerk-hoofdafbeelding.webp",
+    "level": [
+      "Beginner"
+    ],
+    "depth": [
+      "Ondiep"
+    ],
     "good_dirs": [
       {
         "start": 113,
         "end": 338
       }
     ],
-    "unsafe_dirs": []
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Openbaar vervoer Geen openbaar vervoer aanwezig. Parkeergelegenheid Gratis Laadpalen aanwezig Nee",
+    "last_scraped": "2025-12-22T15:00:38.788Z"
   },
   {
     "id": "kijkduin",
     "name": "Kijkduin",
     "lat": 52.066525,
     "lon": 4.21192,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/kijkduin/",
+    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Kijkduin-hoofd­afbeelding.webp",
+    "level": [
+      "Beginner",
+      "Gevorderd"
+    ],
+    "depth": [
+      "Diep"
+    ],
     "good_dirs": [
       {
         "start": 203,
         "end": 338
       }
     ],
-    "unsafe_dirs": []
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet, Douche, Materiaalopslag, Luchtpomp Openbaar vervoer Buslijn 24 en 26 Parkeergelegenheid Gratis Laadpalen aanwezig Onbekend",
+    "last_scraped": "2025-12-22T15:00:41.983Z"
   },
   {
     "id": "paulinapolder",
     "name": "Paulinapolder",
     "lat": 51.350422,
     "lon": 3.731831,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/paulinapolder/",
+    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Paulinapolder-hoofdafbeelding.webp",
+    "level": [
+      "Gevorderd"
+    ],
+    "depth": [
+      "Ondiep"
+    ],
     "good_dirs": [
       {
         "start": 293,
         "end": 68
       }
     ],
-    "unsafe_dirs": []
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Openbaar vervoer Parkeergelegenheid Onbekend Laadpalen aanwezig Onbekend",
+    "last_scraped": "2025-12-22T15:00:44.518Z"
   },
   {
     "id": "katwijk",
     "name": "Katwijk",
     "lat": 52.201435,
     "lon": 4.386593,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/katwijk/",
+    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Katwijk-hoofdafbeelding.webp",
+    "level": [
+      "Gevorderd"
+    ],
+    "depth": [
+      "Diep"
+    ],
     "good_dirs": [
       {
         "start": 203,
         "end": 23
       }
     ],
-    "unsafe_dirs": []
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet, Douche, Materiaalopslag, Luchtpomp Openbaar vervoer Parkeergelegenheid Betaald Laadpalen aanwezig Onbekend",
+    "last_scraped": "2025-12-22T15:00:49.509Z"
   },
   {
     "id": "petten-pettemer-zeewering",
     "name": "Petten (Pettemer Zeewering)",
     "lat": 52.763783,
     "lon": 4.649366,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/petten/",
+    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/IMG_7950.webp",
+    "level": [
+      "Gevorderd"
+    ],
+    "depth": [
+      "Diep"
+    ],
     "good_dirs": [
       {
         "start": 203,
         "end": 338
       }
     ],
-    "unsafe_dirs": []
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Openbaar vervoer Parkeergelegenheid Onbekend Laadpalen aanwezig Onbekend",
+    "last_scraped": "2025-12-22T15:00:54.133Z"
   },
   {
     "id": "julianadorp",
     "name": "Julianadorp",
     "lat": 52.895462,
     "lon": 4.711245,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/julianadorp/",
+    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Julianadorp-hoofdafbeelding.webp",
+    "level": [
+      "Gevorderd"
+    ],
+    "depth": [
+      "Diep"
+    ],
     "good_dirs": [
       {
         "start": 203,
         "end": 23
       }
     ],
-    "unsafe_dirs": []
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer Parkeergelegenheid Onbekend Laadpalen aanwezig Onbekend",
+    "last_scraped": "2025-12-22T15:00:56.659Z"
   },
   {
     "id": "reeuwijkse-plassen",
     "name": "Reeuwijkse plassen",
     "lat": 52.058559,
     "lon": 4.741474,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/reeuwijkse-plassen/",
+    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Reeuwijkseplassen-hoofd­afbeelding.webp",
+    "level": [
+      "Gevorderd"
+    ],
+    "depth": [
+      "Ondiep"
+    ],
     "good_dirs": [
       {
         "start": 23,
         "end": 158
       }
     ],
-    "unsafe_dirs": []
+    "unsafe_dirs": [],
+    "last_scraped": "2025-12-22T15:00:59.031Z"
   },
   {
     "id": "ijmuiderslag-gem-velsen",
     "name": "IJmuiderslag (gem. Velsen)",
     "lat": 52.446941,
     "lon": 4.555163,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/ijmuiderslag/",
+    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/IJmuiderslag-hoofd­afbeelding.webp",
+    "level": [
+      "Beginner"
+    ],
+    "depth": [
+      "Diep"
+    ],
     "good_dirs": [
       {
         "start": 158,
         "end": 23
       }
     ],
-    "unsafe_dirs": []
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet, Douche, Luchtpomp Openbaar vervoer Indien je met het openbaar vervoer komt dan is de bushalte ongeveer 20 minuten van de spot vandaan. De bus stopt bij Camping de Duindoorn, IJmuiden. Parkeergelegenheid Betaald Laadpalen aanwezig Ja 3",
+    "last_scraped": "2025-12-22T15:01:01.624Z"
   },
   {
     "id": "rilland-bath-zimmermangeul",
     "name": "Rilland-Bath (Zimmermangeul)",
     "lat": 51.394615,
     "lon": 4.1494,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/rilland-bath-zimmermangeul/",
+    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Rilland-hoofd­afbeelding.webp",
+    "level": [
+      "Expert"
+    ],
+    "depth": [
+      "Diep"
+    ],
     "good_dirs": [
       {
         "start": 338,
         "end": 23
       }
     ],
-    "unsafe_dirs": []
+    "unsafe_dirs": [],
+    "last_scraped": "2025-12-22T15:01:04.291Z"
   },
   {
     "id": "ijmuiden-zone-1-gem-velsen",
     "name": "IJmuiden Zone 1 (gem. Velsen)",
     "lat": 52.456356,
     "lon": 4.551214,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/ijmuiden/",
+    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/IJmuiden-zone-1-hoofd­afbeelding.webp",
+    "level": [
+      "Beginner"
+    ],
+    "depth": [
+      "Diep"
+    ],
     "good_dirs": [
       {
         "start": 158,
@@ -525,52 +919,91 @@
         "end": 338
       }
     ],
-    "unsafe_dirs": []
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet, Douche, Luchtpomp Openbaar vervoer Parkeergelegenheid Betaald Laadpalen aanwezig Nee",
+    "last_scraped": "2025-12-22T15:01:06.908Z"
   },
   {
     "id": "rockanje-badstrand",
     "name": "Rockanje Badstrand",
     "lat": 51.865685260091375,
     "lon": 4.0513472685071905,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/rockanje/",
+    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Hoofdafbeelding-Rockanje-1.webp",
+    "level": [
+      "Beginner",
+      "Gevorderd"
+    ],
+    "depth": [
+      "Ondiep"
+    ],
     "good_dirs": [
       {
         "start": 158,
         "end": 338
       }
     ],
-    "unsafe_dirs": []
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet, Douche Openbaar vervoer Parkeergelegenheid Betaald Laadpalen aanwezig Ja 4",
+    "last_scraped": "2025-12-22T15:01:09.491Z"
   },
   {
     "id": "huizen",
     "name": "Huizen",
     "lat": 52.306889528808476,
     "lon": 5.256627349121112,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/huizen/",
+    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Huizen.webp",
+    "level": [
+      "Beginner"
+    ],
+    "depth": [
+      "Diep"
+    ],
     "good_dirs": [
       {
         "start": 338,
         "end": 23
       }
     ],
-    "unsafe_dirs": []
+    "unsafe_dirs": [],
+    "last_scraped": "2025-12-22T15:01:11.747Z"
   },
   {
     "id": "hoorn-stadstrand",
     "name": "Hoorn Stadstrand",
     "lat": 52.636536,
     "lon": 5.038187,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/hoorn-stadstrand/",
+    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Hoorn-hoofdafbeelding.webp",
+    "level": [
+      "Gevorderd"
+    ],
+    "depth": [
+      "Ondiep"
+    ],
     "good_dirs": [
       {
         "start": 23,
         "end": 203
       }
     ],
-    "unsafe_dirs": []
+    "unsafe_dirs": [],
+    "last_scraped": "2025-12-22T15:01:13.988Z"
   },
   {
     "id": "kamperland-roompot-xbeach",
     "name": "Kamperland - Roompot XBeach",
     "lat": 51.592909111403124,
     "lon": 3.7313782540283214,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/kamperland/",
+    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Roompot-Kamperland-hoofd­afbeelding.webp",
+    "level": [
+      "Beginner"
+    ],
+    "depth": [
+      "Ondiep"
+    ],
     "good_dirs": [
       {
         "start": 68,
@@ -581,117 +1014,206 @@
         "end": 23
       }
     ],
-    "unsafe_dirs": []
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer Parkeergelegenheid Onbekend Laadpalen aanwezig Onbekend",
+    "last_scraped": "2025-12-22T15:01:16.265Z"
   },
   {
     "id": "schellinkhout",
     "name": "Schellinkhout",
     "lat": 52.632278,
     "lon": 5.120788,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/schellinkhout/",
+    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Schellinkhout-hoofdafbeelding.webp",
+    "level": [
+      "Beginner"
+    ],
+    "depth": [
+      "Ondiep"
+    ],
     "good_dirs": [
       {
         "start": 113,
         "end": 293
       }
     ],
-    "unsafe_dirs": []
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer Parkeergelegenheid Gratis Laadpalen aanwezig Nee",
+    "last_scraped": "2025-12-22T15:01:22.583Z"
   },
   {
     "id": "hindeloopen",
     "name": "Hindeloopen",
     "lat": 52.93354,
     "lon": 5.403361,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/hindeloopen/",
+    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Hoofdafbeelding-Hindeloopen.webp",
+    "level": [
+      "Beginner"
+    ],
+    "depth": [
+      "Diep"
+    ],
     "good_dirs": [
       {
         "start": 158,
         "end": 338
       }
     ],
-    "unsafe_dirs": []
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Openbaar vervoer Parkeergelegenheid Gratis Laadpalen aanwezig Onbekend",
+    "last_scraped": "2025-12-22T15:01:25.203Z"
   },
   {
     "id": "scheveningen-zwarte-pad",
     "name": "Scheveningen - Zwarte Pad",
     "lat": 52.1173477,
     "lon": 4.2894255,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/scheveningen-zwarte-pad/",
+    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Scheveningen-zwarte-pad-hoofdafbeelding.webp",
+    "level": [
+      "Gevorderd"
+    ],
+    "depth": [
+      "Diep"
+    ],
     "good_dirs": [
       {
         "start": 203,
         "end": 68
       }
     ],
-    "unsafe_dirs": []
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet, Douche, Materiaalopslag, Luchtpomp Openbaar vervoer Tram 1 / tram 9 (Vanaf CS en HS), Bus 21 / 23. Eindhalte Zwarte Pad Parkeergelegenheid Betaald Laadpalen aanwezig Ja 4",
+    "last_scraped": "2025-12-22T15:01:27.512Z"
   },
   {
     "id": "harlingen-waddenzee",
     "name": "Harlingen - Waddenzee",
     "lat": 53.166355,
     "lon": 5.415011,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/harlingen-waddenzee/",
+    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Harlingen-hoofdafbeelding.webp",
+    "level": [
+      "Gevorderd"
+    ],
+    "depth": [
+      "Ondiep"
+    ],
     "good_dirs": [
       {
         "start": 203,
         "end": 338
       }
     ],
-    "unsafe_dirs": []
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet, Douche Openbaar vervoer Parkeergelegenheid Onbekend Laadpalen aanwezig Onbekend",
+    "last_scraped": "2025-12-22T15:01:29.849Z"
   },
   {
     "id": "hellevoetsluis-haringvliet",
     "name": "Hellevoetsluis - Haringvliet",
     "lat": 51.82063570886251,
     "lon": 4.159093814880372,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/hellevoetsluis-haringvliet/",
+    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Hellevoetsluis-hoofd­afbeelding.webp",
+    "level": [
+      "Beginner"
+    ],
+    "depth": [
+      "Diep"
+    ],
     "good_dirs": [
       {
         "start": 158,
         "end": 293
       }
     ],
-    "unsafe_dirs": []
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Openbaar vervoer Parkeergelegenheid Gratis Laadpalen aanwezig Nee",
+    "last_scraped": "2025-12-22T15:01:32.227Z"
   },
   {
     "id": "groot-valkenisse",
     "name": "Groot Valkenisse",
     "lat": 51.491982,
     "lon": 3.495714,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/groot-valkenisse/",
+    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Groot-Valkenisse-hoofdafbeelding.webp",
+    "level": [
+      "Gevorderd"
+    ],
+    "depth": [
+      "Diep"
+    ],
     "good_dirs": [
       {
         "start": 158,
         "end": 293
       }
     ],
-    "unsafe_dirs": []
+    "unsafe_dirs": [],
+    "last_scraped": "2025-12-22T15:01:34.469Z"
   },
   {
     "id": "schiermonnikoog-noordzee-paal-3-5",
     "name": "Schiermonnikoog (Noordzee: Paal 3-5)",
     "lat": 53.504333,
     "lon": 6.180988,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/schiermonnikoog-noordzee/",
+    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Schiermonnikoog-Noordzee-hoofd­afbeelding.webp",
+    "level": [
+      "Beginner"
+    ],
+    "depth": [
+      "Diep"
+    ],
     "good_dirs": [
       {
         "start": 203,
         "end": 113
       }
     ],
-    "unsafe_dirs": []
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer Met het veer en de bus Parkeergelegenheid Onbekend Laadpalen aanwezig Onbekend",
+    "last_scraped": "2025-12-22T15:01:37.037Z"
   },
   {
     "id": "grevelingendam-zuid",
     "name": "Grevelingendam - Zuid",
     "lat": 51.674713,
     "lon": 4.13996,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/grevelingendam-zuid/",
+    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Grevelingendam-hoofdafbeelding.webp",
+    "level": [
+      "Beginner"
+    ],
+    "depth": [
+      "Ondiep"
+    ],
     "good_dirs": [
       {
         "start": 158,
         "end": 293
       }
     ],
-    "unsafe_dirs": []
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer Parkeergelegenheid Onbekend Laadpalen aanwezig Onbekend",
+    "last_scraped": "2025-12-22T15:01:39.359Z"
   },
   {
     "id": "grevelingendam-noord",
     "name": "Grevelingendam - Noord",
     "lat": 51.679256,
     "lon": 4.137328,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/grevelingendam-noord/",
+    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Grevelingen.webp",
+    "level": [
+      "Gevorderd"
+    ],
+    "depth": [
+      "Ondiep"
+    ],
     "good_dirs": [
       {
         "start": 68,
@@ -702,169 +1224,299 @@
         "end": 23
       }
     ],
-    "unsafe_dirs": []
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer Parkeergelegenheid Gratis Laadpalen aanwezig Nee",
+    "last_scraped": "2025-12-22T15:01:41.611Z"
   },
   {
     "id": "stavoren-it-suderstrand",
     "name": "Stavoren - it Suderstrand",
     "lat": 52.87193795015575,
     "lon": 5.369856820778169,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/stavoren/",
+    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/stavoren_DJI_0566.webp",
+    "level": [
+      "Gevorderd",
+      "Expert"
+    ],
+    "depth": [
+      "Diep"
+    ],
     "good_dirs": [
       {
         "start": 158,
         "end": 293
       }
     ],
-    "unsafe_dirs": []
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer Parkeergelegenheid Onbekend Laadpalen aanwezig Onbekend",
+    "last_scraped": "2025-12-22T15:01:44.269Z"
   },
   {
     "id": "enkhuizen",
     "name": "Enkhuizen",
     "lat": 52.714832,
     "lon": 5.288304,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/enkhuizen/",
+    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Enkhuizen-hoofdafbeelding.webp",
+    "level": [
+      "Gevorderd"
+    ],
+    "depth": [
+      "Ondiep"
+    ],
     "good_dirs": [
       {
         "start": 23,
         "end": 158
       }
     ],
-    "unsafe_dirs": []
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Openbaar vervoer Parkeergelegenheid Gratis Laadpalen aanwezig Nee",
+    "last_scraped": "2025-12-22T15:01:46.536Z"
   },
   {
     "id": "strand-horst",
     "name": "Strand Horst",
     "lat": 52.32291,
     "lon": 5.570562,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/strand-horst/",
+    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Strand-Horst-hoofdafbeelding.webp",
+    "level": [
+      "Beginner"
+    ],
+    "depth": [
+      "Ondiep"
+    ],
     "good_dirs": [
       {
         "start": 203,
         "end": 23
       }
     ],
-    "unsafe_dirs": []
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer Parkeergelegenheid Betaald Laadpalen aanwezig Onbekend",
+    "last_scraped": "2025-12-22T15:01:49.275Z"
   },
   {
     "id": "elburg",
     "name": "Elburg",
     "lat": 52.455063,
     "lon": 5.817958,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/elburg/",
+    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Elburg.webp",
+    "level": [
+      "Gevorderd"
+    ],
+    "depth": [
+      "Ondiep"
+    ],
     "good_dirs": [
       {
         "start": 158,
         "end": 293
       }
     ],
-    "unsafe_dirs": []
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Openbaar vervoer Parkeergelegenheid Onbekend Laadpalen aanwezig Onbekend",
+    "last_scraped": "2025-12-22T15:01:52.003Z"
   },
   {
     "id": "egmond-binnenaan-zee",
     "name": "Egmond Binnen/aan Zee",
     "lat": 52.613762,
     "lon": 4.616011,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/egmond-binnen-en-aan-zee/",
+    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Egmond-hoof­afbeelding.webp",
+    "level": [
+      "Gevorderd"
+    ],
+    "depth": [
+      "Ondiep"
+    ],
     "good_dirs": [
       {
         "start": 203,
         "end": 338
       }
     ],
-    "unsafe_dirs": []
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet, Douche Openbaar vervoer Parkeergelegenheid Betaald Laadpalen aanwezig Onbekend",
+    "last_scraped": "2025-12-22T15:01:54.588Z"
   },
   {
     "id": "eemshaven",
     "name": "Eemshaven",
     "lat": 53.454723,
     "lon": 6.796758,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/eemshaven/",
+    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Eemshaven-hoofd­afbeelding.webp",
+    "level": [
+      "Beginner"
+    ],
+    "depth": [
+      "Ondiep"
+    ],
     "good_dirs": [
       {
         "start": 293,
         "end": 68
       }
     ],
-    "unsafe_dirs": []
+    "unsafe_dirs": [],
+    "last_scraped": "2025-12-22T15:01:56.825Z"
   },
   {
     "id": "terneuzen-put-van",
     "name": "Terneuzen (put van)",
     "lat": 51.337162,
     "lon": 3.839594,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/terneuzen/",
+    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Terneuzen-put-van-hoofdafbeelding.webp",
+    "level": [
+      "Beginner"
+    ],
+    "depth": [
+      "Ondiep"
+    ],
     "good_dirs": [
       {
         "start": 293,
         "end": 113
       }
     ],
-    "unsafe_dirs": []
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Openbaar vervoer Parkeergelegenheid Onbekend Laadpalen aanwezig Onbekend",
+    "last_scraped": "2025-12-22T15:01:59.311Z"
   },
   {
     "id": "edam-noord-galgenveld",
     "name": "Edam Noord - Galgenveld",
     "lat": 52.52256,
     "lon": 5.067095,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/edam-noord-galgenveld/",
+    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Edam-Noord-hoofdafbeelding.webp",
+    "level": [
+      "Expert"
+    ],
+    "depth": [
+      "Ondiep"
+    ],
     "good_dirs": [
       {
         "start": 23,
         "end": 158
       }
     ],
-    "unsafe_dirs": []
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Openbaar vervoer Parkeergelegenheid Gratis Laadpalen aanwezig Nee",
+    "last_scraped": "2025-12-22T15:02:02.408Z"
   },
   {
     "id": "domburg",
     "name": "Domburg",
     "lat": 51.552254,
     "lon": 3.461647,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/domburg/",
+    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Domburg-hoofdafbeelding.webp",
+    "level": [
+      "Expert"
+    ],
+    "depth": [
+      "Diep"
+    ],
     "good_dirs": [
       {
         "start": 248,
         "end": 23
       }
     ],
-    "unsafe_dirs": []
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer Parkeergelegenheid Betaald Laadpalen aanwezig Onbekend",
+    "last_scraped": "2025-12-22T15:02:04.758Z"
   },
   {
     "id": "terschelling-noordzee",
     "name": "Terschelling - Noordzee",
     "lat": 53.409386,
     "lon": 5.280458,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/terschelling-noordzee/",
+    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Terschelling-Noordzee-hoofdafbeelding.webp",
+    "level": [
+      "Beginner"
+    ],
+    "depth": [
+      "Diep"
+    ],
     "good_dirs": [
       {
         "start": 293,
         "end": 68
       }
     ],
-    "unsafe_dirs": []
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer bus vanaf 31 maart t/m 31 oktober, check: https://www.bus-terschelling.nl/zomerdienstregeling-2023/#lijn2 Parkeergelegenheid Gratis Laadpalen aanwezig Onbekend",
+    "last_scraped": "2025-12-22T15:02:07.032Z"
   },
   {
     "id": "den-helder-huisduinen",
     "name": "Den Helder - Huisduinen",
     "lat": 52.953239,
     "lon": 4.720852,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/den-helder-huisduinen/",
+    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/02/Huisduinen-hoofdafbeelding.webp",
+    "level": [
+      "Gevorderd"
+    ],
+    "depth": [
+      "Diep"
+    ],
     "good_dirs": [
       {
         "start": 203,
         "end": 23
       }
     ],
-    "unsafe_dirs": []
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer Parkeergelegenheid Gratis Laadpalen aanwezig Onbekend",
+    "last_scraped": "2025-12-22T15:02:09.335Z"
   },
   {
     "id": "terschelling-groene-strand",
     "name": "Terschelling - Groene Strand",
     "lat": 53.355141,
     "lon": 5.21029,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/terschelling-groene-strand/",
+    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Terschelling-groenestrand-hoofd­afbeelding.webp",
+    "level": [
+      "Beginner"
+    ],
+    "depth": [
+      "Ondiep"
+    ],
     "good_dirs": [
       {
         "start": 113,
         "end": 248
       }
     ],
-    "unsafe_dirs": []
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer circa 400m lopen vanaf busstation/veerboot en 1 km vanaf de jachthaven Parkeergelegenheid Gratis Laadpalen aanwezig Nee",
+    "last_scraped": "2025-12-22T15:02:11.622Z"
   },
   {
     "id": "texel-paal-176-1899-en-282-32",
     "name": "Texel Paal 17.6 - 18.99 en 28.2 - 32",
     "lat": 53.078442,
     "lon": 4.731828,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/texel/",
+    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Texel-Paal-17-etc-hoofd­afbeelding.webp",
+    "level": [
+      "Gevorderd"
+    ],
+    "depth": [
+      "Diep"
+    ],
     "good_dirs": [
       {
         "start": 203,
@@ -875,26 +1527,46 @@
         "end": 23
       }
     ],
-    "unsafe_dirs": []
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Openbaar vervoer Parkeergelegenheid Onbekend Laadpalen aanwezig Onbekend",
+    "last_scraped": "2025-12-22T15:02:14.120Z"
   },
   {
     "id": "texel-noord-oost",
     "name": "Texel Noord-oost",
     "lat": 53.178222562677476,
     "lon": 4.864385107210651,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/texel-noord-oost/",
+    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Texel-noord-oost-hoofd­afbeelding.webp",
+    "level": [
+      "Gevorderd"
+    ],
+    "depth": [
+      "Diep"
+    ],
     "good_dirs": [
       {
         "start": 338,
         "end": 23
       }
     ],
-    "unsafe_dirs": []
+    "unsafe_dirs": [],
+    "last_scraped": "2025-12-22T15:02:16.505Z"
   },
   {
     "id": "delfzijl",
     "name": "Delfzijl",
     "lat": 53.33453,
     "lon": 6.931337,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/delfzijl/",
+    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Delfzijl-hoofd­afbeelding.webp",
+    "level": [
+      "Beginner",
+      "Gevorderd"
+    ],
+    "depth": [
+      "Ondiep"
+    ],
     "good_dirs": [
       {
         "start": 23,
@@ -905,39 +1577,71 @@
         "end": 338
       }
     ],
-    "unsafe_dirs": []
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Openbaar vervoer Parkeergelegenheid Onbekend Laadpalen aanwezig Onbekend",
+    "last_scraped": "2025-12-22T15:02:18.772Z"
   },
   {
     "id": "texel-dijkmanshuizen-wadzijde",
     "name": "Texel - Dijkmanshuizen (Wadzijde)",
     "lat": 53.064888,
     "lon": 4.873644,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/texel-dijkmanshuizen/",
+    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Texel-Dijkmanshuizen-hoofdafbeelding.webp",
+    "level": [
+      "Gevorderd"
+    ],
+    "depth": [
+      "Ondiep"
+    ],
     "good_dirs": [
       {
         "start": 68,
         "end": 203
       }
     ],
-    "unsafe_dirs": []
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Openbaar vervoer Parkeergelegenheid Onbekend Laadpalen aanwezig Onbekend",
+    "last_scraped": "2025-12-22T15:02:21.067Z"
   },
   {
     "id": "castricum-aan-zee",
     "name": "Castricum aan Zee",
     "lat": 52.556786,
     "lon": 4.605667,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/castricum-aan-zee/",
+    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/castricum.webp",
+    "level": [
+      "Beginner",
+      "Gevorderd"
+    ],
+    "depth": [
+      "Diep"
+    ],
     "good_dirs": [
       {
         "start": 158,
         "end": 23
       }
     ],
-    "unsafe_dirs": []
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet, Douche, Materiaalopslag, Luchtpomp Openbaar vervoer Parkeergelegenheid Betaald Laadpalen aanwezig Onbekend",
+    "last_scraped": "2025-12-22T15:02:23.689Z"
   },
   {
     "id": "tjeukemeer",
     "name": "Tjeukemeer",
     "lat": 52.874748856751886,
     "lon": 5.817690721565243,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/tjeukemeer/",
+    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Tjeukemeer-spotkaart-2.0.webp",
+    "level": [
+      "Beginner",
+      "Gevorderd"
+    ],
+    "depth": [
+      "Ondiep"
+    ],
     "good_dirs": [
       {
         "start": 248,
@@ -948,104 +1652,183 @@
         "end": 113
       }
     ],
-    "unsafe_dirs": []
+    "unsafe_dirs": [],
+    "last_scraped": "2025-12-22T15:02:25.938Z"
   },
   {
     "id": "camperduin",
     "name": "Camperduin",
     "lat": 52.7283090428019,
     "lon": 4.639765275146468,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/camperduin/",
+    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Camperduin-hoofdafbeelding.webp",
+    "level": [
+      "Beginner",
+      "Gevorderd",
+      "Expert"
+    ],
+    "depth": [
+      "Diep"
+    ],
     "good_dirs": [
       {
         "start": 158,
         "end": 23
       }
     ],
-    "unsafe_dirs": []
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet, Douche, Materiaalopslag Openbaar vervoer Parkeergelegenheid Betaald Laadpalen aanwezig Nee",
+    "last_scraped": "2025-12-22T15:02:28.245Z"
   },
   {
     "id": "vlieland-wadkant",
     "name": "Vlieland Wadkant",
     "lat": 53.237576,
     "lon": 4.964422,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/vlieland-wadkant/",
+    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Vlieland-wadzijde-hoofd­afbeelding.webp",
+    "level": [
+      "Beginner"
+    ],
+    "depth": [
+      "Diep"
+    ],
     "good_dirs": [
       {
         "start": 113,
         "end": 248
       }
     ],
-    "unsafe_dirs": []
+    "unsafe_dirs": [],
+    "last_scraped": "2025-12-22T15:02:30.538Z"
   },
   {
     "id": "callantsoog",
     "name": "Callantsoog",
     "lat": 52.840599,
     "lon": 4.691325,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/callantsoog/",
+    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Callantsoog-hoofd­afbeelding.webp",
+    "level": [
+      "Gevorderd"
+    ],
+    "depth": [
+      "Diep"
+    ],
     "good_dirs": [
       {
         "start": 203,
         "end": 23
       }
     ],
-    "unsafe_dirs": []
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer Parkeergelegenheid Onbekend Laadpalen aanwezig Onbekend",
+    "last_scraped": "2025-12-22T15:02:32.879Z"
   },
   {
     "id": "vlieland-noordzee",
     "name": "Vlieland Noordzee",
     "lat": 53.304478,
     "lon": 5.048718,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/vlieland-noordzee/",
+    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Vlieland-Noordzee-hoofdafbeelding.webp",
+    "level": [
+      "Beginner"
+    ],
+    "depth": [
+      "Diep"
+    ],
     "good_dirs": [
       {
         "start": 248,
         "end": 68
       }
     ],
-    "unsafe_dirs": []
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer Parkeergelegenheid Onbekend Laadpalen aanwezig Onbekend",
+    "last_scraped": "2025-12-22T15:02:35.202Z"
   },
   {
     "id": "cadzand-bad-west",
     "name": "Cadzand-bad - West",
     "lat": 51.373165,
     "lon": 3.368118,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/cadzand-bad-west/",
+    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/cadzand2.webp",
+    "level": [
+      "Beginner"
+    ],
+    "depth": [
+      "Diep"
+    ],
     "good_dirs": [
       {
         "start": 203,
         "end": 23
       }
     ],
-    "unsafe_dirs": []
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer Parkeergelegenheid Onbekend Laadpalen aanwezig Onbekend",
+    "last_scraped": "2025-12-22T15:02:37.500Z"
   },
   {
     "id": "vlissingen",
     "name": "Vlissingen",
     "lat": 51.445332,
     "lon": 3.561992,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/vlissingen/",
+    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Vlissingen-hoofd­afbeelding.webp",
+    "level": [
+      "Beginner"
+    ],
+    "depth": [
+      "Diep"
+    ],
     "good_dirs": [
       {
         "start": 338,
         "end": 23
       }
     ],
-    "unsafe_dirs": []
+    "unsafe_dirs": [],
+    "last_scraped": "2025-12-22T15:02:40.030Z"
   },
   {
     "id": "cadzand-bad-vlamingpolder",
     "name": "Cadzand-bad - Vlamingpolder",
     "lat": 51.385365,
     "lon": 3.404863,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/cadzand-bad-vlamingpolder/",
+    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/cadzand2.webp",
+    "level": [
+      "Gevorderd"
+    ],
+    "depth": [
+      "Diep"
+    ],
     "good_dirs": [
       {
         "start": 248,
         "end": 23
       }
     ],
-    "unsafe_dirs": []
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer Parkeergelegenheid Onbekend Laadpalen aanwezig Onbekend",
+    "last_scraped": "2025-12-22T15:02:42.456Z"
   },
   {
     "id": "vrouwenpolder",
     "name": "Vrouwenpolder",
     "lat": 51.591873,
     "lon": 3.632949,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/vrouwenpolder/",
+    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Vrouwenpolder-hoofdafbeelding.webp",
+    "level": [
+      "Beginner"
+    ],
+    "depth": [
+      "Diep"
+    ],
     "good_dirs": [
       {
         "start": 248,
@@ -1056,65 +1839,114 @@
         "end": 113
       }
     ],
-    "unsafe_dirs": []
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet, Douche, Luchtpomp Openbaar vervoer Parkeergelegenheid Betaald Laadpalen aanwezig Onbekend",
+    "last_scraped": "2025-12-22T15:02:44.703Z"
   },
   {
     "id": "brouwersdam",
     "name": "Brouwersdam",
     "lat": 51.760532,
     "lon": 3.842414,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/brouwersdam/",
+    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Brouwersdam-hoofd­afbeelding.webp",
+    "level": [
+      "Beginner"
+    ],
+    "depth": [
+      "Ondiep"
+    ],
     "good_dirs": [
       {
         "start": 203,
         "end": 23
       }
     ],
-    "unsafe_dirs": []
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet, Douche, Luchtpomp Openbaar vervoer Parkeergelegenheid Gratis Laadpalen aanwezig Onbekend",
+    "last_scraped": "2025-12-22T15:02:47.000Z"
   },
   {
     "id": "breskens-oost",
     "name": "Breskens Oost",
     "lat": 51.40062194272245,
     "lon": 3.559299638623048,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/breskens-oost/",
+    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Breskens-hoofd­afbeelding.webp",
+    "level": [
+      "Beginner"
+    ],
+    "depth": [
+      "Ondiep"
+    ],
     "good_dirs": [
       {
         "start": 293,
         "end": 68
       }
     ],
-    "unsafe_dirs": []
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer Parkeergelegenheid Gratis Laadpalen aanwezig Onbekend",
+    "last_scraped": "2025-12-22T15:02:49.246Z"
   },
   {
     "id": "warder",
     "name": "Warder",
     "lat": 52.565662,
     "lon": 5.033157,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/warder/",
+    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Warder-hoofdscherm-afbeelding.webp",
+    "level": [
+      "Beginner"
+    ],
+    "depth": [
+      "Ondiep"
+    ],
     "good_dirs": [
       {
         "start": 338,
         "end": 158
       }
     ],
-    "unsafe_dirs": []
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Openbaar vervoer Parkeergelegenheid Gratis Laadpalen aanwezig Onbekend",
+    "last_scraped": "2025-12-22T15:02:51.550Z"
   },
   {
     "id": "braassemermeer",
     "name": "Braassemermeer",
     "lat": 52.197262,
     "lon": 4.668126,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/braassemermeer/",
+    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Braassemermeer-hoofdafbeelding.webp",
+    "level": [
+      "Gevorderd"
+    ],
+    "depth": [
+      "Diep"
+    ],
     "good_dirs": [
       {
         "start": 158,
         "end": 338
       }
     ],
-    "unsafe_dirs": []
+    "unsafe_dirs": [],
+    "last_scraped": "2025-12-22T15:02:53.850Z"
   },
   {
     "id": "wassenaarse-slag",
     "name": "Wassenaarse slag",
     "lat": 52.163361,
     "lon": 4.34611,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/wassenaarse-slag/",
+    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Wassenaarseslag-hoofdafbeelding.webp",
+    "level": [
+      "Gevorderd"
+    ],
+    "depth": [
+      "Diep"
+    ],
     "good_dirs": [
       {
         "start": 203,
@@ -1125,247 +1957,437 @@
         "end": 23
       }
     ],
-    "unsafe_dirs": []
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet, Douche, Materiaalopslag, Luchtpomp Openbaar vervoer Parkeergelegenheid Betaald Laadpalen aanwezig Onbekend",
+    "last_scraped": "2025-12-22T15:02:56.118Z"
   },
   {
     "id": "borssele-de-kaloot",
     "name": "Borssele (de Kaloot)",
     "lat": 51.433178,
     "lon": 3.709353,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/borssele-de-kaloot/",
+    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Borssele-hoofdafbeelding.webp",
+    "level": [
+      "Beginner"
+    ],
+    "depth": [
+      "Ondiep"
+    ],
     "good_dirs": [
       {
         "start": 203,
         "end": 293
       }
     ],
-    "unsafe_dirs": []
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Openbaar vervoer Parkeergelegenheid Onbekend Laadpalen aanwezig Onbekend",
+    "last_scraped": "2025-12-22T15:02:58.394Z"
   },
   {
     "id": "westeinderplassen",
     "name": "Westeinderplassen",
     "lat": 52.2405285,
     "lon": 4.7204159,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/westeinderplassen/",
+    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Westeinderplassen-hoofdafbeelding.webp",
+    "level": [
+      "Gevorderd"
+    ],
+    "depth": [
+      "Diep"
+    ],
     "good_dirs": [
       {
         "start": 203,
         "end": 338
       }
     ],
-    "unsafe_dirs": []
+    "unsafe_dirs": [],
+    "last_scraped": "2025-12-22T15:03:00.662Z"
   },
   {
     "id": "bloemendaal-aan-zee",
     "name": "Bloemendaal aan Zee",
     "lat": 52.416317,
     "lon": 4.549245,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/bloemendaal-aan-zee/",
+    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/BaZ-KiteZone.webp",
+    "level": [
+      "Gevorderd"
+    ],
+    "depth": [
+      "Diep"
+    ],
     "good_dirs": [
       {
         "start": 203,
         "end": 23
       }
     ],
-    "unsafe_dirs": []
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer - Parkeergelegenheid Betaald Laadpalen aanwezig Ja",
+    "last_scraped": "2025-12-22T15:03:02.926Z"
   },
   {
     "id": "wijk-aan-zee-de-hangout-strand-noordpier-velsen-noord",
     "name": "Wijk aan Zee - de HangOut (Strand Noordpier Velsen-Noord)",
     "lat": 52.48253093941438,
     "lon": 4.577510158752451,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/wijk-aan-zee-hangout/",
+    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Wijk-aan-zee-bunker-hoofd­afbeelding.webp",
+    "level": [
+      "Beginner"
+    ],
+    "depth": [
+      "Diep"
+    ],
     "good_dirs": [
       {
         "start": 203,
         "end": 23
       }
     ],
-    "unsafe_dirs": []
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet, Douche Openbaar vervoer de bus naar wijk aan zee, daarna een lift vragen van de kiters die met de auto langskomen Parkeergelegenheid Gratis Laadpalen aanwezig Nee",
+    "last_scraped": "2025-12-22T15:03:05.494Z"
   },
   {
     "id": "bergen-aan-zee",
     "name": "Bergen aan Zee",
     "lat": 52.658703,
     "lon": 4.626903,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/bergen-aan-zee/",
+    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Bergen-aan-Zee-hoofd­afbeelding.webp",
+    "level": [
+      "Gevorderd"
+    ],
+    "depth": [
+      "Diep"
+    ],
     "good_dirs": [
       {
         "start": 203,
         "end": 23
       }
     ],
-    "unsafe_dirs": []
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer Parkeergelegenheid Betaald Laadpalen aanwezig Ja 4",
+    "last_scraped": "2025-12-22T15:03:07.758Z"
   },
   {
     "id": "baarland",
     "name": "Baarland",
     "lat": 51.394135,
     "lon": 3.896531,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/baarland/",
+    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Baarland-hoofd­afbeelding.webp",
+    "level": [
+      "Gevorderd"
+    ],
+    "depth": [
+      "Ondiep"
+    ],
     "good_dirs": [
       {
         "start": 68,
         "end": 248
       }
     ],
-    "unsafe_dirs": []
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer Parkeergelegenheid Gratis Laadpalen aanwezig Onbekend",
+    "last_scraped": "2025-12-22T15:03:09.967Z"
   },
   {
     "id": "wijk-aan-zee-pier-strand-noordpier-velsen-noord",
     "name": "Wijk aan Zee - Pier (Strand Noordpier Velsen-Noord)",
     "lat": 52.471031,
     "lon": 4.565752,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/wijk-aan-zee-pier/",
+    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Wijk-aan-zee-noordpier-hoofdafbeelding.webp",
+    "level": [
+      "Beginner",
+      "Gevorderd"
+    ],
+    "depth": [
+      "Diep"
+    ],
     "good_dirs": [
       {
         "start": 203,
         "end": 338
       }
     ],
-    "unsafe_dirs": []
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet, Douche Openbaar vervoer Parkeergelegenheid Gratis Laadpalen aanwezig Onbekend",
+    "last_scraped": "2025-12-22T15:03:12.700Z"
   },
   {
     "id": "andijk",
     "name": "Andijk",
     "lat": 52.739857,
     "lon": 5.175726,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/andijk/",
+    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Andijk-hoofdafbeelding.webp",
+    "level": [
+      "Gevorderd"
+    ],
+    "depth": [
+      "Diep"
+    ],
     "good_dirs": [
       {
         "start": 293,
         "end": 68
       }
     ],
-    "unsafe_dirs": []
+    "unsafe_dirs": [],
+    "last_scraped": "2025-12-22T15:03:14.979Z"
   },
   {
     "id": "windsurfing-hoek-van-holland",
     "name": "Windsurfing Hoek van Holland",
     "lat": 51.992015738236034,
     "lon": 4.114798307418823,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/hoek-van-holland-windsurfing/",
+    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2022/10/vlcsnap-2023-02-15-19h35m18s040.webp",
+    "level": [
+      "Gevorderd"
+    ],
+    "depth": [
+      "Diep"
+    ],
     "good_dirs": [
       {
         "start": 203,
         "end": 23
       }
     ],
-    "unsafe_dirs": []
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet, Douche, Materiaalopslag Openbaar vervoer Parkeergelegenheid Betaald Laadpalen aanwezig Ja 2",
+    "last_scraped": "2025-12-22T15:03:17.532Z"
   },
   {
     "id": "amstelmeer-lutjestrand-zuid",
     "name": "Amstelmeer Lutjestrand zuid",
     "lat": 52.885124923080426,
     "lon": 4.9165667510045985,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/amstelmeer-lutje-strand-zuid/",
+    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/amstelmeer-foto-rob.webp",
+    "level": [
+      "Gevorderd"
+    ],
+    "depth": [
+      "Diep"
+    ],
     "good_dirs": [
       {
         "start": 158,
         "end": 338
       }
     ],
-    "unsafe_dirs": []
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer Bus 135 rijdt van Hoorn naar Den Helder en terug. Deze stopt bij het Lutjestrand (kitespot) Parkeergelegenheid Gratis Laadpalen aanwezig Ja 2",
+    "last_scraped": "2025-12-22T15:03:19.782Z"
   },
   {
     "id": "workum",
     "name": "Workum",
     "lat": 52.965973,
     "lon": 5.410585,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/workum/",
+    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/hoofdafbeelding-workum.webp",
+    "level": [
+      "Beginner"
+    ],
+    "depth": [
+      "Diep"
+    ],
     "good_dirs": [
       {
         "start": 203,
         "end": 338
       }
     ],
-    "unsafe_dirs": []
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Openbaar vervoer Parkeergelegenheid Onbekend Laadpalen aanwezig Onbekend",
+    "last_scraped": "2025-12-22T15:03:22.429Z"
   },
   {
     "id": "ameland-waddenzee",
     "name": "Ameland - Waddenzee",
     "lat": 53.439205,
     "lon": 5.77345,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/ameland-waddenzee/",
+    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Ameland-veerdam-hoofdafbeelding.webp",
+    "level": [
+      "Beginner"
+    ],
+    "depth": [
+      "Ondiep"
+    ],
     "good_dirs": [
       {
         "start": 113,
         "end": 293
       }
     ],
-    "unsafe_dirs": []
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Eten, Drinken Openbaar vervoer met de veerboot Parkeergelegenheid Gratis Laadpalen aanwezig Onbekend",
+    "last_scraped": "2025-12-22T15:03:25.025Z"
   },
   {
     "id": "ameland-noordzee",
     "name": "Ameland - Noordzee",
     "lat": 53.459965,
     "lon": 5.741499,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/ameland-noordzee/",
+    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Ameland-NZ-hoofdbeeld.webp",
+    "level": [
+      "Beginner"
+    ],
+    "depth": [
+      "Diep"
+    ],
     "good_dirs": [
       {
         "start": 293,
         "end": 68
       }
     ],
-    "unsafe_dirs": []
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer Parkeergelegenheid Onbekend Laadpalen aanwezig Onbekend",
+    "last_scraped": "2025-12-22T15:03:27.571Z"
   },
   {
     "id": "zandvoort",
     "name": "Zandvoort",
     "lat": 52.365335113481585,
     "lon": 4.519105687744145,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/zandvoort/",
+    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Zandvoort-spotkaart-2.0.webp",
+    "level": [
+      "Gevorderd"
+    ],
+    "depth": [
+      "Diep"
+    ],
     "good_dirs": [
       {
         "start": 203,
         "end": 23
       }
     ],
-    "unsafe_dirs": []
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet, Douche, Materiaalopslag, Luchtpomp Openbaar vervoer Parkeergelegenheid Betaald Laadpalen aanwezig Ja 4",
+    "last_scraped": "2025-12-22T15:03:30.060Z"
   },
   {
     "id": "almere",
     "name": "Almere",
     "lat": 52.34747029479037,
     "lon": 5.1335594920654115,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/almere/",
+    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Scherm­afbeelding-2023-02-13-om-18.32.25.webp",
+    "level": [
+      "Gevorderd"
+    ],
+    "depth": [
+      "Diep"
+    ],
     "good_dirs": [
       {
         "start": 203,
         "end": 23
       }
     ],
-    "unsafe_dirs": []
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Openbaar vervoer Parkeergelegenheid Betaald Laadpalen aanwezig Onbekend",
+    "last_scraped": "2025-12-22T15:03:32.669Z"
   },
   {
     "id": "zuidlaardermeer",
     "name": "Zuidlaardermeer",
     "lat": 53.145409,
     "lon": 6.693851,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/zuidlaardermeer/",
+    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Zuidlaardermeer-hoofd­afbeelding.webp",
+    "level": [
+      "Gevorderd"
+    ],
+    "depth": [
+      "Diep"
+    ],
     "good_dirs": [
       {
         "start": 113,
         "end": 248
       }
     ],
-    "unsafe_dirs": []
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer Parkeergelegenheid Gratis Laadpalen aanwezig Onbekend",
+    "last_scraped": "2025-12-22T15:03:34.995Z"
   },
   {
     "id": "scheveningen-noorderstrand",
     "name": "Scheveningen - Noorderstrand",
     "lat": 52.105083,
     "lon": 4.26353,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/scheveningen-noorderstrand/",
+    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2022/10/Scheveningen-noorderstrand-hoofdafbeelding.webp",
+    "level": [
+      "Gevorderd"
+    ],
+    "depth": [
+      "Diep"
+    ],
     "good_dirs": [
       {
         "start": 203,
         "end": 68
       }
     ],
-    "unsafe_dirs": []
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet, Douche, Materiaalopslag, Luchtpomp Openbaar vervoer 11 (eindpunt Scheveningen Haven) en 1 (halte Keizerstraat) Parkeergelegenheid Betaald Laadpalen aanwezig Onbekend",
+    "last_scraped": "2025-12-22T15:03:37.535Z"
   },
   {
     "id": "den-haag-zuiderstrand",
     "name": "Den Haag - Zuiderstrand",
     "lat": 52.09388607350487,
     "lon": 4.249607984130859,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/den-haag-zuiderstrand/",
+    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2022/10/DH-zuiderstrand.webp",
+    "level": [
+      "Gevorderd"
+    ],
+    "depth": [
+      "Diep"
+    ],
     "good_dirs": [
       {
         "start": 203,
         "end": 23
       }
     ],
-    "unsafe_dirs": []
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet, Douche, Luchtpomp Openbaar vervoer bus 28, 22 of tram 12 Parkeergelegenheid Betaald Laadpalen aanwezig Ja 6",
+    "last_scraped": "2025-12-22T15:03:39.792Z"
   },
   {
     "id": "kijkduin-zandmotor",
     "name": "Kijkduin - Zandmotor",
     "lat": 52.05520313862568,
     "lon": 4.186521291015639,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/zandmotor/",
+    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2022/10/zandmotor.webp",
+    "level": [
+      "Beginner",
+      "Gevorderd"
+    ],
+    "depth": [
+      "Ondiep"
+    ],
     "good_dirs": [
       {
         "start": 23,
@@ -1376,32 +2398,54 @@
         "end": 338
       }
     ],
-    "unsafe_dirs": []
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet, Douche, Materiaalopslag, Luchtpomp Openbaar vervoer Buslijn 24 en 26 Parkeergelegenheid Gratis Laadpalen aanwezig Onbekend",
+    "last_scraped": "2025-12-22T15:03:42.039Z"
   },
   {
     "id": "s-gravenzande-slag-beukel",
     "name": "s-Gravenzande (slag Beukel)",
     "lat": 52.01080376683954,
     "lon": 4.138953867736808,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/s-gravenzande-slag-beukel/",
+    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2022/10/My-project-1-2.webp",
+    "level": [
+      "Gevorderd"
+    ],
+    "depth": [
+      "Diep"
+    ],
     "good_dirs": [
       {
         "start": 203,
         "end": 23
       }
     ],
-    "unsafe_dirs": []
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer Bus halte: 's-Gravenzande, Strandweg is de dichtstbij zijnde bushalte. Vanaf hier is het nog 20 minuten lopen tot de kite spot. Parkeergelegenheid Betaald Laadpalen aanwezig Nee",
+    "last_scraped": "2025-12-22T15:03:44.600Z"
   },
   {
     "id": "hoek-van-holland-hoekse-watersport-vereniging",
     "name": "Hoek van Holland, Hoekse Watersport Vereniging",
     "lat": 51.99180432944537,
     "lon": 4.114208221435547,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/hoek-van-holland/",
+    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2022/10/vlcsnap-2023-02-15-19h35m18s040.webp",
+    "level": [
+      "Gevorderd"
+    ],
+    "depth": [
+      "Diep"
+    ],
     "good_dirs": [
       {
         "start": 203,
         "end": 68
       }
     ],
-    "unsafe_dirs": []
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet, Douche, Materiaalopslag Openbaar vervoer Parkeergelegenheid Betaald Laadpalen aanwezig Ja 2",
+    "last_scraped": "2025-12-22T15:03:47.184Z"
   }
 ]

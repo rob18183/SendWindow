@@ -115,6 +115,10 @@ const transformed = rawData.map(spot => {
         name: spot.titel,
         lat: spot.lat_lng[0],
         lon: spot.lat_lng[1],
+        permalink: spot.permalink,
+        image: spot.afbeelding,
+        level: spot.niveau,
+        depth: spot.waterdiepte,
         good_dirs: getRanges(spot.windrichting || []),
         // Optional: unsafe_dirs could be the inverse, but let's leave valid empty for now
         // or specifically map 'unsafe' if source had it.

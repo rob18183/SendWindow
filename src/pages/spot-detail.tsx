@@ -10,6 +10,10 @@ type Spot = {
     id: string; name: string; lat: number; lon: number;
     good_dirs: { start: number; end: number }[];
     unsafe_dirs?: { start: number; end: number }[];
+    description?: string;
+    hazards?: string;
+    facilities?: string;
+    rules?: string;
 };
 
 export type ComputedHour = ForecastHour & {
@@ -145,6 +149,39 @@ export default function SpotDetail() {
 
                 {/* Map */}
                 <SpotMap lat={spot.lat} lon={spot.lon} name={spot.name} />
+
+                {/* Spot Details */}
+                {(spot.description || spot.rules || spot.hazards) && (
+                    <div style={{ marginTop: 24, display: 'flex', flexDirection: 'column', gap: 16 }}>
+                        {spot.description && (
+                            <div style={{ padding: 16, backgroundColor: '#f8f9fa', borderRadius: 8 }}>
+                                <h3 style={{ marginTop: 0, fontSize: 16 }}>About</h3>
+                                <div style={{ fontSize: 14, lineHeight: 1.5 }}>{spot.description}</div>
+                            </div>
+                        )}
+
+                        {spot.hazards && (
+                            <div style={{ padding: 16, backgroundColor: '#fff3cd', borderRadius: 8, borderLeft: '4px solid #ffc107' }}>
+                                <h3 style={{ marginTop: 0, fontSize: 16, color: '#856404' }}>⚠️ Hazards</h3>
+                                <div style={{ fontSize: 14, lineHeight: 1.5, color: '#856404' }}>{spot.hazards}</div>
+                            </div>
+                        )}
+
+                        {spot.rules && (
+                            <div style={{ padding: 16, backgroundColor: '#e2e3e5', borderRadius: 8 }}>
+                                <h3 style={{ marginTop: 0, fontSize: 16 }}>Rules</h3>
+                                <div style={{ fontSize: 14, lineHeight: 1.5 }}>{spot.rules}</div>
+                            </div>
+                        )}
+
+                        {spot.facilities && (
+                            <div style={{ padding: 16, backgroundColor: '#f8f9fa', borderRadius: 8 }}>
+                                <h3 style={{ marginTop: 0, fontSize: 16 }}>Facilities</h3>
+                                <div style={{ fontSize: 14, lineHeight: 1.5 }}>{spot.facilities}</div>
+                            </div>
+                        )}
+                    </div>
+                )}
             </div>
         </div>
     );
