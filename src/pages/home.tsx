@@ -220,7 +220,8 @@ export default function Home() {
                 distanceKm: x.distanceKm,
                 score: topHour?.score ?? 0,
                 color: topHour?.color ?? "red",
-                windowLabel: label
+                windowLabel: label,
+                image: x.spot.image // Pass image through
             };
         });
     }, [inRange, spotQueries]);
@@ -230,109 +231,130 @@ export default function Home() {
     };
 
     return (
-        <div style={{ maxWidth: 560, margin: "0 auto", padding: 16 }}>
-            <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 12 }}>
-                <div>
-                    <h1 style={{ margin: 0 }}>SendWindow</h1>
-                    {/* Location Header */}
-                    {!isManualLoc ? (
-                        <div style={{ fontSize: 13, color: "#666", display: "flex", alignItems: "center", gap: 6 }}>
-                            📍 {locName}
-                            <button
-                                onClick={() => { setIsManualLoc(true); setManualAddress(""); }}
-                                style={{ background: "none", border: "1px solid #ddd", borderRadius: 4, cursor: "pointer", fontSize: 10, padding: "2px 6px" }}>
-                                Change
-                            </button>
+        <div className="container" style={{ padding: '0 16px' }}>
+            {/* Header Section */}
+            <header style={{ padding: '24px 0 16px 0' }}>
+                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 16 }}>
+                    <div>
+                        <h1 style={{ marginBottom: 4 }}>SendWindow</h1>
+                        {/* Location Bar */}
+                        {!isManualLoc ? (
+                            <div className="location-bar">
+                                <span>📍 {locName}</span>
+                                <button
+                                    onClick={() => { setIsManualLoc(true); setManualAddress(""); }}
+                                    style={{ background: 'none', border: 'none', color: 'var(--color-accent)', cursor: 'pointer', fontWeight: 500 }}>
+                                    Change
+                                </button>
+                            </div>
+                        ) : (
+                            <form onSubmit={handleManualLocSubmit} style={{ display: "flex", gap: 6, marginTop: 4 }}>
+                                <input
+                                    value={manualAddress}
+                                    onChange={e => setManualAddress(e.target.value)}
+                                    placeholder="City or Town..."
+                                    style={{ fontSize: 13, padding: "6px 12px", borderRadius: 20, border: "1px solid #cbd5e1", outline: "none" }}
+                                    autoFocus
+                                />
+                                <button type="submit" className="btn" style={{ background: "var(--color-primary)", color: "white" }}>Set</button>
+                                <button type="button" onClick={handleUseGPS} className="btn" style={{ background: "#e2e8f0" }}>GPS</button>
+                                <button type="button" onClick={() => setIsManualLoc(false)} className="btn-icon">✕</button>
+                            </form>
+                        )}
+                    </div>
+
+                    <div style={{ display: 'flex', gap: 8 }}>
+                        <button
+                            onClick={handleRefresh}
+                            className="btn-icon"
+                            style={{
+                                transform: isRefetching ? "rotate(360deg)" : "none",
+                                transition: "transform 1s ease"
+                            }}
+                            title="Refresh Forecasts"
+                        >
+                            🔄
+                        </button>
+                        <Link to="/alerts" className="btn-ghost" style={{ textDecoration: "none", fontWeight: 600 }}>🔔 Alerts</Link>
+                    </div>
+                </div>
+
+                {/* Filters Section */}
+                <div className="filters-area">
+                    <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 12 }}>
+                        <div className="text-sm font-bold text-dim">FILTERS & SETTINGS</div>
+                    </div>
+
+                    <div style={{ display: "flex", gap: 12, alignItems: "center", marginBottom: 12 }}>
+                        <span className="text-sm">Radius:</span>
+                        <select
+                            value={radiusKm}
+                            onChange={(e) => setRadiusKm(Number(e.target.value))}
+                            style={{
+                                padding: "4px 12px", borderRadius: 20, border: "1px solid #cbd5e1", background: "white", fontSize: 13
+                            }}>
+                            <option value={10}>10 km</option>
+                            <option value={25}>25 km</option>
+                            <option value={50}>50 km</option>
+                            <option value={100}>100 km</option>
+                        </select>
+                    </div>
+
+                    <div style={{ display: "flex", gap: 8, flexWrap: "wrap" }}>
+                        <label className={`filter-chip ${filterOpen ? 'active' : ''}`}>
+                            <input type="checkbox" checked={filterOpen} onChange={e => setFilterOpen(e.target.checked)} />
+                            📅 Open Now
+                        </label>
+                        <label className={`filter-chip ${filterBeginner ? 'active' : ''}`}>
+                            <input type="checkbox" checked={filterBeginner} onChange={e => setFilterBeginner(e.target.checked)} />
+                            👶 Beginner Friendly
+                        </label>
+                        <label className={`filter-chip ${filterShallow ? 'active' : ''}`}>
+                            <input type="checkbox" checked={filterShallow} onChange={e => setFilterShallow(e.target.checked)} />
+                            🌊 Shallow Water
+                        </label>
+                    </div>
+
+                    {filterOpen && (
+                        <div className="text-xs text-dim" style={{ marginTop: 8 }}>
+                            Showing spots open in {new Date().toLocaleString('default', { month: 'long' })}
                         </div>
-                    ) : (
-                        <form onSubmit={handleManualLocSubmit} style={{ display: "flex", gap: 6, marginTop: 4 }}>
-                            <input
-                                value={manualAddress}
-                                onChange={e => setManualAddress(e.target.value)}
-                                placeholder="City or Town..."
-                                style={{ fontSize: 12, padding: 4, width: 120 }}
-                                autoFocus
-                            />
-                            <button type="submit" style={{ fontSize: 12, cursor: "pointer" }}>Set</button>
-                            <button type="button" onClick={handleUseGPS} style={{ fontSize: 12, cursor: "pointer", background: "#eee", border: "1px solid #ccc", padding: "0 6px" }}>Use GPS</button>
-                            <button type="button" onClick={() => setIsManualLoc(false)} style={{ fontSize: 12, cursor: "pointer", background: "none", border: "none" }}>✕</button>
-                        </form>
                     )}
                 </div>
+            </header>
 
-                <div style={{ display: 'flex', gap: 12, alignItems: 'center' }}>
-                    <button
-                        onClick={handleRefresh}
-                        style={{
-                            background: "none",
-                            border: "none",
-                            fontSize: 16,
-                            cursor: "pointer",
-                            padding: 4,
-                            transform: isRefetching ? "rotate(360deg)" : "none",
-                            transition: "transform 1s ease"
-                        }}
-                        title="Refresh Forecasts"
-                    >
-                        🔄
-                    </button>
-                    <Link to="/alerts" style={{ fontSize: 14, color: "#007bff", textDecoration: "none", fontWeight: 600 }}>🔔 Alerts</Link>
-                </div>
-            </div>
+            {/* Content List */}
+            <div style={{ paddingBottom: 40 }}>
+                {rows.map((r) => (
+                    <Link key={r.id} to={`/spot/${r.id}`} style={{ textDecoration: "none", color: "inherit", display: "block" }}>
+                        <SpotCard {...r} />
+                    </Link>
+                ))}
 
-            <div style={{ display: "flex", flexDirection: "column", gap: 12, marginBottom: 16, padding: 12, backgroundColor: "#f5f5f5", borderRadius: 8 }}>
-                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-                    <label style={{ fontSize: 14, fontWeight: 500 }}>Radius</label>
-                    <select value={radiusKm} onChange={(e) => setRadiusKm(Number(e.target.value))} style={{ padding: 4 }}>
-                        <option value={10}>10 km</option>
-                        <option value={25}>25 km</option>
-                        <option value={50}>50 km</option>
-                        <option value={100}>100 km</option>
-                    </select>
-                </div>
+                {loc && rows.length === 0 && !isRefetching && (
+                    <div style={{ padding: 40, textAlign: "center", color: "var(--color-text-dim)" }}>
+                        No spots match your filters within {radiusKm}km.
+                    </div>
+                )}
 
-                <div style={{ display: "flex", gap: 12, flexWrap: "wrap" }}>
-                    <label style={{ display: "flex", alignItems: "center", gap: 6, fontSize: 14, cursor: "pointer" }}>
-                        <input type="checkbox" checked={filterOpen} onChange={e => setFilterOpen(e.target.checked)} />
-                        Open Now (Season)
-                    </label>
-                    <label style={{ display: "flex", alignItems: "center", gap: 6, fontSize: 14, cursor: "pointer" }}>
-                        <input type="checkbox" checked={filterBeginner} onChange={e => setFilterBeginner(e.target.checked)} />
-                        Beginner Friendly
-                    </label>
-                    <label style={{ display: "flex", alignItems: "center", gap: 6, fontSize: 14, cursor: "pointer" }}>
-                        <input type="checkbox" checked={filterShallow} onChange={e => setFilterShallow(e.target.checked)} />
-                        Shallow Water
-                    </label>
-                </div>
+                {(!loc && !initLocError) && (
+                    <div style={{ padding: 40, textAlign: "center", color: "var(--color-text-dim)" }}>
+                        Allow location access to find spots near you.
+                    </div>
+                )}
 
-                {initLocError && <div style={{ color: "crimson", fontSize: 12 }}>Loc error: {initLocError}</div>}
-                {!loc && !initLocError && <div style={{ color: "#666", fontSize: 12 }}>Locating...</div>}
+                {initLocError && (
+                    <div style={{ padding: 20, textAlign: "center", color: "var(--color-danger)" }}>
+                        Location Error: {initLocError}
+                    </div>
+                )}
 
-                {filterOpen && (
-                    <div style={{ fontSize: 11, color: "#888" }}>
-                        Showing spots open in {new Date().toLocaleString('default', { month: 'long' })}
+                {(isRefetching || (!rows.length && !initLocError)) && rows.length === 0 && (
+                    <div style={{ padding: 20, textAlign: "center", color: "var(--color-text-dim)" }}>
+                        Loading forecasts...
                     </div>
                 )}
             </div>
-
-            {rows.map((r) => (
-                <Link key={r.id} to={`/spot/${r.id}`} style={{ textDecoration: "none", color: "inherit" }}>
-                    <SpotCard {...r} />
-                </Link>
-            ))}
-
-            {loc && rows.length === 0 && !isRefetching && (
-                <div style={{ padding: 20, textAlign: "center", color: "#666" }}>
-                    No spots within {radiusKm}km found.
-                </div>
-            )}
-
-            {(isRefetching || (!rows.length && !initLocError)) && rows.length === 0 && (
-                <div style={{ padding: 20, textAlign: "center", color: "#666" }}>
-                    Loading forecasts...
-                </div>
-            )}
         </div>
     );
 }

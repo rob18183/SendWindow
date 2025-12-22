@@ -3,22 +3,55 @@ type Props = {
     distanceKm: number;
     score: number;
     color: "green" | "yellow" | "red";
-    windowLabel: string; // "14:00–18:00 (4h)" or "No window"
+    windowLabel: string;
+    image?: string;
 };
 
-export function SpotCard({ name, distanceKm, score, color, windowLabel }: Props) {
+export function SpotCard({ name, distanceKm, score, color, windowLabel, image }: Props) {
+    const statusClass = `status-${color}`; // e.g. status-green
+
     return (
-        <div style={{ border: "1px solid #ddd", borderRadius: 12, padding: 12, marginBottom: 10 }}>
-            <div style={{ display: "flex", justifyContent: "space-between", gap: 12 }}>
-                <div>
-                    <div style={{ fontWeight: 700 }}>{name}</div>
-                    <div style={{ opacity: 0.7 }}>{distanceKm.toFixed(1)} km</div>
-                </div>
-                <div style={{ textAlign: "right" }}>
-                    <div style={{ fontWeight: 800 }}>
-                        <span style={{ textTransform: "uppercase" }}>{color}</span> · {score}
+        <div className="card" style={{ display: 'flex', marginBottom: 16, height: 100 }}>
+            {/* Image Section */}
+            <div style={{ width: 100, flexShrink: 0, position: 'relative', backgroundColor: '#e2e8f0' }}>
+                {image ? (
+                    <img
+                        src={image}
+                        alt={name}
+                        referrerPolicy="no-referrer"
+                        style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                    />
+                ) : (
+                    <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', height: '100%', color: '#94a3b8', fontSize: 24 }}>
+                        🪁
                     </div>
-                    <div style={{ opacity: 0.8 }}>{windowLabel}</div>
+                )}
+            </div>
+
+            {/* Content Section */}
+            <div style={{ flex: 1, padding: 12, display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
+                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' }}>
+                    <h3 style={{ margin: 0, fontSize: 16, fontWeight: 600, color: 'var(--color-primary)' }}>{name}</h3>
+                    <div className={statusClass} style={{ fontWeight: 800, fontSize: 14, display: 'flex', alignItems: 'center', gap: 4 }}>
+                        <span>{score}</span>
+                        <div style={{ width: 8, height: 8, borderRadius: '50%', backgroundColor: `var(--color-${color === 'green' ? 'success' : color === 'yellow' ? 'warning' : 'danger'})` }}></div>
+                    </div>
+                </div>
+
+                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-end', fontSize: 13 }}>
+                    <div className="text-dim">
+                        📍 {distanceKm.toFixed(1)} km
+                    </div>
+                    <div style={{
+                        backgroundColor: '#f1f5f9',
+                        padding: '4px 8px',
+                        borderRadius: 6,
+                        fontWeight: 500,
+                        fontSize: 12,
+                        color: windowLabel.includes("No window") ? '#94a3b8' : '#0f172a'
+                    }}>
+                        {windowLabel}
+                    </div>
                 </div>
             </div>
         </div>

@@ -51,17 +51,19 @@ export default function SpotDetail() {
     if (!current) return null;
 
     return (
-        <div style={{ maxWidth: 560, margin: "0 auto", padding: 16 }}>
+        <div className="container" style={{ padding: 16 }}>
             <div style={{ marginBottom: 16 }}>
-                <Link to="/" style={{ textDecoration: "none", color: "#666" }}>&larr; Back</Link>
-                <h1 style={{ marginTop: 8 }}>{spot.name}</h1>
+                <Link to="/" className="btn btn-icon" style={{ textDecoration: "none", marginBottom: 8, display: 'inline-flex', paddingLeft: 0 }}>
+                    &larr; Back
+                </Link>
+                <h1>{spot.name}</h1>
             </div>
 
             {/* Hourly Strip */}
             <div style={{
                 display: "flex",
                 overflowX: "auto",
-                gap: 4,
+                gap: 8,
                 paddingBottom: 12,
                 marginBottom: 20
             }}>
@@ -73,42 +75,51 @@ export default function SpotDetail() {
                             key={i}
                             onClick={() => setSelectedIdx(i)}
                             style={{
-                                flex: "0 0 40px",
-                                height: 80,
+                                flex: "0 0 48px",
+                                height: 84,
                                 display: "flex",
                                 flexDirection: "column",
                                 alignItems: "center",
                                 justifyContent: "center",
-                                border: isSelected ? "2px solid #333" : "1px solid #eee",
-                                borderRadius: 8,
+                                border: isSelected ? "2px solid var(--color-primary)" : "1px solid #e2e8f0",
+                                borderRadius: 12,
                                 cursor: "pointer",
-                                backgroundColor: isSelected ? "#f0f0f0" : "transparent"
+                                backgroundColor: isSelected ? "white" : "#f8fafc",
+                                boxShadow: isSelected ? "var(--shadow-md)" : "none",
+                                transition: "all 0.2s"
                             }}
                         >
-                            <div style={{ fontSize: 10, marginBottom: 4 }}>{time}:00</div>
+                            <div className="text-xs text-dim" style={{ marginBottom: 4 }}>{time}:00</div>
                             <div style={{
-                                width: 20,
-                                height: 20,
+                                width: 24,
+                                height: 24,
                                 borderRadius: "50%",
-                                backgroundColor: getColorCode(h.scoreRes.color)
-                            }} />
-                            <div style={{ fontSize: 10, marginTop: 4, fontWeight: "bold" }}>{h.scoreRes.score}</div>
+                                backgroundColor: `var(--color-${h.scoreRes.color === 'green' ? 'success' : h.scoreRes.color === 'yellow' ? 'warning' : 'danger'})`,
+                                display: 'flex',
+                                alignItems: 'center',
+                                justifyContent: 'center',
+                                color: 'white',
+                                fontSize: 10,
+                                fontWeight: 'bold'
+                            }}>
+                                {h.scoreRes.score}
+                            </div>
                         </div>
                     );
                 })}
             </div>
 
             {/* Detail Section */}
-            <div style={{ border: "1px solid #ddd", borderRadius: 12, padding: 20 }}>
-                <div style={{ fontSize: 14, color: "#666", marginBottom: 8 }}>
+            <div className="card" style={{ padding: 20, marginBottom: 24 }}>
+                <div className="text-sm text-dim" style={{ marginBottom: 8 }}>
                     {new Date(current.timeISO).toLocaleString([], { weekday: 'short', hour: '2-digit', minute: '2-digit' })}
                 </div>
 
                 <div style={{ display: "flex", alignItems: "baseline", gap: 12, marginBottom: 20 }}>
-                    <div style={{ fontSize: 48, fontWeight: 900, color: getColorCode(current.scoreRes.color) }}>
+                    <div style={{ fontSize: 48, fontWeight: 900, color: `var(--color-${current.scoreRes.color === 'green' ? 'success' : current.scoreRes.color === 'yellow' ? 'warning' : 'danger'})` }}>
                         {current.scoreRes.score}
                     </div>
-                    <div style={{ fontSize: 18, textTransform: "uppercase", fontWeight: "bold", color: getColorCode(current.scoreRes.color) }}>
+                    <div style={{ fontSize: 18, textTransform: "uppercase", fontWeight: "bold", color: `var(--color-${current.scoreRes.color === 'green' ? 'success' : current.scoreRes.color === 'yellow' ? 'warning' : 'danger'})` }}>
                         {current.scoreRes.color}
                     </div>
                 </div>
@@ -118,66 +129,69 @@ export default function SpotDetail() {
                     <Stat label="Gusts" value={`${current.wind_gust_kt} kt`} sub={`Score: ${current.scoreRes.breakdown?.pGust.toFixed(0)}`} />
                     <Stat label="Direction" value={`${current.wind_dir_deg}°`} sub={`Score: ${current.scoreRes.breakdown?.pDir.toFixed(0)}`} />
                     {current.scoreRes.breakdown?.safetyRed && (
-                        <div style={{ gridColumn: "span 2", color: "red", fontWeight: "bold", marginTop: 8 }}>
+                        <div style={{ gridColumn: "span 2", color: "var(--color-danger)", fontWeight: "bold", marginTop: 8 }}>
                             ⚠️ Unsafe Direction
                         </div>
                     )}
                 </div>
             </div>
+
             {/* Map & Navigate */}
-            <div style={{ marginBottom: 20 }}>
+            <div style={{ marginBottom: 120 }}>
                 {/* Navigation Button */}
                 <a
                     href={`https://www.google.com/maps/dir/?api=1&destination=${spot.lat},${spot.lon}`}
                     target="_blank"
                     rel="noopener noreferrer"
+                    className="btn"
                     style={{
-                        display: "block",
+                        display: "flex",
                         width: "100%",
-                        padding: "12px",
-                        backgroundColor: "#007bff",
+                        padding: "14px",
+                        backgroundColor: "var(--color-accent)",
                         color: "white",
                         textAlign: "center",
                         textDecoration: "none",
-                        borderRadius: 8,
-                        fontWeight: "bold",
-                        marginBottom: 12
+                        marginBottom: 24,
+                        fontSize: 16
                     }}
                 >
                     📍 Navigate to Spot
                 </a>
 
                 {/* Map */}
-                <SpotMap lat={spot.lat} lon={spot.lon} name={spot.name} />
+                <div style={{ borderRadius: 12, overflow: 'hidden', boxShadow: 'var(--shadow-sm)', marginBottom: 24 }}>
+                    <SpotMap lat={spot.lat} lon={spot.lon} name={spot.name} />
+                </div>
 
                 {/* Spot Details */}
                 {(spot.description || spot.rules || spot.hazards) && (
-                    <div style={{ marginTop: 24, display: 'flex', flexDirection: 'column', gap: 16 }}>
+                    <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
                         {spot.description && (
-                            <div style={{ padding: 16, backgroundColor: '#f8f9fa', borderRadius: 8 }}>
-                                <h3 style={{ marginTop: 0, fontSize: 16 }}>About</h3>
-                                <div style={{ fontSize: 14, lineHeight: 1.5 }}>{spot.description}</div>
+                            <div className="card" style={{ padding: 16 }}>
+                                <h3>About</h3>
+                                <div style={{ fontSize: 14, lineHeight: 1.6, color: 'var(--color-text)' }}>{spot.description}</div>
                             </div>
                         )}
 
                         {spot.hazards && (
-                            <div style={{ padding: 16, backgroundColor: '#fff3cd', borderRadius: 8, borderLeft: '4px solid #ffc107' }}>
-                                <h3 style={{ marginTop: 0, fontSize: 16, color: '#856404' }}>⚠️ Hazards</h3>
-                                <div style={{ fontSize: 14, lineHeight: 1.5, color: '#856404' }}>{spot.hazards}</div>
+                            <div className="card" style={{ padding: 16, backgroundColor: '#fffbeb', borderLeft: '4px solid var(--color-warning)' }}>
+                                <h3 style={{ color: '#92400e' }}>⚠️ Hazards</h3>
+                                <div style={{ fontSize: 14, lineHeight: 1.6, color: '#92400e' }}>{spot.hazards}</div>
                             </div>
                         )}
 
                         {spot.rules && (
-                            <div style={{ padding: 16, backgroundColor: '#e2e3e5', borderRadius: 8 }}>
-                                <h3 style={{ marginTop: 0, fontSize: 16 }}>Rules</h3>
-                                <div style={{ fontSize: 14, lineHeight: 1.5 }}>{spot.rules}</div>
+                            <div className="card" style={{ padding: 16 }}>
+                                <h3>Rules</h3>
+                                <div style={{ fontSize: 14, lineHeight: 1.6 }}>{spot.rules}</div>
                             </div>
                         )}
 
                         {spot.facilities && (
-                            <div style={{ padding: 16, backgroundColor: '#f8f9fa', borderRadius: 8 }}>
-                                <h3 style={{ marginTop: 0, fontSize: 16 }}>Facilities</h3>
-                                <div style={{ fontSize: 14, lineHeight: 1.5 }}>{spot.facilities}</div>
+                            <div className="card" style={{ padding: 16 }}>
+                                <h3>Facilities</h3>
+                                <div style={{ fontSize: 14, lineHeight: 1.6 }}>{spot.facilities}</div>
                             </div>
                         )}
                     </div>
@@ -190,17 +204,11 @@ export default function SpotDetail() {
 function Stat({ label, value, sub }: { label: string, value: string, sub: string }) {
     return (
         <div>
-            <div style={{ fontSize: 12, color: "#888", marginBottom: 2 }}>{label}</div>
+            <div className="text-xs text-dim" style={{ marginBottom: 2 }}>{label}</div>
             <div style={{ fontSize: 18, fontWeight: 600 }}>{value}</div>
-            <div style={{ fontSize: 11, color: "#aaa" }}>{sub}</div>
+            <div className="text-xs text-dim" style={{ opacity: 0.8 }}>{sub}</div>
         </div>
     );
 }
 
-function getColorCode(c: "green" | "yellow" | "red") {
-    switch (c) {
-        case "green": return "#2e7d32"; // Darker green
-        case "yellow": return "#f9a825"; // Darker yellow
-        case "red": return "#c62828"; // Darker red
-    }
-}
+

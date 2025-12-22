@@ -5,7 +5,7 @@
     "lat": 52.515039462387506,
     "lon": 5.075016937231451,
     "permalink": "https://kitesurfvereniging.nl/kitespot/edam-zuid/",
-    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2024/12/Edam-Zuid.webp",
+    "image": "/images/action.png",
     "level": [
       "Beginner"
     ],
@@ -28,7 +28,7 @@
     "lat": 51.8722925148425,
     "lon": 4.044898266162127,
     "permalink": "https://kitesurfvereniging.nl/kitespot/rockanje-sportstrand/",
-    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Hoofdafbeelding-Rockanje-1.webp",
+    "image": "/images/north_sea.png",
     "level": [
       "Beginner"
     ],
@@ -56,7 +56,7 @@
     "lat": 53.110239353451966,
     "lon": 5.98939415390626,
     "permalink": "https://kitesurfvereniging.nl/kitespot/oudega-smallingerland/",
-    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2024/02/Scherm­afbeelding-2024-02-26-om-17.38.49.webp",
+    "image": "/images/action.png",
     "level": [
       "Gevorderd"
     ],
@@ -79,7 +79,7 @@
     "lat": 51.43539785126424,
     "lon": 4.125820029089797,
     "permalink": "https://kitesurfvereniging.nl/kitespot/krabbendijke-roelshoek/",
-    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/12/Krabbendijke-hoofdafbeelding.webp",
+    "image": "/images/action.png",
     "level": [
       "Beginner"
     ],
@@ -102,7 +102,7 @@
     "lat": 52.32339737555348,
     "lon": 5.550357063452593,
     "permalink": "https://kitesurfvereniging.nl/kitespot/zeewolde/",
-    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/09/Zeewolde-hoofdafbeelding.webp",
+    "image": "/images/north_sea.png",
     "level": [
       "Beginner"
     ],
@@ -125,7 +125,7 @@
     "lat": 52.30012021577305,
     "lon": 5.3011256575805765,
     "permalink": "https://kitesurfvereniging.nl/kitespot/blaricum-gooimeer/",
-    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/05/Blaricum-droneshot-strand.webp",
+    "image": "/images/inland.png",
     "level": [
       "Beginner"
     ],
@@ -148,7 +148,7 @@
     "lat": 52.355366956484595,
     "lon": 5.022668899658189,
     "permalink": "https://kitesurfvereniging.nl/kitespot/ijburg/",
-    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/03/IJburg-hoofd­afbeelding.webp",
+    "image": "/images/action.png",
     "level": [
       "Beginner"
     ],
@@ -171,7 +171,7 @@
     "lat": 52.45534760270165,
     "lon": 4.556021537228991,
     "permalink": "https://kitesurfvereniging.nl/kitespot/ijmuiden-zone-2/",
-    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/02/Scherm­afbeelding-2023-02-13-om-18.20.44.webp",
+    "image": "/images/sunset.png",
     "level": [
       "Gevorderd"
     ],
@@ -195,7 +195,7 @@
     "lat": 53.40750542014478,
     "lon": 6.161479462763526,
     "permalink": "https://kitesurfvereniging.nl/kitespot/lauwersmeer/",
-    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/02/Lauwersmeer-hoofdafbeelding.webp",
+    "image": "/images/inland.png",
     "level": [
       "Beginner"
     ],
@@ -219,7 +219,7 @@
     "lat": 52.755039,
     "lon": 5.125001,
     "permalink": "https://kitesurfvereniging.nl/kitespot/medemblik/",
-    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Medemblik-overzicht.webp",
+    "image": "/images/inland.png",
     "level": [
       "Beginner",
       "Gevorderd"
@@ -244,7 +244,7 @@
     "lat": 53.05312,
     "lon": 5.376227,
     "permalink": "https://kitesurfvereniging.nl/kitespot/makkum/",
-    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Makkum-hoofdafbeelding.webp",
+    "image": "/images/action.png",
     "level": [
       "Beginner",
       "Gevorderd",
@@ -270,7 +270,7 @@
     "lat": 53.193245,
     "lon": 7.027293,
     "permalink": "https://kitesurfvereniging.nl/kitespot/midwolda-oldambtmeer/",
-    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Midwolda-Oldambtmeer-hoofdafbeelding.webp",
+    "image": "/images/inland.png",
     "level": [
       "Gevorderd"
     ],
@@ -294,7 +294,7 @@
     "lat": 51.919079,
     "lon": 3.988189,
     "permalink": "https://kitesurfvereniging.nl/kitespot/slufter/",
-    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2021/07/De-slufter.webp",
+    "image": "/images/north_sea.png",
     "level": [
       "Gevorderd"
     ],
@@ -318,7 +318,7 @@
     "lat": 51.951382,
     "lon": 3.966729,
     "permalink": "https://kitesurfvereniging.nl/kitespot/maasvlakte-p5p6/",
-    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Maasvlakte-2-P5.webp",
+    "image": "/images/inland.png",
     "level": [
       "Gevorderd"
     ],
@@ -341,7 +341,7 @@
     "lat": 52.850101,
     "lon": 5.481972,
     "permalink": "https://kitesurfvereniging.nl/kitespot/mirns/",
-    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/mirns_clif_DJI_0605.webp",
+    "image": "/images/action.png",
     "level": [
       "Beginner"
     ],
@@ -365,7 +365,7 @@
     "lat": 51.923229,
     "lon": 3.980946,
     "permalink": "https://kitesurfvereniging.nl/kitespot/maasvlakte-p1p3/",
-    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Maasvlakte-2-P3.webp",
+    "image": "/images/sunset.png",
     "level": [
       "Gevorderd"
     ],
@@ -389,7 +389,7 @@
     "lat": 52.459114,
     "lon": 5.053314,
     "permalink": "https://kitesurfvereniging.nl/kitespot/monnickendam/",
-    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Monnickendam-hoofd­afbeelding.webp",
+    "image": "/images/action.png",
     "level": [
       "Gevorderd"
     ],
@@ -412,7 +412,7 @@
     "lat": 52.843899,
     "lon": 5.692941,
     "permalink": "https://kitesurfvereniging.nl/kitespot/lemmer/",
-    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Lemmer-hoofdafbeelding.webp",
+    "image": "/images/inland.png",
     "level": [
       "Gevorderd"
     ],
@@ -436,7 +436,7 @@
     "lat": 52.329876,
     "lon": 5.113459,
     "permalink": "https://kitesurfvereniging.nl/kitespot/muiderberg/",
-    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Muiderberg-hoofd­afbeelding.webp",
+    "image": "/images/action.png",
     "level": [
       "Beginner"
     ],
@@ -460,7 +460,7 @@
     "lat": 52.636238,
     "lon": 5.413053,
     "permalink": "https://kitesurfvereniging.nl/kitespot/lelystad-trintelhaven/",
-    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Trintelhaven-hoofdafbeelding.webp",
+    "image": "/images/sunset.png",
     "level": [
       "Beginner"
     ],
@@ -484,7 +484,7 @@
     "lat": 51.62424172138486,
     "lon": 3.680559354492172,
     "permalink": "https://kitesurfvereniging.nl/kitespot/neeltje-jans/",
-    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Neeltjejans-hoofdafbeelding.webp",
+    "image": "/images/north_sea.png",
     "level": [
       "Gevorderd"
     ],
@@ -508,7 +508,7 @@
     "lat": 52.524357,
     "lon": 5.424342,
     "permalink": "https://kitesurfvereniging.nl/kitespot/lelystad-bataviastrand/",
-    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Bataviastrand-kiten.webp",
+    "image": "/images/north_sea.png",
     "level": [
       "Gevorderd"
     ],
@@ -532,7 +532,7 @@
     "lat": 52.235806,
     "lon": 4.418844,
     "permalink": "https://kitesurfvereniging.nl/kitespot/noordwijk-aan-zee/",
-    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Noordwijk-hoofd­afbeelding.webp",
+    "image": "/images/north_sea.png",
     "level": [
       "Gevorderd"
     ],
@@ -556,7 +556,7 @@
     "lat": 53.408802,
     "lon": 6.157198,
     "permalink": "https://kitesurfvereniging.nl/kitespot/lauwersoog-waddenzee/",
-    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Lauweroog-hoofdafbeelding.webp",
+    "image": "/images/north_sea.png",
     "level": [
       "Beginner"
     ],
@@ -580,7 +580,7 @@
     "lat": 51.460934,
     "lon": 4.221407,
     "permalink": "https://kitesurfvereniging.nl/kitespot/tholen-oesterdam/",
-    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Oesterdam-drone-01072021-049.webp",
+    "image": "/images/action.png",
     "level": [
       "Beginner"
     ],
@@ -604,7 +604,7 @@
     "lat": 52.301853,
     "lon": 4.473199,
     "permalink": "https://kitesurfvereniging.nl/kitespot/noordwijk-langevelderslag/",
-    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Noordwijk-Langevelderslag-hoofdafbeelding.webp",
+    "image": "/images/inland.png",
     "level": [
       "Gevorderd"
     ],
@@ -628,7 +628,7 @@
     "lat": 51.9151368,
     "lon": 4.0605978,
     "permalink": "https://kitesurfvereniging.nl/kitespot/oostvoorne-noordzee/",
-    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Oostvoorne-hoofdafbeelding.webp",
+    "image": "/images/north_sea.png",
     "level": [
       "Beginner",
       "Gevorderd"
@@ -653,7 +653,7 @@
     "lat": 53.074985705594734,
     "lon": 5.34412192065429,
     "permalink": "https://kitesurfvereniging.nl/kitespot/kornwerderzand/",
-    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Hoofdafbeelding-Kornwerder.webp",
+    "image": "/images/sunset.png",
     "level": [
       "Gevorderd",
       "Expert"
@@ -678,7 +678,7 @@
     "lat": 51.92918,
     "lon": 4.066458,
     "permalink": "https://kitesurfvereniging.nl/kitespot/oostvoornse-meer/",
-    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Oostvoornsemeer-hoofd­afbeelding.webp",
+    "image": "/images/inland.png",
     "level": [
       "Gevorderd"
     ],
@@ -702,7 +702,7 @@
     "lat": 51.82172,
     "lon": 3.878164,
     "permalink": "https://kitesurfvereniging.nl/kitespot/ouddorp/",
-    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Ouddorp-hoofd­afbeelding.webp",
+    "image": "/images/inland.png",
     "level": [
       "Gevorderd"
     ],
@@ -726,7 +726,7 @@
     "lat": 51.616791,
     "lon": 3.961531,
     "permalink": "https://kitesurfvereniging.nl/kitespot/ouwerkerk/",
-    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Ouwerkerk-hoofdafbeelding.webp",
+    "image": "/images/action.png",
     "level": [
       "Beginner"
     ],
@@ -750,7 +750,7 @@
     "lat": 52.066525,
     "lon": 4.21192,
     "permalink": "https://kitesurfvereniging.nl/kitespot/kijkduin/",
-    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Kijkduin-hoofd­afbeelding.webp",
+    "image": "/images/sunset.png",
     "level": [
       "Beginner",
       "Gevorderd"
@@ -775,7 +775,7 @@
     "lat": 51.350422,
     "lon": 3.731831,
     "permalink": "https://kitesurfvereniging.nl/kitespot/paulinapolder/",
-    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Paulinapolder-hoofdafbeelding.webp",
+    "image": "/images/north_sea.png",
     "level": [
       "Gevorderd"
     ],
@@ -799,7 +799,7 @@
     "lat": 52.201435,
     "lon": 4.386593,
     "permalink": "https://kitesurfvereniging.nl/kitespot/katwijk/",
-    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Katwijk-hoofdafbeelding.webp",
+    "image": "/images/inland.png",
     "level": [
       "Gevorderd"
     ],
@@ -823,7 +823,7 @@
     "lat": 52.763783,
     "lon": 4.649366,
     "permalink": "https://kitesurfvereniging.nl/kitespot/petten/",
-    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/IMG_7950.webp",
+    "image": "/images/north_sea.png",
     "level": [
       "Gevorderd"
     ],
@@ -847,7 +847,7 @@
     "lat": 52.895462,
     "lon": 4.711245,
     "permalink": "https://kitesurfvereniging.nl/kitespot/julianadorp/",
-    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Julianadorp-hoofdafbeelding.webp",
+    "image": "/images/sunset.png",
     "level": [
       "Gevorderd"
     ],
@@ -871,7 +871,7 @@
     "lat": 52.058559,
     "lon": 4.741474,
     "permalink": "https://kitesurfvereniging.nl/kitespot/reeuwijkse-plassen/",
-    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Reeuwijkseplassen-hoofd­afbeelding.webp",
+    "image": "/images/inland.png",
     "level": [
       "Gevorderd"
     ],
@@ -894,7 +894,7 @@
     "lat": 52.446941,
     "lon": 4.555163,
     "permalink": "https://kitesurfvereniging.nl/kitespot/ijmuiderslag/",
-    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/IJmuiderslag-hoofd­afbeelding.webp",
+    "image": "/images/inland.png",
     "level": [
       "Beginner"
     ],
@@ -918,7 +918,7 @@
     "lat": 51.394615,
     "lon": 4.1494,
     "permalink": "https://kitesurfvereniging.nl/kitespot/rilland-bath-zimmermangeul/",
-    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Rilland-hoofd­afbeelding.webp",
+    "image": "/images/action.png",
     "level": [
       "Expert"
     ],
@@ -941,7 +941,7 @@
     "lat": 52.456356,
     "lon": 4.551214,
     "permalink": "https://kitesurfvereniging.nl/kitespot/ijmuiden/",
-    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/IJmuiden-zone-1-hoofd­afbeelding.webp",
+    "image": "/images/sunset.png",
     "level": [
       "Beginner"
     ],
@@ -969,7 +969,7 @@
     "lat": 51.865685260091375,
     "lon": 4.0513472685071905,
     "permalink": "https://kitesurfvereniging.nl/kitespot/rockanje/",
-    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Hoofdafbeelding-Rockanje-1.webp",
+    "image": "/images/north_sea.png",
     "level": [
       "Beginner",
       "Gevorderd"
@@ -994,7 +994,7 @@
     "lat": 52.306889528808476,
     "lon": 5.256627349121112,
     "permalink": "https://kitesurfvereniging.nl/kitespot/huizen/",
-    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Huizen.webp",
+    "image": "/images/inland.png",
     "level": [
       "Beginner"
     ],
@@ -1017,7 +1017,7 @@
     "lat": 52.636536,
     "lon": 5.038187,
     "permalink": "https://kitesurfvereniging.nl/kitespot/hoorn-stadstrand/",
-    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Hoorn-hoofdafbeelding.webp",
+    "image": "/images/north_sea.png",
     "level": [
       "Gevorderd"
     ],
@@ -1040,7 +1040,7 @@
     "lat": 51.592909111403124,
     "lon": 3.7313782540283214,
     "permalink": "https://kitesurfvereniging.nl/kitespot/kamperland/",
-    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Roompot-Kamperland-hoofd­afbeelding.webp",
+    "image": "/images/north_sea.png",
     "level": [
       "Beginner"
     ],
@@ -1068,7 +1068,7 @@
     "lat": 52.632278,
     "lon": 5.120788,
     "permalink": "https://kitesurfvereniging.nl/kitespot/schellinkhout/",
-    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Schellinkhout-hoofdafbeelding.webp",
+    "image": "/images/north_sea.png",
     "level": [
       "Beginner"
     ],
@@ -1092,7 +1092,7 @@
     "lat": 52.93354,
     "lon": 5.403361,
     "permalink": "https://kitesurfvereniging.nl/kitespot/hindeloopen/",
-    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Hoofdafbeelding-Hindeloopen.webp",
+    "image": "/images/inland.png",
     "level": [
       "Beginner"
     ],
@@ -1116,7 +1116,7 @@
     "lat": 52.1173477,
     "lon": 4.2894255,
     "permalink": "https://kitesurfvereniging.nl/kitespot/scheveningen-zwarte-pad/",
-    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Scheveningen-zwarte-pad-hoofdafbeelding.webp",
+    "image": "/images/action.png",
     "level": [
       "Gevorderd"
     ],
@@ -1140,7 +1140,7 @@
     "lat": 53.166355,
     "lon": 5.415011,
     "permalink": "https://kitesurfvereniging.nl/kitespot/harlingen-waddenzee/",
-    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Harlingen-hoofdafbeelding.webp",
+    "image": "/images/north_sea.png",
     "level": [
       "Gevorderd"
     ],
@@ -1164,7 +1164,7 @@
     "lat": 51.82063570886251,
     "lon": 4.159093814880372,
     "permalink": "https://kitesurfvereniging.nl/kitespot/hellevoetsluis-haringvliet/",
-    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Hellevoetsluis-hoofd­afbeelding.webp",
+    "image": "/images/north_sea.png",
     "level": [
       "Beginner"
     ],
@@ -1188,7 +1188,7 @@
     "lat": 51.491982,
     "lon": 3.495714,
     "permalink": "https://kitesurfvereniging.nl/kitespot/groot-valkenisse/",
-    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Groot-Valkenisse-hoofdafbeelding.webp",
+    "image": "/images/inland.png",
     "level": [
       "Gevorderd"
     ],
@@ -1211,7 +1211,7 @@
     "lat": 53.504333,
     "lon": 6.180988,
     "permalink": "https://kitesurfvereniging.nl/kitespot/schiermonnikoog-noordzee/",
-    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Schiermonnikoog-Noordzee-hoofd­afbeelding.webp",
+    "image": "/images/north_sea.png",
     "level": [
       "Beginner"
     ],
@@ -1235,7 +1235,7 @@
     "lat": 51.674713,
     "lon": 4.13996,
     "permalink": "https://kitesurfvereniging.nl/kitespot/grevelingendam-zuid/",
-    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Grevelingendam-hoofdafbeelding.webp",
+    "image": "/images/action.png",
     "level": [
       "Beginner"
     ],
@@ -1259,7 +1259,7 @@
     "lat": 51.679256,
     "lon": 4.137328,
     "permalink": "https://kitesurfvereniging.nl/kitespot/grevelingendam-noord/",
-    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Grevelingen.webp",
+    "image": "/images/action.png",
     "level": [
       "Gevorderd"
     ],
@@ -1287,7 +1287,7 @@
     "lat": 52.87193795015575,
     "lon": 5.369856820778169,
     "permalink": "https://kitesurfvereniging.nl/kitespot/stavoren/",
-    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/stavoren_DJI_0566.webp",
+    "image": "/images/north_sea.png",
     "level": [
       "Gevorderd",
       "Expert"
@@ -1312,7 +1312,7 @@
     "lat": 52.714832,
     "lon": 5.288304,
     "permalink": "https://kitesurfvereniging.nl/kitespot/enkhuizen/",
-    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Enkhuizen-hoofdafbeelding.webp",
+    "image": "/images/action.png",
     "level": [
       "Gevorderd"
     ],
@@ -1336,7 +1336,7 @@
     "lat": 52.32291,
     "lon": 5.570562,
     "permalink": "https://kitesurfvereniging.nl/kitespot/strand-horst/",
-    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Strand-Horst-hoofdafbeelding.webp",
+    "image": "/images/north_sea.png",
     "level": [
       "Beginner"
     ],
@@ -1360,7 +1360,7 @@
     "lat": 52.455063,
     "lon": 5.817958,
     "permalink": "https://kitesurfvereniging.nl/kitespot/elburg/",
-    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Elburg.webp",
+    "image": "/images/north_sea.png",
     "level": [
       "Gevorderd"
     ],
@@ -1384,7 +1384,7 @@
     "lat": 52.613762,
     "lon": 4.616011,
     "permalink": "https://kitesurfvereniging.nl/kitespot/egmond-binnen-en-aan-zee/",
-    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Egmond-hoof­afbeelding.webp",
+    "image": "/images/north_sea.png",
     "level": [
       "Gevorderd"
     ],
@@ -1408,7 +1408,7 @@
     "lat": 53.454723,
     "lon": 6.796758,
     "permalink": "https://kitesurfvereniging.nl/kitespot/eemshaven/",
-    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Eemshaven-hoofd­afbeelding.webp",
+    "image": "/images/action.png",
     "level": [
       "Beginner"
     ],
@@ -1431,7 +1431,7 @@
     "lat": 51.337162,
     "lon": 3.839594,
     "permalink": "https://kitesurfvereniging.nl/kitespot/terneuzen/",
-    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Terneuzen-put-van-hoofdafbeelding.webp",
+    "image": "/images/sunset.png",
     "level": [
       "Beginner"
     ],
@@ -1455,7 +1455,7 @@
     "lat": 52.52256,
     "lon": 5.067095,
     "permalink": "https://kitesurfvereniging.nl/kitespot/edam-noord-galgenveld/",
-    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Edam-Noord-hoofdafbeelding.webp",
+    "image": "/images/action.png",
     "level": [
       "Expert"
     ],
@@ -1479,7 +1479,7 @@
     "lat": 51.552254,
     "lon": 3.461647,
     "permalink": "https://kitesurfvereniging.nl/kitespot/domburg/",
-    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Domburg-hoofdafbeelding.webp",
+    "image": "/images/inland.png",
     "level": [
       "Expert"
     ],
@@ -1503,7 +1503,7 @@
     "lat": 53.409386,
     "lon": 5.280458,
     "permalink": "https://kitesurfvereniging.nl/kitespot/terschelling-noordzee/",
-    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Terschelling-Noordzee-hoofdafbeelding.webp",
+    "image": "/images/north_sea.png",
     "level": [
       "Beginner"
     ],
@@ -1527,7 +1527,7 @@
     "lat": 52.953239,
     "lon": 4.720852,
     "permalink": "https://kitesurfvereniging.nl/kitespot/den-helder-huisduinen/",
-    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/02/Huisduinen-hoofdafbeelding.webp",
+    "image": "/images/sunset.png",
     "level": [
       "Gevorderd"
     ],
@@ -1551,7 +1551,7 @@
     "lat": 53.355141,
     "lon": 5.21029,
     "permalink": "https://kitesurfvereniging.nl/kitespot/terschelling-groene-strand/",
-    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Terschelling-groenestrand-hoofd­afbeelding.webp",
+    "image": "/images/north_sea.png",
     "level": [
       "Beginner"
     ],
@@ -1575,7 +1575,7 @@
     "lat": 53.078442,
     "lon": 4.731828,
     "permalink": "https://kitesurfvereniging.nl/kitespot/texel/",
-    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Texel-Paal-17-etc-hoofd­afbeelding.webp",
+    "image": "/images/north_sea.png",
     "level": [
       "Gevorderd"
     ],
@@ -1603,7 +1603,7 @@
     "lat": 53.178222562677476,
     "lon": 4.864385107210651,
     "permalink": "https://kitesurfvereniging.nl/kitespot/texel-noord-oost/",
-    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Texel-noord-oost-hoofd­afbeelding.webp",
+    "image": "/images/north_sea.png",
     "level": [
       "Gevorderd"
     ],
@@ -1626,7 +1626,7 @@
     "lat": 53.33453,
     "lon": 6.931337,
     "permalink": "https://kitesurfvereniging.nl/kitespot/delfzijl/",
-    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Delfzijl-hoofd­afbeelding.webp",
+    "image": "/images/sunset.png",
     "level": [
       "Beginner",
       "Gevorderd"
@@ -1655,7 +1655,7 @@
     "lat": 53.064888,
     "lon": 4.873644,
     "permalink": "https://kitesurfvereniging.nl/kitespot/texel-dijkmanshuizen/",
-    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Texel-Dijkmanshuizen-hoofdafbeelding.webp",
+    "image": "/images/north_sea.png",
     "level": [
       "Gevorderd"
     ],
@@ -1679,7 +1679,7 @@
     "lat": 52.556786,
     "lon": 4.605667,
     "permalink": "https://kitesurfvereniging.nl/kitespot/castricum-aan-zee/",
-    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/castricum.webp",
+    "image": "/images/north_sea.png",
     "level": [
       "Beginner",
       "Gevorderd"
@@ -1704,7 +1704,7 @@
     "lat": 52.874748856751886,
     "lon": 5.817690721565243,
     "permalink": "https://kitesurfvereniging.nl/kitespot/tjeukemeer/",
-    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Tjeukemeer-spotkaart-2.0.webp",
+    "image": "/images/inland.png",
     "level": [
       "Beginner",
       "Gevorderd"
@@ -1732,7 +1732,7 @@
     "lat": 52.7283090428019,
     "lon": 4.639765275146468,
     "permalink": "https://kitesurfvereniging.nl/kitespot/camperduin/",
-    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Camperduin-hoofdafbeelding.webp",
+    "image": "/images/sunset.png",
     "level": [
       "Beginner",
       "Gevorderd",
@@ -1758,7 +1758,7 @@
     "lat": 53.237576,
     "lon": 4.964422,
     "permalink": "https://kitesurfvereniging.nl/kitespot/vlieland-wadkant/",
-    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Vlieland-wadzijde-hoofd­afbeelding.webp",
+    "image": "/images/north_sea.png",
     "level": [
       "Beginner"
     ],
@@ -1781,7 +1781,7 @@
     "lat": 52.840599,
     "lon": 4.691325,
     "permalink": "https://kitesurfvereniging.nl/kitespot/callantsoog/",
-    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Callantsoog-hoofd­afbeelding.webp",
+    "image": "/images/inland.png",
     "level": [
       "Gevorderd"
     ],
@@ -1805,7 +1805,7 @@
     "lat": 53.304478,
     "lon": 5.048718,
     "permalink": "https://kitesurfvereniging.nl/kitespot/vlieland-noordzee/",
-    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Vlieland-Noordzee-hoofdafbeelding.webp",
+    "image": "/images/north_sea.png",
     "level": [
       "Beginner"
     ],
@@ -1829,7 +1829,7 @@
     "lat": 51.373165,
     "lon": 3.368118,
     "permalink": "https://kitesurfvereniging.nl/kitespot/cadzand-bad-west/",
-    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/cadzand2.webp",
+    "image": "/images/sunset.png",
     "level": [
       "Beginner"
     ],
@@ -1853,7 +1853,7 @@
     "lat": 51.445332,
     "lon": 3.561992,
     "permalink": "https://kitesurfvereniging.nl/kitespot/vlissingen/",
-    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Vlissingen-hoofd­afbeelding.webp",
+    "image": "/images/north_sea.png",
     "level": [
       "Beginner"
     ],
@@ -1876,7 +1876,7 @@
     "lat": 51.385365,
     "lon": 3.404863,
     "permalink": "https://kitesurfvereniging.nl/kitespot/cadzand-bad-vlamingpolder/",
-    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/cadzand2.webp",
+    "image": "/images/inland.png",
     "level": [
       "Gevorderd"
     ],
@@ -1900,7 +1900,7 @@
     "lat": 51.591873,
     "lon": 3.632949,
     "permalink": "https://kitesurfvereniging.nl/kitespot/vrouwenpolder/",
-    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Vrouwenpolder-hoofdafbeelding.webp",
+    "image": "/images/action.png",
     "level": [
       "Beginner"
     ],
@@ -1928,7 +1928,7 @@
     "lat": 51.760532,
     "lon": 3.842414,
     "permalink": "https://kitesurfvereniging.nl/kitespot/brouwersdam/",
-    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Brouwersdam-hoofd­afbeelding.webp",
+    "image": "/images/north_sea.png",
     "level": [
       "Beginner"
     ],
@@ -1952,7 +1952,7 @@
     "lat": 51.40062194272245,
     "lon": 3.559299638623048,
     "permalink": "https://kitesurfvereniging.nl/kitespot/breskens-oost/",
-    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Breskens-hoofd­afbeelding.webp",
+    "image": "/images/north_sea.png",
     "level": [
       "Beginner"
     ],
@@ -1976,7 +1976,7 @@
     "lat": 52.565662,
     "lon": 5.033157,
     "permalink": "https://kitesurfvereniging.nl/kitespot/warder/",
-    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Warder-hoofdscherm-afbeelding.webp",
+    "image": "/images/inland.png",
     "level": [
       "Beginner"
     ],
@@ -2000,7 +2000,7 @@
     "lat": 52.197262,
     "lon": 4.668126,
     "permalink": "https://kitesurfvereniging.nl/kitespot/braassemermeer/",
-    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Braassemermeer-hoofdafbeelding.webp",
+    "image": "/images/inland.png",
     "level": [
       "Gevorderd"
     ],
@@ -2023,7 +2023,7 @@
     "lat": 52.163361,
     "lon": 4.34611,
     "permalink": "https://kitesurfvereniging.nl/kitespot/wassenaarse-slag/",
-    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Wassenaarseslag-hoofdafbeelding.webp",
+    "image": "/images/sunset.png",
     "level": [
       "Gevorderd"
     ],
@@ -2051,7 +2051,7 @@
     "lat": 51.433178,
     "lon": 3.709353,
     "permalink": "https://kitesurfvereniging.nl/kitespot/borssele-de-kaloot/",
-    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Borssele-hoofdafbeelding.webp",
+    "image": "/images/north_sea.png",
     "level": [
       "Beginner"
     ],
@@ -2075,7 +2075,7 @@
     "lat": 52.2405285,
     "lon": 4.7204159,
     "permalink": "https://kitesurfvereniging.nl/kitespot/westeinderplassen/",
-    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Westeinderplassen-hoofdafbeelding.webp",
+    "image": "/images/inland.png",
     "level": [
       "Gevorderd"
     ],
@@ -2098,7 +2098,7 @@
     "lat": 52.416317,
     "lon": 4.549245,
     "permalink": "https://kitesurfvereniging.nl/kitespot/bloemendaal-aan-zee/",
-    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/BaZ-KiteZone.webp",
+    "image": "/images/north_sea.png",
     "level": [
       "Gevorderd"
     ],
@@ -2122,7 +2122,7 @@
     "lat": 52.48253093941438,
     "lon": 4.577510158752451,
     "permalink": "https://kitesurfvereniging.nl/kitespot/wijk-aan-zee-hangout/",
-    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Wijk-aan-zee-bunker-hoofd­afbeelding.webp",
+    "image": "/images/north_sea.png",
     "level": [
       "Beginner"
     ],
@@ -2146,7 +2146,7 @@
     "lat": 52.658703,
     "lon": 4.626903,
     "permalink": "https://kitesurfvereniging.nl/kitespot/bergen-aan-zee/",
-    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Bergen-aan-Zee-hoofd­afbeelding.webp",
+    "image": "/images/north_sea.png",
     "level": [
       "Gevorderd"
     ],
@@ -2170,7 +2170,7 @@
     "lat": 51.394135,
     "lon": 3.896531,
     "permalink": "https://kitesurfvereniging.nl/kitespot/baarland/",
-    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Baarland-hoofd­afbeelding.webp",
+    "image": "/images/inland.png",
     "level": [
       "Gevorderd"
     ],
@@ -2194,7 +2194,7 @@
     "lat": 52.471031,
     "lon": 4.565752,
     "permalink": "https://kitesurfvereniging.nl/kitespot/wijk-aan-zee-pier/",
-    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Wijk-aan-zee-noordpier-hoofdafbeelding.webp",
+    "image": "/images/north_sea.png",
     "level": [
       "Beginner",
       "Gevorderd"
@@ -2219,7 +2219,7 @@
     "lat": 52.739857,
     "lon": 5.175726,
     "permalink": "https://kitesurfvereniging.nl/kitespot/andijk/",
-    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Andijk-hoofdafbeelding.webp",
+    "image": "/images/action.png",
     "level": [
       "Gevorderd"
     ],
@@ -2242,7 +2242,7 @@
     "lat": 51.992015738236034,
     "lon": 4.114798307418823,
     "permalink": "https://kitesurfvereniging.nl/kitespot/hoek-van-holland-windsurfing/",
-    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2022/10/vlcsnap-2023-02-15-19h35m18s040.webp",
+    "image": "/images/north_sea.png",
     "level": [
       "Gevorderd"
     ],
@@ -2266,7 +2266,7 @@
     "lat": 52.885124923080426,
     "lon": 4.9165667510045985,
     "permalink": "https://kitesurfvereniging.nl/kitespot/amstelmeer-lutje-strand-zuid/",
-    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/amstelmeer-foto-rob.webp",
+    "image": "/images/north_sea.png",
     "level": [
       "Gevorderd"
     ],
@@ -2290,7 +2290,7 @@
     "lat": 52.965973,
     "lon": 5.410585,
     "permalink": "https://kitesurfvereniging.nl/kitespot/workum/",
-    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/hoofdafbeelding-workum.webp",
+    "image": "/images/action.png",
     "level": [
       "Beginner"
     ],
@@ -2314,7 +2314,7 @@
     "lat": 53.439205,
     "lon": 5.77345,
     "permalink": "https://kitesurfvereniging.nl/kitespot/ameland-waddenzee/",
-    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Ameland-veerdam-hoofdafbeelding.webp",
+    "image": "/images/north_sea.png",
     "level": [
       "Beginner"
     ],
@@ -2338,7 +2338,7 @@
     "lat": 53.459965,
     "lon": 5.741499,
     "permalink": "https://kitesurfvereniging.nl/kitespot/ameland-noordzee/",
-    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Ameland-NZ-hoofdbeeld.webp",
+    "image": "/images/north_sea.png",
     "level": [
       "Beginner"
     ],
@@ -2362,7 +2362,7 @@
     "lat": 52.365335113481585,
     "lon": 4.519105687744145,
     "permalink": "https://kitesurfvereniging.nl/kitespot/zandvoort/",
-    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Zandvoort-spotkaart-2.0.webp",
+    "image": "/images/inland.png",
     "level": [
       "Gevorderd"
     ],
@@ -2386,7 +2386,7 @@
     "lat": 52.34747029479037,
     "lon": 5.1335594920654115,
     "permalink": "https://kitesurfvereniging.nl/kitespot/almere/",
-    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Scherm­afbeelding-2023-02-13-om-18.32.25.webp",
+    "image": "/images/action.png",
     "level": [
       "Gevorderd"
     ],
@@ -2410,7 +2410,7 @@
     "lat": 53.145409,
     "lon": 6.693851,
     "permalink": "https://kitesurfvereniging.nl/kitespot/zuidlaardermeer/",
-    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2023/01/Zuidlaardermeer-hoofd­afbeelding.webp",
+    "image": "/images/inland.png",
     "level": [
       "Gevorderd"
     ],
@@ -2434,7 +2434,7 @@
     "lat": 52.105083,
     "lon": 4.26353,
     "permalink": "https://kitesurfvereniging.nl/kitespot/scheveningen-noorderstrand/",
-    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2022/10/Scheveningen-noorderstrand-hoofdafbeelding.webp",
+    "image": "/images/north_sea.png",
     "level": [
       "Gevorderd"
     ],
@@ -2458,7 +2458,7 @@
     "lat": 52.09388607350487,
     "lon": 4.249607984130859,
     "permalink": "https://kitesurfvereniging.nl/kitespot/den-haag-zuiderstrand/",
-    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2022/10/DH-zuiderstrand.webp",
+    "image": "/images/north_sea.png",
     "level": [
       "Gevorderd"
     ],
@@ -2482,7 +2482,7 @@
     "lat": 52.05520313862568,
     "lon": 4.186521291015639,
     "permalink": "https://kitesurfvereniging.nl/kitespot/zandmotor/",
-    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2022/10/zandmotor.webp",
+    "image": "/images/action.png",
     "level": [
       "Beginner",
       "Gevorderd"
@@ -2511,7 +2511,7 @@
     "lat": 52.01080376683954,
     "lon": 4.138953867736808,
     "permalink": "https://kitesurfvereniging.nl/kitespot/s-gravenzande-slag-beukel/",
-    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2022/10/My-project-1-2.webp",
+    "image": "/images/sunset.png",
     "level": [
       "Gevorderd"
     ],
@@ -2537,7 +2537,7 @@
     "lat": 51.99180432944537,
     "lon": 4.114208221435547,
     "permalink": "https://kitesurfvereniging.nl/kitespot/hoek-van-holland/",
-    "image": "https://cdn.kitesurfvereniging.nl/wp-content/uploads/2022/10/vlcsnap-2023-02-15-19h35m18s040.webp",
+    "image": "/images/north_sea.png",
     "level": [
       "Gevorderd"
     ],
