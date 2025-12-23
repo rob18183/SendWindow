@@ -190,10 +190,42 @@ export default function Home() {
 
     const isRefetching = spotQueries.some(q => q.isRefetching || q.isLoading);
 
-    // Fetch driving times for visible spots
-    // We limit this to top 20 to avoid rate limits on the demo server
-    const spotsToRoute = useMemo(() => inRange.slice(0, 20).map(item => item.spot), [inRange]);
+    // 1. Calculate & Sort Scored Spots (Forecast + Distance) first
+    const scoredSpots = useMemo(() => {
+        const computed = inRange.map(({ spot, distanceKm }, idx) => {
+            const result = spotQueries[idx];
 
+            if (result.status !== 'success' || !result.data) {
+                return null;
+            }
+
+            const forecast = result.data as ForecastHour[];
+            const hours = forecast.map((fh) => {
+                const r = sendScore(spot, fh);
+                return { timeISO: fh.timeISO, score: r.score, color: r.color };
+            });
+
+            const greenBest = bestWindow(hours, 70);
+            const yellowBest = bestWindow(hours, 45);
+
+            return { spotId: spot.id, spot, distanceKm, hours, greenBest, yellowBest };
+        }).filter(Boolean) as any[];
+
+        computed.sort(compareSpots);
+        return computed;
+    }, [inRange, spotQueries]);
+
+    // 2. Determine which spots to route (Top 20 of Scored List)
+    // If scores aren't ready, fallback to linear distance to pre-warm cache
+    const spotsToRoute = useMemo(() => {
+        if (scoredSpots.length === 0) {
+            const sortedByDist = [...inRange].sort((a, b) => a.distanceKm - b.distanceKm);
+            return sortedByDist.slice(0, 20).map(item => item.spot);
+        }
+        return scoredSpots.slice(0, 20).map(x => x.spot);
+    }, [scoredSpots, inRange]);
+
+    // 3. Fetch Driving Times
     const drivingTimes = useQueries({
         queries: spotsToRoute.map(spot => ({
             queryKey: ['drivingTime', loc?.lat, loc?.lon, spot.lat, spot.lon],
@@ -211,30 +243,9 @@ export default function Home() {
         return map;
     }, [spotsToRoute, drivingTimes]);
 
+    // 4. Final View Model
     const rows = useMemo(() => {
-        const computed = inRange.map(({ spot, distanceKm }, idx) => {
-            const result = spotQueries[idx];
-
-            if (result.status !== 'success' || !result.data) {
-                // Loading or Error state placeholder
-                return null;
-            }
-
-            const forecast = result.data as ForecastHour[];
-            const hours = forecast.map((fh) => {
-                const r = sendScore(spot, fh);
-                return { timeISO: fh.timeISO, score: r.score, color: r.color };
-            });
-
-            const greenBest = bestWindow(hours, 70);
-            const yellowBest = bestWindow(hours, 45);
-
-            return { spotId: spot.id, spot, distanceKm, hours, greenBest, yellowBest };
-        }).filter(Boolean) as any[];
-
-        computed.sort(compareSpots);
-
-        return computed.map((x) => {
+        return scoredSpots.map((x: any) => {
             const chosen = x.greenBest ?? x.yellowBest;
             const label = chosen ? fmtWindow(x.hours, chosen.start, chosen.end) : "No window";
             const topHour = chosen ? x.hours[chosen.start] : x.hours[0];
@@ -249,7 +260,7 @@ export default function Home() {
                 travelTime: drivingTimeMap[x.spot.id] // Add travel time
             };
         });
-    }, [inRange, spotQueries, drivingTimeMap]);
+    }, [scoredSpots, drivingTimeMap]);
 
     const handleRefresh = () => {
         queryClient.invalidateQueries({ queryKey: ['forecast'] });

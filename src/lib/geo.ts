@@ -58,10 +58,19 @@ export async function geocodeAddress(query: string): Promise<{ lat: number; lon:
 }
 
 
+
 export async function getDrivingDuration(
     start: { lat: number; lon: number },
     end: { lat: number; lon: number }
 ): Promise<number | null> {
+    const key = `travel_${start.lat.toFixed(3)},${start.lon.toFixed(3)}_${end.lat.toFixed(3)},${end.lon.toFixed(3)}`;
+
+    // Check cache
+    try {
+        const cached = localStorage.getItem(key);
+        if (cached) return parseInt(cached, 10);
+    } catch (e) { /* ignore */ }
+
     try {
         // OSRM Public API (Demo Server)
         // Rate limits apply. Not for heavy production use.
@@ -73,7 +82,14 @@ export async function getDrivingDuration(
         const data = await res.json();
         if (data.code === 'Ok' && data.routes && data.routes.length > 0) {
             // Duration is in seconds
-            return Math.round(data.routes[0].duration / 60);
+            const minutes = Math.round(data.routes[0].duration / 60);
+
+            // Save to cache
+            try {
+                localStorage.setItem(key, String(minutes));
+            } catch (e) { /* full? */ }
+
+            return minutes;
         }
         return null;
     } catch (e) {
