@@ -59,6 +59,41 @@ export async function geocodeAddress(query: string): Promise<{ lat: number; lon:
 
 
 
+// Simple Rate Limiter for OSRM Demo Server
+// Limit: ~1 request per second to be safe
+const requestQueue: (() => Promise<void>)[] = [];
+let isProcessingQueue = false;
+
+async function processQueue() {
+    if (isProcessingQueue) return;
+    isProcessingQueue = true;
+
+    while (requestQueue.length > 0) {
+        const task = requestQueue.shift();
+        if (task) {
+            await task();
+            // Wait 1s between calls
+            await new Promise(resolve => setTimeout(resolve, 1000));
+        }
+    }
+
+    isProcessingQueue = false;
+}
+
+function enqueueRequest<T>(fn: () => Promise<T>): Promise<T> {
+    return new Promise((resolve, reject) => {
+        requestQueue.push(async () => {
+            try {
+                const result = await fn();
+                resolve(result);
+            } catch (e) {
+                reject(e);
+            }
+        });
+        processQueue();
+    });
+}
+
 export async function getDrivingDuration(
     start: { lat: number; lon: number },
     end: { lat: number; lon: number }
@@ -71,29 +106,32 @@ export async function getDrivingDuration(
         if (cached) return parseInt(cached, 10);
     } catch (e) { /* ignore */ }
 
-    try {
-        // OSRM Public API (Demo Server)
-        // Rate limits apply. Not for heavy production use.
-        const url = `https://router.project-osrm.org/route/v1/driving/${start.lon},${start.lat};${end.lon},${end.lat}?overview=false`;
+    // Wrap the fetch in the rate limiter
+    return enqueueRequest(async () => {
+        try {
+            // OSRM Public API (Demo Server)
+            // Rate limits apply. Not for heavy production use.
+            const url = `https://router.project-osrm.org/route/v1/driving/${start.lon},${start.lat};${end.lon},${end.lat}?overview=false`;
 
-        const res = await fetch(url);
-        if (!res.ok) return null;
+            const res = await fetch(url);
+            if (!res.ok) return null;
 
-        const data = await res.json();
-        if (data.code === 'Ok' && data.routes && data.routes.length > 0) {
-            // Duration is in seconds
-            const minutes = Math.round(data.routes[0].duration / 60);
+            const data = await res.json();
+            if (data.code === 'Ok' && data.routes && data.routes.length > 0) {
+                // Duration is in seconds
+                const minutes = Math.round(data.routes[0].duration / 60);
 
-            // Save to cache
-            try {
-                localStorage.setItem(key, String(minutes));
-            } catch (e) { /* full? */ }
+                // Save to cache
+                try {
+                    localStorage.setItem(key, String(minutes));
+                } catch (e) { /* full? */ }
 
-            return minutes;
+                return minutes;
+            }
+            return null;
+        } catch (e) {
+            console.warn("OSRM error:", e);
+            return null;
         }
-        return null;
-    } catch (e) {
-        console.warn("OSRM error:", e);
-        return null;
-    }
+    });
 }

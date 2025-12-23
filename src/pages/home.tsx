@@ -294,9 +294,8 @@ export default function Home() {
                         >
                             🔄
                         </button>
-                        <Link to="/map" className="btn-ghost" style={{ textDecoration: "none", fontWeight: 600 }}>🗺️ Map</Link>
-                        <Link to="/duo" className="btn-ghost" style={{ textDecoration: "none", fontWeight: 600 }} title="Duo Mode">🤝 Duo</Link>
-                        <Link to="/alerts" className="btn-ghost" style={{ textDecoration: "none", fontWeight: 600 }}>🔔 Alerts</Link>
+                        <Link to="/map" className="btn-ghost" style={{ textDecoration: "none", fontWeight: 600, whiteSpace: "nowrap" }}>🗺️ Map</Link>
+                        <Link to="/duo" className="btn-ghost" style={{ textDecoration: "none", fontWeight: 600, whiteSpace: "nowrap" }} title="Duo Mode">🤝 Duo</Link>
                         <Link to="/about" className="btn-ghost" style={{ textDecoration: "none", fontSize: 18, padding: "0 8px" }} title="About">ℹ️</Link>
                     </div>
                 </div>
