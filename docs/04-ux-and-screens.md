@@ -29,3 +29,10 @@ Rule builder:
 - Min duration (1–4h)
 - Time window (anytime or hours)
 Delivery: start simple, expand later.
+
+## Screen 4: Spot Map
+- Full-screen interactive map (Leaflet)
+- Markers for all spots
+- **Visual Barcode Icons**: dynamic markers showing the next ~12 daylight hours as colored strips (Green/Yellow/Red).
+  - Allows instant scanning of the entire region to see where the wind is ON.
+- Click to view popup with link to Spot Detail.

@@ -4,6 +4,7 @@ import Home from './pages/home';
 import MapPage from './pages/map';
 import SpotDetail from './pages/spot-detail';
 import AlertsPage from './pages/alerts';
+import AboutPage from './pages/about';
 
 const queryClient = new QueryClient({
     defaultOptions: {
@@ -24,6 +25,7 @@ function App() {
                     <Route path="/map" element={<MapPage />} />
                     <Route path="/spot/:id" element={<SpotDetail />} />
                     <Route path="/alerts" element={<AlertsPage />} />
+                    <Route path="/about" element={<AboutPage />} />
                 </Routes>
             </BrowserRouter>
         </QueryClientProvider>

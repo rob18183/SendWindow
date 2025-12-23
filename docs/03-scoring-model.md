@@ -30,3 +30,7 @@ gust_score = 15 * max(0, 1 - max(0, g-6)/14)
 ## Safety override (optional)
 If forecast direction is inside unsafe_dirs: force **Red**.
 Use sparingly, only when you’re confident per spot.
+
+## Night override
+If the time slot is during the night (sun is down): force **Red (Score 0)**.
+This ensures users are not encouraged to kitesurf in the dark.
