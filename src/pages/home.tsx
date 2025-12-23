@@ -253,7 +253,7 @@ export default function Home() {
         <div className="container" style={{ padding: '0 16px' }}>
             {/* Header Section */}
             <header style={{ padding: '24px 0 16px 0' }}>
-                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 16 }}>
+                <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "space-between", alignItems: "center", gap: 16, marginBottom: 16 }}>
                     <div>
                         <h1 style={{ marginBottom: 4 }}>SendWindow</h1>
                         {/* Location Bar */}
@@ -267,12 +267,12 @@ export default function Home() {
                                 </button>
                             </div>
                         ) : (
-                            <form onSubmit={handleManualLocSubmit} style={{ display: "flex", gap: 6, marginTop: 4 }}>
+                            <form onSubmit={handleManualLocSubmit} style={{ display: "flex", gap: 6, marginTop: 4, flexWrap: "wrap" }}>
                                 <input
                                     value={manualAddress}
                                     onChange={e => setManualAddress(e.target.value)}
                                     placeholder="City or Town..."
-                                    style={{ fontSize: 13, padding: "6px 12px", borderRadius: 20, border: "1px solid #cbd5e1", outline: "none" }}
+                                    style={{ fontSize: 13, padding: "6px 12px", borderRadius: 20, border: "1px solid #cbd5e1", outline: "none", width: 140 }}
                                     autoFocus
                                 />
                                 <button type="submit" className="btn" style={{ background: "var(--color-primary)", color: "white" }}>Set</button>
@@ -282,13 +282,14 @@ export default function Home() {
                         )}
                     </div>
 
-                    <div style={{ display: 'flex', gap: 8 }}>
+                    <div style={{ display: 'flex', gap: 6, flexWrap: "wrap" }}>
                         <button
                             onClick={handleRefresh}
                             className="btn-icon"
                             style={{
                                 transform: isRefetching ? "rotate(360deg)" : "none",
-                                transition: "transform 1s ease"
+                                transition: "transform 1s ease",
+                                flexShrink: 0
                             }}
                             title="Refresh Forecasts"
                         >
