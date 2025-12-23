@@ -13,11 +13,11 @@
     "external_forecasts": [
       {
         "name": "Windy",
-        "url": "https://www.windy.com/52.515/5.075"
+        "url": "https://www.windy.com/52.5150/5.0750?52.5150,5.0750,11"
       },
       {
         "name": "Windfinder",
-        "url": "https://www.windfinder.com/forecast/edam"
+        "url": "https://www.windfinder.com/#12/52.5150/5.0750"
       }
     ],
     "level": [
@@ -62,7 +62,17 @@
     "unsafe_dirs": [],
     "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet, Douche Openbaar vervoer Parkeergelegenheid Betaald Laadpalen aanwezig Ja 4",
     "last_scraped": "2025-12-22T15:10:48.313Z",
-    "season": "het hele jaar"
+    "season": "het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/51.8723/4.0449?51.8723,4.0449,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/51.8723/4.0449"
+      }
+    ]
   },
   {
     "id": "oudega-smallingerland",
@@ -85,7 +95,17 @@
     ],
     "unsafe_dirs": [],
     "last_scraped": "2025-12-22T15:10:50.615Z",
-    "season": "het hele jaar"
+    "season": "het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/53.1102/5.9894?53.1102,5.9894,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/53.1102/5.9894"
+      }
+    ]
   },
   {
     "id": "krabbendijke-roelshoek",
@@ -108,7 +128,17 @@
     ],
     "unsafe_dirs": [],
     "last_scraped": "2025-12-22T15:10:52.878Z",
-    "season": "het hele jaar"
+    "season": "het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/51.4354/4.1258?51.4354,4.1258,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/51.4354/4.1258"
+      }
+    ]
   },
   {
     "id": "zeewolde",
@@ -131,7 +161,17 @@
     ],
     "unsafe_dirs": [],
     "last_scraped": "2025-12-22T15:10:55.217Z",
-    "season": "het hele jaar"
+    "season": "het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/52.3234/5.5504?52.3234,5.5504,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/52.3234/5.5504"
+      }
+    ]
   },
   {
     "id": "blaricum-gooimeer",
@@ -154,7 +194,17 @@
     ],
     "unsafe_dirs": [],
     "last_scraped": "2025-12-22T15:10:57.498Z",
-    "season": "het hele jaar"
+    "season": "het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/52.3001/5.3011?52.3001,5.3011,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/52.3001/5.3011"
+      }
+    ]
   },
   {
     "id": "ijburg",
@@ -177,7 +227,17 @@
     ],
     "unsafe_dirs": [],
     "last_scraped": "2025-12-22T15:10:59.768Z",
-    "season": "het hele jaar"
+    "season": "het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/52.3554/5.0227?52.3554,5.0227,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/52.3554/5.0227"
+      }
+    ]
   },
   {
     "id": "ijmuiden-zone-2-gem-velsen",
@@ -201,7 +261,17 @@
     "unsafe_dirs": [],
     "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet, Douche Openbaar vervoer Parkeergelegenheid Betaald Laadpalen aanwezig Onbekend",
     "last_scraped": "2025-12-22T15:11:02.195Z",
-    "season": "oktober t/m maart"
+    "season": "oktober t/m maart",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/52.4553/4.5560?52.4553,4.5560,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/52.4553/4.5560"
+      }
+    ]
   },
   {
     "id": "lauwersmeer",
@@ -225,7 +295,17 @@
     "unsafe_dirs": [],
     "facilities": "Aanwezig faciliteiten Openbaar vervoer Parkeergelegenheid Onbekend Laadpalen aanwezig Onbekend",
     "last_scraped": "2025-12-22T15:11:04.540Z",
-    "season": "juni t/m september"
+    "season": "juni t/m september",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/53.4075/6.1615?53.4075,6.1615,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/53.4075/6.1615"
+      }
+    ]
   },
   {
     "id": "medemblik",
@@ -250,7 +330,17 @@
     "unsafe_dirs": [],
     "facilities": "Aanwezig faciliteiten Openbaar vervoer Vanaf treinstation Hoorn gaan er bussen naar Medemblik, dan is het nog 15min lopen vanaf halte spooksingel. Parkeergelegenheid Gratis Laadpalen aanwezig Nee",
     "last_scraped": "2025-12-22T15:11:07.242Z",
-    "season": "april t/m september"
+    "season": "april t/m september",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/52.7550/5.1250?52.7550,5.1250,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/52.7550/5.1250"
+      }
+    ]
   },
   {
     "id": "makkum",
@@ -276,7 +366,17 @@
     "unsafe_dirs": [],
     "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer Parkeergelegenheid Gratis Laadpalen aanwezig Ja 2",
     "last_scraped": "2025-12-22T15:11:09.754Z",
-    "season": "oktober t/m april"
+    "season": "oktober t/m april",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/53.0531/5.3762?53.0531,5.3762,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/53.0531/5.3762"
+      }
+    ]
   },
   {
     "id": "midwolda-oldambtmeer",
@@ -300,7 +400,17 @@
     "unsafe_dirs": [],
     "facilities": "Aanwezig faciliteiten Openbaar vervoer Parkeergelegenheid Onbekend Laadpalen aanwezig Onbekend",
     "last_scraped": "2025-12-22T15:11:12.052Z",
-    "season": "oktober t/m april"
+    "season": "oktober t/m april",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/53.1932/7.0273?53.1932,7.0273,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/53.1932/7.0273"
+      }
+    ]
   },
   {
     "id": "maasvlakte-2-slufter",
@@ -324,7 +434,17 @@
     "unsafe_dirs": [],
     "facilities": "Aanwezig faciliteiten Openbaar vervoer Parkeergelegenheid Gratis Laadpalen aanwezig Nee",
     "last_scraped": "2025-12-22T15:11:14.680Z",
-    "season": "Het hele jaar"
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/51.9191/3.9882?51.9191,3.9882,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/51.9191/3.9882"
+      }
+    ]
   },
   {
     "id": "maasvlakte-2-p5-en-p6",
@@ -347,7 +467,17 @@
     ],
     "unsafe_dirs": [],
     "last_scraped": "2025-12-22T15:11:16.951Z",
-    "season": "Het hele jaar"
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/51.9514/3.9667?51.9514,3.9667,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/51.9514/3.9667"
+      }
+    ]
   },
   {
     "id": "mirns-t-mirnser-klif",
@@ -371,7 +501,17 @@
     "unsafe_dirs": [],
     "facilities": "Aanwezig faciliteiten Openbaar vervoer Parkeergelegenheid Onbekend Laadpalen aanwezig Onbekend",
     "last_scraped": "2025-12-22T15:11:19.488Z",
-    "season": "Het hele jaar"
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/52.8501/5.4820?52.8501,5.4820,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/52.8501/5.4820"
+      }
+    ]
   },
   {
     "id": "maasvlakte-2-spot-p1-tm-p3",
@@ -395,7 +535,17 @@
     "unsafe_dirs": [],
     "facilities": "Aanwezig faciliteiten Openbaar vervoer Parkeergelegenheid Gratis Laadpalen aanwezig Nee",
     "last_scraped": "2025-12-22T15:11:22.302Z",
-    "season": "oktober t/m april"
+    "season": "oktober t/m april",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/51.9232/3.9809?51.9232,3.9809,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/51.9232/3.9809"
+      }
+    ]
   },
   {
     "id": "monnickendam",
@@ -418,7 +568,17 @@
     ],
     "unsafe_dirs": [],
     "last_scraped": "2025-12-22T15:11:24.648Z",
-    "season": "Het hele jaar"
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/52.4591/5.0533?52.4591,5.0533,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/52.4591/5.0533"
+      }
+    ]
   },
   {
     "id": "lemmer",
@@ -442,7 +602,17 @@
     "unsafe_dirs": [],
     "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer Parkeergelegenheid Onbekend Laadpalen aanwezig Onbekend",
     "last_scraped": "2025-12-22T15:11:26.973Z",
-    "season": "oktober t/m april"
+    "season": "oktober t/m april",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/52.8439/5.6929?52.8439,5.6929,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/52.8439/5.6929"
+      }
+    ]
   },
   {
     "id": "muiderberg",
@@ -466,7 +636,17 @@
     "unsafe_dirs": [],
     "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer Parkeergelegenheid Gratis Laadpalen aanwezig Onbekend",
     "last_scraped": "2025-12-22T15:11:29.533Z",
-    "season": "Het hele jaar"
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/52.3299/5.1135?52.3299,5.1135,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/52.3299/5.1135"
+      }
+    ]
   },
   {
     "id": "lelystad-trintelhaven",
@@ -490,7 +670,17 @@
     "unsafe_dirs": [],
     "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer Parkeergelegenheid Gratis Laadpalen aanwezig Onbekend",
     "last_scraped": "2025-12-22T15:11:31.874Z",
-    "season": "april t/m juli"
+    "season": "april t/m juli",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/52.6362/5.4131?52.6362,5.4131,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/52.6362/5.4131"
+      }
+    ]
   },
   {
     "id": "neeltje-jans",
@@ -514,7 +704,17 @@
     "unsafe_dirs": [],
     "facilities": "Aanwezig faciliteiten Openbaar vervoer Parkeergelegenheid Onbekend Laadpalen aanwezig Onbekend",
     "last_scraped": "2025-12-22T15:11:34.424Z",
-    "season": "het hele jaar"
+    "season": "het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/51.6242/3.6806?51.6242,3.6806,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/51.6242/3.6806"
+      }
+    ]
   },
   {
     "id": "lelystad-bataviastrand",
@@ -538,7 +738,17 @@
     "unsafe_dirs": [],
     "facilities": "Aanwezig faciliteiten Openbaar vervoer n.v.t. Parkeergelegenheid Gratis Laadpalen aanwezig Nee",
     "last_scraped": "2025-12-22T15:11:36.992Z",
-    "season": "het hele jaar"
+    "season": "het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/52.5244/5.4243?52.5244,5.4243,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/52.5244/5.4243"
+      }
+    ]
   },
   {
     "id": "noordwijk-aan-zee",
@@ -562,7 +772,17 @@
     "unsafe_dirs": [],
     "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet, Douche, Materiaalopslag, Luchtpomp Openbaar vervoer Parkeergelegenheid Betaald Laadpalen aanwezig Onbekend",
     "last_scraped": "2025-12-22T15:11:39.748Z",
-    "season": "het hele jaar"
+    "season": "het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/52.2358/4.4188?52.2358,4.4188,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/52.2358/4.4188"
+      }
+    ]
   },
   {
     "id": "lauwersoog-waddenzee",
@@ -586,7 +806,17 @@
     "unsafe_dirs": [],
     "facilities": "Aanwezig faciliteiten Eten, Drinken Openbaar vervoer Parkeergelegenheid Onbekend Laadpalen aanwezig Onbekend",
     "last_scraped": "2025-12-22T15:11:42.046Z",
-    "season": "het hele jaar"
+    "season": "het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/53.4088/6.1572?53.4088,6.1572,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/53.4088/6.1572"
+      }
+    ]
   },
   {
     "id": "tholen-oesterdam",
@@ -610,7 +840,17 @@
     "unsafe_dirs": [],
     "facilities": "Aanwezig faciliteiten Openbaar vervoer Geen openbaar vervoer beschikbaar Parkeergelegenheid Gratis Laadpalen aanwezig Nee",
     "last_scraped": "2025-12-22T15:11:44.603Z",
-    "season": "het hele jaar"
+    "season": "het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/51.4609/4.2214?51.4609,4.2214,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/51.4609/4.2214"
+      }
+    ]
   },
   {
     "id": "noordwijk-langevelderslag",
@@ -634,7 +874,17 @@
     "unsafe_dirs": [],
     "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer Parkeergelegenheid Betaald Laadpalen aanwezig Onbekend",
     "last_scraped": "2025-12-22T15:11:46.847Z",
-    "season": "het hele jaar"
+    "season": "het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/52.3019/4.4732?52.3019,4.4732,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/52.3019/4.4732"
+      }
+    ]
   },
   {
     "id": "oostvoorne-noordzee",
@@ -659,7 +909,17 @@
     "unsafe_dirs": [],
     "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer Parkeergelegenheid Betaald Laadpalen aanwezig Onbekend",
     "last_scraped": "2025-12-22T15:11:49.320Z",
-    "season": "het hele jaar"
+    "season": "het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/51.9151/4.0606?51.9151,4.0606,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/51.9151/4.0606"
+      }
+    ]
   },
   {
     "id": "kornwerderzand",
@@ -684,7 +944,17 @@
     "unsafe_dirs": [],
     "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer Parkeergelegenheid Gratis Laadpalen aanwezig Ja 2",
     "last_scraped": "2025-12-22T15:11:51.797Z",
-    "season": "mei t/m september"
+    "season": "mei t/m september",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/53.0750/5.3441?53.0750,5.3441,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/53.0750/5.3441"
+      }
+    ]
   },
   {
     "id": "oostvoornse-meer",
@@ -708,7 +978,17 @@
     "unsafe_dirs": [],
     "facilities": "Aanwezig faciliteiten Eten, Toilet Openbaar vervoer Parkeergelegenheid Gratis Laadpalen aanwezig Onbekend",
     "last_scraped": "2025-12-22T15:11:54.061Z",
-    "season": "Het hele jaar"
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/51.9292/4.0665?51.9292,4.0665,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/51.9292/4.0665"
+      }
+    ]
   },
   {
     "id": "ouddorp",
@@ -732,7 +1012,17 @@
     "unsafe_dirs": [],
     "facilities": "Aanwezig faciliteiten Openbaar vervoer Parkeergelegenheid Onbekend Laadpalen aanwezig Onbekend",
     "last_scraped": "2025-12-22T15:11:56.416Z",
-    "season": "Het hele jaar"
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/51.8217/3.8782?51.8217,3.8782,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/51.8217/3.8782"
+      }
+    ]
   },
   {
     "id": "ouwerkerk",
@@ -756,7 +1046,17 @@
     "unsafe_dirs": [],
     "facilities": "Aanwezig faciliteiten Openbaar vervoer Geen openbaar vervoer aanwezig. Parkeergelegenheid Gratis Laadpalen aanwezig Nee",
     "last_scraped": "2025-12-22T15:11:58.701Z",
-    "season": "oktober t/m april"
+    "season": "oktober t/m april",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/51.6168/3.9615?51.6168,3.9615,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/51.6168/3.9615"
+      }
+    ]
   },
   {
     "id": "kijkduin",
@@ -781,7 +1081,17 @@
     "unsafe_dirs": [],
     "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet, Douche, Materiaalopslag, Luchtpomp Openbaar vervoer Buslijn 24 en 26 Parkeergelegenheid Gratis Laadpalen aanwezig Onbekend",
     "last_scraped": "2025-12-22T15:12:00.924Z",
-    "season": "het hele jaar"
+    "season": "het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/52.0665/4.2119?52.0665,4.2119,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/52.0665/4.2119"
+      }
+    ]
   },
   {
     "id": "paulinapolder",
@@ -805,7 +1115,17 @@
     "unsafe_dirs": [],
     "facilities": "Aanwezig faciliteiten Openbaar vervoer Parkeergelegenheid Onbekend Laadpalen aanwezig Onbekend",
     "last_scraped": "2025-12-22T15:12:03.240Z",
-    "season": "Het hele jaar"
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/51.3504/3.7318?51.3504,3.7318,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/51.3504/3.7318"
+      }
+    ]
   },
   {
     "id": "katwijk",
@@ -829,7 +1149,17 @@
     "unsafe_dirs": [],
     "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet, Douche, Materiaalopslag, Luchtpomp Openbaar vervoer Parkeergelegenheid Betaald Laadpalen aanwezig Onbekend",
     "last_scraped": "2025-12-22T15:12:05.841Z",
-    "season": "Het hele jaar"
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/52.2014/4.3866?52.2014,4.3866,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/52.2014/4.3866"
+      }
+    ]
   },
   {
     "id": "petten-pettemer-zeewering",
@@ -853,7 +1183,17 @@
     "unsafe_dirs": [],
     "facilities": "Aanwezig faciliteiten Openbaar vervoer Parkeergelegenheid Onbekend Laadpalen aanwezig Onbekend",
     "last_scraped": "2025-12-22T15:12:08.333Z",
-    "season": "Het hele jaar"
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/52.7638/4.6494?52.7638,4.6494,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/52.7638/4.6494"
+      }
+    ]
   },
   {
     "id": "julianadorp",
@@ -877,7 +1217,17 @@
     "unsafe_dirs": [],
     "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer Parkeergelegenheid Onbekend Laadpalen aanwezig Onbekend",
     "last_scraped": "2025-12-22T15:12:10.600Z",
-    "season": "Het hele jaar"
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/52.8955/4.7112?52.8955,4.7112,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/52.8955/4.7112"
+      }
+    ]
   },
   {
     "id": "reeuwijkse-plassen",
@@ -900,7 +1250,17 @@
     ],
     "unsafe_dirs": [],
     "last_scraped": "2025-12-22T15:12:12.859Z",
-    "season": "Het hele jaar"
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/52.0586/4.7415?52.0586,4.7415,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/52.0586/4.7415"
+      }
+    ]
   },
   {
     "id": "ijmuiderslag-gem-velsen",
@@ -924,7 +1284,17 @@
     "unsafe_dirs": [],
     "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet, Douche, Luchtpomp Openbaar vervoer Indien je met het openbaar vervoer komt dan is de bushalte ongeveer 20 minuten van de spot vandaan. De bus stopt bij Camping de Duindoorn, IJmuiden. Parkeergelegenheid Betaald Laadpalen aanwezig Ja 3",
     "last_scraped": "2025-12-22T15:12:15.440Z",
-    "season": "Het hele jaar"
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/52.4469/4.5552?52.4469,4.5552,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/52.4469/4.5552"
+      }
+    ]
   },
   {
     "id": "rilland-bath-zimmermangeul",
@@ -947,7 +1317,17 @@
     ],
     "unsafe_dirs": [],
     "last_scraped": "2025-12-22T15:12:17.691Z",
-    "season": "Het hele jaar"
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/51.3946/4.1494?51.3946,4.1494,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/51.3946/4.1494"
+      }
+    ]
   },
   {
     "id": "ijmuiden-zone-1-gem-velsen",
@@ -975,7 +1355,17 @@
     "unsafe_dirs": [],
     "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet, Douche, Luchtpomp Openbaar vervoer Parkeergelegenheid Betaald Laadpalen aanwezig Nee",
     "last_scraped": "2025-12-22T15:12:20.265Z",
-    "season": "Het hele jaar"
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/52.4564/4.5512?52.4564,4.5512,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/52.4564/4.5512"
+      }
+    ]
   },
   {
     "id": "rockanje-badstrand",
@@ -1000,7 +1390,17 @@
     "unsafe_dirs": [],
     "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet, Douche Openbaar vervoer Parkeergelegenheid Betaald Laadpalen aanwezig Ja 4",
     "last_scraped": "2025-12-22T15:12:22.893Z",
-    "season": "oktober t/m april"
+    "season": "oktober t/m april",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/51.8657/4.0513?51.8657,4.0513,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/51.8657/4.0513"
+      }
+    ]
   },
   {
     "id": "huizen",
@@ -1023,7 +1423,17 @@
     ],
     "unsafe_dirs": [],
     "last_scraped": "2025-12-22T15:12:25.145Z",
-    "season": "Het hele jaar"
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/52.3069/5.2566?52.3069,5.2566,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/52.3069/5.2566"
+      }
+    ]
   },
   {
     "id": "hoorn-stadstrand",
@@ -1046,7 +1456,17 @@
     ],
     "unsafe_dirs": [],
     "last_scraped": "2025-12-22T15:12:27.407Z",
-    "season": "Het hele jaar"
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/52.6365/5.0382?52.6365,5.0382,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/52.6365/5.0382"
+      }
+    ]
   },
   {
     "id": "kamperland-roompot-xbeach",
@@ -1074,7 +1494,17 @@
     "unsafe_dirs": [],
     "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer Parkeergelegenheid Onbekend Laadpalen aanwezig Onbekend",
     "last_scraped": "2025-12-22T15:12:29.675Z",
-    "season": "Het hele jaar"
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/51.5929/3.7314?51.5929,3.7314,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/51.5929/3.7314"
+      }
+    ]
   },
   {
     "id": "schellinkhout",
@@ -1098,7 +1528,17 @@
     "unsafe_dirs": [],
     "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer Parkeergelegenheid Gratis Laadpalen aanwezig Nee",
     "last_scraped": "2025-12-22T15:12:33.381Z",
-    "season": "Het hele jaar"
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/52.6323/5.1208?52.6323,5.1208,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/52.6323/5.1208"
+      }
+    ]
   },
   {
     "id": "hindeloopen",
@@ -1122,7 +1562,17 @@
     "unsafe_dirs": [],
     "facilities": "Aanwezig faciliteiten Openbaar vervoer Parkeergelegenheid Gratis Laadpalen aanwezig Onbekend",
     "last_scraped": "2025-12-22T15:12:36.063Z",
-    "season": "Het hele jaar"
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/52.9335/5.4034?52.9335,5.4034,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/52.9335/5.4034"
+      }
+    ]
   },
   {
     "id": "scheveningen-zwarte-pad",
@@ -1146,7 +1596,17 @@
     "unsafe_dirs": [],
     "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet, Douche, Materiaalopslag, Luchtpomp Openbaar vervoer Tram 1 / tram 9 (Vanaf CS en HS), Bus 21 / 23. Eindhalte Zwarte Pad Parkeergelegenheid Betaald Laadpalen aanwezig Ja 4",
     "last_scraped": "2025-12-22T15:12:38.378Z",
-    "season": "Het hele jaar"
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/52.1173/4.2894?52.1173,4.2894,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/52.1173/4.2894"
+      }
+    ]
   },
   {
     "id": "harlingen-waddenzee",
@@ -1170,7 +1630,17 @@
     "unsafe_dirs": [],
     "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet, Douche Openbaar vervoer Parkeergelegenheid Onbekend Laadpalen aanwezig Onbekend",
     "last_scraped": "2025-12-22T15:12:40.774Z",
-    "season": "Het hele jaar"
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/53.1664/5.4150?53.1664,5.4150,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/53.1664/5.4150"
+      }
+    ]
   },
   {
     "id": "hellevoetsluis-haringvliet",
@@ -1194,7 +1664,17 @@
     "unsafe_dirs": [],
     "facilities": "Aanwezig faciliteiten Openbaar vervoer Parkeergelegenheid Gratis Laadpalen aanwezig Nee",
     "last_scraped": "2025-12-22T15:12:43.130Z",
-    "season": "Het hele jaar"
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/51.8206/4.1591?51.8206,4.1591,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/51.8206/4.1591"
+      }
+    ]
   },
   {
     "id": "groot-valkenisse",
@@ -1217,7 +1697,17 @@
     ],
     "unsafe_dirs": [],
     "last_scraped": "2025-12-22T15:12:45.476Z",
-    "season": "Het hele jaar"
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/51.4920/3.4957?51.4920,3.4957,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/51.4920/3.4957"
+      }
+    ]
   },
   {
     "id": "schiermonnikoog-noordzee-paal-3-5",
@@ -1241,7 +1731,17 @@
     "unsafe_dirs": [],
     "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer Met het veer en de bus Parkeergelegenheid Onbekend Laadpalen aanwezig Onbekend",
     "last_scraped": "2025-12-22T15:12:48.161Z",
-    "season": "Het hele jaar"
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/53.5043/6.1810?53.5043,6.1810,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/53.5043/6.1810"
+      }
+    ]
   },
   {
     "id": "grevelingendam-zuid",
@@ -1265,7 +1765,17 @@
     "unsafe_dirs": [],
     "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer Parkeergelegenheid Onbekend Laadpalen aanwezig Onbekend",
     "last_scraped": "2025-12-22T15:12:50.493Z",
-    "season": "Het hele jaar"
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/51.6747/4.1400?51.6747,4.1400,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/51.6747/4.1400"
+      }
+    ]
   },
   {
     "id": "grevelingendam-noord",
@@ -1293,7 +1803,17 @@
     "unsafe_dirs": [],
     "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer Parkeergelegenheid Gratis Laadpalen aanwezig Nee",
     "last_scraped": "2025-12-22T15:12:52.818Z",
-    "season": "15 maart - 1 november"
+    "season": "15 maart - 1 november",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/51.6793/4.1373?51.6793,4.1373,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/51.6793/4.1373"
+      }
+    ]
   },
   {
     "id": "stavoren-it-suderstrand",
@@ -1318,7 +1838,17 @@
     "unsafe_dirs": [],
     "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer Parkeergelegenheid Onbekend Laadpalen aanwezig Onbekend",
     "last_scraped": "2025-12-22T15:12:55.461Z",
-    "season": "Het hele jaar"
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/52.8719/5.3699?52.8719,5.3699,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/52.8719/5.3699"
+      }
+    ]
   },
   {
     "id": "enkhuizen",
@@ -1342,7 +1872,17 @@
     "unsafe_dirs": [],
     "facilities": "Aanwezig faciliteiten Openbaar vervoer Parkeergelegenheid Gratis Laadpalen aanwezig Nee",
     "last_scraped": "2025-12-22T15:12:57.805Z",
-    "season": "oktober t/m maart"
+    "season": "oktober t/m maart",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/52.7148/5.2883?52.7148,5.2883,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/52.7148/5.2883"
+      }
+    ]
   },
   {
     "id": "strand-horst",
@@ -1366,7 +1906,17 @@
     "unsafe_dirs": [],
     "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer Parkeergelegenheid Betaald Laadpalen aanwezig Onbekend",
     "last_scraped": "2025-12-22T15:13:00.639Z",
-    "season": "Het hele jaar"
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/52.3229/5.5706?52.3229,5.5706,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/52.3229/5.5706"
+      }
+    ]
   },
   {
     "id": "elburg",
@@ -1390,7 +1940,17 @@
     "unsafe_dirs": [],
     "facilities": "Aanwezig faciliteiten Openbaar vervoer Parkeergelegenheid Onbekend Laadpalen aanwezig Onbekend",
     "last_scraped": "2025-12-22T15:13:03.253Z",
-    "season": "april t/m september"
+    "season": "april t/m september",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/52.4551/5.8180?52.4551,5.8180,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/52.4551/5.8180"
+      }
+    ]
   },
   {
     "id": "egmond-binnenaan-zee",
@@ -1414,7 +1974,17 @@
     "unsafe_dirs": [],
     "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet, Douche Openbaar vervoer Parkeergelegenheid Betaald Laadpalen aanwezig Onbekend",
     "last_scraped": "2025-12-22T15:13:05.825Z",
-    "season": "Het hele jaar"
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/52.6138/4.6160?52.6138,4.6160,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/52.6138/4.6160"
+      }
+    ]
   },
   {
     "id": "eemshaven",
@@ -1437,7 +2007,17 @@
     ],
     "unsafe_dirs": [],
     "last_scraped": "2025-12-22T15:13:08.134Z",
-    "season": "Het hele jaar"
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/53.4547/6.7968?53.4547,6.7968,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/53.4547/6.7968"
+      }
+    ]
   },
   {
     "id": "terneuzen-put-van",
@@ -1461,7 +2041,17 @@
     "unsafe_dirs": [],
     "facilities": "Aanwezig faciliteiten Openbaar vervoer Parkeergelegenheid Onbekend Laadpalen aanwezig Onbekend",
     "last_scraped": "2025-12-22T15:13:10.626Z",
-    "season": "Het hele jaar"
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/51.3372/3.8396?51.3372,3.8396,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/51.3372/3.8396"
+      }
+    ]
   },
   {
     "id": "edam-noord-galgenveld",
@@ -1485,7 +2075,17 @@
     "unsafe_dirs": [],
     "facilities": "Aanwezig faciliteiten Openbaar vervoer Parkeergelegenheid Gratis Laadpalen aanwezig Nee",
     "last_scraped": "2025-12-22T15:13:13.393Z",
-    "season": "Het hele jaar"
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/52.5226/5.0671?52.5226,5.0671,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/52.5226/5.0671"
+      }
+    ]
   },
   {
     "id": "domburg",
@@ -1509,7 +2109,17 @@
     "unsafe_dirs": [],
     "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer Parkeergelegenheid Betaald Laadpalen aanwezig Onbekend",
     "last_scraped": "2025-12-22T15:13:15.733Z",
-    "season": "Het hele jaar"
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/51.5523/3.4616?51.5523,3.4616,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/51.5523/3.4616"
+      }
+    ]
   },
   {
     "id": "terschelling-noordzee",
@@ -1533,7 +2143,17 @@
     "unsafe_dirs": [],
     "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer bus vanaf 31 maart t/m 31 oktober, check: https://www.bus-terschelling.nl/zomerdienstregeling-2023/#lijn2 Parkeergelegenheid Gratis Laadpalen aanwezig Onbekend",
     "last_scraped": "2025-12-22T15:13:18.022Z",
-    "season": "Het hele jaar"
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/53.4094/5.2805?53.4094,5.2805,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/53.4094/5.2805"
+      }
+    ]
   },
   {
     "id": "den-helder-huisduinen",
@@ -1557,7 +2177,17 @@
     "unsafe_dirs": [],
     "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer Parkeergelegenheid Gratis Laadpalen aanwezig Onbekend",
     "last_scraped": "2025-12-22T15:13:20.330Z",
-    "season": "Het hele jaar"
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/52.9532/4.7209?52.9532,4.7209,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/52.9532/4.7209"
+      }
+    ]
   },
   {
     "id": "terschelling-groene-strand",
@@ -1581,7 +2211,17 @@
     "unsafe_dirs": [],
     "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer circa 400m lopen vanaf busstation/veerboot en 1 km vanaf de jachthaven Parkeergelegenheid Gratis Laadpalen aanwezig Nee",
     "last_scraped": "2025-12-22T15:13:22.663Z",
-    "season": "Het hele jaar"
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/53.3551/5.2103?53.3551,5.2103,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/53.3551/5.2103"
+      }
+    ]
   },
   {
     "id": "texel-paal-176-1899-en-282-32",
@@ -1609,7 +2249,17 @@
     "unsafe_dirs": [],
     "facilities": "Aanwezig faciliteiten Openbaar vervoer Parkeergelegenheid Onbekend Laadpalen aanwezig Onbekend",
     "last_scraped": "2025-12-22T15:13:25.239Z",
-    "season": "Het hele jaar"
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/53.0784/4.7318?53.0784,4.7318,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/53.0784/4.7318"
+      }
+    ]
   },
   {
     "id": "texel-noord-oost",
@@ -1632,7 +2282,17 @@
     ],
     "unsafe_dirs": [],
     "last_scraped": "2025-12-22T15:13:27.551Z",
-    "season": "Het hele jaar"
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/53.1782/4.8644?53.1782,4.8644,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/53.1782/4.8644"
+      }
+    ]
   },
   {
     "id": "delfzijl",
@@ -1661,7 +2321,17 @@
     "unsafe_dirs": [],
     "facilities": "Aanwezig faciliteiten Openbaar vervoer Parkeergelegenheid Onbekend Laadpalen aanwezig Onbekend",
     "last_scraped": "2025-12-22T15:13:29.818Z",
-    "season": "Het hele jaar"
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/53.3345/6.9313?53.3345,6.9313,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/53.3345/6.9313"
+      }
+    ]
   },
   {
     "id": "texel-dijkmanshuizen-wadzijde",
@@ -1685,7 +2355,17 @@
     "unsafe_dirs": [],
     "facilities": "Aanwezig faciliteiten Openbaar vervoer Parkeergelegenheid Onbekend Laadpalen aanwezig Onbekend",
     "last_scraped": "2025-12-22T15:13:32.256Z",
-    "season": "april t/m september"
+    "season": "april t/m september",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/53.0649/4.8736?53.0649,4.8736,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/53.0649/4.8736"
+      }
+    ]
   },
   {
     "id": "castricum-aan-zee",
@@ -1710,7 +2390,17 @@
     "unsafe_dirs": [],
     "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet, Douche, Materiaalopslag, Luchtpomp Openbaar vervoer Parkeergelegenheid Betaald Laadpalen aanwezig Onbekend",
     "last_scraped": "2025-12-22T15:13:34.783Z",
-    "season": "Het hele jaar"
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/52.5568/4.6057?52.5568,4.6057,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/52.5568/4.6057"
+      }
+    ]
   },
   {
     "id": "tjeukemeer",
@@ -1738,7 +2428,17 @@
     ],
     "unsafe_dirs": [],
     "last_scraped": "2025-12-22T15:13:37.066Z",
-    "season": "Het hele jaar"
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/52.8747/5.8177?52.8747,5.8177,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/52.8747/5.8177"
+      }
+    ]
   },
   {
     "id": "camperduin",
@@ -1764,7 +2464,17 @@
     "unsafe_dirs": [],
     "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet, Douche, Materiaalopslag Openbaar vervoer Parkeergelegenheid Betaald Laadpalen aanwezig Nee",
     "last_scraped": "2025-12-22T15:13:39.393Z",
-    "season": "Het hele jaar"
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/52.7283/4.6398?52.7283,4.6398,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/52.7283/4.6398"
+      }
+    ]
   },
   {
     "id": "vlieland-wadkant",
@@ -1787,7 +2497,17 @@
     ],
     "unsafe_dirs": [],
     "last_scraped": "2025-12-22T15:13:41.653Z",
-    "season": "Het hele jaar"
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/53.2376/4.9644?53.2376,4.9644,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/53.2376/4.9644"
+      }
+    ]
   },
   {
     "id": "callantsoog",
@@ -1811,7 +2531,17 @@
     "unsafe_dirs": [],
     "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer Parkeergelegenheid Onbekend Laadpalen aanwezig Onbekend",
     "last_scraped": "2025-12-22T15:13:43.939Z",
-    "season": "Het hele jaar"
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/52.8406/4.6913?52.8406,4.6913,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/52.8406/4.6913"
+      }
+    ]
   },
   {
     "id": "vlieland-noordzee",
@@ -1835,7 +2565,17 @@
     "unsafe_dirs": [],
     "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer Parkeergelegenheid Onbekend Laadpalen aanwezig Onbekend",
     "last_scraped": "2025-12-22T15:13:46.248Z",
-    "season": "Het hele jaar"
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/53.3045/5.0487?53.3045,5.0487,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/53.3045/5.0487"
+      }
+    ]
   },
   {
     "id": "cadzand-bad-west",
@@ -1859,7 +2599,17 @@
     "unsafe_dirs": [],
     "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer Parkeergelegenheid Onbekend Laadpalen aanwezig Onbekend",
     "last_scraped": "2025-12-22T15:13:48.501Z",
-    "season": "Het hele jaar"
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/51.3732/3.3681?51.3732,3.3681,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/51.3732/3.3681"
+      }
+    ]
   },
   {
     "id": "vlissingen",
@@ -1882,7 +2632,17 @@
     ],
     "unsafe_dirs": [],
     "last_scraped": "2025-12-22T15:13:50.695Z",
-    "season": "Het hele jaar"
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/51.4453/3.5620?51.4453,3.5620,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/51.4453/3.5620"
+      }
+    ]
   },
   {
     "id": "cadzand-bad-vlamingpolder",
@@ -1906,7 +2666,17 @@
     "unsafe_dirs": [],
     "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer Parkeergelegenheid Onbekend Laadpalen aanwezig Onbekend",
     "last_scraped": "2025-12-22T15:13:52.976Z",
-    "season": "Het hele jaar"
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/51.3854/3.4049?51.3854,3.4049,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/51.3854/3.4049"
+      }
+    ]
   },
   {
     "id": "vrouwenpolder",
@@ -1934,7 +2704,17 @@
     "unsafe_dirs": [],
     "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet, Douche, Luchtpomp Openbaar vervoer Parkeergelegenheid Betaald Laadpalen aanwezig Onbekend",
     "last_scraped": "2025-12-22T15:13:55.292Z",
-    "season": "Het hele jaar"
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/51.5919/3.6329?51.5919,3.6329,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/51.5919/3.6329"
+      }
+    ]
   },
   {
     "id": "brouwersdam",
@@ -1958,7 +2738,17 @@
     "unsafe_dirs": [],
     "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet, Douche, Luchtpomp Openbaar vervoer Parkeergelegenheid Gratis Laadpalen aanwezig Onbekend",
     "last_scraped": "2025-12-22T15:13:57.642Z",
-    "season": "Het hele jaar"
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/51.7605/3.8424?51.7605,3.8424,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/51.7605/3.8424"
+      }
+    ]
   },
   {
     "id": "breskens-oost",
@@ -1982,7 +2772,17 @@
     "unsafe_dirs": [],
     "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer Parkeergelegenheid Gratis Laadpalen aanwezig Onbekend",
     "last_scraped": "2025-12-22T15:13:59.886Z",
-    "season": "Het hele jaar"
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/51.4006/3.5593?51.4006,3.5593,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/51.4006/3.5593"
+      }
+    ]
   },
   {
     "id": "warder",
@@ -2006,7 +2806,17 @@
     "unsafe_dirs": [],
     "facilities": "Aanwezig faciliteiten Openbaar vervoer Parkeergelegenheid Gratis Laadpalen aanwezig Onbekend",
     "last_scraped": "2025-12-22T15:14:02.164Z",
-    "season": "april t/m september"
+    "season": "april t/m september",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/52.5657/5.0332?52.5657,5.0332,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/52.5657/5.0332"
+      }
+    ]
   },
   {
     "id": "braassemermeer",
@@ -2029,7 +2839,17 @@
     ],
     "unsafe_dirs": [],
     "last_scraped": "2025-12-22T15:14:04.442Z",
-    "season": "Het hele jaar"
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/52.1973/4.6681?52.1973,4.6681,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/52.1973/4.6681"
+      }
+    ]
   },
   {
     "id": "wassenaarse-slag",
@@ -2057,7 +2877,17 @@
     "unsafe_dirs": [],
     "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet, Douche, Materiaalopslag, Luchtpomp Openbaar vervoer Parkeergelegenheid Betaald Laadpalen aanwezig Onbekend",
     "last_scraped": "2025-12-22T15:14:06.705Z",
-    "season": "Het hele jaar"
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/52.1634/4.3461?52.1634,4.3461,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/52.1634/4.3461"
+      }
+    ]
   },
   {
     "id": "borssele-de-kaloot",
@@ -2081,7 +2911,17 @@
     "unsafe_dirs": [],
     "facilities": "Aanwezig faciliteiten Openbaar vervoer Parkeergelegenheid Onbekend Laadpalen aanwezig Onbekend",
     "last_scraped": "2025-12-22T15:14:09.015Z",
-    "season": "Het hele jaar"
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/51.4332/3.7094?51.4332,3.7094,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/51.4332/3.7094"
+      }
+    ]
   },
   {
     "id": "westeinderplassen",
@@ -2104,7 +2944,17 @@
     ],
     "unsafe_dirs": [],
     "last_scraped": "2025-12-22T15:14:11.328Z",
-    "season": "Het hele jaar"
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/52.2405/4.7204?52.2405,4.7204,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/52.2405/4.7204"
+      }
+    ]
   },
   {
     "id": "bloemendaal-aan-zee",
@@ -2128,7 +2978,17 @@
     "unsafe_dirs": [],
     "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer - Parkeergelegenheid Betaald Laadpalen aanwezig Ja",
     "last_scraped": "2025-12-22T15:14:13.655Z",
-    "season": "Het hele jaar"
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/52.4163/4.5492?52.4163,4.5492,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/52.4163/4.5492"
+      }
+    ]
   },
   {
     "id": "wijk-aan-zee-de-hangout-strand-noordpier-velsen-noord",
@@ -2152,7 +3012,17 @@
     "unsafe_dirs": [],
     "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet, Douche Openbaar vervoer de bus naar wijk aan zee, daarna een lift vragen van de kiters die met de auto langskomen Parkeergelegenheid Gratis Laadpalen aanwezig Nee",
     "last_scraped": "2025-12-22T15:14:16.195Z",
-    "season": "het hele jaar"
+    "season": "het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/52.4825/4.5775?52.4825,4.5775,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/52.4825/4.5775"
+      }
+    ]
   },
   {
     "id": "bergen-aan-zee",
@@ -2176,7 +3046,17 @@
     "unsafe_dirs": [],
     "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer Parkeergelegenheid Betaald Laadpalen aanwezig Ja 4",
     "last_scraped": "2025-12-22T15:14:18.496Z",
-    "season": "Het hele jaar"
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/52.6587/4.6269?52.6587,4.6269,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/52.6587/4.6269"
+      }
+    ]
   },
   {
     "id": "baarland",
@@ -2200,7 +3080,17 @@
     "unsafe_dirs": [],
     "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer Parkeergelegenheid Gratis Laadpalen aanwezig Onbekend",
     "last_scraped": "2025-12-22T15:14:20.821Z",
-    "season": "Het hele jaar"
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/51.3941/3.8965?51.3941,3.8965,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/51.3941/3.8965"
+      }
+    ]
   },
   {
     "id": "wijk-aan-zee-pier-strand-noordpier-velsen-noord",
@@ -2225,7 +3115,17 @@
     "unsafe_dirs": [],
     "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet, Douche Openbaar vervoer Parkeergelegenheid Gratis Laadpalen aanwezig Onbekend",
     "last_scraped": "2025-12-22T15:14:23.901Z",
-    "season": "Het hele jaar"
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/52.4710/4.5658?52.4710,4.5658,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/52.4710/4.5658"
+      }
+    ]
   },
   {
     "id": "andijk",
@@ -2248,7 +3148,17 @@
     ],
     "unsafe_dirs": [],
     "last_scraped": "2025-12-22T15:14:26.172Z",
-    "season": "Het hele jaar"
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/52.7399/5.1757?52.7399,5.1757,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/52.7399/5.1757"
+      }
+    ]
   },
   {
     "id": "windsurfing-hoek-van-holland",
@@ -2272,7 +3182,17 @@
     "unsafe_dirs": [],
     "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet, Douche, Materiaalopslag Openbaar vervoer Parkeergelegenheid Betaald Laadpalen aanwezig Ja 2",
     "last_scraped": "2025-12-22T15:14:28.776Z",
-    "season": "Het hele jaar"
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/51.9920/4.1148?51.9920,4.1148,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/51.9920/4.1148"
+      }
+    ]
   },
   {
     "id": "amstelmeer-lutjestrand-zuid",
@@ -2296,7 +3216,17 @@
     "unsafe_dirs": [],
     "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer Bus 135 rijdt van Hoorn naar Den Helder en terug. Deze stopt bij het Lutjestrand (kitespot) Parkeergelegenheid Gratis Laadpalen aanwezig Ja 2",
     "last_scraped": "2025-12-22T15:14:31.087Z",
-    "season": "Het hele jaar"
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/52.8851/4.9166?52.8851,4.9166,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/52.8851/4.9166"
+      }
+    ]
   },
   {
     "id": "workum",
@@ -2320,7 +3250,17 @@
     "unsafe_dirs": [],
     "facilities": "Aanwezig faciliteiten Openbaar vervoer Parkeergelegenheid Onbekend Laadpalen aanwezig Onbekend",
     "last_scraped": "2025-12-22T15:14:33.689Z",
-    "season": "Het hele jaar"
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/52.9660/5.4106?52.9660,5.4106,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/52.9660/5.4106"
+      }
+    ]
   },
   {
     "id": "ameland-waddenzee",
@@ -2344,7 +3284,17 @@
     "unsafe_dirs": [],
     "facilities": "Aanwezig faciliteiten Eten, Drinken Openbaar vervoer met de veerboot Parkeergelegenheid Gratis Laadpalen aanwezig Onbekend",
     "last_scraped": "2025-12-22T15:14:36.353Z",
-    "season": "Het hele jaar"
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/53.4392/5.7735?53.4392,5.7735,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/53.4392/5.7735"
+      }
+    ]
   },
   {
     "id": "ameland-noordzee",
@@ -2368,7 +3318,17 @@
     "unsafe_dirs": [],
     "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer Parkeergelegenheid Onbekend Laadpalen aanwezig Onbekend",
     "last_scraped": "2025-12-22T15:14:38.805Z",
-    "season": "Het hele jaar"
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/53.4600/5.7415?53.4600,5.7415,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/53.4600/5.7415"
+      }
+    ]
   },
   {
     "id": "zandvoort",
@@ -2392,7 +3352,17 @@
     "unsafe_dirs": [],
     "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet, Douche, Materiaalopslag, Luchtpomp Openbaar vervoer Parkeergelegenheid Betaald Laadpalen aanwezig Ja 4",
     "last_scraped": "2025-12-22T15:14:41.317Z",
-    "season": "Het hele jaar"
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/52.3653/4.5191?52.3653,4.5191,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/52.3653/4.5191"
+      }
+    ]
   },
   {
     "id": "almere",
@@ -2416,7 +3386,17 @@
     "unsafe_dirs": [],
     "facilities": "Aanwezig faciliteiten Openbaar vervoer Parkeergelegenheid Betaald Laadpalen aanwezig Onbekend",
     "last_scraped": "2025-12-22T15:14:43.851Z",
-    "season": "Het hele jaar"
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/52.3475/5.1336?52.3475,5.1336,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/52.3475/5.1336"
+      }
+    ]
   },
   {
     "id": "zuidlaardermeer",
@@ -2440,7 +3420,17 @@
     "unsafe_dirs": [],
     "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer Parkeergelegenheid Gratis Laadpalen aanwezig Onbekend",
     "last_scraped": "2025-12-22T15:14:46.259Z",
-    "season": "Het hele jaar"
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/53.1454/6.6939?53.1454,6.6939,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/53.1454/6.6939"
+      }
+    ]
   },
   {
     "id": "scheveningen-noorderstrand",
@@ -2464,7 +3454,17 @@
     "unsafe_dirs": [],
     "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet, Douche, Materiaalopslag, Luchtpomp Openbaar vervoer 11 (eindpunt Scheveningen Haven) en 1 (halte Keizerstraat) Parkeergelegenheid Betaald Laadpalen aanwezig Onbekend",
     "last_scraped": "2025-12-22T15:14:48.953Z",
-    "season": "Het hele jaar"
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/52.1051/4.2635?52.1051,4.2635,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/52.1051/4.2635"
+      }
+    ]
   },
   {
     "id": "den-haag-zuiderstrand",
@@ -2488,7 +3488,17 @@
     "unsafe_dirs": [],
     "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet, Douche, Luchtpomp Openbaar vervoer bus 28, 22 of tram 12 Parkeergelegenheid Betaald Laadpalen aanwezig Ja 6",
     "last_scraped": "2025-12-22T15:14:51.615Z",
-    "season": "Het hele jaar"
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/52.0939/4.2496?52.0939,4.2496,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/52.0939/4.2496"
+      }
+    ]
   },
   {
     "id": "kijkduin-zandmotor",
@@ -2517,7 +3527,17 @@
     "unsafe_dirs": [],
     "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet, Douche, Materiaalopslag, Luchtpomp Openbaar vervoer Buslijn 24 en 26 Parkeergelegenheid Gratis Laadpalen aanwezig Onbekend",
     "last_scraped": "2025-12-22T15:14:54.049Z",
-    "season": "het hele jaar"
+    "season": "het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/52.0552/4.1865?52.0552,4.1865,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/52.0552/4.1865"
+      }
+    ]
   },
   {
     "id": "s-gravenzande-slag-beukel",
@@ -2543,7 +3563,17 @@
     "last_scraped": "2025-12-22T15:14:56.617Z",
     "description": "Spot infoOp Slag Beukel (&#8216;s-Gravenzande) zijn veel kiters actief. Hier is ook een kite vereniging North Sea Surfing. Deze vereniging heeft stallingsplekken, kleedruimte, douches en toiletten. Helaas is er momenteel een ledenstop omdat de vereniging geen ruimte meer heeft voor meer leden. Als je het strand op loopt is de kitezone aan de linker kant circa 300m van het slag (zie bord). Hier kan je jouw kite optuigen en opruimen. Zodra je de zee in gaat merk je dat het snel diep wordt en er kan een lastige shorebreak staan. Met Zuid, Zuidoost en Oost kan er niet worden gekite, dan is de wind aflandig. Omdat we in de luwte van het havenhoofd van de Rotterdamse haven en de 2e Maasvlakte liggen, is het met zuidwesten wind vaak vlagerig. De golven zijn dan ook minder hoog voor de nog niet zo ervaren kiters. Er zijn strandtenten om wat te eten en drinken en er is voldoende parkeergelegenheid. Tijdens het badseizoen zijn er openbare toiletten en douches op het slag aanwezig.",
     "hazards": "Het water is hier snel diep Er staan flinke golven Tijdens opkomend tij kan er een stevige stroming staan. Vloedstroom van Zuid naar Noord, 2 uur voor HW tot 3,5 uur na HW. Ebstroom van Noord naar Zuid, 3,5 uur na HW tot 2 uur voor HW Er zijn strekdammen ter hoogte van het slag en verder naar het noorden, maar deze zijn vaak niet goed zichtbaar. Op dagen met mooie golven zijn er ook golfsurfers aanwezig.",
-    "season": "Het hele jaar"
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/52.0108/4.1390?52.0108,4.1390,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/52.0108/4.1390"
+      }
+    ]
   },
   {
     "id": "hoek-van-holland-hoekse-watersport-vereniging",
@@ -2567,6 +3597,16 @@
     "unsafe_dirs": [],
     "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet, Douche, Materiaalopslag Openbaar vervoer Parkeergelegenheid Betaald Laadpalen aanwezig Ja 2",
     "last_scraped": "2025-12-22T15:14:59.170Z",
-    "season": "Het hele jaar"
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/51.9918/4.1142?51.9918,4.1142,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/51.9918/4.1142"
+      }
+    ]
   }
 ]
