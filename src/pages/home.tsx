@@ -22,6 +22,7 @@ type Spot = {
     permalink?: string;
     image?: string;
     season?: string;
+    webcam?: { url: string; type: 'embed' | 'link' };
 };
 
 import { isToday, isTomorrow, format } from "date-fns";
@@ -94,6 +95,7 @@ export default function Home() {
     const [filterOpen, setFilterOpen] = useState(true);
     const [filterBeginner, setFilterBeginner] = useState(false);
     const [filterShallow, setFilterShallow] = useState(false);
+    const [filterWebcam, setFilterWebcam] = useState(false);
 
     useEffect(() => {
         // Check local storage first
@@ -170,11 +172,12 @@ export default function Home() {
                 if (filterBeginner && !s.level?.some(l => l.toLowerCase().includes("beginner"))) return false;
                 // Note: 'Ondiep' means Shallow. 'Diep' means Deep.
                 if (filterShallow && !s.depth?.some(d => d.toLowerCase().includes("ondiep"))) return false;
+                if (filterWebcam && !s.webcam) return false;
                 return true;
             })
             .map((s) => ({ spot: s, distanceKm: haversineKm(loc, { lat: s.lat, lon: s.lon }) }))
             .filter((x) => x.distanceKm <= radiusKm);
-    }, [loc, radiusKm, filterOpen, filterBeginner, filterShallow]);
+    }, [loc, radiusKm, filterOpen, filterBeginner, filterShallow, filterWebcam]);
 
     // Parallel fetch for all visible spots
     const spotQueries = useQueries({
@@ -314,6 +317,10 @@ export default function Home() {
                         <label className={`filter-chip ${filterShallow ? 'active' : ''}`}>
                             <input type="checkbox" checked={filterShallow} onChange={e => setFilterShallow(e.target.checked)} />
                             🌊 Shallow Water
+                        </label>
+                        <label className={`filter-chip ${filterWebcam ? 'active' : ''}`}>
+                            <input type="checkbox" checked={filterWebcam} onChange={e => setFilterWebcam(e.target.checked)} />
+                            📷 Live Webcam
                         </label>
                     </div>
 

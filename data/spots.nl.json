@@ -3636,5 +3636,43 @@
         "url": "https://www.windfinder.com/#12/51.9918/4.1142"
       }
     ]
+  },
+  {
+    "id": "knokke-surfers-paradise",
+    "name": "Knokke Surfers Paradise",
+    "lat": 51.353392,
+    "lon": 3.30155,
+    "permalink": "https://www.surfersparadise.be/en/",
+    "image": "/images/north_sea.png",
+    "webcam": {
+      "url": "https://www.youtube.com/embed/Sx-oMVmNoPA",
+      "type": "embed"
+    },
+    "level": [
+      "Beginner",
+      "Gevorderd"
+    ],
+    "depth": [
+      "Variabel (Getijde)"
+    ],
+    "good_dirs": [
+      {
+        "start": 293,
+        "end": 45
+      }
+    ],
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet, Douche, School, Verhuur",
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/51.3534/3.3016?51.3534,3.3016,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/51.3534/3.3016"
+      }
+    ]
   }
 ]
