@@ -123,7 +123,7 @@ export default function DuoPage() {
                 tA, tB,
                 duoScore,
                 color: topHour?.color ?? 'red',
-                windowLabel: bestWindowObj ? `${bestWindowObj.start}-${bestWindowObj.end}` : "No Window", // Dirty label fix
+                windowLabel: bestWindowObj ? fmtWindow(hours, bestWindowObj.start, bestWindowObj.end) : "No Window",
                 distKm: c.dA // Show dist from User A
             };
         }).filter(Boolean) as any[];
