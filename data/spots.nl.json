@@ -6,6 +6,20 @@
     "lon": 5.075016937231451,
     "permalink": "https://kitesurfvereniging.nl/kitespot/edam-zuid/",
     "image": "/images/action.png",
+    "webcam": {
+      "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "type": "embed"
+    },
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/52.515/5.075"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/forecast/edam"
+      }
+    ],
     "level": [
       "Beginner"
     ],

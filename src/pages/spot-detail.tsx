@@ -14,6 +14,12 @@ type Spot = {
     hazards?: string;
     facilities?: string;
     rules?: string;
+    // New fields
+    season?: string;
+    level?: string[];
+    depth?: string[];
+    webcam?: { url: string; type: 'embed' | 'link' };
+    external_forecasts?: { name: string; url: string }[];
 };
 
 export type ComputedHour = ForecastHour & {
@@ -37,72 +43,48 @@ export default function SpotDetail() {
         staleTime: 1000 * 60 * 15
     });
 
-    if (!spot) return <div style={{ padding: 20 }}>Spot not found</div>;
-    if (isLoading) return <div style={{ padding: 20 }}>Loading forecast...</div>;
-    if (isError || !forecast) return <div style={{ padding: 20 }}>Failed to load forecast</div>;
+    // Compute visible items helper
+    const getVisibleItems = (hours: ComputedHour[]) => {
+        const items: any[] = [];
+        const getDayStr = (iso: string) => new Date(iso).toLocaleDateString([], { weekday: 'short' });
+        let lastDayStr = "";
 
-    // Compute scores on the fly (derived state)
-    const hours: ComputedHour[] = forecast.map((h) => ({
-        ...h,
-        scoreRes: sendScore(spot, h)
-    }));
-
-    const current = hours[selectedIdx];
-    if (!current) return null;
-
-    // Prepare visible items (collapse night hours, add day headers)
-    type VisibleItem =
-        | { type: 'slot', hour: ComputedHour, index: number }
-        | { type: 'night' }
-        | { type: 'day-header', text: string };
-
-    const visibleItems: VisibleItem[] = [];
-
-    // Helper to format day
-    const getDayStr = (iso: string) => new Date(iso).toLocaleDateString([], { weekday: 'short' });
-
-    let lastDayStr = "";
-
-    hours.forEach((h, i) => {
-        const dayStr = getDayStr(h.timeISO);
-
-        if (h.isDay !== false) {
-            // New day check
-            if (dayStr !== lastDayStr) {
-                // Only add header if it's NOT the very first item (avoid header at start of list unless desired)
-                // Or add it if we want users to know "Today is Mon"
-                // Let's add it if i > 0 to start. Or if it follows a night gap.
-                if (visibleItems.length > 0) {
-                    visibleItems.push({ type: 'day-header', text: dayStr });
+        hours.forEach((h, i) => {
+            const dayStr = getDayStr(h.timeISO);
+            if (h.isDay !== false) {
+                if (dayStr !== lastDayStr) {
+                    if (items.length > 0) items.push({ type: 'day-header', text: dayStr });
+                    lastDayStr = dayStr;
                 }
-                lastDayStr = dayStr;
+                items.push({ type: 'slot', hour: h, index: i });
+            } else {
+                const last = items[items.length - 1];
+                if (!last || last.type !== 'night') items.push({ type: 'night' });
             }
-            visibleItems.push({ type: 'slot', hour: h, index: i });
-        } else {
-            // Night
-            const last = visibleItems[visibleItems.length - 1];
-            if (!last || last.type !== 'night') {
-                visibleItems.push({ type: 'night' });
-            }
-            // Reset lastDayStr on night? No.
-        }
-    });
+        });
+        return items;
+    };
 
-    // Ensure initial selection is valid (first day slot)
-    // We only do this once on mount ideally, but here we just check if current is night
-    // Ensure initial selection is valid (first day slot)
-    // We only do this once on mount ideally, but here we just check if current is night
+    // Derived state
+    const hours: ComputedHour[] = forecast ? forecast.map((h) => ({ ...h, scoreRes: sendScore(spot!, h) })) : [];
+    const visibleItems = hours.length > 0 ? getVisibleItems(hours) : [];
+    const current = hours[selectedIdx];
+
+    // Effect for selection - Must be unconditional
     useEffect(() => {
+        if (!hours || hours.length === 0) return;
         if (hours[selectedIdx]?.isDay === false) {
-            const firstDayIdx = visibleItems.find(v => v.type === 'slot')?.index ?? 0;
+            const firstDayIdx = visibleItems.find((v: any) => v.type === 'slot')?.index ?? 0;
             if (firstDayIdx !== selectedIdx) {
-                // Determine if we should really switch. 
-                // Using replace to avoid history stack issues if we were using router for state, but here it's local.
                 setSelectedIdx(firstDayIdx);
             }
         }
-        // eslint-disable-next-line react-hooks/exhaustive-deps
-    }, [id, forecast]);
+    }, [id, forecast, selectedIdx, hours, visibleItems]);
+
+    // Render loading/error states AFTER hooks
+    if (!spot) return <div style={{ padding: 20 }}>Spot not found</div>;
+    if (isLoading) return <div style={{ padding: 20 }}>Loading forecast...</div>;
+    if (isError || !forecast || !current) return <div style={{ padding: 20 }}>Failed to load forecast</div>;
 
 
     return (
@@ -112,6 +94,11 @@ export default function SpotDetail() {
                     &larr; Back
                 </Link>
                 <h1>{spot.name}</h1>
+                <div style={{ display: "flex", gap: 8, flexWrap: "wrap", marginTop: 8 }}>
+                    {spot.season && <span className="chip">📅 {spot.season}</span>}
+                    {spot.level?.map(l => <span key={l} className="chip">👶 {l}</span>)}
+                    {spot.depth?.map(d => <span key={d} className="chip">🌊 {d}</span>)}
+                </div>
             </div>
 
             {/* Hourly Strip */}
@@ -260,6 +247,52 @@ export default function SpotDetail() {
                 <div style={{ borderRadius: 12, overflow: 'hidden', boxShadow: 'var(--shadow-sm)', marginBottom: 24 }}>
                     <SpotMap lat={spot.lat} lon={spot.lon} name={spot.name} />
                 </div>
+
+                {/* Webcam & External Links */}
+                {(spot.webcam || spot.external_forecasts) && (
+                    <div style={{ display: "flex", flexDirection: "column", gap: 16, marginBottom: 24 }}>
+
+                        {/* Webcam */}
+                        {spot.webcam && (
+                            <div className="card" style={{ padding: 16 }}>
+                                <h3>Live Webcam</h3>
+                                <div style={{ marginTop: 12, borderRadius: 8, overflow: 'hidden', aspectRatio: '16/9', background: '#000' }}>
+                                    {spot.webcam.type === 'embed' ? (
+                                        <iframe
+                                            src={spot.webcam.url}
+                                            width="100%"
+                                            height="100%"
+                                            frameBorder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                            allowFullScreen
+                                            title="Webcam"
+                                        />
+                                    ) : (
+                                        <div style={{ height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                                            <a href={spot.webcam.url} target="_blank" rel="noreferrer" className="btn-primary">
+                                                Open Webcam
+                                            </a>
+                                        </div>
+                                    )}
+                                </div>
+                            </div>
+                        )}
+
+                        {/* External Forecasts */}
+                        {spot.external_forecasts && spot.external_forecasts.length > 0 && (
+                            <div className="card" style={{ padding: 16 }}>
+                                <h3>More Forecasts</h3>
+                                <div style={{ display: "flex", gap: 8, flexWrap: "wrap", marginTop: 12 }}>
+                                    {spot.external_forecasts.map(ef => (
+                                        <a key={ef.name} href={ef.url} target="_blank" rel="noreferrer" className="btn" style={{ background: '#f1f5f9', fontSize: 13 }}>
+                                            {ef.name} ↗
+                                        </a>
+                                    ))}
+                                </div>
+                            </div>
+                        )}
+                    </div>
+                )}
 
                 {/* Spot Details */}
                 {(spot.description || spot.rules || spot.hazards) && (
