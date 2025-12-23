@@ -56,3 +56,28 @@ export async function geocodeAddress(query: string): Promise<{ lat: number; lon:
         return null;
     }
 }
+
+
+export async function getDrivingDuration(
+    start: { lat: number; lon: number },
+    end: { lat: number; lon: number }
+): Promise<number | null> {
+    try {
+        // OSRM Public API (Demo Server)
+        // Rate limits apply. Not for heavy production use.
+        const url = `http://router.project-osrm.org/route/v1/driving/${start.lon},${start.lat};${end.lon},${end.lat}?overview=false`;
+
+        const res = await fetch(url);
+        if (!res.ok) return null;
+
+        const data = await res.json();
+        if (data.code === 'Ok' && data.routes && data.routes.length > 0) {
+            // Duration is in seconds
+            return Math.round(data.routes[0].duration / 60);
+        }
+        return null;
+    } catch (e) {
+        console.warn("OSRM error:", e);
+        return null;
+    }
+}

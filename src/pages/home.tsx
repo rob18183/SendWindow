@@ -1,8 +1,8 @@
 import { useEffect, useState, useMemo } from "react";
 import { Link } from "react-router-dom";
-import { useQueries, useQueryClient } from "@tanstack/react-query";
+import { useQuery, useQueries, useQueryClient } from "@tanstack/react-query";
 import spots from "../../data/spots.nl.json";
-import { getUserLocation, haversineKm, reverseGeocode, geocodeAddress } from "../lib/geo";
+import { getUserLocation, haversineKm, reverseGeocode, geocodeAddress, getDrivingDuration } from "../lib/geo";
 import { getHourlyForecast, ForecastHour } from "../lib/forecast";
 import { bestWindow } from "../lib/windows";
 import { compareSpots } from "../lib/comparator";
@@ -190,6 +190,27 @@ export default function Home() {
 
     const isRefetching = spotQueries.some(q => q.isRefetching || q.isLoading);
 
+    // Fetch driving times for visible spots
+    // We limit this to top 20 to avoid rate limits on the demo server
+    const spotsToRoute = useMemo(() => inRange.slice(0, 20).map(item => item.spot), [inRange]);
+
+    const drivingTimes = useQueries({
+        queries: spotsToRoute.map(spot => ({
+            queryKey: ['drivingTime', loc?.lat, loc?.lon, spot.lat, spot.lon],
+            queryFn: () => getDrivingDuration(loc!, { lat: spot.lat, lon: spot.lon }),
+            staleTime: 1000 * 60 * 60, // 1 hour
+            enabled: !!loc?.lat && !!loc?.lon
+        }))
+    });
+
+    const drivingTimeMap = useMemo(() => {
+        const map: Record<string, number | null> = {};
+        spotsToRoute.forEach((spot, index) => {
+            map[spot.id] = drivingTimes[index].data ?? null;
+        });
+        return map;
+    }, [spotsToRoute, drivingTimes]);
+
     const rows = useMemo(() => {
         const computed = inRange.map(({ spot, distanceKm }, idx) => {
             const result = spotQueries[idx];
@@ -224,13 +245,15 @@ export default function Home() {
                 score: topHour?.score ?? 0,
                 color: topHour?.color ?? "red",
                 windowLabel: label,
-                image: x.spot.image // Pass image through
+                image: x.spot.image, // Pass image through
+                travelTime: drivingTimeMap[x.spot.id] // Add travel time
             };
         });
-    }, [inRange, spotQueries]);
+    }, [inRange, spotQueries, drivingTimeMap]);
 
     const handleRefresh = () => {
         queryClient.invalidateQueries({ queryKey: ['forecast'] });
+        queryClient.invalidateQueries({ queryKey: ['drivingTime'] });
     };
 
     return (

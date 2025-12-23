@@ -5,9 +5,10 @@ type Props = {
     color: "green" | "yellow" | "red";
     windowLabel: string;
     image?: string;
+    travelTime?: number | null;
 };
 
-export function SpotCard({ name, distanceKm, score, color, windowLabel, image }: Props) {
+export function SpotCard({ name, distanceKm, score, color, windowLabel, image, travelTime }: Props) {
     const statusClass = `status-${color}`; // e.g. status-green
 
     return (
@@ -41,6 +42,7 @@ export function SpotCard({ name, distanceKm, score, color, windowLabel, image }:
                 <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-end', fontSize: 13 }}>
                     <div className="text-dim">
                         📍 {distanceKm.toFixed(1)} km
+                        {travelTime && <span style={{ marginLeft: 8 }}>🚗 {travelTime} min</span>}
                     </div>
                     <div style={{
                         backgroundColor: '#f1f5f9',
