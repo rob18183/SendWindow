@@ -15,8 +15,8 @@ export default function AboutPage() {
                 <section>
                     <h2 style={{ fontSize: 18, marginBottom: 8 }}>The Mission</h2>
                     <p style={{ lineHeight: 1.6, color: "var(--color-text-dim)" }}>
-                        Spend less time scrolling through forecasts and more time on the water.
-                        **SendWindow** instantly analyzes wind conditions to tell you exactly when and where to go kitesurfing in the Netherlands.
+                        Spend less time scrolling through forecasts and more time on the water.{' '}
+                        <strong>SendWindow</strong> instantly analyzes wind conditions to tell you exactly when and where to go kitesurfing in the Netherlands.
                     </p>
                 </section>
 
@@ -64,16 +64,41 @@ export default function AboutPage() {
                     </ul>
                 </section>
 
+                {/* New Features */}
+                <section>
+                    <h2 style={{ fontSize: 18, marginBottom: 8 }}>Tools</h2>
+                    <div style={{ display: "flex", flexDirection: "column", gap: 12 }}>
+                        <div className="card" style={{ padding: 16 }}>
+                            <div style={{ fontWeight: 600 }}>🚗 Real Travel Time</div>
+                            <div style={{ fontSize: 13, color: "var(--color-text-dim)", marginTop: 4 }}>
+                                We use OSRM to calculate actual driving minutes instead of straight-line distance, caching the results for speed.
+                            </div>
+                        </div>
+                        <div className="card" style={{ padding: 16 }}>
+                            <div style={{ fontWeight: 600 }}>🤝 Duo Mode</div>
+                            <div style={{ fontSize: 13, color: "var(--color-text-dim)", marginTop: 4 }}>
+                                Planning with a buddy? Input both your locations and we'll rank spots based on the <strong>fairest drive</strong> and best wind conditions.
+                            </div>
+                        </div>
+                        <div className="card" style={{ padding: 16 }}>
+                            <div style={{ fontWeight: 600 }}>📷 Live Webcams</div>
+                            <div style={{ fontSize: 13, color: "var(--color-text-dim)", marginTop: 4 }}>
+                                Check conditions with your own eyes using integrated live streams for major spots.
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
                 {/* Data */}
                 <section>
                     <h2 style={{ fontSize: 18, marginBottom: 8 }}>Data Sources</h2>
                     <p style={{ lineHeight: 1.6, color: "var(--color-text-dim)" }}>
-                        Weather data is powered by <a href="https://open-meteo.com/" target="_blank" rel="noreferrer" style={{ color: "var(--color-primary)" }}>Open-Meteo.com</a>. Locations are manually curated.
+                        Weather data is powered by <a href="https://open-meteo.com/" target="_blank" rel="noreferrer" style={{ color: "var(--color-primary)" }}>Open-Meteo.com</a>. Routing by OSRM. Locations curated from NKV.
                     </p>
                 </section>
 
                 <div style={{ textAlign: "center", marginTop: 24, fontSize: 12, color: "#cbd5e1" }}>
-                    v0.1.0 Beta
+                    v0.2.0 Beta
                 </div>
             </div>
         </div>

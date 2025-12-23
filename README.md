@@ -7,6 +7,9 @@ A smart, modern kitesurf forecast application for the Netherlands. SendWindow ca
 -   **Smart Scoring**: Automatically rates spots (Green/Yellow/Red) based on wind speed, gusts, and direction relative to the spot's safe wind angles.
 -   **Real-time Forecasts**: Powered by [Open-Meteo](https://open-meteo.com/) for accurate, hyper-local wind data.
 -   **Spot Filtering**: Filter by radius, seasonality (Open Now), level (Beginner Friendly), and water type (Shallow).
+-   **Duo Mode 🤝**: Planning a session with a buddy? Input two locations to find the fairest "compromise" spot that works for both of you.
+-   **Driving Travel Times 🚗**: Estimates real driving duration using OSRM, cached for instant results.
+-   **Live Webcams 📷**: View live feeds directly from spot cards like Zandvoort and Scheveningen.
 -   **Visual Themes**: Beautiful, AI-generated themes for North Sea, Inland, and Action spots.
 -   **Locally Persisted**: Remembers your location and filter preferences.
 -   **Privacy Focused**: No tracking, all logic runs client-side.
@@ -17,6 +20,7 @@ A smart, modern kitesurf forecast application for the Netherlands. SendWindow ca
 -   **State/Data**: TansStack Query (React Query) for caching and state management.
 -   **Maps**: Leaflet & React-Leaflet.
 -   **Styling**: Custom CSS variables, responsive implementation.
+-   **Routing**: OSRM (Open Source Routing Machine) public API for driving times.
 -   **Data Source**: NKV (Nederlandse Kitesurf Vereniging) public spot data.
 
 ## Getting Started
