@@ -74,7 +74,7 @@ export async function getDrivingDuration(
     try {
         // OSRM Public API (Demo Server)
         // Rate limits apply. Not for heavy production use.
-        const url = `http://router.project-osrm.org/route/v1/driving/${start.lon},${start.lat};${end.lon},${end.lat}?overview=false`;
+        const url = `https://router.project-osrm.org/route/v1/driving/${start.lon},${start.lat};${end.lon},${end.lat}?overview=false`;
 
         const res = await fetch(url);
         if (!res.ok) return null;

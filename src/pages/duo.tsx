@@ -4,7 +4,7 @@ import { useQueries } from "@tanstack/react-query";
 import spots from "../../data/spots.nl.json";
 import { getUserLocation, haversineKm, geocodeAddress, getDrivingDuration } from "../lib/geo";
 import { getHourlyForecast, ForecastHour } from "../lib/forecast";
-import { bestWindow } from "../lib/windows";
+import { bestWindow, fmtWindow } from "../lib/windows";
 import { SpotCard } from "../components/SpotCard";
 import { sendScore } from "../lib/scoring";
 
@@ -190,7 +190,7 @@ export default function DuoPage() {
                                 distanceKm={r.distKm}
                                 score={r.baseScore}
                                 color={r.color}
-                                windowLabel={r.windowLabel} // Todo: fmtWindow
+                                windowLabel={r.windowLabel}
                                 image={r.spot.image}
                                 duoTimes={{ a: Math.round(r.tA), b: Math.round(r.tB) }}
                             />

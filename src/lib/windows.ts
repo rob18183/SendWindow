@@ -1,3 +1,5 @@
+import { isToday, isTomorrow, format } from "date-fns";
+
 type Hour = {
     timeISO: string;
     score: number;
@@ -50,4 +52,20 @@ function makeWindow(hours: Hour[], start: number, end: number): Window {
         duration: end - start + 1,
         avgScore: sum / (end - start + 1)
     };
+}
+
+export function fmtWindow(hours: { timeISO: string }[], start: number, end: number) {
+    const sDate = new Date(hours[start].timeISO);
+    const eDate = new Date(hours[end].timeISO);
+
+    let dayStr = "";
+    if (isToday(sDate)) dayStr = "Today";
+    else if (isTomorrow(sDate)) dayStr = "Tomorrow";
+    else dayStr = format(sDate, "EEE");
+
+    const sTime = format(sDate, "HH:mm");
+    const eTime = format(eDate, "HH:mm");
+    const duration = end - start + 1;
+
+    return `${dayStr} ${sTime}–${eTime} · ${duration}h`;
 }
