@@ -5,7 +5,7 @@
     "lat": 52.515039462387506,
     "lon": 5.075016937231451,
     "permalink": "https://kitesurfvereniging.nl/kitespot/edam-zuid/",
-    "image": "/images/action.png",
+    "image": "/images/north_sea_waves.png",
     "webcam": {
       "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
       "type": "embed"
@@ -42,7 +42,7 @@
     "lat": 51.8722925148425,
     "lon": 4.044898266162127,
     "permalink": "https://kitesurfvereniging.nl/kitespot/rockanje-sportstrand/",
-    "image": "/images/north_sea.png",
+    "image": "/images/north_sea_beach.png",
     "webcam": {
       "url": "https://www.youtube.com/embed/csMnwbjV5vg",
       "type": "embed"
@@ -84,7 +84,7 @@
     "lat": 53.110239353451966,
     "lon": 5.98939415390626,
     "permalink": "https://kitesurfvereniging.nl/kitespot/oudega-smallingerland/",
-    "image": "/images/action.png",
+    "image": "/images/sunset_session.png",
     "level": [
       "Gevorderd"
     ],
@@ -117,7 +117,7 @@
     "lat": 51.43539785126424,
     "lon": 4.125820029089797,
     "permalink": "https://kitesurfvereniging.nl/kitespot/krabbendijke-roelshoek/",
-    "image": "/images/action.png",
+    "image": "/images/north_sea_waves.png",
     "level": [
       "Beginner"
     ],
@@ -150,7 +150,7 @@
     "lat": 52.32339737555348,
     "lon": 5.550357063452593,
     "permalink": "https://kitesurfvereniging.nl/kitespot/zeewolde/",
-    "image": "/images/north_sea.png",
+    "image": "/images/inland_lake_flat.png",
     "level": [
       "Beginner"
     ],
@@ -183,7 +183,7 @@
     "lat": 52.30012021577305,
     "lon": 5.3011256575805765,
     "permalink": "https://kitesurfvereniging.nl/kitespot/blaricum-gooimeer/",
-    "image": "/images/inland.png",
+    "image": "/images/inland_lake_flat.png",
     "level": [
       "Beginner"
     ],
@@ -216,7 +216,7 @@
     "lat": 52.355366956484595,
     "lon": 5.022668899658189,
     "permalink": "https://kitesurfvereniging.nl/kitespot/ijburg/",
-    "image": "/images/action.png",
+    "image": "/images/stormy_coast.png",
     "level": [
       "Beginner"
     ],
@@ -249,7 +249,7 @@
     "lat": 52.45534760270165,
     "lon": 4.556021537228991,
     "permalink": "https://kitesurfvereniging.nl/kitespot/ijmuiden-zone-2/",
-    "image": "/images/sunset.png",
+    "image": "/images/north_sea_waves.png",
     "level": [
       "Gevorderd"
     ],
@@ -283,7 +283,7 @@
     "lat": 53.40750542014478,
     "lon": 6.161479462763526,
     "permalink": "https://kitesurfvereniging.nl/kitespot/lauwersmeer/",
-    "image": "/images/inland.png",
+    "image": "/images/inland_lake_action.png",
     "level": [
       "Beginner"
     ],
@@ -317,7 +317,7 @@
     "lat": 52.755039,
     "lon": 5.125001,
     "permalink": "https://kitesurfvereniging.nl/kitespot/medemblik/",
-    "image": "/images/inland.png",
+    "image": "/images/inland_lake_flat.png",
     "level": [
       "Beginner",
       "Gevorderd"
@@ -352,7 +352,7 @@
     "lat": 53.05312,
     "lon": 5.376227,
     "permalink": "https://kitesurfvereniging.nl/kitespot/makkum/",
-    "image": "/images/action.png",
+    "image": "/images/north_sea_beach.png",
     "level": [
       "Beginner",
       "Gevorderd",
@@ -388,7 +388,7 @@
     "lat": 53.193245,
     "lon": 7.027293,
     "permalink": "https://kitesurfvereniging.nl/kitespot/midwolda-oldambtmeer/",
-    "image": "/images/inland.png",
+    "image": "/images/inland_lake_flat.png",
     "level": [
       "Gevorderd"
     ],
@@ -422,7 +422,7 @@
     "lat": 51.919079,
     "lon": 3.988189,
     "permalink": "https://kitesurfvereniging.nl/kitespot/slufter/",
-    "image": "/images/north_sea.png",
+    "image": "/images/sunset_session.png",
     "level": [
       "Gevorderd"
     ],
@@ -456,7 +456,7 @@
     "lat": 51.951382,
     "lon": 3.966729,
     "permalink": "https://kitesurfvereniging.nl/kitespot/maasvlakte-p5p6/",
-    "image": "/images/inland.png",
+    "image": "/images/north_sea_waves.png",
     "level": [
       "Gevorderd"
     ],
@@ -489,7 +489,7 @@
     "lat": 52.850101,
     "lon": 5.481972,
     "permalink": "https://kitesurfvereniging.nl/kitespot/mirns/",
-    "image": "/images/action.png",
+    "image": "/images/inland_lake_flat.png",
     "level": [
       "Beginner"
     ],
@@ -523,7 +523,7 @@
     "lat": 51.923229,
     "lon": 3.980946,
     "permalink": "https://kitesurfvereniging.nl/kitespot/maasvlakte-p1p3/",
-    "image": "/images/sunset.png",
+    "image": "/images/stormy_coast.png",
     "level": [
       "Gevorderd"
     ],
@@ -557,7 +557,7 @@
     "lat": 52.459114,
     "lon": 5.053314,
     "permalink": "https://kitesurfvereniging.nl/kitespot/monnickendam/",
-    "image": "/images/action.png",
+    "image": "/images/stormy_coast.png",
     "level": [
       "Gevorderd"
     ],
@@ -590,7 +590,7 @@
     "lat": 52.843899,
     "lon": 5.692941,
     "permalink": "https://kitesurfvereniging.nl/kitespot/lemmer/",
-    "image": "/images/inland.png",
+    "image": "/images/inland_lake_flat.png",
     "level": [
       "Gevorderd"
     ],
@@ -624,7 +624,7 @@
     "lat": 52.329876,
     "lon": 5.113459,
     "permalink": "https://kitesurfvereniging.nl/kitespot/muiderberg/",
-    "image": "/images/action.png",
+    "image": "/images/inland_lake_flat.png",
     "level": [
       "Beginner"
     ],
@@ -658,7 +658,7 @@
     "lat": 52.636238,
     "lon": 5.413053,
     "permalink": "https://kitesurfvereniging.nl/kitespot/lelystad-trintelhaven/",
-    "image": "/images/sunset.png",
+    "image": "/images/inland_lake_flat.png",
     "level": [
       "Beginner"
     ],
@@ -692,7 +692,7 @@
     "lat": 51.62424172138486,
     "lon": 3.680559354492172,
     "permalink": "https://kitesurfvereniging.nl/kitespot/neeltje-jans/",
-    "image": "/images/north_sea.png",
+    "image": "/images/north_sea_beach.png",
     "level": [
       "Gevorderd"
     ],
@@ -726,7 +726,7 @@
     "lat": 52.524357,
     "lon": 5.424342,
     "permalink": "https://kitesurfvereniging.nl/kitespot/lelystad-bataviastrand/",
-    "image": "/images/north_sea.png",
+    "image": "/images/inland_lake_action.png",
     "level": [
       "Gevorderd"
     ],
@@ -760,7 +760,7 @@
     "lat": 52.235806,
     "lon": 4.418844,
     "permalink": "https://kitesurfvereniging.nl/kitespot/noordwijk-aan-zee/",
-    "image": "/images/north_sea.png",
+    "image": "/images/north_sea_waves.png",
     "level": [
       "Gevorderd"
     ],
@@ -794,7 +794,7 @@
     "lat": 53.408802,
     "lon": 6.157198,
     "permalink": "https://kitesurfvereniging.nl/kitespot/lauwersoog-waddenzee/",
-    "image": "/images/north_sea.png",
+    "image": "/images/north_sea_waves.png",
     "level": [
       "Beginner"
     ],
@@ -828,7 +828,7 @@
     "lat": 51.460934,
     "lon": 4.221407,
     "permalink": "https://kitesurfvereniging.nl/kitespot/tholen-oesterdam/",
-    "image": "/images/action.png",
+    "image": "/images/north_sea_beach.png",
     "level": [
       "Beginner"
     ],
@@ -862,7 +862,7 @@
     "lat": 52.301853,
     "lon": 4.473199,
     "permalink": "https://kitesurfvereniging.nl/kitespot/noordwijk-langevelderslag/",
-    "image": "/images/inland.png",
+    "image": "/images/north_sea_beach.png",
     "level": [
       "Gevorderd"
     ],
@@ -896,7 +896,7 @@
     "lat": 51.9151368,
     "lon": 4.0605978,
     "permalink": "https://kitesurfvereniging.nl/kitespot/oostvoorne-noordzee/",
-    "image": "/images/north_sea.png",
+    "image": "/images/north_sea_beach.png",
     "level": [
       "Beginner",
       "Gevorderd"
@@ -931,7 +931,7 @@
     "lat": 53.074985705594734,
     "lon": 5.34412192065429,
     "permalink": "https://kitesurfvereniging.nl/kitespot/kornwerderzand/",
-    "image": "/images/sunset.png",
+    "image": "/images/stormy_coast.png",
     "level": [
       "Gevorderd",
       "Expert"
@@ -966,7 +966,7 @@
     "lat": 51.92918,
     "lon": 4.066458,
     "permalink": "https://kitesurfvereniging.nl/kitespot/oostvoornse-meer/",
-    "image": "/images/inland.png",
+    "image": "/images/inland_lake_flat.png",
     "level": [
       "Gevorderd"
     ],
@@ -1000,7 +1000,7 @@
     "lat": 51.82172,
     "lon": 3.878164,
     "permalink": "https://kitesurfvereniging.nl/kitespot/ouddorp/",
-    "image": "/images/inland.png",
+    "image": "/images/north_sea_waves.png",
     "level": [
       "Gevorderd"
     ],
@@ -1034,7 +1034,7 @@
     "lat": 51.616791,
     "lon": 3.961531,
     "permalink": "https://kitesurfvereniging.nl/kitespot/ouwerkerk/",
-    "image": "/images/action.png",
+    "image": "/images/stormy_coast.png",
     "level": [
       "Beginner"
     ],
@@ -1068,7 +1068,7 @@
     "lat": 52.066525,
     "lon": 4.21192,
     "permalink": "https://kitesurfvereniging.nl/kitespot/kijkduin/",
-    "image": "/images/sunset.png",
+    "image": "/images/north_sea_waves.png",
     "level": [
       "Beginner",
       "Gevorderd"
@@ -1103,7 +1103,7 @@
     "lat": 51.350422,
     "lon": 3.731831,
     "permalink": "https://kitesurfvereniging.nl/kitespot/paulinapolder/",
-    "image": "/images/north_sea.png",
+    "image": "/images/north_sea_waves.png",
     "level": [
       "Gevorderd"
     ],
@@ -1137,7 +1137,7 @@
     "lat": 52.201435,
     "lon": 4.386593,
     "permalink": "https://kitesurfvereniging.nl/kitespot/katwijk/",
-    "image": "/images/inland.png",
+    "image": "/images/sunset_session.png",
     "level": [
       "Gevorderd"
     ],
@@ -1171,7 +1171,7 @@
     "lat": 52.763783,
     "lon": 4.649366,
     "permalink": "https://kitesurfvereniging.nl/kitespot/petten/",
-    "image": "/images/north_sea.png",
+    "image": "/images/north_sea_waves.png",
     "level": [
       "Gevorderd"
     ],
@@ -1205,7 +1205,7 @@
     "lat": 52.895462,
     "lon": 4.711245,
     "permalink": "https://kitesurfvereniging.nl/kitespot/julianadorp/",
-    "image": "/images/sunset.png",
+    "image": "/images/north_sea_waves.png",
     "level": [
       "Gevorderd"
     ],
@@ -1239,7 +1239,7 @@
     "lat": 52.058559,
     "lon": 4.741474,
     "permalink": "https://kitesurfvereniging.nl/kitespot/reeuwijkse-plassen/",
-    "image": "/images/inland.png",
+    "image": "/images/inland_lake_action.png",
     "level": [
       "Gevorderd"
     ],
@@ -1272,7 +1272,7 @@
     "lat": 52.446941,
     "lon": 4.555163,
     "permalink": "https://kitesurfvereniging.nl/kitespot/ijmuiderslag/",
-    "image": "/images/inland.png",
+    "image": "/images/north_sea_waves.png",
     "level": [
       "Beginner"
     ],
@@ -1306,7 +1306,7 @@
     "lat": 51.394615,
     "lon": 4.1494,
     "permalink": "https://kitesurfvereniging.nl/kitespot/rilland-bath-zimmermangeul/",
-    "image": "/images/action.png",
+    "image": "/images/north_sea_beach.png",
     "level": [
       "Expert"
     ],
@@ -1339,7 +1339,7 @@
     "lat": 52.456356,
     "lon": 4.551214,
     "permalink": "https://kitesurfvereniging.nl/kitespot/ijmuiden/",
-    "image": "/images/sunset.png",
+    "image": "/images/north_sea_beach.png",
     "level": [
       "Beginner"
     ],
@@ -1377,7 +1377,7 @@
     "lat": 51.865685260091375,
     "lon": 4.0513472685071905,
     "permalink": "https://kitesurfvereniging.nl/kitespot/rockanje/",
-    "image": "/images/north_sea.png",
+    "image": "/images/stormy_coast.png",
     "level": [
       "Beginner",
       "Gevorderd"
@@ -1412,7 +1412,7 @@
     "lat": 52.306889528808476,
     "lon": 5.256627349121112,
     "permalink": "https://kitesurfvereniging.nl/kitespot/huizen/",
-    "image": "/images/inland.png",
+    "image": "/images/inland_lake_action.png",
     "level": [
       "Beginner"
     ],
@@ -1445,7 +1445,7 @@
     "lat": 52.636536,
     "lon": 5.038187,
     "permalink": "https://kitesurfvereniging.nl/kitespot/hoorn-stadstrand/",
-    "image": "/images/north_sea.png",
+    "image": "/images/sunset_session.png",
     "level": [
       "Gevorderd"
     ],
@@ -1478,7 +1478,7 @@
     "lat": 51.592909111403124,
     "lon": 3.7313782540283214,
     "permalink": "https://kitesurfvereniging.nl/kitespot/kamperland/",
-    "image": "/images/north_sea.png",
+    "image": "/images/north_sea_waves.png",
     "level": [
       "Beginner"
     ],
@@ -1516,7 +1516,7 @@
     "lat": 52.632278,
     "lon": 5.120788,
     "permalink": "https://kitesurfvereniging.nl/kitespot/schellinkhout/",
-    "image": "/images/north_sea.png",
+    "image": "/images/inland_lake_flat.png",
     "level": [
       "Beginner"
     ],
@@ -1550,7 +1550,7 @@
     "lat": 52.93354,
     "lon": 5.403361,
     "permalink": "https://kitesurfvereniging.nl/kitespot/hindeloopen/",
-    "image": "/images/inland.png",
+    "image": "/images/inland_lake_action.png",
     "level": [
       "Beginner"
     ],
@@ -1584,7 +1584,7 @@
     "lat": 52.1173477,
     "lon": 4.2894255,
     "permalink": "https://kitesurfvereniging.nl/kitespot/scheveningen-zwarte-pad/",
-    "image": "/images/action.png",
+    "image": "/images/north_sea_waves.png",
     "webcam": {
       "url": "https://www.youtube.com/embed/A5kXiKzbBFs",
       "type": "embed"
@@ -1622,7 +1622,7 @@
     "lat": 53.166355,
     "lon": 5.415011,
     "permalink": "https://kitesurfvereniging.nl/kitespot/harlingen-waddenzee/",
-    "image": "/images/north_sea.png",
+    "image": "/images/stormy_coast.png",
     "level": [
       "Gevorderd"
     ],
@@ -1656,7 +1656,7 @@
     "lat": 51.82063570886251,
     "lon": 4.159093814880372,
     "permalink": "https://kitesurfvereniging.nl/kitespot/hellevoetsluis-haringvliet/",
-    "image": "/images/north_sea.png",
+    "image": "/images/north_sea_beach.png",
     "level": [
       "Beginner"
     ],
@@ -1690,7 +1690,7 @@
     "lat": 51.491982,
     "lon": 3.495714,
     "permalink": "https://kitesurfvereniging.nl/kitespot/groot-valkenisse/",
-    "image": "/images/inland.png",
+    "image": "/images/north_sea_waves.png",
     "level": [
       "Gevorderd"
     ],
@@ -1723,7 +1723,7 @@
     "lat": 53.504333,
     "lon": 6.180988,
     "permalink": "https://kitesurfvereniging.nl/kitespot/schiermonnikoog-noordzee/",
-    "image": "/images/north_sea.png",
+    "image": "/images/north_sea_waves.png",
     "level": [
       "Beginner"
     ],
@@ -1757,7 +1757,7 @@
     "lat": 51.674713,
     "lon": 4.13996,
     "permalink": "https://kitesurfvereniging.nl/kitespot/grevelingendam-zuid/",
-    "image": "/images/action.png",
+    "image": "/images/north_sea_beach.png",
     "level": [
       "Beginner"
     ],
@@ -1791,7 +1791,7 @@
     "lat": 51.679256,
     "lon": 4.137328,
     "permalink": "https://kitesurfvereniging.nl/kitespot/grevelingendam-noord/",
-    "image": "/images/action.png",
+    "image": "/images/sunset_session.png",
     "level": [
       "Gevorderd"
     ],
@@ -1829,7 +1829,7 @@
     "lat": 52.87193795015575,
     "lon": 5.369856820778169,
     "permalink": "https://kitesurfvereniging.nl/kitespot/stavoren/",
-    "image": "/images/north_sea.png",
+    "image": "/images/inland_lake_action.png",
     "level": [
       "Gevorderd",
       "Expert"
@@ -1864,7 +1864,7 @@
     "lat": 52.714832,
     "lon": 5.288304,
     "permalink": "https://kitesurfvereniging.nl/kitespot/enkhuizen/",
-    "image": "/images/action.png",
+    "image": "/images/inland_lake_flat.png",
     "level": [
       "Gevorderd"
     ],
@@ -1898,7 +1898,7 @@
     "lat": 52.32291,
     "lon": 5.570562,
     "permalink": "https://kitesurfvereniging.nl/kitespot/strand-horst/",
-    "image": "/images/north_sea.png",
+    "image": "/images/inland_lake_action.png",
     "level": [
       "Beginner"
     ],
@@ -1932,7 +1932,7 @@
     "lat": 52.455063,
     "lon": 5.817958,
     "permalink": "https://kitesurfvereniging.nl/kitespot/elburg/",
-    "image": "/images/north_sea.png",
+    "image": "/images/inland_lake_flat.png",
     "level": [
       "Gevorderd"
     ],
@@ -1966,7 +1966,7 @@
     "lat": 52.613762,
     "lon": 4.616011,
     "permalink": "https://kitesurfvereniging.nl/kitespot/egmond-binnen-en-aan-zee/",
-    "image": "/images/north_sea.png",
+    "image": "/images/north_sea_waves.png",
     "level": [
       "Gevorderd"
     ],
@@ -2000,7 +2000,7 @@
     "lat": 53.454723,
     "lon": 6.796758,
     "permalink": "https://kitesurfvereniging.nl/kitespot/eemshaven/",
-    "image": "/images/action.png",
+    "image": "/images/sunset_session.png",
     "level": [
       "Beginner"
     ],
@@ -2033,7 +2033,7 @@
     "lat": 51.337162,
     "lon": 3.839594,
     "permalink": "https://kitesurfvereniging.nl/kitespot/terneuzen/",
-    "image": "/images/sunset.png",
+    "image": "/images/sunset_session.png",
     "level": [
       "Beginner"
     ],
@@ -2067,7 +2067,7 @@
     "lat": 52.52256,
     "lon": 5.067095,
     "permalink": "https://kitesurfvereniging.nl/kitespot/edam-noord-galgenveld/",
-    "image": "/images/action.png",
+    "image": "/images/north_sea_waves.png",
     "level": [
       "Expert"
     ],
@@ -2101,7 +2101,7 @@
     "lat": 51.552254,
     "lon": 3.461647,
     "permalink": "https://kitesurfvereniging.nl/kitespot/domburg/",
-    "image": "/images/inland.png",
+    "image": "/images/north_sea_beach.png",
     "level": [
       "Expert"
     ],
@@ -2135,7 +2135,7 @@
     "lat": 53.409386,
     "lon": 5.280458,
     "permalink": "https://kitesurfvereniging.nl/kitespot/terschelling-noordzee/",
-    "image": "/images/north_sea.png",
+    "image": "/images/north_sea_beach.png",
     "level": [
       "Beginner"
     ],
@@ -2169,7 +2169,7 @@
     "lat": 52.953239,
     "lon": 4.720852,
     "permalink": "https://kitesurfvereniging.nl/kitespot/den-helder-huisduinen/",
-    "image": "/images/sunset.png",
+    "image": "/images/north_sea_waves.png",
     "level": [
       "Gevorderd"
     ],
@@ -2203,7 +2203,7 @@
     "lat": 53.355141,
     "lon": 5.21029,
     "permalink": "https://kitesurfvereniging.nl/kitespot/terschelling-groene-strand/",
-    "image": "/images/north_sea.png",
+    "image": "/images/stormy_coast.png",
     "level": [
       "Beginner"
     ],
@@ -2237,7 +2237,7 @@
     "lat": 53.078442,
     "lon": 4.731828,
     "permalink": "https://kitesurfvereniging.nl/kitespot/texel/",
-    "image": "/images/north_sea.png",
+    "image": "/images/sunset_session.png",
     "webcam": {
       "url": "https://www.youtube.com/embed/Hq2Qbcuph4w",
       "type": "embed"
@@ -2279,7 +2279,7 @@
     "lat": 53.178222562677476,
     "lon": 4.864385107210651,
     "permalink": "https://kitesurfvereniging.nl/kitespot/texel-noord-oost/",
-    "image": "/images/north_sea.png",
+    "image": "/images/stormy_coast.png",
     "level": [
       "Gevorderd"
     ],
@@ -2312,7 +2312,7 @@
     "lat": 53.33453,
     "lon": 6.931337,
     "permalink": "https://kitesurfvereniging.nl/kitespot/delfzijl/",
-    "image": "/images/sunset.png",
+    "image": "/images/north_sea_beach.png",
     "level": [
       "Beginner",
       "Gevorderd"
@@ -2351,7 +2351,7 @@
     "lat": 53.064888,
     "lon": 4.873644,
     "permalink": "https://kitesurfvereniging.nl/kitespot/texel-dijkmanshuizen/",
-    "image": "/images/north_sea.png",
+    "image": "/images/north_sea_waves.png",
     "level": [
       "Gevorderd"
     ],
@@ -2385,7 +2385,7 @@
     "lat": 52.556786,
     "lon": 4.605667,
     "permalink": "https://kitesurfvereniging.nl/kitespot/castricum-aan-zee/",
-    "image": "/images/north_sea.png",
+    "image": "/images/sunset_session.png",
     "level": [
       "Beginner",
       "Gevorderd"
@@ -2420,7 +2420,7 @@
     "lat": 52.874748856751886,
     "lon": 5.817690721565243,
     "permalink": "https://kitesurfvereniging.nl/kitespot/tjeukemeer/",
-    "image": "/images/inland.png",
+    "image": "/images/inland_lake_action.png",
     "level": [
       "Beginner",
       "Gevorderd"
@@ -2458,7 +2458,7 @@
     "lat": 52.7283090428019,
     "lon": 4.639765275146468,
     "permalink": "https://kitesurfvereniging.nl/kitespot/camperduin/",
-    "image": "/images/sunset.png",
+    "image": "/images/stormy_coast.png",
     "level": [
       "Beginner",
       "Gevorderd",
@@ -2494,7 +2494,7 @@
     "lat": 53.237576,
     "lon": 4.964422,
     "permalink": "https://kitesurfvereniging.nl/kitespot/vlieland-wadkant/",
-    "image": "/images/north_sea.png",
+    "image": "/images/north_sea_waves.png",
     "level": [
       "Beginner"
     ],
@@ -2527,7 +2527,7 @@
     "lat": 52.840599,
     "lon": 4.691325,
     "permalink": "https://kitesurfvereniging.nl/kitespot/callantsoog/",
-    "image": "/images/inland.png",
+    "image": "/images/north_sea_waves.png",
     "level": [
       "Gevorderd"
     ],
@@ -2561,7 +2561,7 @@
     "lat": 53.304478,
     "lon": 5.048718,
     "permalink": "https://kitesurfvereniging.nl/kitespot/vlieland-noordzee/",
-    "image": "/images/north_sea.png",
+    "image": "/images/sunset_session.png",
     "level": [
       "Beginner"
     ],
@@ -2595,7 +2595,7 @@
     "lat": 51.373165,
     "lon": 3.368118,
     "permalink": "https://kitesurfvereniging.nl/kitespot/cadzand-bad-west/",
-    "image": "/images/sunset.png",
+    "image": "/images/north_sea_beach.png",
     "level": [
       "Beginner"
     ],
@@ -2629,7 +2629,7 @@
     "lat": 51.445332,
     "lon": 3.561992,
     "permalink": "https://kitesurfvereniging.nl/kitespot/vlissingen/",
-    "image": "/images/north_sea.png",
+    "image": "/images/north_sea_beach.png",
     "level": [
       "Beginner"
     ],
@@ -2662,7 +2662,7 @@
     "lat": 51.385365,
     "lon": 3.404863,
     "permalink": "https://kitesurfvereniging.nl/kitespot/cadzand-bad-vlamingpolder/",
-    "image": "/images/inland.png",
+    "image": "/images/north_sea_waves.png",
     "level": [
       "Gevorderd"
     ],
@@ -2696,7 +2696,7 @@
     "lat": 51.591873,
     "lon": 3.632949,
     "permalink": "https://kitesurfvereniging.nl/kitespot/vrouwenpolder/",
-    "image": "/images/action.png",
+    "image": "/images/sunset_session.png",
     "level": [
       "Beginner"
     ],
@@ -2734,7 +2734,7 @@
     "lat": 51.760532,
     "lon": 3.842414,
     "permalink": "https://kitesurfvereniging.nl/kitespot/brouwersdam/",
-    "image": "/images/north_sea.png",
+    "image": "/images/north_sea_waves.png",
     "webcam": {
       "url": "https://www.youtube.com/embed/KjK02QIm4ZI",
       "type": "embed"
@@ -2772,7 +2772,7 @@
     "lat": 51.40062194272245,
     "lon": 3.559299638623048,
     "permalink": "https://kitesurfvereniging.nl/kitespot/breskens-oost/",
-    "image": "/images/north_sea.png",
+    "image": "/images/stormy_coast.png",
     "level": [
       "Beginner"
     ],
@@ -2806,7 +2806,7 @@
     "lat": 52.565662,
     "lon": 5.033157,
     "permalink": "https://kitesurfvereniging.nl/kitespot/warder/",
-    "image": "/images/inland.png",
+    "image": "/images/stormy_coast.png",
     "level": [
       "Beginner"
     ],
@@ -2840,7 +2840,7 @@
     "lat": 52.197262,
     "lon": 4.668126,
     "permalink": "https://kitesurfvereniging.nl/kitespot/braassemermeer/",
-    "image": "/images/inland.png",
+    "image": "/images/inland_lake_action.png",
     "level": [
       "Gevorderd"
     ],
@@ -2873,7 +2873,7 @@
     "lat": 52.163361,
     "lon": 4.34611,
     "permalink": "https://kitesurfvereniging.nl/kitespot/wassenaarse-slag/",
-    "image": "/images/sunset.png",
+    "image": "/images/north_sea_waves.png",
     "level": [
       "Gevorderd"
     ],
@@ -2911,7 +2911,7 @@
     "lat": 51.433178,
     "lon": 3.709353,
     "permalink": "https://kitesurfvereniging.nl/kitespot/borssele-de-kaloot/",
-    "image": "/images/north_sea.png",
+    "image": "/images/north_sea_beach.png",
     "level": [
       "Beginner"
     ],
@@ -2945,7 +2945,7 @@
     "lat": 52.2405285,
     "lon": 4.7204159,
     "permalink": "https://kitesurfvereniging.nl/kitespot/westeinderplassen/",
-    "image": "/images/inland.png",
+    "image": "/images/inland_lake_flat.png",
     "level": [
       "Gevorderd"
     ],
@@ -2978,7 +2978,7 @@
     "lat": 52.416317,
     "lon": 4.549245,
     "permalink": "https://kitesurfvereniging.nl/kitespot/bloemendaal-aan-zee/",
-    "image": "/images/north_sea.png",
+    "image": "/images/sunset_session.png",
     "level": [
       "Gevorderd"
     ],
@@ -3012,7 +3012,7 @@
     "lat": 52.48253093941438,
     "lon": 4.577510158752451,
     "permalink": "https://kitesurfvereniging.nl/kitespot/wijk-aan-zee-hangout/",
-    "image": "/images/north_sea.png",
+    "image": "/images/north_sea_beach.png",
     "level": [
       "Beginner"
     ],
@@ -3046,7 +3046,7 @@
     "lat": 52.658703,
     "lon": 4.626903,
     "permalink": "https://kitesurfvereniging.nl/kitespot/bergen-aan-zee/",
-    "image": "/images/north_sea.png",
+    "image": "/images/sunset_session.png",
     "level": [
       "Gevorderd"
     ],
@@ -3080,7 +3080,7 @@
     "lat": 51.394135,
     "lon": 3.896531,
     "permalink": "https://kitesurfvereniging.nl/kitespot/baarland/",
-    "image": "/images/inland.png",
+    "image": "/images/north_sea_beach.png",
     "level": [
       "Gevorderd"
     ],
@@ -3114,7 +3114,7 @@
     "lat": 52.471031,
     "lon": 4.565752,
     "permalink": "https://kitesurfvereniging.nl/kitespot/wijk-aan-zee-pier/",
-    "image": "/images/north_sea.png",
+    "image": "/images/north_sea_waves.png",
     "webcam": {
       "url": "https://dehangout.nl/webcam-wijk-aan-zee/",
       "type": "link"
@@ -3153,7 +3153,7 @@
     "lat": 52.739857,
     "lon": 5.175726,
     "permalink": "https://kitesurfvereniging.nl/kitespot/andijk/",
-    "image": "/images/action.png",
+    "image": "/images/inland_lake_flat.png",
     "level": [
       "Gevorderd"
     ],
@@ -3186,7 +3186,7 @@
     "lat": 51.992015738236034,
     "lon": 4.114798307418823,
     "permalink": "https://kitesurfvereniging.nl/kitespot/hoek-van-holland-windsurfing/",
-    "image": "/images/north_sea.png",
+    "image": "/images/north_sea_beach.png",
     "level": [
       "Gevorderd"
     ],
@@ -3220,7 +3220,7 @@
     "lat": 52.885124923080426,
     "lon": 4.9165667510045985,
     "permalink": "https://kitesurfvereniging.nl/kitespot/amstelmeer-lutje-strand-zuid/",
-    "image": "/images/north_sea.png",
+    "image": "/images/inland_lake_flat.png",
     "level": [
       "Gevorderd"
     ],
@@ -3254,7 +3254,7 @@
     "lat": 52.965973,
     "lon": 5.410585,
     "permalink": "https://kitesurfvereniging.nl/kitespot/workum/",
-    "image": "/images/action.png",
+    "image": "/images/inland_lake_flat.png",
     "level": [
       "Beginner"
     ],
@@ -3288,7 +3288,7 @@
     "lat": 53.439205,
     "lon": 5.77345,
     "permalink": "https://kitesurfvereniging.nl/kitespot/ameland-waddenzee/",
-    "image": "/images/north_sea.png",
+    "image": "/images/sunset_session.png",
     "level": [
       "Beginner"
     ],
@@ -3322,7 +3322,7 @@
     "lat": 53.459965,
     "lon": 5.741499,
     "permalink": "https://kitesurfvereniging.nl/kitespot/ameland-noordzee/",
-    "image": "/images/north_sea.png",
+    "image": "/images/north_sea_waves.png",
     "level": [
       "Beginner"
     ],
@@ -3356,7 +3356,7 @@
     "lat": 52.365335113481585,
     "lon": 4.519105687744145,
     "permalink": "https://kitesurfvereniging.nl/kitespot/zandvoort/",
-    "image": "/images/north_sea.png",
+    "image": "/images/stormy_coast.png",
     "webcam": {
       "url": "https://www.youtube.com/embed/rs27UQIsaMU",
       "type": "embed"
@@ -3394,7 +3394,7 @@
     "lat": 52.34747029479037,
     "lon": 5.1335594920654115,
     "permalink": "https://kitesurfvereniging.nl/kitespot/almere/",
-    "image": "/images/action.png",
+    "image": "/images/inland_lake_action.png",
     "level": [
       "Gevorderd"
     ],
@@ -3428,7 +3428,7 @@
     "lat": 53.145409,
     "lon": 6.693851,
     "permalink": "https://kitesurfvereniging.nl/kitespot/zuidlaardermeer/",
-    "image": "/images/inland.png",
+    "image": "/images/inland_lake_flat.png",
     "level": [
       "Gevorderd"
     ],
@@ -3462,7 +3462,7 @@
     "lat": 52.105083,
     "lon": 4.26353,
     "permalink": "https://kitesurfvereniging.nl/kitespot/scheveningen-noorderstrand/",
-    "image": "/images/north_sea.png",
+    "image": "/images/north_sea_waves.png",
     "level": [
       "Gevorderd"
     ],
@@ -3496,7 +3496,7 @@
     "lat": 52.09388607350487,
     "lon": 4.249607984130859,
     "permalink": "https://kitesurfvereniging.nl/kitespot/den-haag-zuiderstrand/",
-    "image": "/images/north_sea.png",
+    "image": "/images/north_sea_beach.png",
     "level": [
       "Gevorderd"
     ],
@@ -3530,7 +3530,7 @@
     "lat": 52.05520313862568,
     "lon": 4.186521291015639,
     "permalink": "https://kitesurfvereniging.nl/kitespot/zandmotor/",
-    "image": "/images/action.png",
+    "image": "/images/north_sea_beach.png",
     "level": [
       "Beginner",
       "Gevorderd"
@@ -3569,7 +3569,7 @@
     "lat": 52.01080376683954,
     "lon": 4.138953867736808,
     "permalink": "https://kitesurfvereniging.nl/kitespot/s-gravenzande-slag-beukel/",
-    "image": "/images/sunset.png",
+    "image": "/images/north_sea_waves.png",
     "level": [
       "Gevorderd"
     ],
@@ -3609,7 +3609,7 @@
     "lat": 51.99180432944537,
     "lon": 4.114208221435547,
     "permalink": "https://kitesurfvereniging.nl/kitespot/hoek-van-holland/",
-    "image": "/images/north_sea.png",
+    "image": "/images/north_sea_beach.png",
     "level": [
       "Gevorderd"
     ],
@@ -3643,7 +3643,7 @@
     "lat": 51.353392,
     "lon": 3.30155,
     "permalink": "https://www.surfersparadise.be/en/",
-    "image": "/images/north_sea.png",
+    "image": "/images/north_sea_waves.png",
     "webcam": {
       "url": "https://www.youtube.com/embed/Sx-oMVmNoPA",
       "type": "embed"
