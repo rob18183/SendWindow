@@ -1,6 +1,6 @@
 import { useEffect, useState, useMemo } from "react";
 import { Link } from "react-router-dom";
-import { useQuery, useQueries, useQueryClient } from "@tanstack/react-query";
+import { useQueries, useQueryClient } from "@tanstack/react-query";
 import spots from "../../data/spots.nl.json";
 import { getUserLocation, haversineKm, reverseGeocode, geocodeAddress, getDrivingDuration } from "../lib/geo";
 import { getHourlyForecast, ForecastHour } from "../lib/forecast";

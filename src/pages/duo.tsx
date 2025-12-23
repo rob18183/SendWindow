@@ -1,11 +1,10 @@
 import { useState, useMemo } from "react";
 import { Link } from "react-router-dom";
-import { useQueries, useQueryClient } from "@tanstack/react-query";
+import { useQueries } from "@tanstack/react-query";
 import spots from "../../data/spots.nl.json";
 import { getUserLocation, haversineKm, geocodeAddress, getDrivingDuration } from "../lib/geo";
 import { getHourlyForecast, ForecastHour } from "../lib/forecast";
 import { bestWindow } from "../lib/windows";
-import { compareSpots } from "../lib/comparator";
 import { SpotCard } from "../components/SpotCard";
 import { sendScore } from "../lib/scoring";
 
