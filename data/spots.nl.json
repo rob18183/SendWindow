@@ -43,6 +43,10 @@
     "lon": 4.044898266162127,
     "permalink": "https://kitesurfvereniging.nl/kitespot/rockanje-sportstrand/",
     "image": "/images/north_sea.png",
+    "webcam": {
+      "url": "https://www.youtube.com/embed/csMnwbjV5vg",
+      "type": "embed"
+    },
     "level": [
       "Beginner"
     ],
@@ -1581,6 +1585,10 @@
     "lon": 4.2894255,
     "permalink": "https://kitesurfvereniging.nl/kitespot/scheveningen-zwarte-pad/",
     "image": "/images/action.png",
+    "webcam": {
+      "url": "https://www.youtube.com/embed/A5kXiKzbBFs",
+      "type": "embed"
+    },
     "level": [
       "Gevorderd"
     ],
@@ -2230,6 +2238,10 @@
     "lon": 4.731828,
     "permalink": "https://kitesurfvereniging.nl/kitespot/texel/",
     "image": "/images/north_sea.png",
+    "webcam": {
+      "url": "https://www.youtube.com/embed/Hq2Qbcuph4w",
+      "type": "embed"
+    },
     "level": [
       "Gevorderd"
     ],
@@ -2723,6 +2735,10 @@
     "lon": 3.842414,
     "permalink": "https://kitesurfvereniging.nl/kitespot/brouwersdam/",
     "image": "/images/north_sea.png",
+    "webcam": {
+      "url": "https://www.youtube.com/embed/KjK02QIm4ZI",
+      "type": "embed"
+    },
     "level": [
       "Beginner"
     ],
@@ -3099,6 +3115,10 @@
     "lon": 4.565752,
     "permalink": "https://kitesurfvereniging.nl/kitespot/wijk-aan-zee-pier/",
     "image": "/images/north_sea.png",
+    "webcam": {
+      "url": "https://dehangout.nl/webcam-wijk-aan-zee/",
+      "type": "link"
+    },
     "level": [
       "Beginner",
       "Gevorderd"
@@ -3336,7 +3356,11 @@
     "lat": 52.365335113481585,
     "lon": 4.519105687744145,
     "permalink": "https://kitesurfvereniging.nl/kitespot/zandvoort/",
-    "image": "/images/inland.png",
+    "image": "/images/north_sea.png",
+    "webcam": {
+      "url": "https://www.youtube.com/embed/rs27UQIsaMU",
+      "type": "embed"
+    },
     "level": [
       "Gevorderd"
     ],
@@ -3558,6 +3582,10 @@
         "end": 23
       }
     ],
+    "webcam": {
+      "url": "https://www.youtube.com/embed/fXL2w_ZBQp8?si=QNa4FIzew57wGxwx",
+      "type": "embed"
+    },
     "unsafe_dirs": [],
     "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer Bus halte: 's-Gravenzande, Strandweg is de dichtstbij zijnde bushalte. Vanaf hier is het nog 20 minuten lopen tot de kite spot. Parkeergelegenheid Betaald Laadpalen aanwezig Nee",
     "last_scraped": "2025-12-22T15:14:56.617Z",
