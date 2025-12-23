@@ -106,26 +106,32 @@ export async function getDrivingDuration(
         if (cached) return parseInt(cached, 10);
     } catch (e) { /* ignore */ }
 
-    // Wrap the fetch in the rate limiter
-    return enqueueRequest(async () => {
+    // Wrap the fetch in the rate limiter logic
+    const performFetch = async () => {
         try {
-            // OSRM Public API (Demo Server)
-            // Rate limits apply. Not for heavy production use.
-            const url = `https://router.project-osrm.org/route/v1/driving/${start.lon},${start.lat};${end.lon},${end.lat}?overview=false`;
+            // Read env var (Vite exposed)
+            const baseUrl = import.meta.env.VITE_OSRM_URL || "https://router.project-osrm.org/route/v1/driving";
+            // If using the public demo server, use the queue. If self-hosted, go direct.
+            const isDemo = baseUrl.includes("router.project-osrm.org");
 
-            const res = await fetch(url);
-            if (!res.ok) return null;
+            // Construct request
+            const performRequest = async () => {
+                const url = `${baseUrl}/${start.lon},${start.lat};${end.lon},${end.lat}?overview=false`;
+                const res = await fetch(url);
+                if (!res.ok) return null;
+                const data = await res.json();
+                if (data.code === 'Ok' && data.routes && data.routes.length > 0) {
+                    return Math.round(data.routes[0].duration / 60);
+                }
+                return null;
+            };
 
-            const data = await res.json();
-            if (data.code === 'Ok' && data.routes && data.routes.length > 0) {
-                // Duration is in seconds
-                const minutes = Math.round(data.routes[0].duration / 60);
+            const minutes = isDemo ? await enqueueRequest(performRequest) : await performRequest();
 
-                // Save to cache
+            if (minutes !== null) {
                 try {
                     localStorage.setItem(key, String(minutes));
                 } catch (e) { /* full? */ }
-
                 return minutes;
             }
             return null;
@@ -133,5 +139,7 @@ export async function getDrivingDuration(
             console.warn("OSRM error:", e);
             return null;
         }
-    });
+    };
+
+    return performFetch();
 }
