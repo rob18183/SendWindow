@@ -1,92 +1,13 @@
 [
   {
-    "id": "edam-zuid",
-    "name": "Edam-Zuid",
-    "lat": 52.515039462387506,
-    "lon": 5.075016937231451,
-    "permalink": "https://kitesurfvereniging.nl/kitespot/edam-zuid/",
-    "image": "/images/north_sea_waves.png",
-    "webcam": {
-      "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
-      "type": "embed"
-    },
-    "external_forecasts": [
-      {
-        "name": "Windy",
-        "url": "https://www.windy.com/52.5150/5.0750?52.5150,5.0750,11"
-      },
-      {
-        "name": "Windfinder",
-        "url": "https://www.windfinder.com/#12/52.5150/5.0750"
-      }
-    ],
-    "level": [
-      "Beginner"
-    ],
-    "depth": [
-      "Diep"
-    ],
-    "good_dirs": [
-      {
-        "start": 338,
-        "end": 113
-      }
-    ],
-    "unsafe_dirs": [],
-    "last_scraped": "2025-12-22T15:10:45.766Z",
-    "season": "Het hele jaar"
-  },
-  {
-    "id": "rockanje-sportstrand",
-    "name": "Rockanje Sportstrand",
-    "lat": 51.8722925148425,
-    "lon": 4.044898266162127,
-    "permalink": "https://kitesurfvereniging.nl/kitespot/rockanje-sportstrand/",
+    "id": "schiermonnikoog-noordzee-paal-3-5",
+    "name": "Schiermonnikoog (Noordzee: Paal 3-5)",
+    "lat": 53.504333,
+    "lon": 6.180988,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/schiermonnikoog-noordzee/",
     "image": "/images/north_sea_beach.png",
-    "webcam": {
-      "url": "https://www.youtube.com/embed/csMnwbjV5vg",
-      "type": "embed"
-    },
     "level": [
       "Beginner"
-    ],
-    "depth": [
-      "Ondiep"
-    ],
-    "good_dirs": [
-      {
-        "start": 158,
-        "end": 248
-      },
-      {
-        "start": 293,
-        "end": 338
-      }
-    ],
-    "unsafe_dirs": [],
-    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet, Douche Openbaar vervoer Parkeergelegenheid Betaald Laadpalen aanwezig Ja 4",
-    "last_scraped": "2025-12-22T15:10:48.313Z",
-    "season": "het hele jaar",
-    "external_forecasts": [
-      {
-        "name": "Windy",
-        "url": "https://www.windy.com/51.8723/4.0449?51.8723,4.0449,11"
-      },
-      {
-        "name": "Windfinder",
-        "url": "https://www.windfinder.com/#12/51.8723/4.0449"
-      }
-    ]
-  },
-  {
-    "id": "oudega-smallingerland",
-    "name": "Oudega (Smallingerland)",
-    "lat": 53.110239353451966,
-    "lon": 5.98939415390626,
-    "permalink": "https://kitesurfvereniging.nl/kitespot/oudega-smallingerland/",
-    "image": "/images/sunset_session.png",
-    "level": [
-      "Gevorderd"
     ],
     "depth": [
       "Diep"
@@ -94,30 +15,65 @@
     "good_dirs": [
       {
         "start": 203,
-        "end": 338
+        "end": 113
       }
     ],
     "unsafe_dirs": [],
-    "last_scraped": "2025-12-22T15:10:50.615Z",
-    "season": "het hele jaar",
+    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer Met het veer en de bus Parkeergelegenheid Onbekend Laadpalen aanwezig Onbekend",
+    "last_scraped": "2025-12-22T15:12:48.161Z",
+    "season": "Het hele jaar",
     "external_forecasts": [
       {
         "name": "Windy",
-        "url": "https://www.windy.com/53.1102/5.9894?53.1102,5.9894,11"
+        "url": "https://www.windy.com/53.5043/6.1810?53.5043,6.1810,11"
       },
       {
         "name": "Windfinder",
-        "url": "https://www.windfinder.com/#12/53.1102/5.9894"
+        "url": "https://www.windfinder.com/#12/53.5043/6.1810"
       }
     ]
   },
   {
-    "id": "krabbendijke-roelshoek",
-    "name": "Krabbendijke (Roelshoek)",
-    "lat": 51.43539785126424,
-    "lon": 4.125820029089797,
-    "permalink": "https://kitesurfvereniging.nl/kitespot/krabbendijke-roelshoek/",
-    "image": "/images/north_sea_waves.png",
+    "id": "ameland-noordzee",
+    "name": "Ameland - Noordzee",
+    "lat": 53.459965,
+    "lon": 5.741499,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/ameland-noordzee/",
+    "image": "/images/coastal_dunes_path.png",
+    "level": [
+      "Beginner"
+    ],
+    "depth": [
+      "Diep"
+    ],
+    "good_dirs": [
+      {
+        "start": 293,
+        "end": 68
+      }
+    ],
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer Parkeergelegenheid Onbekend Laadpalen aanwezig Onbekend",
+    "last_scraped": "2025-12-22T15:14:38.805Z",
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/53.4600/5.7415?53.4600,5.7415,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/53.4600/5.7415"
+      }
+    ]
+  },
+  {
+    "id": "eemshaven",
+    "name": "Eemshaven",
+    "lat": 53.454723,
+    "lon": 6.796758,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/eemshaven/",
+    "image": "/images/north_sea_beach.png",
     "level": [
       "Beginner"
     ],
@@ -131,26 +87,26 @@
       }
     ],
     "unsafe_dirs": [],
-    "last_scraped": "2025-12-22T15:10:52.878Z",
-    "season": "het hele jaar",
+    "last_scraped": "2025-12-22T15:13:08.134Z",
+    "season": "Het hele jaar",
     "external_forecasts": [
       {
         "name": "Windy",
-        "url": "https://www.windy.com/51.4354/4.1258?51.4354,4.1258,11"
+        "url": "https://www.windy.com/53.4547/6.7968?53.4547,6.7968,11"
       },
       {
         "name": "Windfinder",
-        "url": "https://www.windfinder.com/#12/51.4354/4.1258"
+        "url": "https://www.windfinder.com/#12/53.4547/6.7968"
       }
     ]
   },
   {
-    "id": "zeewolde",
-    "name": "Zeewolde",
-    "lat": 52.32339737555348,
-    "lon": 5.550357063452593,
-    "permalink": "https://kitesurfvereniging.nl/kitespot/zeewolde/",
-    "image": "/images/inland_lake_flat.png",
+    "id": "ameland-waddenzee",
+    "name": "Ameland - Waddenzee",
+    "lat": 53.439205,
+    "lon": 5.77345,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/ameland-waddenzee/",
+    "image": "/images/coastal_pier_waves.png",
     "level": [
       "Beginner"
     ],
@@ -159,36 +115,71 @@
     ],
     "good_dirs": [
       {
-        "start": 338,
-        "end": 203
+        "start": 113,
+        "end": 293
       }
     ],
     "unsafe_dirs": [],
-    "last_scraped": "2025-12-22T15:10:55.217Z",
-    "season": "het hele jaar",
+    "facilities": "Aanwezig faciliteiten Eten, Drinken Openbaar vervoer met de veerboot Parkeergelegenheid Gratis Laadpalen aanwezig Onbekend",
+    "last_scraped": "2025-12-22T15:14:36.353Z",
+    "season": "Het hele jaar",
     "external_forecasts": [
       {
         "name": "Windy",
-        "url": "https://www.windy.com/52.3234/5.5504?52.3234,5.5504,11"
+        "url": "https://www.windy.com/53.4392/5.7735?53.4392,5.7735,11"
       },
       {
         "name": "Windfinder",
-        "url": "https://www.windfinder.com/#12/52.3234/5.5504"
+        "url": "https://www.windfinder.com/#12/53.4392/5.7735"
       }
     ]
   },
   {
-    "id": "blaricum-gooimeer",
-    "name": "Blaricum (Gooimeer)",
-    "lat": 52.30012021577305,
-    "lon": 5.3011256575805765,
-    "permalink": "https://kitesurfvereniging.nl/kitespot/blaricum-gooimeer/",
-    "image": "/images/inland_lake_flat.png",
+    "id": "terschelling-noordzee",
+    "name": "Terschelling - Noordzee",
+    "lat": 53.409386,
+    "lon": 5.280458,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/terschelling-noordzee/",
+    "image": "/images/stormy_coast.png",
     "level": [
       "Beginner"
     ],
     "depth": [
       "Diep"
+    ],
+    "good_dirs": [
+      {
+        "start": 293,
+        "end": 68
+      }
+    ],
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer bus vanaf 31 maart t/m 31 oktober, check: https://www.bus-terschelling.nl/zomerdienstregeling-2023/#lijn2 Parkeergelegenheid Gratis Laadpalen aanwezig Onbekend",
+    "last_scraped": "2025-12-22T15:13:18.022Z",
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/53.4094/5.2805?53.4094,5.2805,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/53.4094/5.2805"
+      }
+    ]
+  },
+  {
+    "id": "lauwersoog-waddenzee",
+    "name": "Lauwersoog Waddenzee",
+    "lat": 53.408802,
+    "lon": 6.157198,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/lauwersoog-waddenzee/",
+    "image": "/images/coastal_pier_waves.png",
+    "level": [
+      "Beginner"
+    ],
+    "depth": [
+      "Ondiep"
     ],
     "good_dirs": [
       {
@@ -197,83 +188,17 @@
       }
     ],
     "unsafe_dirs": [],
-    "last_scraped": "2025-12-22T15:10:57.498Z",
+    "facilities": "Aanwezig faciliteiten Eten, Drinken Openbaar vervoer Parkeergelegenheid Onbekend Laadpalen aanwezig Onbekend",
+    "last_scraped": "2025-12-22T15:11:42.046Z",
     "season": "het hele jaar",
     "external_forecasts": [
       {
         "name": "Windy",
-        "url": "https://www.windy.com/52.3001/5.3011?52.3001,5.3011,11"
+        "url": "https://www.windy.com/53.4088/6.1572?53.4088,6.1572,11"
       },
       {
         "name": "Windfinder",
-        "url": "https://www.windfinder.com/#12/52.3001/5.3011"
-      }
-    ]
-  },
-  {
-    "id": "ijburg",
-    "name": "IJburg",
-    "lat": 52.355366956484595,
-    "lon": 5.022668899658189,
-    "permalink": "https://kitesurfvereniging.nl/kitespot/ijburg/",
-    "image": "/images/stormy_coast.png",
-    "level": [
-      "Beginner"
-    ],
-    "depth": [
-      "Ondiep"
-    ],
-    "good_dirs": [
-      {
-        "start": 293,
-        "end": 113
-      }
-    ],
-    "unsafe_dirs": [],
-    "last_scraped": "2025-12-22T15:10:59.768Z",
-    "season": "het hele jaar",
-    "external_forecasts": [
-      {
-        "name": "Windy",
-        "url": "https://www.windy.com/52.3554/5.0227?52.3554,5.0227,11"
-      },
-      {
-        "name": "Windfinder",
-        "url": "https://www.windfinder.com/#12/52.3554/5.0227"
-      }
-    ]
-  },
-  {
-    "id": "ijmuiden-zone-2-gem-velsen",
-    "name": "IJmuiden Zone 2 (gem. Velsen)",
-    "lat": 52.45534760270165,
-    "lon": 4.556021537228991,
-    "permalink": "https://kitesurfvereniging.nl/kitespot/ijmuiden-zone-2/",
-    "image": "/images/north_sea_waves.png",
-    "level": [
-      "Gevorderd"
-    ],
-    "depth": [
-      "Diep"
-    ],
-    "good_dirs": [
-      {
-        "start": 158,
-        "end": 338
-      }
-    ],
-    "unsafe_dirs": [],
-    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet, Douche Openbaar vervoer Parkeergelegenheid Betaald Laadpalen aanwezig Onbekend",
-    "last_scraped": "2025-12-22T15:11:02.195Z",
-    "season": "oktober t/m maart",
-    "external_forecasts": [
-      {
-        "name": "Windy",
-        "url": "https://www.windy.com/52.4553/4.5560?52.4553,4.5560,11"
-      },
-      {
-        "name": "Windfinder",
-        "url": "https://www.windfinder.com/#12/52.4553/4.5560"
+        "url": "https://www.windfinder.com/#12/53.4088/6.1572"
       }
     ]
   },
@@ -312,12 +237,46 @@
     ]
   },
   {
-    "id": "medemblik",
-    "name": "Medemblik",
-    "lat": 52.755039,
-    "lon": 5.125001,
-    "permalink": "https://kitesurfvereniging.nl/kitespot/medemblik/",
-    "image": "/images/inland_lake_flat.png",
+    "id": "terschelling-groene-strand",
+    "name": "Terschelling - Groene Strand",
+    "lat": 53.355141,
+    "lon": 5.21029,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/terschelling-groene-strand/",
+    "image": "/images/north_sea_beach.png",
+    "level": [
+      "Beginner"
+    ],
+    "depth": [
+      "Ondiep"
+    ],
+    "good_dirs": [
+      {
+        "start": 113,
+        "end": 248
+      }
+    ],
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer circa 400m lopen vanaf busstation/veerboot en 1 km vanaf de jachthaven Parkeergelegenheid Gratis Laadpalen aanwezig Nee",
+    "last_scraped": "2025-12-22T15:13:22.663Z",
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/53.3551/5.2103?53.3551,5.2103,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/53.3551/5.2103"
+      }
+    ]
+  },
+  {
+    "id": "delfzijl",
+    "name": "Delfzijl",
+    "lat": 53.33453,
+    "lon": 6.931337,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/delfzijl/",
+    "image": "/images/coastal_pier_waves.png",
     "level": [
       "Beginner",
       "Gevorderd"
@@ -327,58 +286,93 @@
     ],
     "good_dirs": [
       {
-        "start": 338,
-        "end": 113
+        "start": 23,
+        "end": 158
+      },
+      {
+        "start": 293,
+        "end": 338
       }
     ],
     "unsafe_dirs": [],
-    "facilities": "Aanwezig faciliteiten Openbaar vervoer Vanaf treinstation Hoorn gaan er bussen naar Medemblik, dan is het nog 15min lopen vanaf halte spooksingel. Parkeergelegenheid Gratis Laadpalen aanwezig Nee",
-    "last_scraped": "2025-12-22T15:11:07.242Z",
-    "season": "april t/m september",
+    "facilities": "Aanwezig faciliteiten Openbaar vervoer Parkeergelegenheid Onbekend Laadpalen aanwezig Onbekend",
+    "last_scraped": "2025-12-22T15:13:29.818Z",
+    "season": "Het hele jaar",
     "external_forecasts": [
       {
         "name": "Windy",
-        "url": "https://www.windy.com/52.7550/5.1250?52.7550,5.1250,11"
+        "url": "https://www.windy.com/53.3345/6.9313?53.3345,6.9313,11"
       },
       {
         "name": "Windfinder",
-        "url": "https://www.windfinder.com/#12/52.7550/5.1250"
+        "url": "https://www.windfinder.com/#12/53.3345/6.9313"
       }
     ]
   },
   {
-    "id": "makkum",
-    "name": "Makkum",
-    "lat": 53.05312,
-    "lon": 5.376227,
-    "permalink": "https://kitesurfvereniging.nl/kitespot/makkum/",
+    "id": "vlieland-noordzee",
+    "name": "Vlieland Noordzee",
+    "lat": 53.304478,
+    "lon": 5.048718,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/vlieland-noordzee/",
     "image": "/images/north_sea_beach.png",
     "level": [
-      "Beginner",
-      "Gevorderd",
-      "Expert"
+      "Beginner"
     ],
     "depth": [
-      "Ondiep"
+      "Diep"
     ],
     "good_dirs": [
       {
-        "start": 158,
-        "end": 23
+        "start": 248,
+        "end": 68
       }
     ],
     "unsafe_dirs": [],
-    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer Parkeergelegenheid Gratis Laadpalen aanwezig Ja 2",
-    "last_scraped": "2025-12-22T15:11:09.754Z",
-    "season": "oktober t/m april",
+    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer Parkeergelegenheid Onbekend Laadpalen aanwezig Onbekend",
+    "last_scraped": "2025-12-22T15:13:46.248Z",
+    "season": "Het hele jaar",
     "external_forecasts": [
       {
         "name": "Windy",
-        "url": "https://www.windy.com/53.0531/5.3762?53.0531,5.3762,11"
+        "url": "https://www.windy.com/53.3045/5.0487?53.3045,5.0487,11"
       },
       {
         "name": "Windfinder",
-        "url": "https://www.windfinder.com/#12/53.0531/5.3762"
+        "url": "https://www.windfinder.com/#12/53.3045/5.0487"
+      }
+    ]
+  },
+  {
+    "id": "vlieland-wadkant",
+    "name": "Vlieland Wadkant",
+    "lat": 53.237576,
+    "lon": 4.964422,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/vlieland-wadkant/",
+    "image": "/images/north_sea_waves.png",
+    "level": [
+      "Beginner"
+    ],
+    "depth": [
+      "Diep"
+    ],
+    "good_dirs": [
+      {
+        "start": 113,
+        "end": 248
+      }
+    ],
+    "unsafe_dirs": [],
+    "last_scraped": "2025-12-22T15:13:41.653Z",
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/53.2376/4.9644?53.2376,4.9644,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/53.2376/4.9644"
       }
     ]
   },
@@ -388,7 +382,7 @@
     "lat": 53.193245,
     "lon": 7.027293,
     "permalink": "https://kitesurfvereniging.nl/kitespot/midwolda-oldambtmeer/",
-    "image": "/images/inland_lake_flat.png",
+    "image": "/images/inland_grassy_launch.png",
     "level": [
       "Gevorderd"
     ],
@@ -417,898 +411,14 @@
     ]
   },
   {
-    "id": "maasvlakte-2-slufter",
-    "name": "Maasvlakte 2 - Slufter",
-    "lat": 51.919079,
-    "lon": 3.988189,
-    "permalink": "https://kitesurfvereniging.nl/kitespot/slufter/",
-    "image": "/images/sunset_session.png",
-    "level": [
-      "Gevorderd"
-    ],
-    "depth": [
-      "Ondiep"
-    ],
-    "good_dirs": [
-      {
-        "start": 158,
-        "end": 293
-      }
-    ],
-    "unsafe_dirs": [],
-    "facilities": "Aanwezig faciliteiten Openbaar vervoer Parkeergelegenheid Gratis Laadpalen aanwezig Nee",
-    "last_scraped": "2025-12-22T15:11:14.680Z",
-    "season": "Het hele jaar",
-    "external_forecasts": [
-      {
-        "name": "Windy",
-        "url": "https://www.windy.com/51.9191/3.9882?51.9191,3.9882,11"
-      },
-      {
-        "name": "Windfinder",
-        "url": "https://www.windfinder.com/#12/51.9191/3.9882"
-      }
-    ]
-  },
-  {
-    "id": "maasvlakte-2-p5-en-p6",
-    "name": "Maasvlakte 2 - P5 en P6",
-    "lat": 51.951382,
-    "lon": 3.966729,
-    "permalink": "https://kitesurfvereniging.nl/kitespot/maasvlakte-p5p6/",
-    "image": "/images/north_sea_waves.png",
-    "level": [
-      "Gevorderd"
-    ],
-    "depth": [
-      "Diep"
-    ],
-    "good_dirs": [
-      {
-        "start": 203,
-        "end": 23
-      }
-    ],
-    "unsafe_dirs": [],
-    "last_scraped": "2025-12-22T15:11:16.951Z",
-    "season": "Het hele jaar",
-    "external_forecasts": [
-      {
-        "name": "Windy",
-        "url": "https://www.windy.com/51.9514/3.9667?51.9514,3.9667,11"
-      },
-      {
-        "name": "Windfinder",
-        "url": "https://www.windfinder.com/#12/51.9514/3.9667"
-      }
-    ]
-  },
-  {
-    "id": "mirns-t-mirnser-klif",
-    "name": "Mirns ('t Mirnser Klif)",
-    "lat": 52.850101,
-    "lon": 5.481972,
-    "permalink": "https://kitesurfvereniging.nl/kitespot/mirns/",
-    "image": "/images/inland_lake_flat.png",
-    "level": [
-      "Beginner"
-    ],
-    "depth": [
-      "Ondiep"
-    ],
-    "good_dirs": [
-      {
-        "start": 68,
-        "end": 293
-      }
-    ],
-    "unsafe_dirs": [],
-    "facilities": "Aanwezig faciliteiten Openbaar vervoer Parkeergelegenheid Onbekend Laadpalen aanwezig Onbekend",
-    "last_scraped": "2025-12-22T15:11:19.488Z",
-    "season": "Het hele jaar",
-    "external_forecasts": [
-      {
-        "name": "Windy",
-        "url": "https://www.windy.com/52.8501/5.4820?52.8501,5.4820,11"
-      },
-      {
-        "name": "Windfinder",
-        "url": "https://www.windfinder.com/#12/52.8501/5.4820"
-      }
-    ]
-  },
-  {
-    "id": "maasvlakte-2-spot-p1-tm-p3",
-    "name": "Maasvlakte 2 - Spot P1 t/m P3",
-    "lat": 51.923229,
-    "lon": 3.980946,
-    "permalink": "https://kitesurfvereniging.nl/kitespot/maasvlakte-p1p3/",
+    "id": "texel-noord-oost",
+    "name": "Texel Noord-oost",
+    "lat": 53.178222562677476,
+    "lon": 4.864385107210651,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/texel-noord-oost/",
     "image": "/images/stormy_coast.png",
     "level": [
       "Gevorderd"
-    ],
-    "depth": [
-      "Diep"
-    ],
-    "good_dirs": [
-      {
-        "start": 158,
-        "end": 338
-      }
-    ],
-    "unsafe_dirs": [],
-    "facilities": "Aanwezig faciliteiten Openbaar vervoer Parkeergelegenheid Gratis Laadpalen aanwezig Nee",
-    "last_scraped": "2025-12-22T15:11:22.302Z",
-    "season": "oktober t/m april",
-    "external_forecasts": [
-      {
-        "name": "Windy",
-        "url": "https://www.windy.com/51.9232/3.9809?51.9232,3.9809,11"
-      },
-      {
-        "name": "Windfinder",
-        "url": "https://www.windfinder.com/#12/51.9232/3.9809"
-      }
-    ]
-  },
-  {
-    "id": "monnickendam",
-    "name": "Monnickendam",
-    "lat": 52.459114,
-    "lon": 5.053314,
-    "permalink": "https://kitesurfvereniging.nl/kitespot/monnickendam/",
-    "image": "/images/stormy_coast.png",
-    "level": [
-      "Gevorderd"
-    ],
-    "depth": [
-      "Ondiep"
-    ],
-    "good_dirs": [
-      {
-        "start": 338,
-        "end": 23
-      }
-    ],
-    "unsafe_dirs": [],
-    "last_scraped": "2025-12-22T15:11:24.648Z",
-    "season": "Het hele jaar",
-    "external_forecasts": [
-      {
-        "name": "Windy",
-        "url": "https://www.windy.com/52.4591/5.0533?52.4591,5.0533,11"
-      },
-      {
-        "name": "Windfinder",
-        "url": "https://www.windfinder.com/#12/52.4591/5.0533"
-      }
-    ]
-  },
-  {
-    "id": "lemmer",
-    "name": "Lemmer",
-    "lat": 52.843899,
-    "lon": 5.692941,
-    "permalink": "https://kitesurfvereniging.nl/kitespot/lemmer/",
-    "image": "/images/inland_lake_flat.png",
-    "level": [
-      "Gevorderd"
-    ],
-    "depth": [
-      "Ondiep"
-    ],
-    "good_dirs": [
-      {
-        "start": 158,
-        "end": 293
-      }
-    ],
-    "unsafe_dirs": [],
-    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer Parkeergelegenheid Onbekend Laadpalen aanwezig Onbekend",
-    "last_scraped": "2025-12-22T15:11:26.973Z",
-    "season": "oktober t/m april",
-    "external_forecasts": [
-      {
-        "name": "Windy",
-        "url": "https://www.windy.com/52.8439/5.6929?52.8439,5.6929,11"
-      },
-      {
-        "name": "Windfinder",
-        "url": "https://www.windfinder.com/#12/52.8439/5.6929"
-      }
-    ]
-  },
-  {
-    "id": "muiderberg",
-    "name": "Muiderberg",
-    "lat": 52.329876,
-    "lon": 5.113459,
-    "permalink": "https://kitesurfvereniging.nl/kitespot/muiderberg/",
-    "image": "/images/inland_lake_flat.png",
-    "level": [
-      "Beginner"
-    ],
-    "depth": [
-      "Ondiep"
-    ],
-    "good_dirs": [
-      {
-        "start": 293,
-        "end": 113
-      }
-    ],
-    "unsafe_dirs": [],
-    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer Parkeergelegenheid Gratis Laadpalen aanwezig Onbekend",
-    "last_scraped": "2025-12-22T15:11:29.533Z",
-    "season": "Het hele jaar",
-    "external_forecasts": [
-      {
-        "name": "Windy",
-        "url": "https://www.windy.com/52.3299/5.1135?52.3299,5.1135,11"
-      },
-      {
-        "name": "Windfinder",
-        "url": "https://www.windfinder.com/#12/52.3299/5.1135"
-      }
-    ]
-  },
-  {
-    "id": "lelystad-trintelhaven",
-    "name": "Lelystad - Trintelhaven",
-    "lat": 52.636238,
-    "lon": 5.413053,
-    "permalink": "https://kitesurfvereniging.nl/kitespot/lelystad-trintelhaven/",
-    "image": "/images/inland_lake_flat.png",
-    "level": [
-      "Beginner"
-    ],
-    "depth": [
-      "Diep"
-    ],
-    "good_dirs": [
-      {
-        "start": 338,
-        "end": 158
-      }
-    ],
-    "unsafe_dirs": [],
-    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer Parkeergelegenheid Gratis Laadpalen aanwezig Onbekend",
-    "last_scraped": "2025-12-22T15:11:31.874Z",
-    "season": "april t/m juli",
-    "external_forecasts": [
-      {
-        "name": "Windy",
-        "url": "https://www.windy.com/52.6362/5.4131?52.6362,5.4131,11"
-      },
-      {
-        "name": "Windfinder",
-        "url": "https://www.windfinder.com/#12/52.6362/5.4131"
-      }
-    ]
-  },
-  {
-    "id": "neeltje-jans",
-    "name": "Neeltje Jans",
-    "lat": 51.62424172138486,
-    "lon": 3.680559354492172,
-    "permalink": "https://kitesurfvereniging.nl/kitespot/neeltje-jans/",
-    "image": "/images/north_sea_beach.png",
-    "level": [
-      "Gevorderd"
-    ],
-    "depth": [
-      "Diep"
-    ],
-    "good_dirs": [
-      {
-        "start": 203,
-        "end": 23
-      }
-    ],
-    "unsafe_dirs": [],
-    "facilities": "Aanwezig faciliteiten Openbaar vervoer Parkeergelegenheid Onbekend Laadpalen aanwezig Onbekend",
-    "last_scraped": "2025-12-22T15:11:34.424Z",
-    "season": "het hele jaar",
-    "external_forecasts": [
-      {
-        "name": "Windy",
-        "url": "https://www.windy.com/51.6242/3.6806?51.6242,3.6806,11"
-      },
-      {
-        "name": "Windfinder",
-        "url": "https://www.windfinder.com/#12/51.6242/3.6806"
-      }
-    ]
-  },
-  {
-    "id": "lelystad-bataviastrand",
-    "name": "Lelystad - Bataviastrand",
-    "lat": 52.524357,
-    "lon": 5.424342,
-    "permalink": "https://kitesurfvereniging.nl/kitespot/lelystad-bataviastrand/",
-    "image": "/images/inland_lake_action.png",
-    "level": [
-      "Gevorderd"
-    ],
-    "depth": [
-      "Diep"
-    ],
-    "good_dirs": [
-      {
-        "start": 158,
-        "end": 23
-      }
-    ],
-    "unsafe_dirs": [],
-    "facilities": "Aanwezig faciliteiten Openbaar vervoer n.v.t. Parkeergelegenheid Gratis Laadpalen aanwezig Nee",
-    "last_scraped": "2025-12-22T15:11:36.992Z",
-    "season": "het hele jaar",
-    "external_forecasts": [
-      {
-        "name": "Windy",
-        "url": "https://www.windy.com/52.5244/5.4243?52.5244,5.4243,11"
-      },
-      {
-        "name": "Windfinder",
-        "url": "https://www.windfinder.com/#12/52.5244/5.4243"
-      }
-    ]
-  },
-  {
-    "id": "noordwijk-aan-zee",
-    "name": "Noordwijk aan Zee",
-    "lat": 52.235806,
-    "lon": 4.418844,
-    "permalink": "https://kitesurfvereniging.nl/kitespot/noordwijk-aan-zee/",
-    "image": "/images/north_sea_waves.png",
-    "level": [
-      "Gevorderd"
-    ],
-    "depth": [
-      "Diep"
-    ],
-    "good_dirs": [
-      {
-        "start": 203,
-        "end": 23
-      }
-    ],
-    "unsafe_dirs": [],
-    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet, Douche, Materiaalopslag, Luchtpomp Openbaar vervoer Parkeergelegenheid Betaald Laadpalen aanwezig Onbekend",
-    "last_scraped": "2025-12-22T15:11:39.748Z",
-    "season": "het hele jaar",
-    "external_forecasts": [
-      {
-        "name": "Windy",
-        "url": "https://www.windy.com/52.2358/4.4188?52.2358,4.4188,11"
-      },
-      {
-        "name": "Windfinder",
-        "url": "https://www.windfinder.com/#12/52.2358/4.4188"
-      }
-    ]
-  },
-  {
-    "id": "lauwersoog-waddenzee",
-    "name": "Lauwersoog Waddenzee",
-    "lat": 53.408802,
-    "lon": 6.157198,
-    "permalink": "https://kitesurfvereniging.nl/kitespot/lauwersoog-waddenzee/",
-    "image": "/images/north_sea_waves.png",
-    "level": [
-      "Beginner"
-    ],
-    "depth": [
-      "Ondiep"
-    ],
-    "good_dirs": [
-      {
-        "start": 248,
-        "end": 68
-      }
-    ],
-    "unsafe_dirs": [],
-    "facilities": "Aanwezig faciliteiten Eten, Drinken Openbaar vervoer Parkeergelegenheid Onbekend Laadpalen aanwezig Onbekend",
-    "last_scraped": "2025-12-22T15:11:42.046Z",
-    "season": "het hele jaar",
-    "external_forecasts": [
-      {
-        "name": "Windy",
-        "url": "https://www.windy.com/53.4088/6.1572?53.4088,6.1572,11"
-      },
-      {
-        "name": "Windfinder",
-        "url": "https://www.windfinder.com/#12/53.4088/6.1572"
-      }
-    ]
-  },
-  {
-    "id": "tholen-oesterdam",
-    "name": "Tholen Oesterdam",
-    "lat": 51.460934,
-    "lon": 4.221407,
-    "permalink": "https://kitesurfvereniging.nl/kitespot/tholen-oesterdam/",
-    "image": "/images/north_sea_beach.png",
-    "level": [
-      "Beginner"
-    ],
-    "depth": [
-      "Ondiep"
-    ],
-    "good_dirs": [
-      {
-        "start": 158,
-        "end": 23
-      }
-    ],
-    "unsafe_dirs": [],
-    "facilities": "Aanwezig faciliteiten Openbaar vervoer Geen openbaar vervoer beschikbaar Parkeergelegenheid Gratis Laadpalen aanwezig Nee",
-    "last_scraped": "2025-12-22T15:11:44.603Z",
-    "season": "het hele jaar",
-    "external_forecasts": [
-      {
-        "name": "Windy",
-        "url": "https://www.windy.com/51.4609/4.2214?51.4609,4.2214,11"
-      },
-      {
-        "name": "Windfinder",
-        "url": "https://www.windfinder.com/#12/51.4609/4.2214"
-      }
-    ]
-  },
-  {
-    "id": "noordwijk-langevelderslag",
-    "name": "Noordwijk Langevelderslag",
-    "lat": 52.301853,
-    "lon": 4.473199,
-    "permalink": "https://kitesurfvereniging.nl/kitespot/noordwijk-langevelderslag/",
-    "image": "/images/north_sea_beach.png",
-    "level": [
-      "Gevorderd"
-    ],
-    "depth": [
-      "Diep"
-    ],
-    "good_dirs": [
-      {
-        "start": 203,
-        "end": 23
-      }
-    ],
-    "unsafe_dirs": [],
-    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer Parkeergelegenheid Betaald Laadpalen aanwezig Onbekend",
-    "last_scraped": "2025-12-22T15:11:46.847Z",
-    "season": "het hele jaar",
-    "external_forecasts": [
-      {
-        "name": "Windy",
-        "url": "https://www.windy.com/52.3019/4.4732?52.3019,4.4732,11"
-      },
-      {
-        "name": "Windfinder",
-        "url": "https://www.windfinder.com/#12/52.3019/4.4732"
-      }
-    ]
-  },
-  {
-    "id": "oostvoorne-noordzee",
-    "name": "Oostvoorne Noordzee",
-    "lat": 51.9151368,
-    "lon": 4.0605978,
-    "permalink": "https://kitesurfvereniging.nl/kitespot/oostvoorne-noordzee/",
-    "image": "/images/north_sea_beach.png",
-    "level": [
-      "Beginner",
-      "Gevorderd"
-    ],
-    "depth": [
-      "Ondiep"
-    ],
-    "good_dirs": [
-      {
-        "start": 203,
-        "end": 23
-      }
-    ],
-    "unsafe_dirs": [],
-    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer Parkeergelegenheid Betaald Laadpalen aanwezig Onbekend",
-    "last_scraped": "2025-12-22T15:11:49.320Z",
-    "season": "het hele jaar",
-    "external_forecasts": [
-      {
-        "name": "Windy",
-        "url": "https://www.windy.com/51.9151/4.0606?51.9151,4.0606,11"
-      },
-      {
-        "name": "Windfinder",
-        "url": "https://www.windfinder.com/#12/51.9151/4.0606"
-      }
-    ]
-  },
-  {
-    "id": "kornwerderzand",
-    "name": "Kornwerderzand",
-    "lat": 53.074985705594734,
-    "lon": 5.34412192065429,
-    "permalink": "https://kitesurfvereniging.nl/kitespot/kornwerderzand/",
-    "image": "/images/stormy_coast.png",
-    "level": [
-      "Gevorderd",
-      "Expert"
-    ],
-    "depth": [
-      "Diep"
-    ],
-    "good_dirs": [
-      {
-        "start": 0,
-        "end": 360
-      }
-    ],
-    "unsafe_dirs": [],
-    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer Parkeergelegenheid Gratis Laadpalen aanwezig Ja 2",
-    "last_scraped": "2025-12-22T15:11:51.797Z",
-    "season": "mei t/m september",
-    "external_forecasts": [
-      {
-        "name": "Windy",
-        "url": "https://www.windy.com/53.0750/5.3441?53.0750,5.3441,11"
-      },
-      {
-        "name": "Windfinder",
-        "url": "https://www.windfinder.com/#12/53.0750/5.3441"
-      }
-    ]
-  },
-  {
-    "id": "oostvoornse-meer",
-    "name": "Oostvoornse meer",
-    "lat": 51.92918,
-    "lon": 4.066458,
-    "permalink": "https://kitesurfvereniging.nl/kitespot/oostvoornse-meer/",
-    "image": "/images/inland_lake_flat.png",
-    "level": [
-      "Gevorderd"
-    ],
-    "depth": [
-      "Ondiep"
-    ],
-    "good_dirs": [
-      {
-        "start": 68,
-        "end": 293
-      }
-    ],
-    "unsafe_dirs": [],
-    "facilities": "Aanwezig faciliteiten Eten, Toilet Openbaar vervoer Parkeergelegenheid Gratis Laadpalen aanwezig Onbekend",
-    "last_scraped": "2025-12-22T15:11:54.061Z",
-    "season": "Het hele jaar",
-    "external_forecasts": [
-      {
-        "name": "Windy",
-        "url": "https://www.windy.com/51.9292/4.0665?51.9292,4.0665,11"
-      },
-      {
-        "name": "Windfinder",
-        "url": "https://www.windfinder.com/#12/51.9292/4.0665"
-      }
-    ]
-  },
-  {
-    "id": "ouddorp",
-    "name": "Ouddorp",
-    "lat": 51.82172,
-    "lon": 3.878164,
-    "permalink": "https://kitesurfvereniging.nl/kitespot/ouddorp/",
-    "image": "/images/north_sea_waves.png",
-    "level": [
-      "Gevorderd"
-    ],
-    "depth": [
-      "Diep"
-    ],
-    "good_dirs": [
-      {
-        "start": 248,
-        "end": 68
-      }
-    ],
-    "unsafe_dirs": [],
-    "facilities": "Aanwezig faciliteiten Openbaar vervoer Parkeergelegenheid Onbekend Laadpalen aanwezig Onbekend",
-    "last_scraped": "2025-12-22T15:11:56.416Z",
-    "season": "Het hele jaar",
-    "external_forecasts": [
-      {
-        "name": "Windy",
-        "url": "https://www.windy.com/51.8217/3.8782?51.8217,3.8782,11"
-      },
-      {
-        "name": "Windfinder",
-        "url": "https://www.windfinder.com/#12/51.8217/3.8782"
-      }
-    ]
-  },
-  {
-    "id": "ouwerkerk",
-    "name": "Ouwerkerk",
-    "lat": 51.616791,
-    "lon": 3.961531,
-    "permalink": "https://kitesurfvereniging.nl/kitespot/ouwerkerk/",
-    "image": "/images/stormy_coast.png",
-    "level": [
-      "Beginner"
-    ],
-    "depth": [
-      "Ondiep"
-    ],
-    "good_dirs": [
-      {
-        "start": 113,
-        "end": 338
-      }
-    ],
-    "unsafe_dirs": [],
-    "facilities": "Aanwezig faciliteiten Openbaar vervoer Geen openbaar vervoer aanwezig. Parkeergelegenheid Gratis Laadpalen aanwezig Nee",
-    "last_scraped": "2025-12-22T15:11:58.701Z",
-    "season": "oktober t/m april",
-    "external_forecasts": [
-      {
-        "name": "Windy",
-        "url": "https://www.windy.com/51.6168/3.9615?51.6168,3.9615,11"
-      },
-      {
-        "name": "Windfinder",
-        "url": "https://www.windfinder.com/#12/51.6168/3.9615"
-      }
-    ]
-  },
-  {
-    "id": "kijkduin",
-    "name": "Kijkduin",
-    "lat": 52.066525,
-    "lon": 4.21192,
-    "permalink": "https://kitesurfvereniging.nl/kitespot/kijkduin/",
-    "image": "/images/north_sea_waves.png",
-    "level": [
-      "Beginner",
-      "Gevorderd"
-    ],
-    "depth": [
-      "Diep"
-    ],
-    "good_dirs": [
-      {
-        "start": 203,
-        "end": 338
-      }
-    ],
-    "unsafe_dirs": [],
-    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet, Douche, Materiaalopslag, Luchtpomp Openbaar vervoer Buslijn 24 en 26 Parkeergelegenheid Gratis Laadpalen aanwezig Onbekend",
-    "last_scraped": "2025-12-22T15:12:00.924Z",
-    "season": "het hele jaar",
-    "external_forecasts": [
-      {
-        "name": "Windy",
-        "url": "https://www.windy.com/52.0665/4.2119?52.0665,4.2119,11"
-      },
-      {
-        "name": "Windfinder",
-        "url": "https://www.windfinder.com/#12/52.0665/4.2119"
-      }
-    ]
-  },
-  {
-    "id": "paulinapolder",
-    "name": "Paulinapolder",
-    "lat": 51.350422,
-    "lon": 3.731831,
-    "permalink": "https://kitesurfvereniging.nl/kitespot/paulinapolder/",
-    "image": "/images/north_sea_waves.png",
-    "level": [
-      "Gevorderd"
-    ],
-    "depth": [
-      "Ondiep"
-    ],
-    "good_dirs": [
-      {
-        "start": 293,
-        "end": 68
-      }
-    ],
-    "unsafe_dirs": [],
-    "facilities": "Aanwezig faciliteiten Openbaar vervoer Parkeergelegenheid Onbekend Laadpalen aanwezig Onbekend",
-    "last_scraped": "2025-12-22T15:12:03.240Z",
-    "season": "Het hele jaar",
-    "external_forecasts": [
-      {
-        "name": "Windy",
-        "url": "https://www.windy.com/51.3504/3.7318?51.3504,3.7318,11"
-      },
-      {
-        "name": "Windfinder",
-        "url": "https://www.windfinder.com/#12/51.3504/3.7318"
-      }
-    ]
-  },
-  {
-    "id": "katwijk",
-    "name": "Katwijk",
-    "lat": 52.201435,
-    "lon": 4.386593,
-    "permalink": "https://kitesurfvereniging.nl/kitespot/katwijk/",
-    "image": "/images/sunset_session.png",
-    "level": [
-      "Gevorderd"
-    ],
-    "depth": [
-      "Diep"
-    ],
-    "good_dirs": [
-      {
-        "start": 203,
-        "end": 23
-      }
-    ],
-    "unsafe_dirs": [],
-    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet, Douche, Materiaalopslag, Luchtpomp Openbaar vervoer Parkeergelegenheid Betaald Laadpalen aanwezig Onbekend",
-    "last_scraped": "2025-12-22T15:12:05.841Z",
-    "season": "Het hele jaar",
-    "external_forecasts": [
-      {
-        "name": "Windy",
-        "url": "https://www.windy.com/52.2014/4.3866?52.2014,4.3866,11"
-      },
-      {
-        "name": "Windfinder",
-        "url": "https://www.windfinder.com/#12/52.2014/4.3866"
-      }
-    ]
-  },
-  {
-    "id": "petten-pettemer-zeewering",
-    "name": "Petten (Pettemer Zeewering)",
-    "lat": 52.763783,
-    "lon": 4.649366,
-    "permalink": "https://kitesurfvereniging.nl/kitespot/petten/",
-    "image": "/images/north_sea_waves.png",
-    "level": [
-      "Gevorderd"
-    ],
-    "depth": [
-      "Diep"
-    ],
-    "good_dirs": [
-      {
-        "start": 203,
-        "end": 338
-      }
-    ],
-    "unsafe_dirs": [],
-    "facilities": "Aanwezig faciliteiten Openbaar vervoer Parkeergelegenheid Onbekend Laadpalen aanwezig Onbekend",
-    "last_scraped": "2025-12-22T15:12:08.333Z",
-    "season": "Het hele jaar",
-    "external_forecasts": [
-      {
-        "name": "Windy",
-        "url": "https://www.windy.com/52.7638/4.6494?52.7638,4.6494,11"
-      },
-      {
-        "name": "Windfinder",
-        "url": "https://www.windfinder.com/#12/52.7638/4.6494"
-      }
-    ]
-  },
-  {
-    "id": "julianadorp",
-    "name": "Julianadorp",
-    "lat": 52.895462,
-    "lon": 4.711245,
-    "permalink": "https://kitesurfvereniging.nl/kitespot/julianadorp/",
-    "image": "/images/north_sea_waves.png",
-    "level": [
-      "Gevorderd"
-    ],
-    "depth": [
-      "Diep"
-    ],
-    "good_dirs": [
-      {
-        "start": 203,
-        "end": 23
-      }
-    ],
-    "unsafe_dirs": [],
-    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer Parkeergelegenheid Onbekend Laadpalen aanwezig Onbekend",
-    "last_scraped": "2025-12-22T15:12:10.600Z",
-    "season": "Het hele jaar",
-    "external_forecasts": [
-      {
-        "name": "Windy",
-        "url": "https://www.windy.com/52.8955/4.7112?52.8955,4.7112,11"
-      },
-      {
-        "name": "Windfinder",
-        "url": "https://www.windfinder.com/#12/52.8955/4.7112"
-      }
-    ]
-  },
-  {
-    "id": "reeuwijkse-plassen",
-    "name": "Reeuwijkse plassen",
-    "lat": 52.058559,
-    "lon": 4.741474,
-    "permalink": "https://kitesurfvereniging.nl/kitespot/reeuwijkse-plassen/",
-    "image": "/images/inland_lake_action.png",
-    "level": [
-      "Gevorderd"
-    ],
-    "depth": [
-      "Ondiep"
-    ],
-    "good_dirs": [
-      {
-        "start": 23,
-        "end": 158
-      }
-    ],
-    "unsafe_dirs": [],
-    "last_scraped": "2025-12-22T15:12:12.859Z",
-    "season": "Het hele jaar",
-    "external_forecasts": [
-      {
-        "name": "Windy",
-        "url": "https://www.windy.com/52.0586/4.7415?52.0586,4.7415,11"
-      },
-      {
-        "name": "Windfinder",
-        "url": "https://www.windfinder.com/#12/52.0586/4.7415"
-      }
-    ]
-  },
-  {
-    "id": "ijmuiderslag-gem-velsen",
-    "name": "IJmuiderslag (gem. Velsen)",
-    "lat": 52.446941,
-    "lon": 4.555163,
-    "permalink": "https://kitesurfvereniging.nl/kitespot/ijmuiderslag/",
-    "image": "/images/north_sea_waves.png",
-    "level": [
-      "Beginner"
-    ],
-    "depth": [
-      "Diep"
-    ],
-    "good_dirs": [
-      {
-        "start": 158,
-        "end": 23
-      }
-    ],
-    "unsafe_dirs": [],
-    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet, Douche, Luchtpomp Openbaar vervoer Indien je met het openbaar vervoer komt dan is de bushalte ongeveer 20 minuten van de spot vandaan. De bus stopt bij Camping de Duindoorn, IJmuiden. Parkeergelegenheid Betaald Laadpalen aanwezig Ja 3",
-    "last_scraped": "2025-12-22T15:12:15.440Z",
-    "season": "Het hele jaar",
-    "external_forecasts": [
-      {
-        "name": "Windy",
-        "url": "https://www.windy.com/52.4469/4.5552?52.4469,4.5552,11"
-      },
-      {
-        "name": "Windfinder",
-        "url": "https://www.windfinder.com/#12/52.4469/4.5552"
-      }
-    ]
-  },
-  {
-    "id": "rilland-bath-zimmermangeul",
-    "name": "Rilland-Bath (Zimmermangeul)",
-    "lat": 51.394615,
-    "lon": 4.1494,
-    "permalink": "https://kitesurfvereniging.nl/kitespot/rilland-bath-zimmermangeul/",
-    "image": "/images/north_sea_beach.png",
-    "level": [
-      "Expert"
     ],
     "depth": [
       "Diep"
@@ -1320,299 +430,16 @@
       }
     ],
     "unsafe_dirs": [],
-    "last_scraped": "2025-12-22T15:12:17.691Z",
+    "last_scraped": "2025-12-22T15:13:27.551Z",
     "season": "Het hele jaar",
     "external_forecasts": [
       {
         "name": "Windy",
-        "url": "https://www.windy.com/51.3946/4.1494?51.3946,4.1494,11"
+        "url": "https://www.windy.com/53.1782/4.8644?53.1782,4.8644,11"
       },
       {
         "name": "Windfinder",
-        "url": "https://www.windfinder.com/#12/51.3946/4.1494"
-      }
-    ]
-  },
-  {
-    "id": "ijmuiden-zone-1-gem-velsen",
-    "name": "IJmuiden Zone 1 (gem. Velsen)",
-    "lat": 52.456356,
-    "lon": 4.551214,
-    "permalink": "https://kitesurfvereniging.nl/kitespot/ijmuiden/",
-    "image": "/images/north_sea_beach.png",
-    "level": [
-      "Beginner"
-    ],
-    "depth": [
-      "Diep"
-    ],
-    "good_dirs": [
-      {
-        "start": 158,
-        "end": 203
-      },
-      {
-        "start": 248,
-        "end": 338
-      }
-    ],
-    "unsafe_dirs": [],
-    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet, Douche, Luchtpomp Openbaar vervoer Parkeergelegenheid Betaald Laadpalen aanwezig Nee",
-    "last_scraped": "2025-12-22T15:12:20.265Z",
-    "season": "Het hele jaar",
-    "external_forecasts": [
-      {
-        "name": "Windy",
-        "url": "https://www.windy.com/52.4564/4.5512?52.4564,4.5512,11"
-      },
-      {
-        "name": "Windfinder",
-        "url": "https://www.windfinder.com/#12/52.4564/4.5512"
-      }
-    ]
-  },
-  {
-    "id": "rockanje-badstrand",
-    "name": "Rockanje Badstrand",
-    "lat": 51.865685260091375,
-    "lon": 4.0513472685071905,
-    "permalink": "https://kitesurfvereniging.nl/kitespot/rockanje/",
-    "image": "/images/stormy_coast.png",
-    "level": [
-      "Beginner",
-      "Gevorderd"
-    ],
-    "depth": [
-      "Ondiep"
-    ],
-    "good_dirs": [
-      {
-        "start": 158,
-        "end": 338
-      }
-    ],
-    "unsafe_dirs": [],
-    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet, Douche Openbaar vervoer Parkeergelegenheid Betaald Laadpalen aanwezig Ja 4",
-    "last_scraped": "2025-12-22T15:12:22.893Z",
-    "season": "oktober t/m april",
-    "external_forecasts": [
-      {
-        "name": "Windy",
-        "url": "https://www.windy.com/51.8657/4.0513?51.8657,4.0513,11"
-      },
-      {
-        "name": "Windfinder",
-        "url": "https://www.windfinder.com/#12/51.8657/4.0513"
-      }
-    ]
-  },
-  {
-    "id": "huizen",
-    "name": "Huizen",
-    "lat": 52.306889528808476,
-    "lon": 5.256627349121112,
-    "permalink": "https://kitesurfvereniging.nl/kitespot/huizen/",
-    "image": "/images/inland_lake_action.png",
-    "level": [
-      "Beginner"
-    ],
-    "depth": [
-      "Diep"
-    ],
-    "good_dirs": [
-      {
-        "start": 338,
-        "end": 23
-      }
-    ],
-    "unsafe_dirs": [],
-    "last_scraped": "2025-12-22T15:12:25.145Z",
-    "season": "Het hele jaar",
-    "external_forecasts": [
-      {
-        "name": "Windy",
-        "url": "https://www.windy.com/52.3069/5.2566?52.3069,5.2566,11"
-      },
-      {
-        "name": "Windfinder",
-        "url": "https://www.windfinder.com/#12/52.3069/5.2566"
-      }
-    ]
-  },
-  {
-    "id": "hoorn-stadstrand",
-    "name": "Hoorn Stadstrand",
-    "lat": 52.636536,
-    "lon": 5.038187,
-    "permalink": "https://kitesurfvereniging.nl/kitespot/hoorn-stadstrand/",
-    "image": "/images/sunset_session.png",
-    "level": [
-      "Gevorderd"
-    ],
-    "depth": [
-      "Ondiep"
-    ],
-    "good_dirs": [
-      {
-        "start": 23,
-        "end": 203
-      }
-    ],
-    "unsafe_dirs": [],
-    "last_scraped": "2025-12-22T15:12:27.407Z",
-    "season": "Het hele jaar",
-    "external_forecasts": [
-      {
-        "name": "Windy",
-        "url": "https://www.windy.com/52.6365/5.0382?52.6365,5.0382,11"
-      },
-      {
-        "name": "Windfinder",
-        "url": "https://www.windfinder.com/#12/52.6365/5.0382"
-      }
-    ]
-  },
-  {
-    "id": "kamperland-roompot-xbeach",
-    "name": "Kamperland - Roompot XBeach",
-    "lat": 51.592909111403124,
-    "lon": 3.7313782540283214,
-    "permalink": "https://kitesurfvereniging.nl/kitespot/kamperland/",
-    "image": "/images/north_sea_waves.png",
-    "level": [
-      "Beginner"
-    ],
-    "depth": [
-      "Ondiep"
-    ],
-    "good_dirs": [
-      {
-        "start": 68,
-        "end": 113
-      },
-      {
-        "start": 338,
-        "end": 23
-      }
-    ],
-    "unsafe_dirs": [],
-    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer Parkeergelegenheid Onbekend Laadpalen aanwezig Onbekend",
-    "last_scraped": "2025-12-22T15:12:29.675Z",
-    "season": "Het hele jaar",
-    "external_forecasts": [
-      {
-        "name": "Windy",
-        "url": "https://www.windy.com/51.5929/3.7314?51.5929,3.7314,11"
-      },
-      {
-        "name": "Windfinder",
-        "url": "https://www.windfinder.com/#12/51.5929/3.7314"
-      }
-    ]
-  },
-  {
-    "id": "schellinkhout",
-    "name": "Schellinkhout",
-    "lat": 52.632278,
-    "lon": 5.120788,
-    "permalink": "https://kitesurfvereniging.nl/kitespot/schellinkhout/",
-    "image": "/images/inland_lake_flat.png",
-    "level": [
-      "Beginner"
-    ],
-    "depth": [
-      "Ondiep"
-    ],
-    "good_dirs": [
-      {
-        "start": 113,
-        "end": 293
-      }
-    ],
-    "unsafe_dirs": [],
-    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer Parkeergelegenheid Gratis Laadpalen aanwezig Nee",
-    "last_scraped": "2025-12-22T15:12:33.381Z",
-    "season": "Het hele jaar",
-    "external_forecasts": [
-      {
-        "name": "Windy",
-        "url": "https://www.windy.com/52.6323/5.1208?52.6323,5.1208,11"
-      },
-      {
-        "name": "Windfinder",
-        "url": "https://www.windfinder.com/#12/52.6323/5.1208"
-      }
-    ]
-  },
-  {
-    "id": "hindeloopen",
-    "name": "Hindeloopen",
-    "lat": 52.93354,
-    "lon": 5.403361,
-    "permalink": "https://kitesurfvereniging.nl/kitespot/hindeloopen/",
-    "image": "/images/inland_lake_action.png",
-    "level": [
-      "Beginner"
-    ],
-    "depth": [
-      "Diep"
-    ],
-    "good_dirs": [
-      {
-        "start": 158,
-        "end": 338
-      }
-    ],
-    "unsafe_dirs": [],
-    "facilities": "Aanwezig faciliteiten Openbaar vervoer Parkeergelegenheid Gratis Laadpalen aanwezig Onbekend",
-    "last_scraped": "2025-12-22T15:12:36.063Z",
-    "season": "Het hele jaar",
-    "external_forecasts": [
-      {
-        "name": "Windy",
-        "url": "https://www.windy.com/52.9335/5.4034?52.9335,5.4034,11"
-      },
-      {
-        "name": "Windfinder",
-        "url": "https://www.windfinder.com/#12/52.9335/5.4034"
-      }
-    ]
-  },
-  {
-    "id": "scheveningen-zwarte-pad",
-    "name": "Scheveningen - Zwarte Pad",
-    "lat": 52.1173477,
-    "lon": 4.2894255,
-    "permalink": "https://kitesurfvereniging.nl/kitespot/scheveningen-zwarte-pad/",
-    "image": "/images/north_sea_waves.png",
-    "webcam": {
-      "url": "https://www.youtube.com/embed/A5kXiKzbBFs",
-      "type": "embed"
-    },
-    "level": [
-      "Gevorderd"
-    ],
-    "depth": [
-      "Diep"
-    ],
-    "good_dirs": [
-      {
-        "start": 203,
-        "end": 68
-      }
-    ],
-    "unsafe_dirs": [],
-    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet, Douche, Materiaalopslag, Luchtpomp Openbaar vervoer Tram 1 / tram 9 (Vanaf CS en HS), Bus 21 / 23. Eindhalte Zwarte Pad Parkeergelegenheid Betaald Laadpalen aanwezig Ja 4",
-    "last_scraped": "2025-12-22T15:12:38.378Z",
-    "season": "Het hele jaar",
-    "external_forecasts": [
-      {
-        "name": "Windy",
-        "url": "https://www.windy.com/52.1173/4.2894?52.1173,4.2894,11"
-      },
-      {
-        "name": "Windfinder",
-        "url": "https://www.windfinder.com/#12/52.1173/4.2894"
+        "url": "https://www.windfinder.com/#12/53.1782/4.8644"
       }
     ]
   },
@@ -1622,7 +449,7 @@
     "lat": 53.166355,
     "lon": 5.415011,
     "permalink": "https://kitesurfvereniging.nl/kitespot/harlingen-waddenzee/",
-    "image": "/images/stormy_coast.png",
+    "image": "/images/north_sea_waves.png",
     "level": [
       "Gevorderd"
     ],
@@ -1651,564 +478,17 @@
     ]
   },
   {
-    "id": "hellevoetsluis-haringvliet",
-    "name": "Hellevoetsluis - Haringvliet",
-    "lat": 51.82063570886251,
-    "lon": 4.159093814880372,
-    "permalink": "https://kitesurfvereniging.nl/kitespot/hellevoetsluis-haringvliet/",
-    "image": "/images/north_sea_beach.png",
-    "level": [
-      "Beginner"
-    ],
-    "depth": [
-      "Diep"
-    ],
-    "good_dirs": [
-      {
-        "start": 158,
-        "end": 293
-      }
-    ],
-    "unsafe_dirs": [],
-    "facilities": "Aanwezig faciliteiten Openbaar vervoer Parkeergelegenheid Gratis Laadpalen aanwezig Nee",
-    "last_scraped": "2025-12-22T15:12:43.130Z",
-    "season": "Het hele jaar",
-    "external_forecasts": [
-      {
-        "name": "Windy",
-        "url": "https://www.windy.com/51.8206/4.1591?51.8206,4.1591,11"
-      },
-      {
-        "name": "Windfinder",
-        "url": "https://www.windfinder.com/#12/51.8206/4.1591"
-      }
-    ]
-  },
-  {
-    "id": "groot-valkenisse",
-    "name": "Groot Valkenisse",
-    "lat": 51.491982,
-    "lon": 3.495714,
-    "permalink": "https://kitesurfvereniging.nl/kitespot/groot-valkenisse/",
-    "image": "/images/north_sea_waves.png",
-    "level": [
-      "Gevorderd"
-    ],
-    "depth": [
-      "Diep"
-    ],
-    "good_dirs": [
-      {
-        "start": 158,
-        "end": 293
-      }
-    ],
-    "unsafe_dirs": [],
-    "last_scraped": "2025-12-22T15:12:45.476Z",
-    "season": "Het hele jaar",
-    "external_forecasts": [
-      {
-        "name": "Windy",
-        "url": "https://www.windy.com/51.4920/3.4957?51.4920,3.4957,11"
-      },
-      {
-        "name": "Windfinder",
-        "url": "https://www.windfinder.com/#12/51.4920/3.4957"
-      }
-    ]
-  },
-  {
-    "id": "schiermonnikoog-noordzee-paal-3-5",
-    "name": "Schiermonnikoog (Noordzee: Paal 3-5)",
-    "lat": 53.504333,
-    "lon": 6.180988,
-    "permalink": "https://kitesurfvereniging.nl/kitespot/schiermonnikoog-noordzee/",
-    "image": "/images/north_sea_waves.png",
-    "level": [
-      "Beginner"
-    ],
-    "depth": [
-      "Diep"
-    ],
-    "good_dirs": [
-      {
-        "start": 203,
-        "end": 113
-      }
-    ],
-    "unsafe_dirs": [],
-    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer Met het veer en de bus Parkeergelegenheid Onbekend Laadpalen aanwezig Onbekend",
-    "last_scraped": "2025-12-22T15:12:48.161Z",
-    "season": "Het hele jaar",
-    "external_forecasts": [
-      {
-        "name": "Windy",
-        "url": "https://www.windy.com/53.5043/6.1810?53.5043,6.1810,11"
-      },
-      {
-        "name": "Windfinder",
-        "url": "https://www.windfinder.com/#12/53.5043/6.1810"
-      }
-    ]
-  },
-  {
-    "id": "grevelingendam-zuid",
-    "name": "Grevelingendam - Zuid",
-    "lat": 51.674713,
-    "lon": 4.13996,
-    "permalink": "https://kitesurfvereniging.nl/kitespot/grevelingendam-zuid/",
-    "image": "/images/north_sea_beach.png",
-    "level": [
-      "Beginner"
-    ],
-    "depth": [
-      "Ondiep"
-    ],
-    "good_dirs": [
-      {
-        "start": 158,
-        "end": 293
-      }
-    ],
-    "unsafe_dirs": [],
-    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer Parkeergelegenheid Onbekend Laadpalen aanwezig Onbekend",
-    "last_scraped": "2025-12-22T15:12:50.493Z",
-    "season": "Het hele jaar",
-    "external_forecasts": [
-      {
-        "name": "Windy",
-        "url": "https://www.windy.com/51.6747/4.1400?51.6747,4.1400,11"
-      },
-      {
-        "name": "Windfinder",
-        "url": "https://www.windfinder.com/#12/51.6747/4.1400"
-      }
-    ]
-  },
-  {
-    "id": "grevelingendam-noord",
-    "name": "Grevelingendam - Noord",
-    "lat": 51.679256,
-    "lon": 4.137328,
-    "permalink": "https://kitesurfvereniging.nl/kitespot/grevelingendam-noord/",
-    "image": "/images/sunset_session.png",
-    "level": [
-      "Gevorderd"
-    ],
-    "depth": [
-      "Ondiep"
-    ],
-    "good_dirs": [
-      {
-        "start": 68,
-        "end": 113
-      },
-      {
-        "start": 293,
-        "end": 23
-      }
-    ],
-    "unsafe_dirs": [],
-    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer Parkeergelegenheid Gratis Laadpalen aanwezig Nee",
-    "last_scraped": "2025-12-22T15:12:52.818Z",
-    "season": "15 maart - 1 november",
-    "external_forecasts": [
-      {
-        "name": "Windy",
-        "url": "https://www.windy.com/51.6793/4.1373?51.6793,4.1373,11"
-      },
-      {
-        "name": "Windfinder",
-        "url": "https://www.windfinder.com/#12/51.6793/4.1373"
-      }
-    ]
-  },
-  {
-    "id": "stavoren-it-suderstrand",
-    "name": "Stavoren - it Suderstrand",
-    "lat": 52.87193795015575,
-    "lon": 5.369856820778169,
-    "permalink": "https://kitesurfvereniging.nl/kitespot/stavoren/",
+    "id": "zuidlaardermeer",
+    "name": "Zuidlaardermeer",
+    "lat": 53.145409,
+    "lon": 6.693851,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/zuidlaardermeer/",
     "image": "/images/inland_lake_action.png",
     "level": [
-      "Gevorderd",
-      "Expert"
-    ],
-    "depth": [
-      "Diep"
-    ],
-    "good_dirs": [
-      {
-        "start": 158,
-        "end": 293
-      }
-    ],
-    "unsafe_dirs": [],
-    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer Parkeergelegenheid Onbekend Laadpalen aanwezig Onbekend",
-    "last_scraped": "2025-12-22T15:12:55.461Z",
-    "season": "Het hele jaar",
-    "external_forecasts": [
-      {
-        "name": "Windy",
-        "url": "https://www.windy.com/52.8719/5.3699?52.8719,5.3699,11"
-      },
-      {
-        "name": "Windfinder",
-        "url": "https://www.windfinder.com/#12/52.8719/5.3699"
-      }
-    ]
-  },
-  {
-    "id": "enkhuizen",
-    "name": "Enkhuizen",
-    "lat": 52.714832,
-    "lon": 5.288304,
-    "permalink": "https://kitesurfvereniging.nl/kitespot/enkhuizen/",
-    "image": "/images/inland_lake_flat.png",
-    "level": [
-      "Gevorderd"
-    ],
-    "depth": [
-      "Ondiep"
-    ],
-    "good_dirs": [
-      {
-        "start": 23,
-        "end": 158
-      }
-    ],
-    "unsafe_dirs": [],
-    "facilities": "Aanwezig faciliteiten Openbaar vervoer Parkeergelegenheid Gratis Laadpalen aanwezig Nee",
-    "last_scraped": "2025-12-22T15:12:57.805Z",
-    "season": "oktober t/m maart",
-    "external_forecasts": [
-      {
-        "name": "Windy",
-        "url": "https://www.windy.com/52.7148/5.2883?52.7148,5.2883,11"
-      },
-      {
-        "name": "Windfinder",
-        "url": "https://www.windfinder.com/#12/52.7148/5.2883"
-      }
-    ]
-  },
-  {
-    "id": "strand-horst",
-    "name": "Strand Horst",
-    "lat": 52.32291,
-    "lon": 5.570562,
-    "permalink": "https://kitesurfvereniging.nl/kitespot/strand-horst/",
-    "image": "/images/inland_lake_action.png",
-    "level": [
-      "Beginner"
-    ],
-    "depth": [
-      "Ondiep"
-    ],
-    "good_dirs": [
-      {
-        "start": 203,
-        "end": 23
-      }
-    ],
-    "unsafe_dirs": [],
-    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer Parkeergelegenheid Betaald Laadpalen aanwezig Onbekend",
-    "last_scraped": "2025-12-22T15:13:00.639Z",
-    "season": "Het hele jaar",
-    "external_forecasts": [
-      {
-        "name": "Windy",
-        "url": "https://www.windy.com/52.3229/5.5706?52.3229,5.5706,11"
-      },
-      {
-        "name": "Windfinder",
-        "url": "https://www.windfinder.com/#12/52.3229/5.5706"
-      }
-    ]
-  },
-  {
-    "id": "elburg",
-    "name": "Elburg",
-    "lat": 52.455063,
-    "lon": 5.817958,
-    "permalink": "https://kitesurfvereniging.nl/kitespot/elburg/",
-    "image": "/images/inland_lake_flat.png",
-    "level": [
-      "Gevorderd"
-    ],
-    "depth": [
-      "Ondiep"
-    ],
-    "good_dirs": [
-      {
-        "start": 158,
-        "end": 293
-      }
-    ],
-    "unsafe_dirs": [],
-    "facilities": "Aanwezig faciliteiten Openbaar vervoer Parkeergelegenheid Onbekend Laadpalen aanwezig Onbekend",
-    "last_scraped": "2025-12-22T15:13:03.253Z",
-    "season": "april t/m september",
-    "external_forecasts": [
-      {
-        "name": "Windy",
-        "url": "https://www.windy.com/52.4551/5.8180?52.4551,5.8180,11"
-      },
-      {
-        "name": "Windfinder",
-        "url": "https://www.windfinder.com/#12/52.4551/5.8180"
-      }
-    ]
-  },
-  {
-    "id": "egmond-binnenaan-zee",
-    "name": "Egmond Binnen/aan Zee",
-    "lat": 52.613762,
-    "lon": 4.616011,
-    "permalink": "https://kitesurfvereniging.nl/kitespot/egmond-binnen-en-aan-zee/",
-    "image": "/images/north_sea_waves.png",
-    "level": [
-      "Gevorderd"
-    ],
-    "depth": [
-      "Ondiep"
-    ],
-    "good_dirs": [
-      {
-        "start": 203,
-        "end": 338
-      }
-    ],
-    "unsafe_dirs": [],
-    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet, Douche Openbaar vervoer Parkeergelegenheid Betaald Laadpalen aanwezig Onbekend",
-    "last_scraped": "2025-12-22T15:13:05.825Z",
-    "season": "Het hele jaar",
-    "external_forecasts": [
-      {
-        "name": "Windy",
-        "url": "https://www.windy.com/52.6138/4.6160?52.6138,4.6160,11"
-      },
-      {
-        "name": "Windfinder",
-        "url": "https://www.windfinder.com/#12/52.6138/4.6160"
-      }
-    ]
-  },
-  {
-    "id": "eemshaven",
-    "name": "Eemshaven",
-    "lat": 53.454723,
-    "lon": 6.796758,
-    "permalink": "https://kitesurfvereniging.nl/kitespot/eemshaven/",
-    "image": "/images/sunset_session.png",
-    "level": [
-      "Beginner"
-    ],
-    "depth": [
-      "Ondiep"
-    ],
-    "good_dirs": [
-      {
-        "start": 293,
-        "end": 68
-      }
-    ],
-    "unsafe_dirs": [],
-    "last_scraped": "2025-12-22T15:13:08.134Z",
-    "season": "Het hele jaar",
-    "external_forecasts": [
-      {
-        "name": "Windy",
-        "url": "https://www.windy.com/53.4547/6.7968?53.4547,6.7968,11"
-      },
-      {
-        "name": "Windfinder",
-        "url": "https://www.windfinder.com/#12/53.4547/6.7968"
-      }
-    ]
-  },
-  {
-    "id": "terneuzen-put-van",
-    "name": "Terneuzen (put van)",
-    "lat": 51.337162,
-    "lon": 3.839594,
-    "permalink": "https://kitesurfvereniging.nl/kitespot/terneuzen/",
-    "image": "/images/sunset_session.png",
-    "level": [
-      "Beginner"
-    ],
-    "depth": [
-      "Ondiep"
-    ],
-    "good_dirs": [
-      {
-        "start": 293,
-        "end": 113
-      }
-    ],
-    "unsafe_dirs": [],
-    "facilities": "Aanwezig faciliteiten Openbaar vervoer Parkeergelegenheid Onbekend Laadpalen aanwezig Onbekend",
-    "last_scraped": "2025-12-22T15:13:10.626Z",
-    "season": "Het hele jaar",
-    "external_forecasts": [
-      {
-        "name": "Windy",
-        "url": "https://www.windy.com/51.3372/3.8396?51.3372,3.8396,11"
-      },
-      {
-        "name": "Windfinder",
-        "url": "https://www.windfinder.com/#12/51.3372/3.8396"
-      }
-    ]
-  },
-  {
-    "id": "edam-noord-galgenveld",
-    "name": "Edam Noord - Galgenveld",
-    "lat": 52.52256,
-    "lon": 5.067095,
-    "permalink": "https://kitesurfvereniging.nl/kitespot/edam-noord-galgenveld/",
-    "image": "/images/north_sea_waves.png",
-    "level": [
-      "Expert"
-    ],
-    "depth": [
-      "Ondiep"
-    ],
-    "good_dirs": [
-      {
-        "start": 23,
-        "end": 158
-      }
-    ],
-    "unsafe_dirs": [],
-    "facilities": "Aanwezig faciliteiten Openbaar vervoer Parkeergelegenheid Gratis Laadpalen aanwezig Nee",
-    "last_scraped": "2025-12-22T15:13:13.393Z",
-    "season": "Het hele jaar",
-    "external_forecasts": [
-      {
-        "name": "Windy",
-        "url": "https://www.windy.com/52.5226/5.0671?52.5226,5.0671,11"
-      },
-      {
-        "name": "Windfinder",
-        "url": "https://www.windfinder.com/#12/52.5226/5.0671"
-      }
-    ]
-  },
-  {
-    "id": "domburg",
-    "name": "Domburg",
-    "lat": 51.552254,
-    "lon": 3.461647,
-    "permalink": "https://kitesurfvereniging.nl/kitespot/domburg/",
-    "image": "/images/north_sea_beach.png",
-    "level": [
-      "Expert"
-    ],
-    "depth": [
-      "Diep"
-    ],
-    "good_dirs": [
-      {
-        "start": 248,
-        "end": 23
-      }
-    ],
-    "unsafe_dirs": [],
-    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer Parkeergelegenheid Betaald Laadpalen aanwezig Onbekend",
-    "last_scraped": "2025-12-22T15:13:15.733Z",
-    "season": "Het hele jaar",
-    "external_forecasts": [
-      {
-        "name": "Windy",
-        "url": "https://www.windy.com/51.5523/3.4616?51.5523,3.4616,11"
-      },
-      {
-        "name": "Windfinder",
-        "url": "https://www.windfinder.com/#12/51.5523/3.4616"
-      }
-    ]
-  },
-  {
-    "id": "terschelling-noordzee",
-    "name": "Terschelling - Noordzee",
-    "lat": 53.409386,
-    "lon": 5.280458,
-    "permalink": "https://kitesurfvereniging.nl/kitespot/terschelling-noordzee/",
-    "image": "/images/north_sea_beach.png",
-    "level": [
-      "Beginner"
-    ],
-    "depth": [
-      "Diep"
-    ],
-    "good_dirs": [
-      {
-        "start": 293,
-        "end": 68
-      }
-    ],
-    "unsafe_dirs": [],
-    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer bus vanaf 31 maart t/m 31 oktober, check: https://www.bus-terschelling.nl/zomerdienstregeling-2023/#lijn2 Parkeergelegenheid Gratis Laadpalen aanwezig Onbekend",
-    "last_scraped": "2025-12-22T15:13:18.022Z",
-    "season": "Het hele jaar",
-    "external_forecasts": [
-      {
-        "name": "Windy",
-        "url": "https://www.windy.com/53.4094/5.2805?53.4094,5.2805,11"
-      },
-      {
-        "name": "Windfinder",
-        "url": "https://www.windfinder.com/#12/53.4094/5.2805"
-      }
-    ]
-  },
-  {
-    "id": "den-helder-huisduinen",
-    "name": "Den Helder - Huisduinen",
-    "lat": 52.953239,
-    "lon": 4.720852,
-    "permalink": "https://kitesurfvereniging.nl/kitespot/den-helder-huisduinen/",
-    "image": "/images/north_sea_waves.png",
-    "level": [
       "Gevorderd"
     ],
     "depth": [
       "Diep"
-    ],
-    "good_dirs": [
-      {
-        "start": 203,
-        "end": 23
-      }
-    ],
-    "unsafe_dirs": [],
-    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer Parkeergelegenheid Gratis Laadpalen aanwezig Onbekend",
-    "last_scraped": "2025-12-22T15:13:20.330Z",
-    "season": "Het hele jaar",
-    "external_forecasts": [
-      {
-        "name": "Windy",
-        "url": "https://www.windy.com/52.9532/4.7209?52.9532,4.7209,11"
-      },
-      {
-        "name": "Windfinder",
-        "url": "https://www.windfinder.com/#12/52.9532/4.7209"
-      }
-    ]
-  },
-  {
-    "id": "terschelling-groene-strand",
-    "name": "Terschelling - Groene Strand",
-    "lat": 53.355141,
-    "lon": 5.21029,
-    "permalink": "https://kitesurfvereniging.nl/kitespot/terschelling-groene-strand/",
-    "image": "/images/stormy_coast.png",
-    "level": [
-      "Beginner"
-    ],
-    "depth": [
-      "Ondiep"
     ],
     "good_dirs": [
       {
@@ -2217,17 +497,50 @@
       }
     ],
     "unsafe_dirs": [],
-    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer circa 400m lopen vanaf busstation/veerboot en 1 km vanaf de jachthaven Parkeergelegenheid Gratis Laadpalen aanwezig Nee",
-    "last_scraped": "2025-12-22T15:13:22.663Z",
+    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer Parkeergelegenheid Gratis Laadpalen aanwezig Onbekend",
+    "last_scraped": "2025-12-22T15:14:46.259Z",
     "season": "Het hele jaar",
     "external_forecasts": [
       {
         "name": "Windy",
-        "url": "https://www.windy.com/53.3551/5.2103?53.3551,5.2103,11"
+        "url": "https://www.windy.com/53.1454/6.6939?53.1454,6.6939,11"
       },
       {
         "name": "Windfinder",
-        "url": "https://www.windfinder.com/#12/53.3551/5.2103"
+        "url": "https://www.windfinder.com/#12/53.1454/6.6939"
+      }
+    ]
+  },
+  {
+    "id": "oudega-smallingerland",
+    "name": "Oudega (Smallingerland)",
+    "lat": 53.110239353451966,
+    "lon": 5.98939415390626,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/oudega-smallingerland/",
+    "image": "/images/north_sea_beach.png",
+    "level": [
+      "Gevorderd"
+    ],
+    "depth": [
+      "Diep"
+    ],
+    "good_dirs": [
+      {
+        "start": 203,
+        "end": 338
+      }
+    ],
+    "unsafe_dirs": [],
+    "last_scraped": "2025-12-22T15:10:50.615Z",
+    "season": "het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/53.1102/5.9894?53.1102,5.9894,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/53.1102/5.9894"
       }
     ]
   },
@@ -2274,74 +587,37 @@
     ]
   },
   {
-    "id": "texel-noord-oost",
-    "name": "Texel Noord-oost",
-    "lat": 53.178222562677476,
-    "lon": 4.864385107210651,
-    "permalink": "https://kitesurfvereniging.nl/kitespot/texel-noord-oost/",
-    "image": "/images/stormy_coast.png",
+    "id": "kornwerderzand",
+    "name": "Kornwerderzand",
+    "lat": 53.074985705594734,
+    "lon": 5.34412192065429,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/kornwerderzand/",
+    "image": "/images/north_sea_beach.png",
     "level": [
-      "Gevorderd"
+      "Gevorderd",
+      "Expert"
     ],
     "depth": [
       "Diep"
     ],
     "good_dirs": [
       {
-        "start": 338,
-        "end": 23
+        "start": 0,
+        "end": 360
       }
     ],
     "unsafe_dirs": [],
-    "last_scraped": "2025-12-22T15:13:27.551Z",
-    "season": "Het hele jaar",
+    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer Parkeergelegenheid Gratis Laadpalen aanwezig Ja 2",
+    "last_scraped": "2025-12-22T15:11:51.797Z",
+    "season": "mei t/m september",
     "external_forecasts": [
       {
         "name": "Windy",
-        "url": "https://www.windy.com/53.1782/4.8644?53.1782,4.8644,11"
+        "url": "https://www.windy.com/53.0750/5.3441?53.0750,5.3441,11"
       },
       {
         "name": "Windfinder",
-        "url": "https://www.windfinder.com/#12/53.1782/4.8644"
-      }
-    ]
-  },
-  {
-    "id": "delfzijl",
-    "name": "Delfzijl",
-    "lat": 53.33453,
-    "lon": 6.931337,
-    "permalink": "https://kitesurfvereniging.nl/kitespot/delfzijl/",
-    "image": "/images/north_sea_beach.png",
-    "level": [
-      "Beginner",
-      "Gevorderd"
-    ],
-    "depth": [
-      "Ondiep"
-    ],
-    "good_dirs": [
-      {
-        "start": 23,
-        "end": 158
-      },
-      {
-        "start": 293,
-        "end": 338
-      }
-    ],
-    "unsafe_dirs": [],
-    "facilities": "Aanwezig faciliteiten Openbaar vervoer Parkeergelegenheid Onbekend Laadpalen aanwezig Onbekend",
-    "last_scraped": "2025-12-22T15:13:29.818Z",
-    "season": "Het hele jaar",
-    "external_forecasts": [
-      {
-        "name": "Windy",
-        "url": "https://www.windy.com/53.3345/6.9313?53.3345,6.9313,11"
-      },
-      {
-        "name": "Windfinder",
-        "url": "https://www.windfinder.com/#12/53.3345/6.9313"
+        "url": "https://www.windfinder.com/#12/53.0750/5.3441"
       }
     ]
   },
@@ -2351,7 +627,7 @@
     "lat": 53.064888,
     "lon": 4.873644,
     "permalink": "https://kitesurfvereniging.nl/kitespot/texel-dijkmanshuizen/",
-    "image": "/images/north_sea_waves.png",
+    "image": "/images/coastal_pier_waves.png",
     "level": [
       "Gevorderd"
     ],
@@ -2380,18 +656,19 @@
     ]
   },
   {
-    "id": "castricum-aan-zee",
-    "name": "Castricum aan Zee",
-    "lat": 52.556786,
-    "lon": 4.605667,
-    "permalink": "https://kitesurfvereniging.nl/kitespot/castricum-aan-zee/",
-    "image": "/images/sunset_session.png",
+    "id": "makkum",
+    "name": "Makkum",
+    "lat": 53.05312,
+    "lon": 5.376227,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/makkum/",
+    "image": "/images/stormy_coast.png",
     "level": [
       "Beginner",
-      "Gevorderd"
+      "Gevorderd",
+      "Expert"
     ],
     "depth": [
-      "Diep"
+      "Ondiep"
     ],
     "good_dirs": [
       {
@@ -2400,17 +677,187 @@
       }
     ],
     "unsafe_dirs": [],
-    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet, Douche, Materiaalopslag, Luchtpomp Openbaar vervoer Parkeergelegenheid Betaald Laadpalen aanwezig Onbekend",
-    "last_scraped": "2025-12-22T15:13:34.783Z",
+    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer Parkeergelegenheid Gratis Laadpalen aanwezig Ja 2",
+    "last_scraped": "2025-12-22T15:11:09.754Z",
+    "season": "oktober t/m april",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/53.0531/5.3762?53.0531,5.3762,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/53.0531/5.3762"
+      }
+    ]
+  },
+  {
+    "id": "workum",
+    "name": "Workum",
+    "lat": 52.965973,
+    "lon": 5.410585,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/workum/",
+    "image": "/images/inland_lake_flat.png",
+    "level": [
+      "Beginner"
+    ],
+    "depth": [
+      "Diep"
+    ],
+    "good_dirs": [
+      {
+        "start": 203,
+        "end": 338
+      }
+    ],
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Openbaar vervoer Parkeergelegenheid Onbekend Laadpalen aanwezig Onbekend",
+    "last_scraped": "2025-12-22T15:14:33.689Z",
     "season": "Het hele jaar",
     "external_forecasts": [
       {
         "name": "Windy",
-        "url": "https://www.windy.com/52.5568/4.6057?52.5568,4.6057,11"
+        "url": "https://www.windy.com/52.9660/5.4106?52.9660,5.4106,11"
       },
       {
         "name": "Windfinder",
-        "url": "https://www.windfinder.com/#12/52.5568/4.6057"
+        "url": "https://www.windfinder.com/#12/52.9660/5.4106"
+      }
+    ]
+  },
+  {
+    "id": "den-helder-huisduinen",
+    "name": "Den Helder - Huisduinen",
+    "lat": 52.953239,
+    "lon": 4.720852,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/den-helder-huisduinen/",
+    "image": "/images/north_sea_beach.png",
+    "level": [
+      "Gevorderd"
+    ],
+    "depth": [
+      "Diep"
+    ],
+    "good_dirs": [
+      {
+        "start": 203,
+        "end": 23
+      }
+    ],
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer Parkeergelegenheid Gratis Laadpalen aanwezig Onbekend",
+    "last_scraped": "2025-12-22T15:13:20.330Z",
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/52.9532/4.7209?52.9532,4.7209,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/52.9532/4.7209"
+      }
+    ]
+  },
+  {
+    "id": "hindeloopen",
+    "name": "Hindeloopen",
+    "lat": 52.93354,
+    "lon": 5.403361,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/hindeloopen/",
+    "image": "/images/inland_lake_flat.png",
+    "level": [
+      "Beginner"
+    ],
+    "depth": [
+      "Diep"
+    ],
+    "good_dirs": [
+      {
+        "start": 158,
+        "end": 338
+      }
+    ],
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Openbaar vervoer Parkeergelegenheid Gratis Laadpalen aanwezig Onbekend",
+    "last_scraped": "2025-12-22T15:12:36.063Z",
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/52.9335/5.4034?52.9335,5.4034,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/52.9335/5.4034"
+      }
+    ]
+  },
+  {
+    "id": "julianadorp",
+    "name": "Julianadorp",
+    "lat": 52.895462,
+    "lon": 4.711245,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/julianadorp/",
+    "image": "/images/coastal_pier_waves.png",
+    "level": [
+      "Gevorderd"
+    ],
+    "depth": [
+      "Diep"
+    ],
+    "good_dirs": [
+      {
+        "start": 203,
+        "end": 23
+      }
+    ],
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer Parkeergelegenheid Onbekend Laadpalen aanwezig Onbekend",
+    "last_scraped": "2025-12-22T15:12:10.600Z",
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/52.8955/4.7112?52.8955,4.7112,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/52.8955/4.7112"
+      }
+    ]
+  },
+  {
+    "id": "amstelmeer-lutjestrand-zuid",
+    "name": "Amstelmeer Lutjestrand zuid",
+    "lat": 52.885124923080426,
+    "lon": 4.9165667510045985,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/amstelmeer-lutje-strand-zuid/",
+    "image": "/images/inland_lake_flat.png",
+    "level": [
+      "Gevorderd"
+    ],
+    "depth": [
+      "Diep"
+    ],
+    "good_dirs": [
+      {
+        "start": 158,
+        "end": 338
+      }
+    ],
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer Bus 135 rijdt van Hoorn naar Den Helder en terug. Deze stopt bij het Lutjestrand (kitespot) Parkeergelegenheid Gratis Laadpalen aanwezig Ja 2",
+    "last_scraped": "2025-12-22T15:14:31.087Z",
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/52.8851/4.9166?52.8851,4.9166,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/52.8851/4.9166"
       }
     ]
   },
@@ -2453,6 +900,245 @@
     ]
   },
   {
+    "id": "stavoren-it-suderstrand",
+    "name": "Stavoren - it Suderstrand",
+    "lat": 52.87193795015575,
+    "lon": 5.369856820778169,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/stavoren/",
+    "image": "/images/inland_grassy_launch.png",
+    "level": [
+      "Gevorderd",
+      "Expert"
+    ],
+    "depth": [
+      "Diep"
+    ],
+    "good_dirs": [
+      {
+        "start": 158,
+        "end": 293
+      }
+    ],
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer Parkeergelegenheid Onbekend Laadpalen aanwezig Onbekend",
+    "last_scraped": "2025-12-22T15:12:55.461Z",
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/52.8719/5.3699?52.8719,5.3699,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/52.8719/5.3699"
+      }
+    ]
+  },
+  {
+    "id": "mirns-t-mirnser-klif",
+    "name": "Mirns ('t Mirnser Klif)",
+    "lat": 52.850101,
+    "lon": 5.481972,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/mirns/",
+    "image": "/images/inland_lake_action.png",
+    "level": [
+      "Beginner"
+    ],
+    "depth": [
+      "Ondiep"
+    ],
+    "good_dirs": [
+      {
+        "start": 68,
+        "end": 293
+      }
+    ],
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Openbaar vervoer Parkeergelegenheid Onbekend Laadpalen aanwezig Onbekend",
+    "last_scraped": "2025-12-22T15:11:19.488Z",
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/52.8501/5.4820?52.8501,5.4820,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/52.8501/5.4820"
+      }
+    ]
+  },
+  {
+    "id": "lemmer",
+    "name": "Lemmer",
+    "lat": 52.843899,
+    "lon": 5.692941,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/lemmer/",
+    "image": "/images/inland_grassy_launch.png",
+    "level": [
+      "Gevorderd"
+    ],
+    "depth": [
+      "Ondiep"
+    ],
+    "good_dirs": [
+      {
+        "start": 158,
+        "end": 293
+      }
+    ],
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer Parkeergelegenheid Onbekend Laadpalen aanwezig Onbekend",
+    "last_scraped": "2025-12-22T15:11:26.973Z",
+    "season": "oktober t/m april",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/52.8439/5.6929?52.8439,5.6929,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/52.8439/5.6929"
+      }
+    ]
+  },
+  {
+    "id": "callantsoog",
+    "name": "Callantsoog",
+    "lat": 52.840599,
+    "lon": 4.691325,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/callantsoog/",
+    "image": "/images/coastal_pier_waves.png",
+    "level": [
+      "Gevorderd"
+    ],
+    "depth": [
+      "Diep"
+    ],
+    "good_dirs": [
+      {
+        "start": 203,
+        "end": 23
+      }
+    ],
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer Parkeergelegenheid Onbekend Laadpalen aanwezig Onbekend",
+    "last_scraped": "2025-12-22T15:13:43.939Z",
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/52.8406/4.6913?52.8406,4.6913,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/52.8406/4.6913"
+      }
+    ]
+  },
+  {
+    "id": "petten-pettemer-zeewering",
+    "name": "Petten (Pettemer Zeewering)",
+    "lat": 52.763783,
+    "lon": 4.649366,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/petten/",
+    "image": "/images/north_sea_beach.png",
+    "level": [
+      "Gevorderd"
+    ],
+    "depth": [
+      "Diep"
+    ],
+    "good_dirs": [
+      {
+        "start": 203,
+        "end": 338
+      }
+    ],
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Openbaar vervoer Parkeergelegenheid Onbekend Laadpalen aanwezig Onbekend",
+    "last_scraped": "2025-12-22T15:12:08.333Z",
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/52.7638/4.6494?52.7638,4.6494,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/52.7638/4.6494"
+      }
+    ]
+  },
+  {
+    "id": "medemblik",
+    "name": "Medemblik",
+    "lat": 52.755039,
+    "lon": 5.125001,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/medemblik/",
+    "image": "/images/inland_lake_flat.png",
+    "level": [
+      "Beginner",
+      "Gevorderd"
+    ],
+    "depth": [
+      "Ondiep"
+    ],
+    "good_dirs": [
+      {
+        "start": 338,
+        "end": 113
+      }
+    ],
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Openbaar vervoer Vanaf treinstation Hoorn gaan er bussen naar Medemblik, dan is het nog 15min lopen vanaf halte spooksingel. Parkeergelegenheid Gratis Laadpalen aanwezig Nee",
+    "last_scraped": "2025-12-22T15:11:07.242Z",
+    "season": "april t/m september",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/52.7550/5.1250?52.7550,5.1250,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/52.7550/5.1250"
+      }
+    ]
+  },
+  {
+    "id": "andijk",
+    "name": "Andijk",
+    "lat": 52.739857,
+    "lon": 5.175726,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/andijk/",
+    "image": "/images/inland_grassy_launch.png",
+    "level": [
+      "Gevorderd"
+    ],
+    "depth": [
+      "Diep"
+    ],
+    "good_dirs": [
+      {
+        "start": 293,
+        "end": 68
+      }
+    ],
+    "unsafe_dirs": [],
+    "last_scraped": "2025-12-22T15:14:26.172Z",
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/52.7399/5.1757?52.7399,5.1757,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/52.7399/5.1757"
+      }
+    ]
+  },
+  {
     "id": "camperduin",
     "name": "Camperduin",
     "lat": 52.7283090428019,
@@ -2489,314 +1175,205 @@
     ]
   },
   {
-    "id": "vlieland-wadkant",
-    "name": "Vlieland Wadkant",
-    "lat": 53.237576,
-    "lon": 4.964422,
-    "permalink": "https://kitesurfvereniging.nl/kitespot/vlieland-wadkant/",
-    "image": "/images/north_sea_waves.png",
-    "level": [
-      "Beginner"
-    ],
-    "depth": [
-      "Diep"
-    ],
-    "good_dirs": [
-      {
-        "start": 113,
-        "end": 248
-      }
-    ],
-    "unsafe_dirs": [],
-    "last_scraped": "2025-12-22T15:13:41.653Z",
-    "season": "Het hele jaar",
-    "external_forecasts": [
-      {
-        "name": "Windy",
-        "url": "https://www.windy.com/53.2376/4.9644?53.2376,4.9644,11"
-      },
-      {
-        "name": "Windfinder",
-        "url": "https://www.windfinder.com/#12/53.2376/4.9644"
-      }
-    ]
-  },
-  {
-    "id": "callantsoog",
-    "name": "Callantsoog",
-    "lat": 52.840599,
-    "lon": 4.691325,
-    "permalink": "https://kitesurfvereniging.nl/kitespot/callantsoog/",
-    "image": "/images/north_sea_waves.png",
+    "id": "enkhuizen",
+    "name": "Enkhuizen",
+    "lat": 52.714832,
+    "lon": 5.288304,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/enkhuizen/",
+    "image": "/images/inland_lake_action.png",
     "level": [
       "Gevorderd"
-    ],
-    "depth": [
-      "Diep"
-    ],
-    "good_dirs": [
-      {
-        "start": 203,
-        "end": 23
-      }
-    ],
-    "unsafe_dirs": [],
-    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer Parkeergelegenheid Onbekend Laadpalen aanwezig Onbekend",
-    "last_scraped": "2025-12-22T15:13:43.939Z",
-    "season": "Het hele jaar",
-    "external_forecasts": [
-      {
-        "name": "Windy",
-        "url": "https://www.windy.com/52.8406/4.6913?52.8406,4.6913,11"
-      },
-      {
-        "name": "Windfinder",
-        "url": "https://www.windfinder.com/#12/52.8406/4.6913"
-      }
-    ]
-  },
-  {
-    "id": "vlieland-noordzee",
-    "name": "Vlieland Noordzee",
-    "lat": 53.304478,
-    "lon": 5.048718,
-    "permalink": "https://kitesurfvereniging.nl/kitespot/vlieland-noordzee/",
-    "image": "/images/sunset_session.png",
-    "level": [
-      "Beginner"
-    ],
-    "depth": [
-      "Diep"
-    ],
-    "good_dirs": [
-      {
-        "start": 248,
-        "end": 68
-      }
-    ],
-    "unsafe_dirs": [],
-    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer Parkeergelegenheid Onbekend Laadpalen aanwezig Onbekend",
-    "last_scraped": "2025-12-22T15:13:46.248Z",
-    "season": "Het hele jaar",
-    "external_forecasts": [
-      {
-        "name": "Windy",
-        "url": "https://www.windy.com/53.3045/5.0487?53.3045,5.0487,11"
-      },
-      {
-        "name": "Windfinder",
-        "url": "https://www.windfinder.com/#12/53.3045/5.0487"
-      }
-    ]
-  },
-  {
-    "id": "cadzand-bad-west",
-    "name": "Cadzand-bad - West",
-    "lat": 51.373165,
-    "lon": 3.368118,
-    "permalink": "https://kitesurfvereniging.nl/kitespot/cadzand-bad-west/",
-    "image": "/images/north_sea_beach.png",
-    "level": [
-      "Beginner"
-    ],
-    "depth": [
-      "Diep"
-    ],
-    "good_dirs": [
-      {
-        "start": 203,
-        "end": 23
-      }
-    ],
-    "unsafe_dirs": [],
-    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer Parkeergelegenheid Onbekend Laadpalen aanwezig Onbekend",
-    "last_scraped": "2025-12-22T15:13:48.501Z",
-    "season": "Het hele jaar",
-    "external_forecasts": [
-      {
-        "name": "Windy",
-        "url": "https://www.windy.com/51.3732/3.3681?51.3732,3.3681,11"
-      },
-      {
-        "name": "Windfinder",
-        "url": "https://www.windfinder.com/#12/51.3732/3.3681"
-      }
-    ]
-  },
-  {
-    "id": "vlissingen",
-    "name": "Vlissingen",
-    "lat": 51.445332,
-    "lon": 3.561992,
-    "permalink": "https://kitesurfvereniging.nl/kitespot/vlissingen/",
-    "image": "/images/north_sea_beach.png",
-    "level": [
-      "Beginner"
-    ],
-    "depth": [
-      "Diep"
-    ],
-    "good_dirs": [
-      {
-        "start": 338,
-        "end": 23
-      }
-    ],
-    "unsafe_dirs": [],
-    "last_scraped": "2025-12-22T15:13:50.695Z",
-    "season": "Het hele jaar",
-    "external_forecasts": [
-      {
-        "name": "Windy",
-        "url": "https://www.windy.com/51.4453/3.5620?51.4453,3.5620,11"
-      },
-      {
-        "name": "Windfinder",
-        "url": "https://www.windfinder.com/#12/51.4453/3.5620"
-      }
-    ]
-  },
-  {
-    "id": "cadzand-bad-vlamingpolder",
-    "name": "Cadzand-bad - Vlamingpolder",
-    "lat": 51.385365,
-    "lon": 3.404863,
-    "permalink": "https://kitesurfvereniging.nl/kitespot/cadzand-bad-vlamingpolder/",
-    "image": "/images/north_sea_waves.png",
-    "level": [
-      "Gevorderd"
-    ],
-    "depth": [
-      "Diep"
-    ],
-    "good_dirs": [
-      {
-        "start": 248,
-        "end": 23
-      }
-    ],
-    "unsafe_dirs": [],
-    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer Parkeergelegenheid Onbekend Laadpalen aanwezig Onbekend",
-    "last_scraped": "2025-12-22T15:13:52.976Z",
-    "season": "Het hele jaar",
-    "external_forecasts": [
-      {
-        "name": "Windy",
-        "url": "https://www.windy.com/51.3854/3.4049?51.3854,3.4049,11"
-      },
-      {
-        "name": "Windfinder",
-        "url": "https://www.windfinder.com/#12/51.3854/3.4049"
-      }
-    ]
-  },
-  {
-    "id": "vrouwenpolder",
-    "name": "Vrouwenpolder",
-    "lat": 51.591873,
-    "lon": 3.632949,
-    "permalink": "https://kitesurfvereniging.nl/kitespot/vrouwenpolder/",
-    "image": "/images/sunset_session.png",
-    "level": [
-      "Beginner"
-    ],
-    "depth": [
-      "Diep"
-    ],
-    "good_dirs": [
-      {
-        "start": 248,
-        "end": 293
-      },
-      {
-        "start": 338,
-        "end": 113
-      }
-    ],
-    "unsafe_dirs": [],
-    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet, Douche, Luchtpomp Openbaar vervoer Parkeergelegenheid Betaald Laadpalen aanwezig Onbekend",
-    "last_scraped": "2025-12-22T15:13:55.292Z",
-    "season": "Het hele jaar",
-    "external_forecasts": [
-      {
-        "name": "Windy",
-        "url": "https://www.windy.com/51.5919/3.6329?51.5919,3.6329,11"
-      },
-      {
-        "name": "Windfinder",
-        "url": "https://www.windfinder.com/#12/51.5919/3.6329"
-      }
-    ]
-  },
-  {
-    "id": "brouwersdam",
-    "name": "Brouwersdam",
-    "lat": 51.760532,
-    "lon": 3.842414,
-    "permalink": "https://kitesurfvereniging.nl/kitespot/brouwersdam/",
-    "image": "/images/north_sea_waves.png",
-    "webcam": {
-      "url": "https://www.youtube.com/embed/KjK02QIm4ZI",
-      "type": "embed"
-    },
-    "level": [
-      "Beginner"
     ],
     "depth": [
       "Ondiep"
     ],
     "good_dirs": [
       {
-        "start": 203,
-        "end": 23
+        "start": 23,
+        "end": 158
       }
     ],
     "unsafe_dirs": [],
-    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet, Douche, Luchtpomp Openbaar vervoer Parkeergelegenheid Gratis Laadpalen aanwezig Onbekend",
-    "last_scraped": "2025-12-22T15:13:57.642Z",
-    "season": "Het hele jaar",
+    "facilities": "Aanwezig faciliteiten Openbaar vervoer Parkeergelegenheid Gratis Laadpalen aanwezig Nee",
+    "last_scraped": "2025-12-22T15:12:57.805Z",
+    "season": "oktober t/m maart",
     "external_forecasts": [
       {
         "name": "Windy",
-        "url": "https://www.windy.com/51.7605/3.8424?51.7605,3.8424,11"
+        "url": "https://www.windy.com/52.7148/5.2883?52.7148,5.2883,11"
       },
       {
         "name": "Windfinder",
-        "url": "https://www.windfinder.com/#12/51.7605/3.8424"
+        "url": "https://www.windfinder.com/#12/52.7148/5.2883"
       }
     ]
   },
   {
-    "id": "breskens-oost",
-    "name": "Breskens Oost",
-    "lat": 51.40062194272245,
-    "lon": 3.559299638623048,
-    "permalink": "https://kitesurfvereniging.nl/kitespot/breskens-oost/",
+    "id": "bergen-aan-zee",
+    "name": "Bergen aan Zee",
+    "lat": 52.658703,
+    "lon": 4.626903,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/bergen-aan-zee/",
     "image": "/images/stormy_coast.png",
     "level": [
-      "Beginner"
+      "Gevorderd"
+    ],
+    "depth": [
+      "Diep"
+    ],
+    "good_dirs": [
+      {
+        "start": 203,
+        "end": 23
+      }
+    ],
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer Parkeergelegenheid Betaald Laadpalen aanwezig Ja 4",
+    "last_scraped": "2025-12-22T15:14:18.496Z",
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/52.6587/4.6269?52.6587,4.6269,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/52.6587/4.6269"
+      }
+    ]
+  },
+  {
+    "id": "hoorn-stadstrand",
+    "name": "Hoorn Stadstrand",
+    "lat": 52.636536,
+    "lon": 5.038187,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/hoorn-stadstrand/",
+    "image": "/images/north_sea_beach.png",
+    "level": [
+      "Gevorderd"
     ],
     "depth": [
       "Ondiep"
     ],
     "good_dirs": [
       {
-        "start": 293,
-        "end": 68
+        "start": 23,
+        "end": 203
+      }
+    ],
+    "unsafe_dirs": [],
+    "last_scraped": "2025-12-22T15:12:27.407Z",
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/52.6365/5.0382?52.6365,5.0382,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/52.6365/5.0382"
+      }
+    ]
+  },
+  {
+    "id": "lelystad-trintelhaven",
+    "name": "Lelystad - Trintelhaven",
+    "lat": 52.636238,
+    "lon": 5.413053,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/lelystad-trintelhaven/",
+    "image": "/images/inland_grassy_launch.png",
+    "level": [
+      "Beginner"
+    ],
+    "depth": [
+      "Diep"
+    ],
+    "good_dirs": [
+      {
+        "start": 338,
+        "end": 158
       }
     ],
     "unsafe_dirs": [],
     "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer Parkeergelegenheid Gratis Laadpalen aanwezig Onbekend",
-    "last_scraped": "2025-12-22T15:13:59.886Z",
+    "last_scraped": "2025-12-22T15:11:31.874Z",
+    "season": "april t/m juli",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/52.6362/5.4131?52.6362,5.4131,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/52.6362/5.4131"
+      }
+    ]
+  },
+  {
+    "id": "schellinkhout",
+    "name": "Schellinkhout",
+    "lat": 52.632278,
+    "lon": 5.120788,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/schellinkhout/",
+    "image": "/images/inland_lake_flat.png",
+    "level": [
+      "Beginner"
+    ],
+    "depth": [
+      "Ondiep"
+    ],
+    "good_dirs": [
+      {
+        "start": 113,
+        "end": 293
+      }
+    ],
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer Parkeergelegenheid Gratis Laadpalen aanwezig Nee",
+    "last_scraped": "2025-12-22T15:12:33.381Z",
     "season": "Het hele jaar",
     "external_forecasts": [
       {
         "name": "Windy",
-        "url": "https://www.windy.com/51.4006/3.5593?51.4006,3.5593,11"
+        "url": "https://www.windy.com/52.6323/5.1208?52.6323,5.1208,11"
       },
       {
         "name": "Windfinder",
-        "url": "https://www.windfinder.com/#12/51.4006/3.5593"
+        "url": "https://www.windfinder.com/#12/52.6323/5.1208"
+      }
+    ]
+  },
+  {
+    "id": "egmond-binnenaan-zee",
+    "name": "Egmond Binnen/aan Zee",
+    "lat": 52.613762,
+    "lon": 4.616011,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/egmond-binnen-en-aan-zee/",
+    "image": "/images/coastal_dunes_path.png",
+    "level": [
+      "Gevorderd"
+    ],
+    "depth": [
+      "Ondiep"
+    ],
+    "good_dirs": [
+      {
+        "start": 203,
+        "end": 338
+      }
+    ],
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet, Douche Openbaar vervoer Parkeergelegenheid Betaald Laadpalen aanwezig Onbekend",
+    "last_scraped": "2025-12-22T15:13:05.825Z",
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/52.6138/4.6160?52.6138,4.6160,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/52.6138/4.6160"
       }
     ]
   },
@@ -2806,7 +1383,7 @@
     "lat": 52.565662,
     "lon": 5.033157,
     "permalink": "https://kitesurfvereniging.nl/kitespot/warder/",
-    "image": "/images/stormy_coast.png",
+    "image": "/images/north_sea_beach.png",
     "level": [
       "Beginner"
     ],
@@ -2835,13 +1412,14 @@
     ]
   },
   {
-    "id": "braassemermeer",
-    "name": "Braassemermeer",
-    "lat": 52.197262,
-    "lon": 4.668126,
-    "permalink": "https://kitesurfvereniging.nl/kitespot/braassemermeer/",
-    "image": "/images/inland_lake_action.png",
+    "id": "castricum-aan-zee",
+    "name": "Castricum aan Zee",
+    "lat": 52.556786,
+    "lon": 4.605667,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/castricum-aan-zee/",
+    "image": "/images/coastal_dunes_path.png",
     "level": [
+      "Beginner",
       "Gevorderd"
     ],
     "depth": [
@@ -2850,101 +1428,30 @@
     "good_dirs": [
       {
         "start": 158,
-        "end": 338
-      }
-    ],
-    "unsafe_dirs": [],
-    "last_scraped": "2025-12-22T15:14:04.442Z",
-    "season": "Het hele jaar",
-    "external_forecasts": [
-      {
-        "name": "Windy",
-        "url": "https://www.windy.com/52.1973/4.6681?52.1973,4.6681,11"
-      },
-      {
-        "name": "Windfinder",
-        "url": "https://www.windfinder.com/#12/52.1973/4.6681"
-      }
-    ]
-  },
-  {
-    "id": "wassenaarse-slag",
-    "name": "Wassenaarse slag",
-    "lat": 52.163361,
-    "lon": 4.34611,
-    "permalink": "https://kitesurfvereniging.nl/kitespot/wassenaarse-slag/",
-    "image": "/images/north_sea_waves.png",
-    "level": [
-      "Gevorderd"
-    ],
-    "depth": [
-      "Diep"
-    ],
-    "good_dirs": [
-      {
-        "start": 203,
-        "end": 248
-      },
-      {
-        "start": 293,
         "end": 23
       }
     ],
     "unsafe_dirs": [],
     "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet, Douche, Materiaalopslag, Luchtpomp Openbaar vervoer Parkeergelegenheid Betaald Laadpalen aanwezig Onbekend",
-    "last_scraped": "2025-12-22T15:14:06.705Z",
+    "last_scraped": "2025-12-22T15:13:34.783Z",
     "season": "Het hele jaar",
     "external_forecasts": [
       {
         "name": "Windy",
-        "url": "https://www.windy.com/52.1634/4.3461?52.1634,4.3461,11"
+        "url": "https://www.windy.com/52.5568/4.6057?52.5568,4.6057,11"
       },
       {
         "name": "Windfinder",
-        "url": "https://www.windfinder.com/#12/52.1634/4.3461"
+        "url": "https://www.windfinder.com/#12/52.5568/4.6057"
       }
     ]
   },
   {
-    "id": "borssele-de-kaloot",
-    "name": "Borssele (de Kaloot)",
-    "lat": 51.433178,
-    "lon": 3.709353,
-    "permalink": "https://kitesurfvereniging.nl/kitespot/borssele-de-kaloot/",
-    "image": "/images/north_sea_beach.png",
-    "level": [
-      "Beginner"
-    ],
-    "depth": [
-      "Ondiep"
-    ],
-    "good_dirs": [
-      {
-        "start": 203,
-        "end": 293
-      }
-    ],
-    "unsafe_dirs": [],
-    "facilities": "Aanwezig faciliteiten Openbaar vervoer Parkeergelegenheid Onbekend Laadpalen aanwezig Onbekend",
-    "last_scraped": "2025-12-22T15:14:09.015Z",
-    "season": "Het hele jaar",
-    "external_forecasts": [
-      {
-        "name": "Windy",
-        "url": "https://www.windy.com/51.4332/3.7094?51.4332,3.7094,11"
-      },
-      {
-        "name": "Windfinder",
-        "url": "https://www.windfinder.com/#12/51.4332/3.7094"
-      }
-    ]
-  },
-  {
-    "id": "westeinderplassen",
-    "name": "Westeinderplassen",
-    "lat": 52.2405285,
-    "lon": 4.7204159,
-    "permalink": "https://kitesurfvereniging.nl/kitespot/westeinderplassen/",
+    "id": "lelystad-bataviastrand",
+    "name": "Lelystad - Bataviastrand",
+    "lat": 52.524357,
+    "lon": 5.424342,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/lelystad-bataviastrand/",
     "image": "/images/inland_lake_flat.png",
     "level": [
       "Gevorderd"
@@ -2954,57 +1461,95 @@
     ],
     "good_dirs": [
       {
-        "start": 203,
-        "end": 338
+        "start": 158,
+        "end": 23
       }
     ],
     "unsafe_dirs": [],
-    "last_scraped": "2025-12-22T15:14:11.328Z",
-    "season": "Het hele jaar",
+    "facilities": "Aanwezig faciliteiten Openbaar vervoer n.v.t. Parkeergelegenheid Gratis Laadpalen aanwezig Nee",
+    "last_scraped": "2025-12-22T15:11:36.992Z",
+    "season": "het hele jaar",
     "external_forecasts": [
       {
         "name": "Windy",
-        "url": "https://www.windy.com/52.2405/4.7204?52.2405,4.7204,11"
+        "url": "https://www.windy.com/52.5244/5.4243?52.5244,5.4243,11"
       },
       {
         "name": "Windfinder",
-        "url": "https://www.windfinder.com/#12/52.2405/4.7204"
+        "url": "https://www.windfinder.com/#12/52.5244/5.4243"
       }
     ]
   },
   {
-    "id": "bloemendaal-aan-zee",
-    "name": "Bloemendaal aan Zee",
-    "lat": 52.416317,
-    "lon": 4.549245,
-    "permalink": "https://kitesurfvereniging.nl/kitespot/bloemendaal-aan-zee/",
-    "image": "/images/sunset_session.png",
+    "id": "edam-noord-galgenveld",
+    "name": "Edam Noord - Galgenveld",
+    "lat": 52.52256,
+    "lon": 5.067095,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/edam-noord-galgenveld/",
+    "image": "/images/north_sea_waves.png",
     "level": [
-      "Gevorderd"
+      "Expert"
+    ],
+    "depth": [
+      "Ondiep"
+    ],
+    "good_dirs": [
+      {
+        "start": 23,
+        "end": 158
+      }
+    ],
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Openbaar vervoer Parkeergelegenheid Gratis Laadpalen aanwezig Nee",
+    "last_scraped": "2025-12-22T15:13:13.393Z",
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/52.5226/5.0671?52.5226,5.0671,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/52.5226/5.0671"
+      }
+    ]
+  },
+  {
+    "id": "edam-zuid",
+    "name": "Edam-Zuid",
+    "lat": 52.515039462387506,
+    "lon": 5.075016937231451,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/edam-zuid/",
+    "image": "/images/coastal_dunes_path.png",
+    "webcam": {
+      "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "type": "embed"
+    },
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/52.5150/5.0750?52.5150,5.0750,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/52.5150/5.0750"
+      }
+    ],
+    "level": [
+      "Beginner"
     ],
     "depth": [
       "Diep"
     ],
     "good_dirs": [
       {
-        "start": 203,
-        "end": 23
+        "start": 338,
+        "end": 113
       }
     ],
     "unsafe_dirs": [],
-    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer - Parkeergelegenheid Betaald Laadpalen aanwezig Ja",
-    "last_scraped": "2025-12-22T15:14:13.655Z",
-    "season": "Het hele jaar",
-    "external_forecasts": [
-      {
-        "name": "Windy",
-        "url": "https://www.windy.com/52.4163/4.5492?52.4163,4.5492,11"
-      },
-      {
-        "name": "Windfinder",
-        "url": "https://www.windfinder.com/#12/52.4163/4.5492"
-      }
-    ]
+    "last_scraped": "2025-12-22T15:10:45.766Z",
+    "season": "Het hele jaar"
   },
   {
     "id": "wijk-aan-zee-de-hangout-strand-noordpier-velsen-noord",
@@ -3041,80 +1586,12 @@
     ]
   },
   {
-    "id": "bergen-aan-zee",
-    "name": "Bergen aan Zee",
-    "lat": 52.658703,
-    "lon": 4.626903,
-    "permalink": "https://kitesurfvereniging.nl/kitespot/bergen-aan-zee/",
-    "image": "/images/sunset_session.png",
-    "level": [
-      "Gevorderd"
-    ],
-    "depth": [
-      "Diep"
-    ],
-    "good_dirs": [
-      {
-        "start": 203,
-        "end": 23
-      }
-    ],
-    "unsafe_dirs": [],
-    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer Parkeergelegenheid Betaald Laadpalen aanwezig Ja 4",
-    "last_scraped": "2025-12-22T15:14:18.496Z",
-    "season": "Het hele jaar",
-    "external_forecasts": [
-      {
-        "name": "Windy",
-        "url": "https://www.windy.com/52.6587/4.6269?52.6587,4.6269,11"
-      },
-      {
-        "name": "Windfinder",
-        "url": "https://www.windfinder.com/#12/52.6587/4.6269"
-      }
-    ]
-  },
-  {
-    "id": "baarland",
-    "name": "Baarland",
-    "lat": 51.394135,
-    "lon": 3.896531,
-    "permalink": "https://kitesurfvereniging.nl/kitespot/baarland/",
-    "image": "/images/north_sea_beach.png",
-    "level": [
-      "Gevorderd"
-    ],
-    "depth": [
-      "Ondiep"
-    ],
-    "good_dirs": [
-      {
-        "start": 68,
-        "end": 248
-      }
-    ],
-    "unsafe_dirs": [],
-    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer Parkeergelegenheid Gratis Laadpalen aanwezig Onbekend",
-    "last_scraped": "2025-12-22T15:14:20.821Z",
-    "season": "Het hele jaar",
-    "external_forecasts": [
-      {
-        "name": "Windy",
-        "url": "https://www.windy.com/51.3941/3.8965?51.3941,3.8965,11"
-      },
-      {
-        "name": "Windfinder",
-        "url": "https://www.windfinder.com/#12/51.3941/3.8965"
-      }
-    ]
-  },
-  {
     "id": "wijk-aan-zee-pier-strand-noordpier-velsen-noord",
     "name": "Wijk aan Zee - Pier (Strand Noordpier Velsen-Noord)",
     "lat": 52.471031,
     "lon": 4.565752,
     "permalink": "https://kitesurfvereniging.nl/kitespot/wijk-aan-zee-pier/",
-    "image": "/images/north_sea_waves.png",
+    "image": "/images/sunset_session.png",
     "webcam": {
       "url": "https://dehangout.nl/webcam-wijk-aan-zee/",
       "type": "link"
@@ -3148,79 +1625,83 @@
     ]
   },
   {
-    "id": "andijk",
-    "name": "Andijk",
-    "lat": 52.739857,
-    "lon": 5.175726,
-    "permalink": "https://kitesurfvereniging.nl/kitespot/andijk/",
-    "image": "/images/inland_lake_flat.png",
+    "id": "monnickendam",
+    "name": "Monnickendam",
+    "lat": 52.459114,
+    "lon": 5.053314,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/monnickendam/",
+    "image": "/images/north_sea_waves.png",
     "level": [
       "Gevorderd"
     ],
     "depth": [
-      "Diep"
+      "Ondiep"
     ],
     "good_dirs": [
       {
-        "start": 293,
-        "end": 68
-      }
-    ],
-    "unsafe_dirs": [],
-    "last_scraped": "2025-12-22T15:14:26.172Z",
-    "season": "Het hele jaar",
-    "external_forecasts": [
-      {
-        "name": "Windy",
-        "url": "https://www.windy.com/52.7399/5.1757?52.7399,5.1757,11"
-      },
-      {
-        "name": "Windfinder",
-        "url": "https://www.windfinder.com/#12/52.7399/5.1757"
-      }
-    ]
-  },
-  {
-    "id": "windsurfing-hoek-van-holland",
-    "name": "Windsurfing Hoek van Holland",
-    "lat": 51.992015738236034,
-    "lon": 4.114798307418823,
-    "permalink": "https://kitesurfvereniging.nl/kitespot/hoek-van-holland-windsurfing/",
-    "image": "/images/north_sea_beach.png",
-    "level": [
-      "Gevorderd"
-    ],
-    "depth": [
-      "Diep"
-    ],
-    "good_dirs": [
-      {
-        "start": 203,
+        "start": 338,
         "end": 23
       }
     ],
     "unsafe_dirs": [],
-    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet, Douche, Materiaalopslag Openbaar vervoer Parkeergelegenheid Betaald Laadpalen aanwezig Ja 2",
-    "last_scraped": "2025-12-22T15:14:28.776Z",
+    "last_scraped": "2025-12-22T15:11:24.648Z",
     "season": "Het hele jaar",
     "external_forecasts": [
       {
         "name": "Windy",
-        "url": "https://www.windy.com/51.9920/4.1148?51.9920,4.1148,11"
+        "url": "https://www.windy.com/52.4591/5.0533?52.4591,5.0533,11"
       },
       {
         "name": "Windfinder",
-        "url": "https://www.windfinder.com/#12/51.9920/4.1148"
+        "url": "https://www.windfinder.com/#12/52.4591/5.0533"
       }
     ]
   },
   {
-    "id": "amstelmeer-lutjestrand-zuid",
-    "name": "Amstelmeer Lutjestrand zuid",
-    "lat": 52.885124923080426,
-    "lon": 4.9165667510045985,
-    "permalink": "https://kitesurfvereniging.nl/kitespot/amstelmeer-lutje-strand-zuid/",
-    "image": "/images/inland_lake_flat.png",
+    "id": "ijmuiden-zone-1-gem-velsen",
+    "name": "IJmuiden Zone 1 (gem. Velsen)",
+    "lat": 52.456356,
+    "lon": 4.551214,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/ijmuiden/",
+    "image": "/images/stormy_coast.png",
+    "level": [
+      "Beginner"
+    ],
+    "depth": [
+      "Diep"
+    ],
+    "good_dirs": [
+      {
+        "start": 158,
+        "end": 203
+      },
+      {
+        "start": 248,
+        "end": 338
+      }
+    ],
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet, Douche, Luchtpomp Openbaar vervoer Parkeergelegenheid Betaald Laadpalen aanwezig Nee",
+    "last_scraped": "2025-12-22T15:12:20.265Z",
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/52.4564/4.5512?52.4564,4.5512,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/52.4564/4.5512"
+      }
+    ]
+  },
+  {
+    "id": "ijmuiden-zone-2-gem-velsen",
+    "name": "IJmuiden Zone 2 (gem. Velsen)",
+    "lat": 52.45534760270165,
+    "lon": 4.556021537228991,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/ijmuiden-zone-2/",
+    "image": "/images/coastal_dunes_path.png",
     "level": [
       "Gevorderd"
     ],
@@ -3234,29 +1715,97 @@
       }
     ],
     "unsafe_dirs": [],
-    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer Bus 135 rijdt van Hoorn naar Den Helder en terug. Deze stopt bij het Lutjestrand (kitespot) Parkeergelegenheid Gratis Laadpalen aanwezig Ja 2",
-    "last_scraped": "2025-12-22T15:14:31.087Z",
-    "season": "Het hele jaar",
+    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet, Douche Openbaar vervoer Parkeergelegenheid Betaald Laadpalen aanwezig Onbekend",
+    "last_scraped": "2025-12-22T15:11:02.195Z",
+    "season": "oktober t/m maart",
     "external_forecasts": [
       {
         "name": "Windy",
-        "url": "https://www.windy.com/52.8851/4.9166?52.8851,4.9166,11"
+        "url": "https://www.windy.com/52.4553/4.5560?52.4553,4.5560,11"
       },
       {
         "name": "Windfinder",
-        "url": "https://www.windfinder.com/#12/52.8851/4.9166"
+        "url": "https://www.windfinder.com/#12/52.4553/4.5560"
       }
     ]
   },
   {
-    "id": "workum",
-    "name": "Workum",
-    "lat": 52.965973,
-    "lon": 5.410585,
-    "permalink": "https://kitesurfvereniging.nl/kitespot/workum/",
-    "image": "/images/inland_lake_flat.png",
+    "id": "elburg",
+    "name": "Elburg",
+    "lat": 52.455063,
+    "lon": 5.817958,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/elburg/",
+    "image": "/images/inland_grassy_launch.png",
+    "level": [
+      "Gevorderd"
+    ],
+    "depth": [
+      "Ondiep"
+    ],
+    "good_dirs": [
+      {
+        "start": 158,
+        "end": 293
+      }
+    ],
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Openbaar vervoer Parkeergelegenheid Onbekend Laadpalen aanwezig Onbekend",
+    "last_scraped": "2025-12-22T15:13:03.253Z",
+    "season": "april t/m september",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/52.4551/5.8180?52.4551,5.8180,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/52.4551/5.8180"
+      }
+    ]
+  },
+  {
+    "id": "ijmuiderslag-gem-velsen",
+    "name": "IJmuiderslag (gem. Velsen)",
+    "lat": 52.446941,
+    "lon": 4.555163,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/ijmuiderslag/",
+    "image": "/images/coastal_pier_waves.png",
     "level": [
       "Beginner"
+    ],
+    "depth": [
+      "Diep"
+    ],
+    "good_dirs": [
+      {
+        "start": 158,
+        "end": 23
+      }
+    ],
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet, Douche, Luchtpomp Openbaar vervoer Indien je met het openbaar vervoer komt dan is de bushalte ongeveer 20 minuten van de spot vandaan. De bus stopt bij Camping de Duindoorn, IJmuiden. Parkeergelegenheid Betaald Laadpalen aanwezig Ja 3",
+    "last_scraped": "2025-12-22T15:12:15.440Z",
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/52.4469/4.5552?52.4469,4.5552,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/52.4469/4.5552"
+      }
+    ]
+  },
+  {
+    "id": "bloemendaal-aan-zee",
+    "name": "Bloemendaal aan Zee",
+    "lat": 52.416317,
+    "lon": 4.549245,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/bloemendaal-aan-zee/",
+    "image": "/images/north_sea_waves.png",
+    "level": [
+      "Gevorderd"
     ],
     "depth": [
       "Diep"
@@ -3264,89 +1813,21 @@
     "good_dirs": [
       {
         "start": 203,
-        "end": 338
+        "end": 23
       }
     ],
     "unsafe_dirs": [],
-    "facilities": "Aanwezig faciliteiten Openbaar vervoer Parkeergelegenheid Onbekend Laadpalen aanwezig Onbekend",
-    "last_scraped": "2025-12-22T15:14:33.689Z",
+    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer - Parkeergelegenheid Betaald Laadpalen aanwezig Ja",
+    "last_scraped": "2025-12-22T15:14:13.655Z",
     "season": "Het hele jaar",
     "external_forecasts": [
       {
         "name": "Windy",
-        "url": "https://www.windy.com/52.9660/5.4106?52.9660,5.4106,11"
+        "url": "https://www.windy.com/52.4163/4.5492?52.4163,4.5492,11"
       },
       {
         "name": "Windfinder",
-        "url": "https://www.windfinder.com/#12/52.9660/5.4106"
-      }
-    ]
-  },
-  {
-    "id": "ameland-waddenzee",
-    "name": "Ameland - Waddenzee",
-    "lat": 53.439205,
-    "lon": 5.77345,
-    "permalink": "https://kitesurfvereniging.nl/kitespot/ameland-waddenzee/",
-    "image": "/images/sunset_session.png",
-    "level": [
-      "Beginner"
-    ],
-    "depth": [
-      "Ondiep"
-    ],
-    "good_dirs": [
-      {
-        "start": 113,
-        "end": 293
-      }
-    ],
-    "unsafe_dirs": [],
-    "facilities": "Aanwezig faciliteiten Eten, Drinken Openbaar vervoer met de veerboot Parkeergelegenheid Gratis Laadpalen aanwezig Onbekend",
-    "last_scraped": "2025-12-22T15:14:36.353Z",
-    "season": "Het hele jaar",
-    "external_forecasts": [
-      {
-        "name": "Windy",
-        "url": "https://www.windy.com/53.4392/5.7735?53.4392,5.7735,11"
-      },
-      {
-        "name": "Windfinder",
-        "url": "https://www.windfinder.com/#12/53.4392/5.7735"
-      }
-    ]
-  },
-  {
-    "id": "ameland-noordzee",
-    "name": "Ameland - Noordzee",
-    "lat": 53.459965,
-    "lon": 5.741499,
-    "permalink": "https://kitesurfvereniging.nl/kitespot/ameland-noordzee/",
-    "image": "/images/north_sea_waves.png",
-    "level": [
-      "Beginner"
-    ],
-    "depth": [
-      "Diep"
-    ],
-    "good_dirs": [
-      {
-        "start": 293,
-        "end": 68
-      }
-    ],
-    "unsafe_dirs": [],
-    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer Parkeergelegenheid Onbekend Laadpalen aanwezig Onbekend",
-    "last_scraped": "2025-12-22T15:14:38.805Z",
-    "season": "Het hele jaar",
-    "external_forecasts": [
-      {
-        "name": "Windy",
-        "url": "https://www.windy.com/53.4600/5.7415?53.4600,5.7415,11"
-      },
-      {
-        "name": "Windfinder",
-        "url": "https://www.windfinder.com/#12/53.4600/5.7415"
+        "url": "https://www.windfinder.com/#12/52.4163/4.5492"
       }
     ]
   },
@@ -3389,6 +1870,39 @@
     ]
   },
   {
+    "id": "ijburg",
+    "name": "IJburg",
+    "lat": 52.355366956484595,
+    "lon": 5.022668899658189,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/ijburg/",
+    "image": "/images/north_sea_waves.png",
+    "level": [
+      "Beginner"
+    ],
+    "depth": [
+      "Ondiep"
+    ],
+    "good_dirs": [
+      {
+        "start": 293,
+        "end": 113
+      }
+    ],
+    "unsafe_dirs": [],
+    "last_scraped": "2025-12-22T15:10:59.768Z",
+    "season": "het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/52.3554/5.0227?52.3554,5.0227,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/52.3554/5.0227"
+      }
+    ]
+  },
+  {
     "id": "almere",
     "name": "Almere",
     "lat": 52.34747029479037,
@@ -3423,11 +1937,313 @@
     ]
   },
   {
-    "id": "zuidlaardermeer",
-    "name": "Zuidlaardermeer",
-    "lat": 53.145409,
-    "lon": 6.693851,
-    "permalink": "https://kitesurfvereniging.nl/kitespot/zuidlaardermeer/",
+    "id": "muiderberg",
+    "name": "Muiderberg",
+    "lat": 52.329876,
+    "lon": 5.113459,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/muiderberg/",
+    "image": "/images/inland_grassy_launch.png",
+    "level": [
+      "Beginner"
+    ],
+    "depth": [
+      "Ondiep"
+    ],
+    "good_dirs": [
+      {
+        "start": 293,
+        "end": 113
+      }
+    ],
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer Parkeergelegenheid Gratis Laadpalen aanwezig Onbekend",
+    "last_scraped": "2025-12-22T15:11:29.533Z",
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/52.3299/5.1135?52.3299,5.1135,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/52.3299/5.1135"
+      }
+    ]
+  },
+  {
+    "id": "zeewolde",
+    "name": "Zeewolde",
+    "lat": 52.32339737555348,
+    "lon": 5.550357063452593,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/zeewolde/",
+    "image": "/images/inland_lake_flat.png",
+    "level": [
+      "Beginner"
+    ],
+    "depth": [
+      "Ondiep"
+    ],
+    "good_dirs": [
+      {
+        "start": 338,
+        "end": 203
+      }
+    ],
+    "unsafe_dirs": [],
+    "last_scraped": "2025-12-22T15:10:55.217Z",
+    "season": "het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/52.3234/5.5504?52.3234,5.5504,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/52.3234/5.5504"
+      }
+    ]
+  },
+  {
+    "id": "strand-horst",
+    "name": "Strand Horst",
+    "lat": 52.32291,
+    "lon": 5.570562,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/strand-horst/",
+    "image": "/images/inland_grassy_launch.png",
+    "level": [
+      "Beginner"
+    ],
+    "depth": [
+      "Ondiep"
+    ],
+    "good_dirs": [
+      {
+        "start": 203,
+        "end": 23
+      }
+    ],
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer Parkeergelegenheid Betaald Laadpalen aanwezig Onbekend",
+    "last_scraped": "2025-12-22T15:13:00.639Z",
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/52.3229/5.5706?52.3229,5.5706,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/52.3229/5.5706"
+      }
+    ]
+  },
+  {
+    "id": "huizen",
+    "name": "Huizen",
+    "lat": 52.306889528808476,
+    "lon": 5.256627349121112,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/huizen/",
+    "image": "/images/inland_lake_flat.png",
+    "level": [
+      "Beginner"
+    ],
+    "depth": [
+      "Diep"
+    ],
+    "good_dirs": [
+      {
+        "start": 338,
+        "end": 23
+      }
+    ],
+    "unsafe_dirs": [],
+    "last_scraped": "2025-12-22T15:12:25.145Z",
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/52.3069/5.2566?52.3069,5.2566,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/52.3069/5.2566"
+      }
+    ]
+  },
+  {
+    "id": "noordwijk-langevelderslag",
+    "name": "Noordwijk Langevelderslag",
+    "lat": 52.301853,
+    "lon": 4.473199,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/noordwijk-langevelderslag/",
+    "image": "/images/coastal_dunes_path.png",
+    "level": [
+      "Gevorderd"
+    ],
+    "depth": [
+      "Diep"
+    ],
+    "good_dirs": [
+      {
+        "start": 203,
+        "end": 23
+      }
+    ],
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer Parkeergelegenheid Betaald Laadpalen aanwezig Onbekend",
+    "last_scraped": "2025-12-22T15:11:46.847Z",
+    "season": "het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/52.3019/4.4732?52.3019,4.4732,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/52.3019/4.4732"
+      }
+    ]
+  },
+  {
+    "id": "blaricum-gooimeer",
+    "name": "Blaricum (Gooimeer)",
+    "lat": 52.30012021577305,
+    "lon": 5.3011256575805765,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/blaricum-gooimeer/",
+    "image": "/images/inland_grassy_launch.png",
+    "level": [
+      "Beginner"
+    ],
+    "depth": [
+      "Diep"
+    ],
+    "good_dirs": [
+      {
+        "start": 248,
+        "end": 68
+      }
+    ],
+    "unsafe_dirs": [],
+    "last_scraped": "2025-12-22T15:10:57.498Z",
+    "season": "het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/52.3001/5.3011?52.3001,5.3011,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/52.3001/5.3011"
+      }
+    ]
+  },
+  {
+    "id": "westeinderplassen",
+    "name": "Westeinderplassen",
+    "lat": 52.2405285,
+    "lon": 4.7204159,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/westeinderplassen/",
+    "image": "/images/inland_lake_action.png",
+    "level": [
+      "Gevorderd"
+    ],
+    "depth": [
+      "Diep"
+    ],
+    "good_dirs": [
+      {
+        "start": 203,
+        "end": 338
+      }
+    ],
+    "unsafe_dirs": [],
+    "last_scraped": "2025-12-22T15:14:11.328Z",
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/52.2405/4.7204?52.2405,4.7204,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/52.2405/4.7204"
+      }
+    ]
+  },
+  {
+    "id": "noordwijk-aan-zee",
+    "name": "Noordwijk aan Zee",
+    "lat": 52.235806,
+    "lon": 4.418844,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/noordwijk-aan-zee/",
+    "image": "/images/coastal_dunes_path.png",
+    "level": [
+      "Gevorderd"
+    ],
+    "depth": [
+      "Diep"
+    ],
+    "good_dirs": [
+      {
+        "start": 203,
+        "end": 23
+      }
+    ],
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet, Douche, Materiaalopslag, Luchtpomp Openbaar vervoer Parkeergelegenheid Betaald Laadpalen aanwezig Onbekend",
+    "last_scraped": "2025-12-22T15:11:39.748Z",
+    "season": "het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/52.2358/4.4188?52.2358,4.4188,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/52.2358/4.4188"
+      }
+    ]
+  },
+  {
+    "id": "katwijk",
+    "name": "Katwijk",
+    "lat": 52.201435,
+    "lon": 4.386593,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/katwijk/",
+    "image": "/images/stormy_coast.png",
+    "level": [
+      "Gevorderd"
+    ],
+    "depth": [
+      "Diep"
+    ],
+    "good_dirs": [
+      {
+        "start": 203,
+        "end": 23
+      }
+    ],
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet, Douche, Materiaalopslag, Luchtpomp Openbaar vervoer Parkeergelegenheid Betaald Laadpalen aanwezig Onbekend",
+    "last_scraped": "2025-12-22T15:12:05.841Z",
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/52.2014/4.3866?52.2014,4.3866,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/52.2014/4.3866"
+      }
+    ]
+  },
+  {
+    "id": "braassemermeer",
+    "name": "Braassemermeer",
+    "lat": 52.197262,
+    "lon": 4.668126,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/braassemermeer/",
     "image": "/images/inland_lake_flat.png",
     "level": [
       "Gevorderd"
@@ -3437,22 +2253,97 @@
     ],
     "good_dirs": [
       {
-        "start": 113,
-        "end": 248
+        "start": 158,
+        "end": 338
       }
     ],
     "unsafe_dirs": [],
-    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer Parkeergelegenheid Gratis Laadpalen aanwezig Onbekend",
-    "last_scraped": "2025-12-22T15:14:46.259Z",
+    "last_scraped": "2025-12-22T15:14:04.442Z",
     "season": "Het hele jaar",
     "external_forecasts": [
       {
         "name": "Windy",
-        "url": "https://www.windy.com/53.1454/6.6939?53.1454,6.6939,11"
+        "url": "https://www.windy.com/52.1973/4.6681?52.1973,4.6681,11"
       },
       {
         "name": "Windfinder",
-        "url": "https://www.windfinder.com/#12/53.1454/6.6939"
+        "url": "https://www.windfinder.com/#12/52.1973/4.6681"
+      }
+    ]
+  },
+  {
+    "id": "wassenaarse-slag",
+    "name": "Wassenaarse slag",
+    "lat": 52.163361,
+    "lon": 4.34611,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/wassenaarse-slag/",
+    "image": "/images/stormy_coast.png",
+    "level": [
+      "Gevorderd"
+    ],
+    "depth": [
+      "Diep"
+    ],
+    "good_dirs": [
+      {
+        "start": 203,
+        "end": 248
+      },
+      {
+        "start": 293,
+        "end": 23
+      }
+    ],
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet, Douche, Materiaalopslag, Luchtpomp Openbaar vervoer Parkeergelegenheid Betaald Laadpalen aanwezig Onbekend",
+    "last_scraped": "2025-12-22T15:14:06.705Z",
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/52.1634/4.3461?52.1634,4.3461,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/52.1634/4.3461"
+      }
+    ]
+  },
+  {
+    "id": "scheveningen-zwarte-pad",
+    "name": "Scheveningen - Zwarte Pad",
+    "lat": 52.1173477,
+    "lon": 4.2894255,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/scheveningen-zwarte-pad/",
+    "image": "/images/coastal_pier_waves.png",
+    "webcam": {
+      "url": "https://www.youtube.com/embed/A5kXiKzbBFs",
+      "type": "embed"
+    },
+    "level": [
+      "Gevorderd"
+    ],
+    "depth": [
+      "Diep"
+    ],
+    "good_dirs": [
+      {
+        "start": 203,
+        "end": 68
+      }
+    ],
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet, Douche, Materiaalopslag, Luchtpomp Openbaar vervoer Tram 1 / tram 9 (Vanaf CS en HS), Bus 21 / 23. Eindhalte Zwarte Pad Parkeergelegenheid Betaald Laadpalen aanwezig Ja 4",
+    "last_scraped": "2025-12-22T15:12:38.378Z",
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/52.1173/4.2894?52.1173,4.2894,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/52.1173/4.2894"
       }
     ]
   },
@@ -3462,7 +2353,7 @@
     "lat": 52.105083,
     "lon": 4.26353,
     "permalink": "https://kitesurfvereniging.nl/kitespot/scheveningen-noorderstrand/",
-    "image": "/images/north_sea_waves.png",
+    "image": "/images/north_sea_beach.png",
     "level": [
       "Gevorderd"
     ],
@@ -3496,7 +2387,7 @@
     "lat": 52.09388607350487,
     "lon": 4.249607984130859,
     "permalink": "https://kitesurfvereniging.nl/kitespot/den-haag-zuiderstrand/",
-    "image": "/images/north_sea_beach.png",
+    "image": "/images/coastal_dunes_path.png",
     "level": [
       "Gevorderd"
     ],
@@ -3525,12 +2416,80 @@
     ]
   },
   {
+    "id": "kijkduin",
+    "name": "Kijkduin",
+    "lat": 52.066525,
+    "lon": 4.21192,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/kijkduin/",
+    "image": "/images/coastal_pier_waves.png",
+    "level": [
+      "Beginner",
+      "Gevorderd"
+    ],
+    "depth": [
+      "Diep"
+    ],
+    "good_dirs": [
+      {
+        "start": 203,
+        "end": 338
+      }
+    ],
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet, Douche, Materiaalopslag, Luchtpomp Openbaar vervoer Buslijn 24 en 26 Parkeergelegenheid Gratis Laadpalen aanwezig Onbekend",
+    "last_scraped": "2025-12-22T15:12:00.924Z",
+    "season": "het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/52.0665/4.2119?52.0665,4.2119,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/52.0665/4.2119"
+      }
+    ]
+  },
+  {
+    "id": "reeuwijkse-plassen",
+    "name": "Reeuwijkse plassen",
+    "lat": 52.058559,
+    "lon": 4.741474,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/reeuwijkse-plassen/",
+    "image": "/images/inland_lake_flat.png",
+    "level": [
+      "Gevorderd"
+    ],
+    "depth": [
+      "Ondiep"
+    ],
+    "good_dirs": [
+      {
+        "start": 23,
+        "end": 158
+      }
+    ],
+    "unsafe_dirs": [],
+    "last_scraped": "2025-12-22T15:12:12.859Z",
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/52.0586/4.7415?52.0586,4.7415,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/52.0586/4.7415"
+      }
+    ]
+  },
+  {
     "id": "kijkduin-zandmotor",
     "name": "Kijkduin - Zandmotor",
     "lat": 52.05520313862568,
     "lon": 4.186521291015639,
     "permalink": "https://kitesurfvereniging.nl/kitespot/zandmotor/",
-    "image": "/images/north_sea_beach.png",
+    "image": "/images/stormy_coast.png",
     "level": [
       "Beginner",
       "Gevorderd"
@@ -3604,12 +2563,46 @@
     ]
   },
   {
+    "id": "windsurfing-hoek-van-holland",
+    "name": "Windsurfing Hoek van Holland",
+    "lat": 51.992015738236034,
+    "lon": 4.114798307418823,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/hoek-van-holland-windsurfing/",
+    "image": "/images/coastal_pier_waves.png",
+    "level": [
+      "Gevorderd"
+    ],
+    "depth": [
+      "Diep"
+    ],
+    "good_dirs": [
+      {
+        "start": 203,
+        "end": 23
+      }
+    ],
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet, Douche, Materiaalopslag Openbaar vervoer Parkeergelegenheid Betaald Laadpalen aanwezig Ja 2",
+    "last_scraped": "2025-12-22T15:14:28.776Z",
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/51.9920/4.1148?51.9920,4.1148,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/51.9920/4.1148"
+      }
+    ]
+  },
+  {
     "id": "hoek-van-holland-hoekse-watersport-vereniging",
     "name": "Hoek van Holland, Hoekse Watersport Vereniging",
     "lat": 51.99180432944537,
     "lon": 4.114208221435547,
     "permalink": "https://kitesurfvereniging.nl/kitespot/hoek-van-holland/",
-    "image": "/images/north_sea_beach.png",
+    "image": "/images/stormy_coast.png",
     "level": [
       "Gevorderd"
     ],
@@ -3638,12 +2631,951 @@
     ]
   },
   {
+    "id": "maasvlakte-2-p5-en-p6",
+    "name": "Maasvlakte 2 - P5 en P6",
+    "lat": 51.951382,
+    "lon": 3.966729,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/maasvlakte-p5p6/",
+    "image": "/images/north_sea_waves.png",
+    "level": [
+      "Gevorderd"
+    ],
+    "depth": [
+      "Diep"
+    ],
+    "good_dirs": [
+      {
+        "start": 203,
+        "end": 23
+      }
+    ],
+    "unsafe_dirs": [],
+    "last_scraped": "2025-12-22T15:11:16.951Z",
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/51.9514/3.9667?51.9514,3.9667,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/51.9514/3.9667"
+      }
+    ]
+  },
+  {
+    "id": "oostvoornse-meer",
+    "name": "Oostvoornse meer",
+    "lat": 51.92918,
+    "lon": 4.066458,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/oostvoornse-meer/",
+    "image": "/images/inland_grassy_launch.png",
+    "level": [
+      "Gevorderd"
+    ],
+    "depth": [
+      "Ondiep"
+    ],
+    "good_dirs": [
+      {
+        "start": 68,
+        "end": 293
+      }
+    ],
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Eten, Toilet Openbaar vervoer Parkeergelegenheid Gratis Laadpalen aanwezig Onbekend",
+    "last_scraped": "2025-12-22T15:11:54.061Z",
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/51.9292/4.0665?51.9292,4.0665,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/51.9292/4.0665"
+      }
+    ]
+  },
+  {
+    "id": "maasvlakte-2-spot-p1-tm-p3",
+    "name": "Maasvlakte 2 - Spot P1 t/m P3",
+    "lat": 51.923229,
+    "lon": 3.980946,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/maasvlakte-p1p3/",
+    "image": "/images/north_sea_beach.png",
+    "level": [
+      "Gevorderd"
+    ],
+    "depth": [
+      "Diep"
+    ],
+    "good_dirs": [
+      {
+        "start": 158,
+        "end": 338
+      }
+    ],
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Openbaar vervoer Parkeergelegenheid Gratis Laadpalen aanwezig Nee",
+    "last_scraped": "2025-12-22T15:11:22.302Z",
+    "season": "oktober t/m april",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/51.9232/3.9809?51.9232,3.9809,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/51.9232/3.9809"
+      }
+    ]
+  },
+  {
+    "id": "maasvlakte-2-slufter",
+    "name": "Maasvlakte 2 - Slufter",
+    "lat": 51.919079,
+    "lon": 3.988189,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/slufter/",
+    "image": "/images/stormy_coast.png",
+    "level": [
+      "Gevorderd"
+    ],
+    "depth": [
+      "Ondiep"
+    ],
+    "good_dirs": [
+      {
+        "start": 158,
+        "end": 293
+      }
+    ],
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Openbaar vervoer Parkeergelegenheid Gratis Laadpalen aanwezig Nee",
+    "last_scraped": "2025-12-22T15:11:14.680Z",
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/51.9191/3.9882?51.9191,3.9882,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/51.9191/3.9882"
+      }
+    ]
+  },
+  {
+    "id": "oostvoorne-noordzee",
+    "name": "Oostvoorne Noordzee",
+    "lat": 51.9151368,
+    "lon": 4.0605978,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/oostvoorne-noordzee/",
+    "image": "/images/coastal_pier_waves.png",
+    "level": [
+      "Beginner",
+      "Gevorderd"
+    ],
+    "depth": [
+      "Ondiep"
+    ],
+    "good_dirs": [
+      {
+        "start": 203,
+        "end": 23
+      }
+    ],
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer Parkeergelegenheid Betaald Laadpalen aanwezig Onbekend",
+    "last_scraped": "2025-12-22T15:11:49.320Z",
+    "season": "het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/51.9151/4.0606?51.9151,4.0606,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/51.9151/4.0606"
+      }
+    ]
+  },
+  {
+    "id": "rockanje-sportstrand",
+    "name": "Rockanje Sportstrand",
+    "lat": 51.8722925148425,
+    "lon": 4.044898266162127,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/rockanje-sportstrand/",
+    "image": "/images/coastal_dunes_path.png",
+    "webcam": {
+      "url": "https://www.youtube.com/embed/csMnwbjV5vg",
+      "type": "embed"
+    },
+    "level": [
+      "Beginner"
+    ],
+    "depth": [
+      "Ondiep"
+    ],
+    "good_dirs": [
+      {
+        "start": 158,
+        "end": 248
+      },
+      {
+        "start": 293,
+        "end": 338
+      }
+    ],
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet, Douche Openbaar vervoer Parkeergelegenheid Betaald Laadpalen aanwezig Ja 4",
+    "last_scraped": "2025-12-22T15:10:48.313Z",
+    "season": "het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/51.8723/4.0449?51.8723,4.0449,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/51.8723/4.0449"
+      }
+    ]
+  },
+  {
+    "id": "rockanje-badstrand",
+    "name": "Rockanje Badstrand",
+    "lat": 51.865685260091375,
+    "lon": 4.0513472685071905,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/rockanje/",
+    "image": "/images/stormy_coast.png",
+    "level": [
+      "Beginner",
+      "Gevorderd"
+    ],
+    "depth": [
+      "Ondiep"
+    ],
+    "good_dirs": [
+      {
+        "start": 158,
+        "end": 338
+      }
+    ],
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet, Douche Openbaar vervoer Parkeergelegenheid Betaald Laadpalen aanwezig Ja 4",
+    "last_scraped": "2025-12-22T15:12:22.893Z",
+    "season": "oktober t/m april",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/51.8657/4.0513?51.8657,4.0513,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/51.8657/4.0513"
+      }
+    ]
+  },
+  {
+    "id": "ouddorp",
+    "name": "Ouddorp",
+    "lat": 51.82172,
+    "lon": 3.878164,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/ouddorp/",
+    "image": "/images/sunset_session.png",
+    "level": [
+      "Gevorderd"
+    ],
+    "depth": [
+      "Diep"
+    ],
+    "good_dirs": [
+      {
+        "start": 248,
+        "end": 68
+      }
+    ],
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Openbaar vervoer Parkeergelegenheid Onbekend Laadpalen aanwezig Onbekend",
+    "last_scraped": "2025-12-22T15:11:56.416Z",
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/51.8217/3.8782?51.8217,3.8782,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/51.8217/3.8782"
+      }
+    ]
+  },
+  {
+    "id": "hellevoetsluis-haringvliet",
+    "name": "Hellevoetsluis - Haringvliet",
+    "lat": 51.82063570886251,
+    "lon": 4.159093814880372,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/hellevoetsluis-haringvliet/",
+    "image": "/images/north_sea_waves.png",
+    "level": [
+      "Beginner"
+    ],
+    "depth": [
+      "Diep"
+    ],
+    "good_dirs": [
+      {
+        "start": 158,
+        "end": 293
+      }
+    ],
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Openbaar vervoer Parkeergelegenheid Gratis Laadpalen aanwezig Nee",
+    "last_scraped": "2025-12-22T15:12:43.130Z",
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/51.8206/4.1591?51.8206,4.1591,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/51.8206/4.1591"
+      }
+    ]
+  },
+  {
+    "id": "brouwersdam",
+    "name": "Brouwersdam",
+    "lat": 51.760532,
+    "lon": 3.842414,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/brouwersdam/",
+    "image": "/images/north_sea_beach.png",
+    "webcam": {
+      "url": "https://www.youtube.com/embed/KjK02QIm4ZI",
+      "type": "embed"
+    },
+    "level": [
+      "Beginner"
+    ],
+    "depth": [
+      "Ondiep"
+    ],
+    "good_dirs": [
+      {
+        "start": 203,
+        "end": 23
+      }
+    ],
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet, Douche, Luchtpomp Openbaar vervoer Parkeergelegenheid Gratis Laadpalen aanwezig Onbekend",
+    "last_scraped": "2025-12-22T15:13:57.642Z",
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/51.7605/3.8424?51.7605,3.8424,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/51.7605/3.8424"
+      }
+    ]
+  },
+  {
+    "id": "grevelingendam-noord",
+    "name": "Grevelingendam - Noord",
+    "lat": 51.679256,
+    "lon": 4.137328,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/grevelingendam-noord/",
+    "image": "/images/coastal_dunes_path.png",
+    "level": [
+      "Gevorderd"
+    ],
+    "depth": [
+      "Ondiep"
+    ],
+    "good_dirs": [
+      {
+        "start": 68,
+        "end": 113
+      },
+      {
+        "start": 293,
+        "end": 23
+      }
+    ],
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer Parkeergelegenheid Gratis Laadpalen aanwezig Nee",
+    "last_scraped": "2025-12-22T15:12:52.818Z",
+    "season": "15 maart - 1 november",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/51.6793/4.1373?51.6793,4.1373,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/51.6793/4.1373"
+      }
+    ]
+  },
+  {
+    "id": "grevelingendam-zuid",
+    "name": "Grevelingendam - Zuid",
+    "lat": 51.674713,
+    "lon": 4.13996,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/grevelingendam-zuid/",
+    "image": "/images/north_sea_waves.png",
+    "level": [
+      "Beginner"
+    ],
+    "depth": [
+      "Ondiep"
+    ],
+    "good_dirs": [
+      {
+        "start": 158,
+        "end": 293
+      }
+    ],
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer Parkeergelegenheid Onbekend Laadpalen aanwezig Onbekend",
+    "last_scraped": "2025-12-22T15:12:50.493Z",
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/51.6747/4.1400?51.6747,4.1400,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/51.6747/4.1400"
+      }
+    ]
+  },
+  {
+    "id": "neeltje-jans",
+    "name": "Neeltje Jans",
+    "lat": 51.62424172138486,
+    "lon": 3.680559354492172,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/neeltje-jans/",
+    "image": "/images/coastal_pier_waves.png",
+    "level": [
+      "Gevorderd"
+    ],
+    "depth": [
+      "Diep"
+    ],
+    "good_dirs": [
+      {
+        "start": 203,
+        "end": 23
+      }
+    ],
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Openbaar vervoer Parkeergelegenheid Onbekend Laadpalen aanwezig Onbekend",
+    "last_scraped": "2025-12-22T15:11:34.424Z",
+    "season": "het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/51.6242/3.6806?51.6242,3.6806,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/51.6242/3.6806"
+      }
+    ]
+  },
+  {
+    "id": "ouwerkerk",
+    "name": "Ouwerkerk",
+    "lat": 51.616791,
+    "lon": 3.961531,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/ouwerkerk/",
+    "image": "/images/coastal_dunes_path.png",
+    "level": [
+      "Beginner"
+    ],
+    "depth": [
+      "Ondiep"
+    ],
+    "good_dirs": [
+      {
+        "start": 113,
+        "end": 338
+      }
+    ],
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Openbaar vervoer Geen openbaar vervoer aanwezig. Parkeergelegenheid Gratis Laadpalen aanwezig Nee",
+    "last_scraped": "2025-12-22T15:11:58.701Z",
+    "season": "oktober t/m april",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/51.6168/3.9615?51.6168,3.9615,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/51.6168/3.9615"
+      }
+    ]
+  },
+  {
+    "id": "kamperland-roompot-xbeach",
+    "name": "Kamperland - Roompot XBeach",
+    "lat": 51.592909111403124,
+    "lon": 3.7313782540283214,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/kamperland/",
+    "image": "/images/sunset_session.png",
+    "level": [
+      "Beginner"
+    ],
+    "depth": [
+      "Ondiep"
+    ],
+    "good_dirs": [
+      {
+        "start": 68,
+        "end": 113
+      },
+      {
+        "start": 338,
+        "end": 23
+      }
+    ],
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer Parkeergelegenheid Onbekend Laadpalen aanwezig Onbekend",
+    "last_scraped": "2025-12-22T15:12:29.675Z",
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/51.5929/3.7314?51.5929,3.7314,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/51.5929/3.7314"
+      }
+    ]
+  },
+  {
+    "id": "vrouwenpolder",
+    "name": "Vrouwenpolder",
+    "lat": 51.591873,
+    "lon": 3.632949,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/vrouwenpolder/",
+    "image": "/images/north_sea_waves.png",
+    "level": [
+      "Beginner"
+    ],
+    "depth": [
+      "Diep"
+    ],
+    "good_dirs": [
+      {
+        "start": 248,
+        "end": 293
+      },
+      {
+        "start": 338,
+        "end": 113
+      }
+    ],
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet, Douche, Luchtpomp Openbaar vervoer Parkeergelegenheid Betaald Laadpalen aanwezig Onbekend",
+    "last_scraped": "2025-12-22T15:13:55.292Z",
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/51.5919/3.6329?51.5919,3.6329,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/51.5919/3.6329"
+      }
+    ]
+  },
+  {
+    "id": "domburg",
+    "name": "Domburg",
+    "lat": 51.552254,
+    "lon": 3.461647,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/domburg/",
+    "image": "/images/coastal_dunes_path.png",
+    "level": [
+      "Expert"
+    ],
+    "depth": [
+      "Diep"
+    ],
+    "good_dirs": [
+      {
+        "start": 248,
+        "end": 23
+      }
+    ],
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer Parkeergelegenheid Betaald Laadpalen aanwezig Onbekend",
+    "last_scraped": "2025-12-22T15:13:15.733Z",
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/51.5523/3.4616?51.5523,3.4616,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/51.5523/3.4616"
+      }
+    ]
+  },
+  {
+    "id": "groot-valkenisse",
+    "name": "Groot Valkenisse",
+    "lat": 51.491982,
+    "lon": 3.495714,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/groot-valkenisse/",
+    "image": "/images/north_sea_waves.png",
+    "level": [
+      "Gevorderd"
+    ],
+    "depth": [
+      "Diep"
+    ],
+    "good_dirs": [
+      {
+        "start": 158,
+        "end": 293
+      }
+    ],
+    "unsafe_dirs": [],
+    "last_scraped": "2025-12-22T15:12:45.476Z",
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/51.4920/3.4957?51.4920,3.4957,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/51.4920/3.4957"
+      }
+    ]
+  },
+  {
+    "id": "tholen-oesterdam",
+    "name": "Tholen Oesterdam",
+    "lat": 51.460934,
+    "lon": 4.221407,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/tholen-oesterdam/",
+    "image": "/images/north_sea_beach.png",
+    "level": [
+      "Beginner"
+    ],
+    "depth": [
+      "Ondiep"
+    ],
+    "good_dirs": [
+      {
+        "start": 158,
+        "end": 23
+      }
+    ],
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Openbaar vervoer Geen openbaar vervoer beschikbaar Parkeergelegenheid Gratis Laadpalen aanwezig Nee",
+    "last_scraped": "2025-12-22T15:11:44.603Z",
+    "season": "het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/51.4609/4.2214?51.4609,4.2214,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/51.4609/4.2214"
+      }
+    ]
+  },
+  {
+    "id": "vlissingen",
+    "name": "Vlissingen",
+    "lat": 51.445332,
+    "lon": 3.561992,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/vlissingen/",
+    "image": "/images/coastal_dunes_path.png",
+    "level": [
+      "Beginner"
+    ],
+    "depth": [
+      "Diep"
+    ],
+    "good_dirs": [
+      {
+        "start": 338,
+        "end": 23
+      }
+    ],
+    "unsafe_dirs": [],
+    "last_scraped": "2025-12-22T15:13:50.695Z",
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/51.4453/3.5620?51.4453,3.5620,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/51.4453/3.5620"
+      }
+    ]
+  },
+  {
+    "id": "krabbendijke-roelshoek",
+    "name": "Krabbendijke (Roelshoek)",
+    "lat": 51.43539785126424,
+    "lon": 4.125820029089797,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/krabbendijke-roelshoek/",
+    "image": "/images/stormy_coast.png",
+    "level": [
+      "Beginner"
+    ],
+    "depth": [
+      "Ondiep"
+    ],
+    "good_dirs": [
+      {
+        "start": 293,
+        "end": 68
+      }
+    ],
+    "unsafe_dirs": [],
+    "last_scraped": "2025-12-22T15:10:52.878Z",
+    "season": "het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/51.4354/4.1258?51.4354,4.1258,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/51.4354/4.1258"
+      }
+    ]
+  },
+  {
+    "id": "borssele-de-kaloot",
+    "name": "Borssele (de Kaloot)",
+    "lat": 51.433178,
+    "lon": 3.709353,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/borssele-de-kaloot/",
+    "image": "/images/coastal_dunes_path.png",
+    "level": [
+      "Beginner"
+    ],
+    "depth": [
+      "Ondiep"
+    ],
+    "good_dirs": [
+      {
+        "start": 203,
+        "end": 293
+      }
+    ],
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Openbaar vervoer Parkeergelegenheid Onbekend Laadpalen aanwezig Onbekend",
+    "last_scraped": "2025-12-22T15:14:09.015Z",
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/51.4332/3.7094?51.4332,3.7094,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/51.4332/3.7094"
+      }
+    ]
+  },
+  {
+    "id": "breskens-oost",
+    "name": "Breskens Oost",
+    "lat": 51.40062194272245,
+    "lon": 3.559299638623048,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/breskens-oost/",
+    "image": "/images/sunset_session.png",
+    "level": [
+      "Beginner"
+    ],
+    "depth": [
+      "Ondiep"
+    ],
+    "good_dirs": [
+      {
+        "start": 293,
+        "end": 68
+      }
+    ],
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer Parkeergelegenheid Gratis Laadpalen aanwezig Onbekend",
+    "last_scraped": "2025-12-22T15:13:59.886Z",
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/51.4006/3.5593?51.4006,3.5593,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/51.4006/3.5593"
+      }
+    ]
+  },
+  {
+    "id": "rilland-bath-zimmermangeul",
+    "name": "Rilland-Bath (Zimmermangeul)",
+    "lat": 51.394615,
+    "lon": 4.1494,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/rilland-bath-zimmermangeul/",
+    "image": "/images/north_sea_waves.png",
+    "level": [
+      "Expert"
+    ],
+    "depth": [
+      "Diep"
+    ],
+    "good_dirs": [
+      {
+        "start": 338,
+        "end": 23
+      }
+    ],
+    "unsafe_dirs": [],
+    "last_scraped": "2025-12-22T15:12:17.691Z",
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/51.3946/4.1494?51.3946,4.1494,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/51.3946/4.1494"
+      }
+    ]
+  },
+  {
+    "id": "baarland",
+    "name": "Baarland",
+    "lat": 51.394135,
+    "lon": 3.896531,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/baarland/",
+    "image": "/images/coastal_pier_waves.png",
+    "level": [
+      "Gevorderd"
+    ],
+    "depth": [
+      "Ondiep"
+    ],
+    "good_dirs": [
+      {
+        "start": 68,
+        "end": 248
+      }
+    ],
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer Parkeergelegenheid Gratis Laadpalen aanwezig Onbekend",
+    "last_scraped": "2025-12-22T15:14:20.821Z",
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/51.3941/3.8965?51.3941,3.8965,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/51.3941/3.8965"
+      }
+    ]
+  },
+  {
+    "id": "cadzand-bad-vlamingpolder",
+    "name": "Cadzand-bad - Vlamingpolder",
+    "lat": 51.385365,
+    "lon": 3.404863,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/cadzand-bad-vlamingpolder/",
+    "image": "/images/coastal_dunes_path.png",
+    "level": [
+      "Gevorderd"
+    ],
+    "depth": [
+      "Diep"
+    ],
+    "good_dirs": [
+      {
+        "start": 248,
+        "end": 23
+      }
+    ],
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer Parkeergelegenheid Onbekend Laadpalen aanwezig Onbekend",
+    "last_scraped": "2025-12-22T15:13:52.976Z",
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/51.3854/3.4049?51.3854,3.4049,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/51.3854/3.4049"
+      }
+    ]
+  },
+  {
+    "id": "cadzand-bad-west",
+    "name": "Cadzand-bad - West",
+    "lat": 51.373165,
+    "lon": 3.368118,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/cadzand-bad-west/",
+    "image": "/images/north_sea_waves.png",
+    "level": [
+      "Beginner"
+    ],
+    "depth": [
+      "Diep"
+    ],
+    "good_dirs": [
+      {
+        "start": 203,
+        "end": 23
+      }
+    ],
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Eten, Drinken, Toilet Openbaar vervoer Parkeergelegenheid Onbekend Laadpalen aanwezig Onbekend",
+    "last_scraped": "2025-12-22T15:13:48.501Z",
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/51.3732/3.3681?51.3732,3.3681,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/51.3732/3.3681"
+      }
+    ]
+  },
+  {
     "id": "knokke-surfers-paradise",
     "name": "Knokke Surfers Paradise",
     "lat": 51.353392,
     "lon": 3.30155,
     "permalink": "https://www.surfersparadise.be/en/",
-    "image": "/images/north_sea_waves.png",
+    "image": "/images/sunset_session.png",
     "webcam": {
       "url": "https://www.youtube.com/embed/Sx-oMVmNoPA",
       "type": "embed"
@@ -3672,6 +3604,74 @@
       {
         "name": "Windfinder",
         "url": "https://www.windfinder.com/#12/51.3534/3.3016"
+      }
+    ]
+  },
+  {
+    "id": "paulinapolder",
+    "name": "Paulinapolder",
+    "lat": 51.350422,
+    "lon": 3.731831,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/paulinapolder/",
+    "image": "/images/stormy_coast.png",
+    "level": [
+      "Gevorderd"
+    ],
+    "depth": [
+      "Ondiep"
+    ],
+    "good_dirs": [
+      {
+        "start": 293,
+        "end": 68
+      }
+    ],
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Openbaar vervoer Parkeergelegenheid Onbekend Laadpalen aanwezig Onbekend",
+    "last_scraped": "2025-12-22T15:12:03.240Z",
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/51.3504/3.7318?51.3504,3.7318,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/51.3504/3.7318"
+      }
+    ]
+  },
+  {
+    "id": "terneuzen-put-van",
+    "name": "Terneuzen (put van)",
+    "lat": 51.337162,
+    "lon": 3.839594,
+    "permalink": "https://kitesurfvereniging.nl/kitespot/terneuzen/",
+    "image": "/images/north_sea_waves.png",
+    "level": [
+      "Beginner"
+    ],
+    "depth": [
+      "Ondiep"
+    ],
+    "good_dirs": [
+      {
+        "start": 293,
+        "end": 113
+      }
+    ],
+    "unsafe_dirs": [],
+    "facilities": "Aanwezig faciliteiten Openbaar vervoer Parkeergelegenheid Onbekend Laadpalen aanwezig Onbekend",
+    "last_scraped": "2025-12-22T15:13:10.626Z",
+    "season": "Het hele jaar",
+    "external_forecasts": [
+      {
+        "name": "Windy",
+        "url": "https://www.windy.com/51.3372/3.8396?51.3372,3.8396,11"
+      },
+      {
+        "name": "Windfinder",
+        "url": "https://www.windfinder.com/#12/51.3372/3.8396"
       }
     ]
   }
