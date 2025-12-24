@@ -70,7 +70,10 @@ export default function DuoPage() {
     const driveTimesA = useQueries({
         queries: candidates.map(({ spot }) => ({
             queryKey: ['drivingTime', locA?.lat, locA?.lon, spot.lat, spot.lon],
-            queryFn: () => getDrivingDuration(locA!, { lat: spot.lat, lon: spot.lon }),
+            queryFn: () => getDrivingDuration(
+                { ...locA!, name: locA!.name },
+                { lat: spot.lat, lon: spot.lon, id: spot.id }
+            ),
             enabled: !!locA
         }))
     });
@@ -78,7 +81,10 @@ export default function DuoPage() {
     const driveTimesB = useQueries({
         queries: candidates.map(({ spot }) => ({
             queryKey: ['drivingTime', locB?.lat, locB?.lon, spot.lat, spot.lon],
-            queryFn: () => getDrivingDuration(locB!, { lat: spot.lat, lon: spot.lon }),
+            queryFn: () => getDrivingDuration(
+                { ...locB!, name: locB!.name },
+                { lat: spot.lat, lon: spot.lon, id: spot.id }
+            ),
             enabled: !!locB
         }))
     });

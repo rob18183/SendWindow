@@ -94,10 +94,50 @@ function enqueueRequest<T>(fn: () => Promise<T>): Promise<T> {
     });
 }
 
+
+// Static Travel Matrix Cache
+let travelMatrix: Record<string, Record<string, number>> | null = null;
+let isFetchingMatrix = false;
+
+async function loadTravelMatrix() {
+    if (travelMatrix || isFetchingMatrix) return;
+    isFetchingMatrix = true;
+    try {
+        const res = await fetch('/data/travel-matrix.json');
+        if (res.ok) {
+            travelMatrix = await res.json();
+            console.log("Travel matrix loaded");
+        }
+    } catch (e) {
+        console.warn("Failed to load travel matrix", e);
+    } finally {
+        isFetchingMatrix = false;
+    }
+}
+
+// Load immediately
+loadTravelMatrix();
+
 export async function getDrivingDuration(
-    start: { lat: number; lon: number },
-    end: { lat: number; lon: number }
+    start: { lat: number; lon: number; name?: string }, // Added name support
+    end: { lat: number; lon: number; id?: string } // Added id support
 ): Promise<number | null> {
+
+    // 1. Static Matrix Lookup
+    // We try to match the Start Name (e.g. "Amsterdam") and the End ID (e.g. "zandvoort")
+    if (travelMatrix && start.name) {
+        // Try simplified names (e.g. "Amsterdam Central" -> "Amsterdam")
+        // Our matrix keys are exact city names from our build script.
+        const cityKey = Object.keys(travelMatrix).find(c => start.name?.includes(c));
+
+        if (cityKey && end.id) {
+            const time = travelMatrix[cityKey][end.id];
+            if (time !== undefined) {
+                return time;
+            }
+        }
+    }
+
     const key = `travel_${start.lat.toFixed(3)},${start.lon.toFixed(3)}_${end.lat.toFixed(3)},${end.lon.toFixed(3)}`;
 
     // Check cache
