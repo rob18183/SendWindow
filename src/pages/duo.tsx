@@ -70,7 +70,10 @@ export default function DuoPage() {
     const driveTimesA = useQueries({
         queries: candidates.map(({ spot }) => ({
             queryKey: ['drivingTime', locA?.lat, locA?.lon, spot.lat, spot.lon],
-            queryFn: () => getDrivingDuration(locA!, { lat: spot.lat, lon: spot.lon }),
+            queryFn: () => getDrivingDuration(
+                { ...locA!, name: locA!.name },
+                { lat: spot.lat, lon: spot.lon, id: spot.id }
+            ),
             enabled: !!locA
         }))
     });
@@ -78,7 +81,10 @@ export default function DuoPage() {
     const driveTimesB = useQueries({
         queries: candidates.map(({ spot }) => ({
             queryKey: ['drivingTime', locB?.lat, locB?.lon, spot.lat, spot.lon],
-            queryFn: () => getDrivingDuration(locB!, { lat: spot.lat, lon: spot.lon }),
+            queryFn: () => getDrivingDuration(
+                { ...locB!, name: locB!.name },
+                { lat: spot.lat, lon: spot.lon, id: spot.id }
+            ),
             enabled: !!locB
         }))
     });
@@ -157,14 +163,14 @@ export default function DuoPage() {
                     <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
                         <span style={{ fontWeight: 600 }}>👤 Buddy</span>
                         {!locB ? (
-                            <form onSubmit={handleSetLocB} style={{ display: 'flex', gap: 8 }}>
+                            <form onSubmit={handleSetLocB} style={{ display: 'flex', gap: 8, flexWrap: 'wrap' }}>
                                 <input
                                     value={addressB}
                                     onChange={e => setAddressB(e.target.value)}
                                     placeholder="City (e.g. Amsterdam)"
-                                    style={{ flex: 1, padding: "8px 12px", borderRadius: 8, border: "1px solid #cbd5e1" }}
+                                    style={{ flex: "1 1 200px", padding: "8px 12px", borderRadius: 8, border: "1px solid #cbd5e1", minWidth: 0 }}
                                 />
-                                <button type="submit" className="btn-primary" disabled={isSearchingB}>
+                                <button type="submit" className="btn-primary" disabled={isSearchingB} style={{ flexShrink: 0 }}>
                                     {isSearchingB ? "..." : "Set"}
                                 </button>
                             </form>

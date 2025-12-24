@@ -1,3 +1,6 @@
+
+import spotsData from '../../data/spots.nl.json';
+
 export function getUserLocation(): Promise<{ lat: number; lon: number }> {
     return new Promise((resolve, reject) => {
         if (!navigator.geolocation) {
@@ -94,10 +97,81 @@ function enqueueRequest<T>(fn: () => Promise<T>): Promise<T> {
     });
 }
 
+
+// Static Grid Matrix Cache
+// Format: Array of { lat, lon, times: number[] }
+interface GridPoint {
+    lat: number;
+    lon: number;
+    times: number[];
+}
+let travelGrid: GridPoint[] | null = null;
+let isFetchingGrid = false;
+
+// Optimization: Create a SpotIndex map once for fast lookup
+const spotIdToIndex = new Map<string, number>();
+spotsData.forEach((s, i) => spotIdToIndex.set(s.id, i));
+
+async function loadTravelGrid() {
+    if (travelGrid || isFetchingGrid) return;
+    isFetchingGrid = true;
+    try {
+        const res = await fetch('/data/travel-grid.json');
+        if (res.ok) {
+            travelGrid = await res.json();
+            console.log(`Travel grid loaded (${travelGrid?.length} points)`);
+        }
+    } catch (e) {
+        console.warn("Failed to load travel grid", e);
+    } finally {
+        isFetchingGrid = false;
+    }
+}
+
+// Load immediately
+loadTravelGrid();
+
 export async function getDrivingDuration(
-    start: { lat: number; lon: number },
-    end: { lat: number; lon: number }
+    start: { lat: number; lon: number; name?: string },
+    end: { lat: number; lon: number; id?: string }
 ): Promise<number | null> {
+
+    // 1. Spatial Grid Lookup
+    if (travelGrid && travelGrid.length > 0 && end.id) {
+        // Find nearest grid point
+        let minDist = Infinity;
+        let closest: GridPoint | null = null;
+
+        const SLAT = start.lat;
+        const SLON = start.lon;
+
+        // Simple linear scan (fast enough for <10k points)
+        // Optimization: Only check points within rough box
+        for (let i = 0; i < travelGrid.length; i++) {
+            const p = travelGrid[i];
+            const dLat = p.lat - SLAT;
+            const dLon = p.lon - SLON;
+
+            // 5km approx bounding box check (0.05 deg)
+            if (Math.abs(dLat) > 0.05 || Math.abs(dLon) > 0.08) continue;
+
+            const distSq = dLat * dLat + dLon * dLon;
+            if (distSq < minDist) {
+                minDist = distSq;
+                closest = p;
+            }
+        }
+
+        // Threshold: ~4km (0.005 deg^2 approx)
+        if (closest && minDist < 0.005) {
+            const spotIndex = spotIdToIndex.get(end.id!);
+            if (spotIndex !== undefined) {
+                const time = closest.times[spotIndex];
+                if (time > 0) return time;
+            }
+        }
+    }
+
     const key = `travel_${start.lat.toFixed(3)},${start.lon.toFixed(3)}_${end.lat.toFixed(3)},${end.lon.toFixed(3)}`;
 
     // Check cache

@@ -44,10 +44,10 @@ export function SpotCard({ name, distanceKm, score, color, windowLabel, image, t
                     <div className="text-dim">
                         📍 {distanceKm.toFixed(1)} km
                         {duoTimes ? (
-                            <span style={{ marginLeft: 8, display: 'inline-flex', gap: 6, flexWrap: "wrap" }}>
-                                <span title="Your drive">🚗 You: {duoTimes.a}m</span>
-                                <span style={{ opacity: 0.5 }}>|</span>
-                                <span title="Buddy's drive">Buddy: {duoTimes.b}m</span>
+                            <span style={{ marginLeft: 8, display: 'inline-flex', gap: "4px 8px", flexWrap: "wrap", alignItems: "center" }}>
+                                <span title="Your drive" style={{ whiteSpace: "nowrap" }}>🚗 You: {duoTimes.a}m</span>
+                                <span style={{ opacity: 0.5, display: "none" }}>|</span>
+                                <span title="Buddy's drive" style={{ whiteSpace: "nowrap" }}>👤 Buddy: {duoTimes.b}m</span>
                             </span>
                         ) : (
                             travelTime && <span style={{ marginLeft: 8 }}>🚗 {travelTime} min</span>
