@@ -1,5 +1,5 @@
-import { useState, useMemo } from "react";
-import { Link } from "react-router-dom";
+import { useState, useMemo, useEffect } from "react";
+import { Link, useSearchParams } from "react-router-dom";
 import { useQueries } from "@tanstack/react-query";
 import spots from "../../data/spots.nl.json";
 import { getUserLocation, haversineKm, geocodeAddress, getDrivingDuration } from "../lib/geo";
@@ -9,25 +9,52 @@ import { SpotCard } from "../components/SpotCard";
 import { sendScore } from "../lib/scoring";
 
 export default function DuoPage() {
+    const [searchParams] = useSearchParams();
     const [locA, setLocA] = useState<{ lat: number; lon: number; name: string } | null>(null);
     const [locB, setLocB] = useState<{ lat: number; lon: number; name: string } | null>(null);
     const [addressB, setAddressB] = useState("");
     const [isSearchingB, setIsSearchingB] = useState(false);
+    const [justCopied, setJustCopied] = useState(false);
 
     // Filter Season (assume Open for now for simplicity or reuse logic)
     // Filter Level (assume All)
 
-    // 1. Initialize User Location (Loc A)
-    useMemo(() => {
-        const saved = localStorage.getItem("user_location");
-        if (saved) {
-            try {
-                setLocA(JSON.parse(saved));
-            } catch (e) { }
-        } else {
-            getUserLocation().then(pos => setLocA({ ...pos, name: "GPS" })).catch(() => { });
-        }
-    }, []);
+    // 1. Initialize Locations (Check URL params first, then LocalStorage/GPS)
+    useEffect(() => {
+        const init = async () => {
+            const fromParam = searchParams.get('from');
+            const toParam = searchParams.get('to');
+
+            // Initialize A (You)
+            if (fromParam) {
+                // If URL has 'from', verify it's valid
+                try {
+                    const res = await geocodeAddress(fromParam);
+                    if (res) setLocA(res);
+                } catch (e) { console.error(e); }
+            } else {
+                // Fallback to LocalStorage or GPS
+                const saved = localStorage.getItem("user_location");
+                if (saved) {
+                    try {
+                        setLocA(JSON.parse(saved));
+                    } catch (e) { }
+                } else {
+                    getUserLocation().then(pos => setLocA({ ...pos, name: "GPS" })).catch(() => { });
+                }
+            }
+
+            // Initialize B (Buddy)
+            if (toParam) {
+                setAddressB(toParam); // Pre-fill input
+                try {
+                    const res = await geocodeAddress(toParam);
+                    if (res) setLocB(res);
+                } catch (e) { console.error(e); }
+            }
+        };
+        init();
+    }, []); // Run once on mount
 
     const handleSetLocB = async (e: React.FormEvent) => {
         e.preventDefault();
@@ -40,6 +67,39 @@ export default function DuoPage() {
             alert("Location not found");
         }
         setIsSearchingB(false);
+    };
+
+    const handleShare = async () => {
+        if (!locA || !locB) return;
+        const url = `${window.location.origin}/duo?from=${encodeURIComponent(locA.name)}&to=${encodeURIComponent(locB.name)}`;
+        const msg = `Lets go and surf together! Here we can find a spot: ${url}`;
+
+        try {
+            await navigator.clipboard.writeText(msg);
+            setJustCopied(true);
+            setTimeout(() => setJustCopied(false), 3000);
+        } catch (err) {
+            console.warn("Clipboard API failed, trying fallback", err);
+            // Fallback for older browsers or non-secure contexts
+            const textArea = document.createElement("textarea");
+            textArea.value = msg;
+            textArea.style.position = "fixed"; // Avoid scrolling
+            document.body.appendChild(textArea);
+            textArea.focus();
+            textArea.select();
+            try {
+                const successful = document.execCommand('copy');
+                if (successful) {
+                    setJustCopied(true);
+                    setTimeout(() => setJustCopied(false), 3000);
+                } else {
+                    alert("Could not copy link automatically. Here is the URL:\n" + url);
+                }
+            } catch (err) {
+                alert("Could not copy link automatically. Here is the URL:\n" + url);
+            }
+            document.body.removeChild(textArea);
+        }
     };
 
     // 2. Find Candidates (Top 30 by Linear Distance Sum)
@@ -162,9 +222,32 @@ export default function DuoPage() {
     return (
         <div className="container" style={{ padding: '0 16px 40px' }}>
             <header style={{ padding: '24px 0' }}>
-                <div style={{ display: 'flex', gap: 12, alignItems: 'center', marginBottom: 16 }}>
-                    <Link to="/" style={{ textDecoration: 'none', fontSize: 20 }}>⬅️</Link>
-                    <h1 style={{ margin: 0 }}>Duo Mode 🤝</h1>
+                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 16 }}>
+                    <div style={{ display: 'flex', gap: 12, alignItems: 'center' }}>
+                        <Link to="/" style={{ textDecoration: 'none', fontSize: 20 }}>⬅️</Link>
+                        <h1 style={{ margin: 0 }}>Duo Mode 🤝</h1>
+                    </div>
+                    {/* Share Button (Only visible if both locs set) */}
+                    {locA && locB && (
+                        <button
+                            onClick={handleShare}
+                            className="btn-ghost"
+                            style={{
+                                display: 'flex',
+                                alignItems: 'center',
+                                gap: 6,
+                                padding: '6px 12px',
+                                fontSize: 13,
+                                background: justCopied ? '#ecfdf5' : '#f8fafc',
+                                color: justCopied ? '#059669' : 'inherit',
+                                transition: 'all 0.2s',
+                                border: justCopied ? '1px solid #059669' : '1px solid transparent'
+                            }}
+                        >
+                            <span>{justCopied ? '✅ ' : '🔗'}</span>
+                            {justCopied ? 'Copied!' : 'Share'}
+                        </button>
+                    )}
                 </div>
                 <p className="text-dim" style={{ marginBottom: 24 }}>Find the best fair spot for two kiters.</p>
 
