@@ -27,6 +27,16 @@ export function haversineKm(p1: { lat: number; lon: number }, p2: { lat: number;
     const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
     return R * c;
 }
+
+export function getCardinalDirection(deg: number): string {
+    const cardinals = [
+        "N", "NNE", "NE", "ENE", "E", "ESE", "SE", "SSE",
+        "S", "SSW", "SW", "WSW", "W", "WNW", "NW", "NNW"
+    ];
+    const val = Math.floor((deg / 22.5) + 0.5);
+    return cardinals[(val % 16)];
+}
+
 // Basic rate limiting/caching could be good, but for now direct calls.
 // Nominatim usage policy requires User-Agent.
 

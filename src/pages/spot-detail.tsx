@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { useParams, Link } from "react-router-dom";
 import { useQuery } from "@tanstack/react-query";
 import spots from "../../data/spots.nl.json";
+import { getUserLocation, getCardinalDirection } from "../lib/geo";
 import { getHourlyForecast, ForecastHour } from "../lib/forecast";
 import { sendScore, ScoreResult } from "../lib/scoring";
 import { SpotMap } from "../components/SpotMap";
@@ -211,7 +212,16 @@ export default function SpotDetail() {
                 <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 16 }}>
                     <Stat label="Wind Avg" value={`${current.wind_avg_kt} kt`} sub={`Score: ${current.scoreRes.breakdown?.wind.toFixed(0)}`} />
                     <Stat label="Gusts" value={`${current.wind_gust_kt} kt`} sub={`Score: ${current.scoreRes.breakdown?.pGust.toFixed(0)}`} />
-                    <Stat label="Direction" value={`${current.wind_dir_deg}°`} sub={`Score: ${current.scoreRes.breakdown?.pDir.toFixed(0)}`} />
+                    <Stat
+                        label="Direction"
+                        value={
+                            <div style={{ display: 'flex', alignItems: 'center', gap: 6 }}>
+                                {getCardinalDirection(current.wind_dir_deg)}
+                                <div style={{ transform: `rotate(${current.wind_dir_deg}deg)`, display: 'inline-block' }}>↓</div>
+                            </div>
+                        }
+                        sub={`${current.wind_dir_deg}° · Score: ${current.scoreRes.breakdown?.pDir.toFixed(0)}`}
+                    />
                     {current.scoreRes.breakdown?.safetyRed && (
                         <div style={{ gridColumn: "span 2", color: "var(--color-danger)", fontWeight: "bold", marginTop: 8 }}>
                             ⚠️ Unsafe Direction
