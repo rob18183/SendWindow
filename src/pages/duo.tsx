@@ -108,16 +108,35 @@ export default function DuoPage() {
                 const r = sendScore(spot, fh);
                 return { timeISO: fh.timeISO, score: r.score, color: r.color };
             });
-            const topHour = hours[0]; // Simplification for ranking
-            const bestWindowObj = bestWindow(hours, 45); // For display
 
-            // Allow null travel times (fallback to simple calc if needed, but lets assume we wait)
-            const tA = dA_Time ?? (c.dA * 1.5); // Fallback estimate
+            // Fix: Use the score from the BEST WINDOW, not just the first hour.
+            const bestWindowObj = bestWindow(hours, 45);
+
+            let baseScore = 0;
+            let displayColor = 'red';
+
+            if (bestWindowObj) {
+                // Average score of the window
+                const windowHours = hours.slice(bestWindowObj.start, bestWindowObj.end + 1);
+                const sum = windowHours.reduce((acc, h) => acc + h.score, 0);
+                baseScore = Math.round(sum / windowHours.length);
+                // Use color of the best score in window or average? Let's use average mapping.
+                if (baseScore >= 70) displayColor = 'green';
+                else if (baseScore >= 45) displayColor = 'yellow';
+            } else {
+                // If no window found, use the max score to at least rank them by potential
+                const max = hours.reduce((m, h) => Math.max(m, h.score), 0);
+                baseScore = max;
+                if (baseScore >= 70) displayColor = 'green';
+                else if (baseScore >= 45) displayColor = 'yellow';
+            }
+
+            // Allow null travel times (fallback to simple calc if needed)
+            const tA = dA_Time ?? (c.dA * 1.5);
             const tB = dB_Time ?? (c.dB * 1.5);
 
             // Duo Score Algo
             // Score = (SpotScore * 2) - (TotalTime / 2) - (Diff * 1.5)
-            const baseScore = topHour?.score ?? 0;
             const totalTime = tA + tB;
             const diff = Math.abs(tA - tB);
 
@@ -128,7 +147,7 @@ export default function DuoPage() {
                 baseScore,
                 tA, tB,
                 duoScore,
-                color: topHour?.color ?? 'red',
+                color: displayColor,
                 windowLabel: bestWindowObj ? fmtWindow(hours, bestWindowObj.start, bestWindowObj.end) : "No Window",
                 distKm: c.dA // Show dist from User A
             };
