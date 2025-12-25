@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { useParams, Link } from "react-router-dom";
 import { useQuery } from "@tanstack/react-query";
 import spots from "../../data/spots.nl.json";
-import { getUserLocation, getCardinalDirection } from "../lib/geo";
+import { getCardinalDirection } from "../lib/geo";
 import { getHourlyForecast, ForecastHour } from "../lib/forecast";
 import { sendScore, ScoreResult } from "../lib/scoring";
 import { SpotMap } from "../components/SpotMap";
@@ -106,22 +106,26 @@ export default function SpotDetail() {
             <div style={{
                 display: "flex",
                 overflowX: "auto",
-                gap: 8,
+                gap: 0, // Remove gap, use border for separation
                 paddingBottom: 12,
                 marginBottom: 20,
-                alignItems: "center" // Center the night divider
+                alignItems: "stretch"
             }}>
                 {visibleItems.map((item, i) => {
                     if (item.type === 'night') {
                         return (
                             <div key={`night-${i}`} style={{
-                                width: 4,
-                                height: 60,
-                                backgroundColor: '#e2e8f0',
-                                borderRadius: 4,
+                                width: 24,
+                                backgroundColor: '#f1f5f9',
+                                borderRight: '1px dashed #cbd5e1',
                                 flexShrink: 0,
-                                margin: '0 4px',
-                            }} title="Night" />
+                                margin: 0,
+                                display: 'flex',
+                                alignItems: 'center',
+                                justifyContent: 'center'
+                            }} title="Night">
+                                <span style={{ fontSize: 12 }}>🌙</span>
+                            </div>
                         );
                     }
 
@@ -129,18 +133,22 @@ export default function SpotDetail() {
                         return (
                             <div key={`day-${i}`} style={{
                                 display: "flex",
+                                flexDirection: "column",
                                 alignItems: "center",
                                 justifyContent: "center",
-                                height: 60,
-                                padding: "0 8px",
+                                width: 32,
+                                padding: "0 4px",
                                 fontWeight: "bold",
-                                textTransform: "uppercase",
-                                fontSize: 12,
+                                fontSize: 13,
                                 color: "var(--color-dim)",
-                                writingMode: "vertical-rl",
-                                transform: "rotate(180deg)",
+                                borderRight: '1px solid #e2e8f0',
+                                backgroundColor: '#fff',
                                 flexShrink: 0,
-                                opacity: 0.6
+                                position: 'sticky',
+                                left: 0,
+                                writingMode: "vertical-rl",
+                                textOrientation: "mixed",
+                                transform: "rotate(180deg)", // Reads Bottom-to-Top
                             }}>
                                 {item.text}
                             </div>
@@ -154,41 +162,56 @@ export default function SpotDetail() {
                     const idx = item.index;
                     const time = new Date(h.timeISO).getHours();
                     const isSelected = idx === selectedIdx;
+                    const scoreColor = `var(--color-${h.scoreRes.color === 'green' ? 'success' : h.scoreRes.color === 'yellow' ? 'warning' : 'danger'})`;
 
                     return (
                         <div
                             key={idx}
                             onClick={() => setSelectedIdx(idx)}
                             style={{
-                                flex: "0 0 48px",
-                                height: 84,
+                                flex: "0 0 64px",
+                                minWidth: 64, // FORCE width
                                 display: "flex",
                                 flexDirection: "column",
                                 alignItems: "center",
-                                justifyContent: "center",
-                                border: isSelected ? "2px solid var(--color-primary)" : "1px solid #e2e8f0",
-                                borderRadius: 12,
+                                justifyContent: "space-between",
+                                padding: "10px 4px 6px",
+                                borderRight: "1px solid #f1f5f9",
+                                backgroundColor: isSelected ? "#f0f9ff" : "white",
                                 cursor: "pointer",
-                                backgroundColor: isSelected ? "white" : "#f8fafc",
-                                boxShadow: isSelected ? "var(--shadow-md)" : "none",
-                                transition: "all 0.2s"
+                                transition: "all 0.1s",
+                                position: 'relative'
                             }}
                         >
-                            <div className="text-xs text-dim" style={{ marginBottom: 4 }}>{time}:00</div>
-                            <div style={{
-                                width: 24,
-                                height: 24,
-                                borderRadius: "50%",
-                                backgroundColor: `var(--color-${h.scoreRes.color === 'green' ? 'success' : h.scoreRes.color === 'yellow' ? 'warning' : 'danger'})`,
-                                display: 'flex',
-                                alignItems: 'center',
-                                justifyContent: 'center',
-                                color: 'white',
-                                fontSize: 10,
-                                fontWeight: 'bold'
-                            }}>
-                                {h.scoreRes.score}
+                            {/* Selection Indicator */}
+                            {isSelected && <div style={{ position: 'absolute', top: 0, left: 0, right: 0, height: 3, backgroundColor: 'var(--color-primary)' }} />}
+
+                            {/* Time */}
+                            <div className="text-xs text-dim" style={{ fontSize: 12, fontWeight: 500 }}>{time}:00</div>
+
+                            {/* Direction Arrow */}
+                            <div style={{ transform: `rotate(${h.wind_dir_deg}deg)`, fontSize: 20, color: '#334155', margin: '4px 0' }}>↓</div>
+
+                            {/* Speed Group */}
+                            <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+                                <div style={{ fontWeight: 800, fontSize: 15, color: '#0f172a' }}>
+                                    {h.wind_avg_kt}
+                                </div>
+                                <div style={{ fontSize: 10, color: '#64748b', height: 14 }}>
+                                    {h.wind_gust_kt - h.wind_avg_kt > 5 ? `(${h.wind_gust_kt})` : ''}
+                                </div>
                             </div>
+
+                            {/* Score Indicator (Bottom Bar) */}
+                            <div style={{
+                                width: '60%',
+                                height: 4,
+                                borderRadius: 2,
+                                backgroundColor: scoreColor,
+                                marginTop: 6,
+                                opacity: isSelected ? 1 : 0.6
+                            }} />
+
                         </div>
                     );
                 })}
@@ -341,7 +364,7 @@ export default function SpotDetail() {
     );
 }
 
-function Stat({ label, value, sub }: { label: string, value: string, sub: string }) {
+function Stat({ label, value, sub }: { label: string, value: React.ReactNode, sub: string }) {
     return (
         <div>
             <div className="text-xs text-dim" style={{ marginBottom: 2 }}>{label}</div>
