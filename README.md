@@ -12,7 +12,7 @@ A smart, modern kitesurf forecast application for the Netherlands. SendWindow ca
 -   **Live Webcams 📷**: View live feeds directly from spot cards like Zandvoort and Scheveningen.
 -   **Visual Themes**: Beautiful, AI-generated themes for North Sea, Inland, and Action spots.
 -   **Locally Persisted**: Remembers your location and filter preferences.
--   **Privacy Focused**: No tracking, all logic runs client-side.
+-   **Privacy Focused**: Anonymous analytics are built-in and self-hosted (no third-party tracker).
 
 ## Tech Stack
 
@@ -22,6 +22,65 @@ A smart, modern kitesurf forecast application for the Netherlands. SendWindow ca
 -   **Styling**: Custom CSS variables, responsive implementation.
 -   **Routing**: OSRM (Open Source Routing Machine) public API for driving times.
 -   **Data Source**: NKV (Nederlandse Kitesurf Vereniging) public spot data.
+-   **Analytics backend**: Built-in Node server + SQLite.
+
+## Anonymous Analytics & Privacy
+
+SendWindow collects anonymous usage metrics (search frequency, performance, and city-level location). No IP addresses, raw queries, or personal identifiers are stored. Analytics can be disabled via environment variable.
+
+### What is collected
+
+- One `search_performed` event per completed search interaction.
+- Aggregated signal only: route, result count, latency, query length, optional query token count, client type, app version.
+- Coarse location (`city`, optional `country`) resolved in-memory server-side; if unresolved, city is saved as `"unknown"`.
+
+### What is explicitly not stored
+
+- IP address
+- Raw query text
+- User-Agent string
+- Referer
+- Any unique user/session identifier
+
+### Environment configuration
+
+| Variable | Default | Description |
+| --- | --- | --- |
+| `ANALYTICS_ENABLED` | `true` | Master toggle for all analytics logging + dashboard |
+| `ANALYTICS_DB_PATH` | `/var/lib/sendwindow/analytics.sqlite` | SQLite file path |
+| `ANALYTICS_RETENTION_DAYS` | `90` | Retention window used at startup purge |
+| `ANALYTICS_GEOIP_PROVIDER` | `maxmind` | Reserved provider flag for local GeoIP |
+| `ANALYTICS_GEOIP_DB_PATH` | _unset_ | Path to local GeoIP DB (optional in this version) |
+| `ANALYTICS_QUERY_HASH_ENABLED` | `false` | Reserved for future hashed query metrics |
+| `ANALYTICS_REQUIRE_CONSENT` | `false` | Reserved for future consent workflow |
+| `ANALYTICS_DASHBOARD_TOKEN` | _unset_ | Required token for `/admin/analytics` access |
+
+### Retention policy
+
+- On analytics server startup, events older than `ANALYTICS_RETENTION_DAYS` are purged.
+- Purge activity is logged to server logs.
+- Dashboard system panel includes retention days and oldest stored event timestamp.
+
+### Running the analytics server
+
+```bash
+npm run analytics:server
+```
+
+Provided endpoints:
+
+- `POST /api/analytics/search`
+- `GET /api/admin/analytics/summary`
+- `GET /api/admin/analytics/daily`
+- `GET /api/admin/analytics/top-cities`
+- `GET /admin/analytics`
+
+Dashboard access requires `ANALYTICS_DASHBOARD_TOKEN`, either via:
+
+- `Authorization: Bearer <token>`
+- `?token=<token>`
+
+If `ANALYTICS_ENABLED=false`, analytics endpoints return 404 and no events are stored.
 
 ## Getting Started
 
