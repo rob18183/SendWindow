@@ -86,7 +86,22 @@ export default function AboutPage() {
                                 Check conditions with your own eyes using integrated live streams for major spots.
                             </div>
                         </div>
+                        <div className="card" style={{ padding: 16 }}>
+                            <div style={{ fontWeight: 600 }}>🧮 Admin Analytics Dashboard</div>
+                            <div style={{ fontSize: 13, color: "var(--color-text-dim)", marginTop: 4 }}>
+                                If enabled server-side, open <code>/admin/analytics?token=...</code> for aggregated search metrics.
+                            </div>
+                        </div>
                     </div>
+                </section>
+
+
+                <section id="privacy">
+                    <h2 style={{ fontSize: 18, marginBottom: 8 }}>Privacy & Analytics</h2>
+                    <p style={{ lineHeight: 1.6, color: "var(--color-text-dim)" }}>
+                        SendWindow uses anonymous, self-hosted analytics to understand search frequency and performance.
+                        We do not store IP addresses, raw queries, user-agent strings, or personal identifiers.
+                    </p>
                 </section>
 
                 {/* Data */}
