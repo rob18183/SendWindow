@@ -4,17 +4,7 @@ import { analyticsConfig, ensureDbDir } from './config.mjs';
 import { AnalyticsStore } from './analytics-store.mjs';
 import { GeoResolver } from './geoip.mjs';
 import { AnalyticsCache } from './cache.mjs';
-
-const getRange = (params) => {
-  const now = new Date();
-  const range = params.get('range') || '30d';
-  if (range === '7d') return { from: new Date(now.getTime() - 7 * 86400000), to: now };
-  if (range === '90d') return { from: new Date(now.getTime() - 90 * 86400000), to: now };
-  if (range === 'custom' && params.get('from') && params.get('to')) {
-    return { from: new Date(`${params.get('from')}T00:00:00.000Z`), to: new Date(`${params.get('to')}T23:59:59.999Z`) };
-  }
-  return { from: new Date(now.getTime() - 30 * 86400000), to: now };
-};
+import { getRange } from './range.mjs';
 
 const sendJson = (res, status, payload, headers = {}) => {
   res.writeHead(status, { 'Content-Type': 'application/json', ...headers });
@@ -116,20 +106,23 @@ const server = http.createServer(async (req, res) => {
 
   if (req.method === 'GET' && reqUrl.pathname.startsWith('/api/admin/analytics/')) {
     if (!checkAccess(reqUrl, req, res)) return;
-    const { from, to } = getRange(reqUrl.searchParams);
+    const range = getRange(reqUrl.searchParams);
+    if (range.error) return sendJson(res, 400, { error: range.error });
+
+    const { from, to, cacheKey } = range;
     const fromIso = from.toISOString();
     const toIso = to.toISOString();
 
     let key = '';
     let payload = null;
     if (reqUrl.pathname === '/api/admin/analytics/summary') {
-      key = `summary:${fromIso}:${toIso}`;
+      key = `summary:${cacheKey}`;
       payload = cache.get(key) || store.summary(fromIso, toIso);
     } else if (reqUrl.pathname === '/api/admin/analytics/daily') {
-      key = `daily:${fromIso}:${toIso}`;
+      key = `daily:${cacheKey}`;
       payload = cache.get(key) || store.daily(fromIso, toIso);
     } else if (reqUrl.pathname === '/api/admin/analytics/top-cities') {
-      key = `cities:${fromIso}:${toIso}`;
+      key = `cities:${cacheKey}`;
       payload = cache.get(key) || store.topCities(fromIso, toIso);
     } else {
       return sendJson(res, 404, { error: 'not found' });
