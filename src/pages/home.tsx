@@ -1,4 +1,4 @@
-import { useEffect, useState, useMemo } from "react";
+import { useEffect, useState, useMemo, useRef } from "react";
 import { Link } from "react-router-dom";
 import { useQueries, useQueryClient } from "@tanstack/react-query";
 import spots from "../../data/spots.nl.json";
@@ -8,6 +8,7 @@ import { bestWindow, fmtWindow } from "../lib/windows";
 import { compareSpots } from "../lib/comparator";
 import { SpotCard } from "../components/SpotCard";
 import { sendScore } from "../lib/scoring";
+import { logSearchAnalytics } from "../lib/analytics";
 
 type Spot = {
     id: string; name: string; lat: number; lon: number;
@@ -78,6 +79,8 @@ export default function Home() {
     const [filterBeginner, setFilterBeginner] = useState(false);
     const [filterShallow, setFilterShallow] = useState(false);
     const [filterWebcam, setFilterWebcam] = useState(false);
+    const searchStartRef = useRef<number>(Date.now());
+    const lastLoggedSignatureRef = useRef<string>("");
 
     useEffect(() => {
         // Check local storage first
@@ -161,6 +164,10 @@ export default function Home() {
             .filter((x) => x.distanceKm <= radiusKm);
     }, [loc, radiusKm, filterOpen, filterBeginner, filterShallow, filterWebcam]);
 
+    useEffect(() => {
+        searchStartRef.current = Date.now();
+    }, [loc?.lat, loc?.lon, radiusKm, filterOpen, filterBeginner, filterShallow, filterWebcam]);
+
     // Parallel fetch for all visible spots
     const spotQueries = useQueries({
         queries: inRange.map(({ spot }) => ({
@@ -243,6 +250,33 @@ export default function Home() {
             };
         });
     }, [scoredSpots, drivingTimeMap]);
+
+    useEffect(() => {
+        if (isRefetching || !loc) return;
+
+        const signature = [
+            loc.lat.toFixed(2),
+            loc.lon.toFixed(2),
+            radiusKm,
+            filterOpen,
+            filterBeginner,
+            filterShallow,
+            filterWebcam,
+            rows.length,
+        ].join("|");
+
+        if (signature === lastLoggedSignatureRef.current) return;
+        lastLoggedSignatureRef.current = signature;
+
+        void logSearchAnalytics({
+            route: "/",
+            result_count: rows.length,
+            latency_ms: Date.now() - searchStartRef.current,
+            query_len: manualAddress.trim().length,
+            query_token_count: manualAddress.trim() ? manualAddress.trim().split(/\s+/).length : undefined,
+            app_version: import.meta.env.VITE_APP_VERSION,
+        });
+    }, [isRefetching, loc, radiusKm, filterOpen, filterBeginner, filterShallow, filterWebcam, rows.length, manualAddress]);
 
     const handleRefresh = () => {
         queryClient.invalidateQueries({ queryKey: ['forecast'] });
@@ -380,6 +414,9 @@ export default function Home() {
                         Loading forecasts...
                     </div>
                 )}
+            </div>
+            <div style={{ paddingBottom: 90, textAlign: "center", color: "var(--color-text-dim)", fontSize: 12 }}>
+                Anonymous analytics enabled by default. <Link to="/about#privacy">Privacy details</Link>
             </div>
             {/* Map FAB */}
             <Link to="/map" className="btn-primary" style={{
