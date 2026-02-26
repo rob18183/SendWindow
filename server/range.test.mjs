@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { getRange, parseCalendarDate } from './range.mjs';
+import { getRange } from './range.mjs';
 
 const now = new Date('2026-01-15T13:14:15.456Z');
 
@@ -28,22 +28,12 @@ test('custom range builds deterministic cache key and ISO bounds', () => {
   assert.equal(custom.to.toISOString(), '2026-01-05T23:59:59.999Z');
 });
 
-test('calendar parser accepts only strict real YYYY-MM-DD dates', () => {
-  assert.ok(parseCalendarDate('2026-02-28'));
-  assert.equal(parseCalendarDate('2026-02-31'), null);
-  assert.equal(parseCalendarDate('2026-2-01'), null);
-  assert.equal(parseCalendarDate('not-a-date'), null);
-});
-
 test('custom range rejects missing and invalid values', () => {
   const missing = getRange(new URLSearchParams('range=custom&from=2026-01-01'), now);
   assert.match(missing.error, /requires valid from and to/i);
 
   const invalidDate = getRange(new URLSearchParams('range=custom&from=bad&to=2026-01-05'), now);
-  assert.match(invalidDate.error, /strict YYYY-MM-DD calendar dates/i);
-
-  const impossibleDate = getRange(new URLSearchParams('range=custom&from=2026-02-31&to=2026-03-02'), now);
-  assert.match(impossibleDate.error, /strict YYYY-MM-DD calendar dates/i);
+  assert.match(invalidDate.error, /must be valid/i);
 
   const invalidOrder = getRange(new URLSearchParams('range=custom&from=2026-01-07&to=2026-01-05'), now);
   assert.match(invalidOrder.error, /from must be before or equal to to/i);

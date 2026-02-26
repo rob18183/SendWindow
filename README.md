@@ -91,7 +91,7 @@ npm run test:analytics
 ```
 
 These tests currently verify:
-- Invalid `range=custom` inputs return structured validation errors (missing params, non-calendar dates like `2026-02-31`, malformed formats, and `from > to`).
+- Invalid `range=custom` inputs return structured validation errors (missing params, invalid date values, and `from > to`).
 - Relative ranges (`7d`, `30d`, `90d`) resolve to UTC day boundaries with stable cache keys (`7d`, `30d`, `90d`).
 - Custom ranges produce deterministic cache keys (`custom:<from>:<to>`) and expected ISO boundaries.
 
@@ -127,12 +127,6 @@ Create a production-ready build:
 npm run build
 ```
 The output will be in the `dist/` directory.
-
-
-## Troubleshooting analytics dashboard responses
-
-If the dashboard shows a JSON parse failure, it usually means the upstream returned non-JSON (for example an HTML error page from a proxy) instead of the analytics API payload.
-The admin page now validates response `content-type` and reports a clearer error message including status/body snippet to make this diagnosable.
 
 ## Testing
 
