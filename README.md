@@ -67,6 +67,23 @@ SendWindow collects anonymous usage metrics (search frequency, performance, and 
 npm run analytics:server
 ```
 
+### Where the analytics server should run
+
+Short answer: run it as a **long-running process in the same deployed environment that serves SendWindow traffic**.
+
+- **Same LXC/VM (recommended for this repo's default setup):** yes, this is the normal path.
+- **Different VM/LXC:** possible, but only if your frontend/server routing forwards analytics API traffic there and you secure network/token access.
+- **Only occasionally/on-demand:** not recommended, because events sent while it is down are lost (the client intentionally ignores transport failures).
+
+Practical guidance:
+
+1. Keep `npm run analytics:server` running continuously (systemd/pm2/docker restart policy).
+2. Store `ANALYTICS_DB_PATH` on persistent storage in that runtime environment.
+3. Ensure your reverse proxy sends the analytics routes to this process:
+   - `POST /api/analytics/search`
+   - `GET /api/admin/analytics/*`
+   - `GET /admin/analytics`
+
 Provided endpoints:
 
 - `POST /api/analytics/search`
@@ -81,6 +98,41 @@ Dashboard access requires `ANALYTICS_DASHBOARD_TOKEN`, either via:
 - `?token=<token>`
 
 If `ANALYTICS_ENABLED=false`, analytics endpoints return 404 and no events are stored.
+
+### Production persistence (important)
+
+Analytics data is stored in a SQLite file on disk at `ANALYTICS_DB_PATH` (default: `/var/lib/sendwindow/analytics.sqlite`).
+
+This means:
+
+- A normal `git pull` **does not** remove analytics data.
+- A frontend rebuild/redeploy (`npm run build` + replace `dist`) **does not** remove analytics data.
+- Data is only lost if the file/path itself is removed, replaced, or points to ephemeral storage.
+
+To keep analytics persistent in live environments:
+
+1. Set `ANALYTICS_DB_PATH` to a persistent location (host volume, attached disk, or durable VM path).
+2. Ensure the analytics server process user can create/write the parent directory.
+3. Keep that path outside transient release folders.
+4. Back up the SQLite file if analytics history matters.
+
+Example (Linux/systemd-style host):
+
+```bash
+export ANALYTICS_ENABLED=true
+export ANALYTICS_DB_PATH=/var/lib/sendwindow/analytics.sqlite
+export ANALYTICS_DASHBOARD_TOKEN='replace-with-strong-token'
+npm run analytics:server
+```
+
+Optional one-time host prep:
+
+```bash
+sudo mkdir -p /var/lib/sendwindow
+sudo chown <service-user>:<service-user> /var/lib/sendwindow
+```
+
+Container note: if running in Docker/Kubernetes, mount a persistent volume to the directory containing `ANALYTICS_DB_PATH` (for example, mount a volume at `/var/lib/sendwindow`).
 
 ### Analytics backend test coverage
 
