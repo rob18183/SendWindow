@@ -15,6 +15,24 @@ type TopCity = { city: string; country: string; searches: number; percent: numbe
 
 const tokenHeader = (token: string | null): Record<string, string> => (token ? { Authorization: `Bearer ${token}` } : {});
 
+async function fetchJsonOrThrow<T>(url: string, init: RequestInit, label: string): Promise<T> {
+  const res = await fetch(url, init);
+  const contentType = (res.headers.get("content-type") || "").toLowerCase();
+
+  if (!res.ok) {
+    const body = await res.text();
+    const message = body ? `${label} failed (${res.status}): ${body.slice(0, 240)}` : `${label} failed (${res.status})`;
+    throw new Error(message);
+  }
+
+  if (!contentType.includes("application/json")) {
+    const body = await res.text();
+    throw new Error(`${label} failed: expected JSON response but got '${contentType || "unknown"}' (${body.slice(0, 240)})`);
+  }
+
+  return res.json() as Promise<T>;
+}
+
 export default function AdminAnalyticsPage() {
   const [params] = useSearchParams();
   const token = params.get("token");
@@ -29,29 +47,17 @@ export default function AdminAnalyticsPage() {
 
   const summaryQuery = useQuery({
     queryKey: ["analytics", "summary", commonParams],
-    queryFn: async (): Promise<Summary> => {
-      const res = await fetch(`/api/admin/analytics/summary?${commonParams}`, { headers: tokenHeader(token) });
-      if (!res.ok) throw new Error(`Summary failed (${res.status})`);
-      return res.json();
-    },
+    queryFn: async (): Promise<Summary> => fetchJsonOrThrow(`/api/admin/analytics/summary?${commonParams}`, { headers: tokenHeader(token) }, "Summary"),
   });
 
   const dailyQuery = useQuery({
     queryKey: ["analytics", "daily", commonParams],
-    queryFn: async (): Promise<Daily[]> => {
-      const res = await fetch(`/api/admin/analytics/daily?${commonParams}`, { headers: tokenHeader(token) });
-      if (!res.ok) throw new Error(`Daily failed (${res.status})`);
-      return res.json();
-    },
+    queryFn: async (): Promise<Daily[]> => fetchJsonOrThrow(`/api/admin/analytics/daily?${commonParams}`, { headers: tokenHeader(token) }, "Daily"),
   });
 
   const topCitiesQuery = useQuery({
     queryKey: ["analytics", "top-cities", commonParams],
-    queryFn: async (): Promise<TopCity[]> => {
-      const res = await fetch(`/api/admin/analytics/top-cities?${commonParams}`, { headers: tokenHeader(token) });
-      if (!res.ok) throw new Error(`Top cities failed (${res.status})`);
-      return res.json();
-    },
+    queryFn: async (): Promise<TopCity[]> => fetchJsonOrThrow(`/api/admin/analytics/top-cities?${commonParams}`, { headers: tokenHeader(token) }, "Top cities"),
   });
 
   const isLoading = summaryQuery.isLoading || dailyQuery.isLoading || topCitiesQuery.isLoading;
