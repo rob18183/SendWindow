@@ -67,6 +67,23 @@ SendWindow collects anonymous usage metrics (search frequency, performance, and 
 npm run analytics:server
 ```
 
+### Where the analytics server should run
+
+Short answer: run it as a **long-running process in the same deployed environment that serves SendWindow traffic**.
+
+- **Same LXC/VM (recommended for this repo's default setup):** yes, this is the normal path.
+- **Different VM/LXC:** possible, but only if your frontend/server routing forwards analytics API traffic there and you secure network/token access.
+- **Only occasionally/on-demand:** not recommended, because events sent while it is down are lost (the client intentionally ignores transport failures).
+
+Practical guidance:
+
+1. Keep `npm run analytics:server` running continuously (systemd/pm2/docker restart policy).
+2. Store `ANALYTICS_DB_PATH` on persistent storage in that runtime environment.
+3. Ensure your reverse proxy sends the analytics routes to this process:
+   - `POST /api/analytics/search`
+   - `GET /api/admin/analytics/*`
+   - `GET /admin/analytics`
+
 Provided endpoints:
 
 - `POST /api/analytics/search`
