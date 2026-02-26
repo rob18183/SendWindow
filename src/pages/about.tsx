@@ -89,6 +89,15 @@ export default function AboutPage() {
                     </div>
                 </section>
 
+
+                <section id="privacy">
+                    <h2 style={{ fontSize: 18, marginBottom: 8 }}>Privacy & Analytics</h2>
+                    <p style={{ lineHeight: 1.6, color: "var(--color-text-dim)" }}>
+                        SendWindow uses anonymous, self-hosted analytics to understand search frequency and performance.
+                        We do not store IP addresses, raw queries, user-agent strings, or personal identifiers.
+                    </p>
+                </section>
+
                 {/* Data */}
                 <section>
                     <h2 style={{ fontSize: 18, marginBottom: 8 }}>Data Sources</h2>
