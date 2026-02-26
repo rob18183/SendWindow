@@ -82,6 +82,20 @@ Dashboard access requires `ANALYTICS_DASHBOARD_TOKEN`, either via:
 
 If `ANALYTICS_ENABLED=false`, analytics endpoints return 404 and no events are stored.
 
+### Analytics backend test coverage
+
+Run the analytics range tests (custom date validation + cache-key/date-window stability):
+
+```bash
+npm run test:analytics
+```
+
+These tests currently verify:
+- Invalid `range=custom` inputs return structured validation errors (missing params, invalid date values, and `from > to`).
+- Relative ranges (`7d`, `30d`, `90d`) resolve to UTC day boundaries with stable cache keys (`7d`, `30d`, `90d`).
+- Custom ranges produce deterministic cache keys (`custom:<from>:<to>`) and expected ISO boundaries.
+
+
 ## Getting Started
 
 ### Prerequisites
@@ -113,6 +127,11 @@ Create a production-ready build:
 npm run build
 ```
 The output will be in the `dist/` directory.
+
+## Testing
+
+- `npm run test:analytics` — analytics backend date-range and cache-key behavior tests.
+- `npm run build` — type-check + production build sanity check.
 
 ## Deployment
 
