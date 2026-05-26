@@ -6,7 +6,6 @@ import SpotDetail from './pages/spot-detail';
 import AlertsPage from './pages/alerts';
 import DuoPage from './pages/duo';
 import AboutPage from './pages/about';
-import AdminAnalyticsPage from './pages/admin-analytics';
 
 const queryClient = new QueryClient({
     defaultOptions: {
@@ -29,7 +28,6 @@ function App() {
                     <Route path="/alerts" element={<AlertsPage />} />
                     <Route path="/duo" element={<DuoPage />} />
                     <Route path="/about" element={<AboutPage />} />
-                    <Route path="/admin/analytics" element={<AdminAnalyticsPage />} />
                 </Routes>
             </BrowserRouter>
         </QueryClientProvider>

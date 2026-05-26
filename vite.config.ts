@@ -7,10 +7,12 @@ export default defineConfig({
     build: {
         rollupOptions: {
             output: {
-                manualChunks: {
-                    vendor: ['react', 'react-dom', 'react-router-dom'],
-                    leaflet: ['leaflet', 'react-leaflet'],
-                    query: ['@tanstack/react-query']
+                manualChunks(id) {
+                    if (!id.includes('node_modules')) return undefined;
+                    if (id.includes('leaflet') || id.includes('react-leaflet')) return 'leaflet';
+                    if (id.includes('@tanstack/react-query')) return 'query';
+                    if (id.includes('react') || id.includes('react-router')) return 'vendor';
+                    return undefined;
                 }
             }
         }
